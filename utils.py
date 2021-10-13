@@ -67,15 +67,15 @@ def doll_effect_calculate(gun_attr, fight_type):
 
     # 1技能效能 = ceiling（5*(0.8+星级/10)*[35+5*(技能等级-1)]*(100+skill_effect_per)/100,1) + skill_effect
     # 2技能效能 = ceiling（5*(0.8+星级/10)*[15+2*(技能等级-1)]*(100+skill_effect_per)/100,1) + skill_effect
-    doll_skill_effect = gf_ceil(5*(0.8+star/10)*(35+5*(skill1-1))*(100+skill_effect_per)/100) + skill_effect
+    doll_skill_effect = gf_ceil(number*(0.8+star/10)*(35+5*(skill1-1))*(100+skill_effect_per)/100) + skill_effect
     if gun_attr["attr_other"]["upgrade"] >= 110:
-        doll_skill_effect += gf_ceil(5*(0.8+star/10)*(15+2*(skill2-1))*(100+skill_effect_per)/100)
+        doll_skill_effect += gf_ceil(number*(0.8+star/10)*(15+2*(skill2-1))*(100+skill_effect_per)/100)
 
     life = int(gun_attr["attr_change"]["hp"])
     dodge = int(gun_attr["attr_change"]["dodge"])
     armor = int(gun_attr["attr_change"]["armor"])
     # 防御效能 = CEILING(生命*(35+闪避)/35*(4.2*100/MAX(1,100-护甲)-3.2),1)
-    defend_effect = gf_ceil(life*5*(35+dodge)/35*(4.2*100/max(1, 100-armor)-3.2))
+    defend_effect = gf_ceil(life*number*(35+dodge)/35*(4.2*100/max(1, 100-armor)-3.2))
 
     hit = int(gun_attr["attr_change"]["hit"])
     night_view_percent = int(gun_attr["attr_fixed"]["night_view_percent"])
