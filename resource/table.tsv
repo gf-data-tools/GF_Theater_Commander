@@ -2246,7 +2246,7 @@ equip-10000152	SIG510 트리거셋	SIG510快慢机	SIG-510 Fire Selector	SIG-510
 equip-10000153	BM59 중형 총열	BM59重管	VM59 Heavy Barrel	BM59ヘビーバレル
 equip-10000154	OSS 소음기	OSS消音器	OSS Suppressor	OSSサイレンサー
 equip-10000155	PPK 소음기	PPK消音器	PPK Suppressor	PPKサイレンサー
-equip-10000156	AMP COMPSP	AMP COMPSP	AMP COMPSP	AMP COMPSP
+equip-10000156	AMP COMPSP	AMP COMPSP	AMP COMPSP	AMP COMPSP
 equip-10000157	LED 플래시	LED武器灯	LED Weapon Light	LEDウェポンライト
 equip-10000158	가속 코일	加速线圈	Acceleration Coil	加速コイル
 equip-10000159	전술 머리띠	战术发卡	Tactical Headwear	戦術カチューシャ
@@ -3078,8 +3078,8 @@ gift_item-10004404	P30 - 절대반지사탕	P30-恶魔指环糖	Devil's Ring Pop
 gift_item-10004405	PP-19-01 - 톡톡 팝캔디	PP-19-01-碳酸跳跳糖	Carbonated Fizzers	しゅわしゅわポッピング
 gift_item-10004406	NS2000 - 믹스카레토끼	NS2000-百味咖喱兔	Hundred-Flavor Curry Bunny	百味カレーうさぎ
 gift_item-10000530	M4A1 - 소녀세계일주	M4A1-少女的气球漫游记	A Girl's Hot Air Balloon Adventure	少女の風船旅行
-gift_item-10000531	M4 SOPMO4II - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
-gift_item-10000532	ST AR-15 - 꽃밭의 실크햇	ST AR-15-飘向花海的礼帽	Top Hat Drifting to the Flowers	花畑を舞うシルクハット
+gift_item-10000531	M4 SOPMO4II - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
+gift_item-10000532	ST AR-15 - 꽃밭의 실크햇	ST AR-15-飘向花海的礼帽	Top Hat Drifting to the Flowers	花畑を舞うシルクハット
 gift_item-10000533	M16A1 - 애꾸 백토기사	M16A1-独眼的白兔骑士	The One-Eyed Rabbit Knight	隻眼の兎騎士
 gift_item-10000534	RO635 - 논밭의 수호자	RO635-稻田里的守护者	Guardian in the Rye	稲田の守護者
 gift_item-10000535	UMP45 - 소원을 좇는 마술사	UMP45-逐愿的礼花魔法师	The Wish-Making Sorceress of Fireworks	願いを追う花の魔術師
@@ -3093,8 +3093,8 @@ gift_item-10004503	QBU-88 - 자연의 탐험가	QBU-88-自然的探索者	Explor
 gift_item-10004504	RO635 - 규율의 집행인	RO635-规则的实行者	Enforcer of the Law	規則の実行者
 gift_item-10004505	M4A1 - 세월의 정착자	M4A1-时光的定格者	Suspender of Time	時空の凍結者
 gift_item-10004506	M16A1 - 앞길의 인도자	M16A1-道路的指引者	Blazer of the Trail	行先を導く者
-gift_item-10004507	M4 SOPMO4II - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	Devourer of the Feast	酒席の掃討者
-gift_item-10004508	ST AR-15 - 꿈속의 수감자	ST AR-15-梦境的囚困者	Prisoner of the Dream	夢に囚われし者
+gift_item-10004507	M4 SOPMO4II - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	Devourer of the Feast	酒席の掃討者
+gift_item-10004508	ST AR-15 - 꿈속의 수감자	ST AR-15-梦境的囚困者	Prisoner of the Dream	夢に囚われし者
 gift_item-10004509	KSVK - 트루먼 여행객	KSVK-楚门的旅行者	Truman Traveler	トゥルーマンを渡る者
 gift_item-10004510	Saiga-12 - 노을의 재단사	塞伽12型-晨昏的裁定者	Arbiter of Twilight	黄昏の裁定者
 gift_item-10004511	Zas M76 - 흑야의 댄서	Zas M76-黑夜的舞蹈者	Dancer of the Night	闇夜と舞う者
@@ -3191,12 +3191,12 @@ gift_item-10005704	몬드라곤 M1908 - 숙명의 추적자	蒙德拉贡M1908-�
 gift_item-10005706	EM-2 - 은색의 탄환	EM-2-银色子弹		銀色の弾丸
 gift_item-10005707	마갈 - 레이디 마갈	马盖尔-马盖尔小姐		ミス・マガル
 gift_item-10000550	M4A1 - 소나무 사이 햇볕	M4A1-松间曦光		
-gift_item-10000551	M4 SOPMO4II - 숲의 울림	M4 SOPMODII-深林鸣音		
-gift_item-10000552	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
+gift_item-10000551	M4 SOPMO4II - 숲의 울림	M4 SOPMODII-深林鸣音		
+gift_item-10000552	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
 gift_item-10000553	M16A1 - 폐허 위의 태양	M16A1-墟上烈阳		
 gift_item-10000554	RO635 - 물에 잠긴 달	RO635-水中融月		
 gift_item-10000560	M200 - 장엄한 행진	M200-庄严行进	Solemn March	
-gift_item-10000561	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
+gift_item-10000561	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
 gift_item-10000562	VHS - 익살극 백조의 호수	VHS-谐谑天鹅湖		
 gift_item-10000563	류 소총 - 고민 많은 아침	刘氏步枪-悠思之晨		
 gift_item-10000564	SL8 - 즉흥 랩소디	SL8-即兴狂想乐	Improvised Rhapsody	
@@ -3214,13 +3214,13 @@ gift_item-10005902	Lusa - 수비수 꿈나무	卢萨-后卫新星
 gift_item-10005903	S-ACR - 바람 쫓는 마녀	S-ACR-追风魔女		
 gift_item-10005904	PKP - 우후대장군	PKP-雨后冲锋队		
 gift_item-10005905	CF05 - 훠궈 나라 대왕	CF05-火锅国国王		
-gift_item-10005906	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
+gift_item-10005906	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
 gift_item-10005907	M82 - 야옹이 대합주	M82-猫咪的合奏		
 gift_item-10005908	wz.29 - 스윗 드림 메이커	wz.29-甜蜜幻梦使		
 gift_item-10006107	V-PM5 - 날아라 불가사리	V-PM5-飞翔海星		天翔けるヒトデ
 gift_item-10006101	LTLX7000 - 밀물 데이트	LTLX7000-夜潮的邀约		
 gift_item-10006102	DP-12 - 햇살 우화	DP-12-熙光寓言		
-gift_item-10006103	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
+gift_item-10006103	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
 gift_item-10006105	PP4-40 - 분홍색 산호초	PPD-40-樱桃色珊瑚		
 gift_item-10006106	UKM-2000 - 레몬에이드 테일즈	UKM-2000-酸甜水物语		
 gift_item-10006108	QSB-91 - 둥둥 박하차	QSB-91-浮水薄荷茶		
@@ -3239,17 +3239,17 @@ gift_item-10000558	G11 - 카오스 심포니	G11-混乱交响曲		混迷のシ�
 gift_item-10000559	UMP40 - 클라인 인터루드	UMP40-克莱因间奏		クラインの間奏曲
 gift_item-10006201	PM-9 - 백전불패 황금빛	PM-9-不败的金色龙卷		
 gift_item-10006202	드 라일 - 코요테 블루스	德利尔-郊狼蓝调		
-gift_item-10006203	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
+gift_item-10006203	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
 gift_item-10006204	9A-91 - 충성스러운 길동무	9A-91-忠友同游		
 gift_item-10006205	토카레프 - 눈 내리는 오솔길	托卡列夫-深巷的落雪		
 gift_item-10006206	타부크 - 돼지 3형제가 부동산에	塔布克-三只小猪来租房		
 gift_item-10006207	OTs-44 - 깊은 숲속 흰토끼	OTs-44-深郊遇白兔		
-gift_item-10006301	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
+gift_item-10006301	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
 gift_item-10006302	SL8 - 세상 한 구석에서 기다릴게	SL8-在世界的一角等你		
 gift_item-10006303	SP9 - 은하수에 잠든 꿈	SP9-星河中沉睡的梦		
 gift_item-10006304	몬드라곤 M1908 - 안개비 내리는 밤	蒙德拉贡M1908-残雨暝烟		
 gift_item-10006305	Rex Zero 1 - 두근두근 트릴로지	Rex-0-1-怦动三部曲		
-gift_item-10006306	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
+gift_item-10006306	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
 gun-10000001	콜트 리볼버	柯尔特左轮	SAA	コルトSAA
 gun-10000002	M1911	M1911	M1911	M1911
 gun-10000003	M9	M9	M9	M9
@@ -3332,7 +3332,7 @@ gun-10000088	MG3	MG3	MG3	MG3
 gun-10000089	브렌	布伦	Bren	ブレン
 gun-10000090	FNP-9	FNP-9	FF FNP9	FF FNP9
 gun-10000091	MP-446	MP-446	MP-446	MP-446
-gun-10000092	Spectre M4	幽灵M4	Spectre M4	スペクトラM4
+gun-10000092	Spectre M4	幽灵M4	Spectre M4	スペクトラM4
 gun-10000093	IDW	IDW	IDW	IDW
 gun-10000094	64식	64式	Type64	64式
 gun-10000095	한양조 88식	汉阳造88式	Type88	漢陽88式
@@ -3405,12 +3405,12 @@ gun-10000163	AA-12	AA-12	AA-12	AA-12
 gun-10000164	FP-6	FP-6	FP-6	FP-6
 gun-10000165	M1014	M1014	M1014	M1014
 gun-10000166	CZ75	CZ75	CZ75	CZ75
-gun-10000167	HK45	HK45	Gr HK45	Gr HK45
+gun-10000167	HK45	HK45	Gr HK45	Gr HK45
 gun-10000168	Spitfire	喷火	Spitfire	Spitfire
 gun-10000169	SCW	SCW	SCW	SCW
 gun-10000170	ASh-12.7	ASh-12.7	ASh-12.7	ASh-12.7
 gun-10000171	리베롤	利贝罗勒	Ribeyrolles	リベロール
-gun-10000172	RFB	RFB	Am RFB	Am RFB
+gun-10000172	RFB	RFB	Am RFB	Am RFB
 gun-10000173	PKP	PKP	PKP	PKP
 gun-10000174	81식 카빈	八一式马	Type81R	81式カービン
 gun-10000175	ART556	ART556	ART556	ART556
@@ -3428,7 +3428,7 @@ gun-10000183	컨텐더	竞争者	Contender	コンテンダー
 gun-10000184	T-5000	T-5000	T-5000	T-5000
 gun-10000185	아멜리	阿梅利	Ameli	Ameli
 gun-10000186	P226	P226	P226	P226
-gun-10000187	Ak 5	Ak 5	Ak 5	Ak 5
+gun-10000187	Ak 5	Ak 5	Ak 5	Ak 5
 gun-10000188	S.A.T.8	S.A.T.8	S.A.T.8	S.A.T.8
 gun-10000189	USAS-12	USAS-12	USAS-12	USAS-12
 gun-10000190	NS2000	NS2000	NS2000	NS2000
@@ -3478,13 +3478,13 @@ gun-10000224	PM-06	PM-06	PM-06	PM-06
 gun-10000004	콜트 파이슨	蟒蛇	Python	パイソン
 gun-10000059	AK-74U	AK-74U	AK-74U	AK-74U
 gun-10000225	Cx4 스톰	Cx4 风暴	Cx4 Storm	Cx4 ストーム
-gun-10000226	Mk 12	Mk 12	Mk 12	Mk 12
+gun-10000226	Mk 12	Mk 12	Mk 12	Mk 12
 gun-10000227	A-91	A-91	A-91	A-91
 gun-10000229	M870	M870	M870	M870
 gun-10000230	OBR	OBR	OBR	OBR
 gun-10000231	M82A1	M82A1	M82A1	M82A1
 gun-10000232	MP-448	MP-448	MP-448	MP-448
-gun-10000233	Px4 스톰	Px4 风暴	Px4 Storm	Px4 ストーム
+gun-10000233	Px4 스톰	Px4 风暴	Px4 Storm	Px4 ストーム
 gun-10000234	JS 9	JS 9	JS 9	JS 9
 gun-10000235	SPR A3G	SPR A3G	SPR A3G	SPR A3G
 gun-10000236	K11	K11	K11	K11
@@ -3524,7 +3524,7 @@ gun-10000214	ADS	ADS	ADS	ADS
 gun-10000269	P30	P30	Gr P30	Gr P30
 gun-10000270	4식	四式	4 Shiki	四式
 gun-10000271	K3	K3	K3	K3
-gun-10000272	데저트 이글	沙漠之鹰	Desert Eagle	デザートイーグル
+gun-10000272	데저트 이글	沙漠之鹰	Desert Eagle	デザートイーグル
 gun-10000273	SSG3000	SSG3000	SSG3000	SSG3000
 gun-10000274	ACR	ACR	ACR	ACR
 gun-10000275	M1895 CB	M1895 CB	M1895 CB	M1895 CB
@@ -4173,7 +4173,7 @@ item-10001340	G36 - 50일의 메이드	G36-和G36的五十天	50 Days with Gr G3
 item-10001341	SPAS-12 - 한여름의 열매	SPAS-12-盛夏的果实	Midsummer Fruit	盛夏の果実
 item-10001342	아멜리 - 아멜리의 리시브	阿梅利-阿梅利的接球	Ameli's Receive	アメリのレシーブ
 item-10001343	P38 - 여름보다 뜨거운 인형	P38-魔女高徒	Apprentice Witch	魔女の高弟
-item-10001344	M4 SOPMOD II 개조 후 아이콘	M4 SOPMOD II心智升级头像	M4 SOPMOD II Neural Upgrade Icon	M4 SOPMOD IIメンタルアップグレードアイコン
+item-10001344	M4 SOPMOD II 개조 후 아이콘	M4 SOPMOD II心智升级头像	M4 SOPMOD II Neural Upgrade Icon	M4 SOPMOD IIメンタルアップグレードアイコン
 item-10001345	UMP45 개조 후 아이콘	UMP45心智升级头像	UMP45 Neural Upgrade Icon	UMP45メンタルアップグレードアイコン
 item-10001346	카드 배경：해변 파티	名片：沙滩派对	ID Card: Beach Party	IDカード背景：ビーチパーティ
 item-10001347	아이콘：비치펑크2064	头像：沙滩朋克2064	Icon: Beach Punk 2064	アイコン：ビーチパンク2064
@@ -4462,15 +4462,15 @@ item-10001631	QBU-88 - 자연의 탐험가	QBU-88-自然的探索者	QBU-88 - Ex
 item-10001632	RO635 - 규율의 집행인	RO635-规则的实行者	RO635 - Enforcer of the Law	規則の実行者
 item-10001633	M4A1 - 세월의 정착자	M4A1-时光的定格者	M4A1 - Suspender of Time	時空の凍結者
 item-10001634	M16A1 - 앞길의 인도자	M16A1-道路的指引者	M16A1 - Blazer of the Trail	行先を導く者
-item-10001635	M4 SOPMODII - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	M4 SOPMOD-II - Devourer of the Feast	酒席の掃討者
-item-10001636	ST AR-15 - 꿈속의 수감자	ST AR-15-梦境的囚困者	ST AR-15 - Prisoner of the Dream	夢に囚われし者
+item-10001635	M4 SOPMODII - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	M4 SOPMOD-II - Devourer of the Feast	酒席の掃討者
+item-10001636	ST AR-15 - 꿈속의 수감자	ST AR-15-梦境的囚困者	ST AR-15 - Prisoner of the Dream	夢に囚われし者
 item-10001637	KSVK - 트루먼 여행객	KSVK-楚门的旅行者	KSVK -Truman Traveler	トゥルーマンを渡る者
 item-10001638	Saiga-12 - 노을의 재단사	塞伽12型-晨昏的裁定者	Saiga-12 - Arbiter of Twilight	黄昏の裁定者
 item-10001639	Zas M76 - 흑야의 댄서	Zas M76-黑夜的舞蹈者	Zas M76 - Dancer of the Night	闇夜と舞う者
 item-10001640	M1911 - 천공을 뚫는 자	M1911-天空的击破者	M1911 - Breaker of the Sky	天空を破りし者
 item-10001641	M4A1 - 소녀세계일주	M4A1-少女的气球漫游记	A Girl's Hot Air Balloon Adventure	少女の風船旅行
-item-10001642	M4 SOPMODII - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
-item-10001643	ST AR-15 - 꽃밭의 실크햇	ST AR-15-飘向花海的礼帽	Top Hat Drifting to the Flowers	花畑を舞うシルクハット
+item-10001642	M4 SOPMODII - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
+item-10001643	ST AR-15 - 꽃밭의 실크햇	ST AR-15-飘向花海的礼帽	Top Hat Drifting to the Flowers	花畑を舞うシルクハット
 item-10001644	M16A1 - 애꾸 백토기사	M16A1-独眼的白兔骑士	The One-Eyed Rabbit Knight	隻眼の兎騎士
 item-10001645	RO635 - 논밭의 수호자	RO635-稻田里的守护者	Guardian in the Rye	稲田の守護者
 item-10001646	UMP45 - 소원을 좇는 마술사	UMP45-逐愿的礼花魔法师	The Wish-Making Sorceress of Fireworks	願いを追う花の魔術師
@@ -4684,9 +4684,9 @@ item-10001853	EM-2 - 은색의 탄환	EM-2-银色子弹		銀色の弾丸
 item-10001854	마갈 - 레이디 마갈	马盖尔-马盖尔小姐		ミス・マガル
 item-10001855	아이콘: 알리나	埃莉诺头像		
 item-10001856	아이콘: 타란튤라-HD	狼蛛头像-HD		
-item-10001857	빗발치는 총알 · 러프베리.β	枪弹掠影 · 拉弗伯雷.β		
-item-10001858	강철비 · 러프베리.β	铁雨风暴 · 拉弗伯雷.β		
-item-10001859	메탈 패닉 · 러프베리.β	合金狂潮 · 拉弗伯雷.β		
+item-10001857	빗발치는 총알 · 러프베리.β	枪弹掠影 · 拉弗伯雷.β		
+item-10001858	강철비 · 러프베리.β	铁雨风暴 · 拉弗伯雷.β		
+item-10001859	메탈 패닉 · 러프베리.β	合金狂潮 · 拉弗伯雷.β		
 item-10001860	카드배경: 글섭 3주년 기념	名片：美服三周年纪念名片	ID: Fragments of Precious Treasures	
 item-10001861	마카로프 개조 아이콘	马卡洛夫心智升级头像		
 item-10001862	MG4 개조 아이콘	MG4心智升级头像		
@@ -4695,12 +4695,12 @@ item-10001864	XM3 개조 아이콘	XM3心智升级头像
 item-10001865	아이콘: 맨티코어-HD	蝎甲兽头像-HD		
 item-10001866	아이콘: 최첨단 마스크·글로벌 5주년	真核面具纪念头像·五周年		
 item-10001867	M4A1 - 소나무 사이 햇볕	M4A1-松间曦光		
-item-10001868	M4 SOPMODII - 숲의 울림	M4 SOPMODII-深林鸣音		
-item-10001869	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
+item-10001868	M4 SOPMODII - 숲의 울림	M4 SOPMODII-深林鸣音		
+item-10001869	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
 item-10001870	M16A1 - 폐허 위의 태양	M16A1-墟上烈阳		
 item-10001871	RO635 - 물에 잠긴 달	RO635-水中融月		
 item-10001872	M200 - 장엄한 행진	M200-庄严行进	Solemn March	
-item-10001873	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
+item-10001873	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
 item-10001874	VHS - 익살극 백조의 호수	VHS-谐谑天鹅湖		
 item-10001875	류 소총 - 고민 많은 아침	刘氏步枪-悠思之晨		
 item-10001876	SL8 - 즉흥 랩소디	SL8-即兴狂想乐	Improvised Rhapsody	
@@ -4724,7 +4724,7 @@ item-10001893	Lusa - 수비수 꿈나무	卢萨-后卫新星
 item-10001894	S-ACR - 바람 쫓는 마녀	S-ACR-追风魔女		
 item-10001895	PKP - 우후대장군	PKP-雨后冲锋队		
 item-10001896	CF05 - 훠궈 나라 대왕	CF05-火锅国国王		
-item-10001897	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
+item-10001897	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
 item-10001898	M82 - 야옹이 대합주	M82-猫咪的合奏		
 item-10001899	wz.29 - 스윗 드림 메이커	wz.29-甜蜜幻梦使		
 item-10001900	카드배경: 일광욕과 다이빙	名片：浴光沐影		IDカード背景：光と影に浴す
@@ -4752,16 +4752,16 @@ item-10001921	미노스 - 호숫가에서 한잔	米诺斯-湖畔对饮夜
 item-10001922	아이콘: 프롤러 SWAP-HD	巡游者SWAP头像-HD		
 item-10001923	LTLX7000 - 밀물 데이트	LTLX7000-夜潮的邀约		
 item-10001924	DP-12 - 햇살 우화	DP-12-熙光寓言		
-item-10001925	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
+item-10001925	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
 item-10001926	PPD-40 - 분홍색 산호초	PPD-40-樱桃色珊瑚		
 item-10001927	UKM-2000 - 레몬에이드 테일즈	UKM-2000-酸甜水物语		
 item-10001928	QSB-91 - 둥둥 박하차	QSB-91-浮水薄荷茶		
 item-10001929	PPK - 연심은 그늘처럼	PPK-恋如树影		
 item-10001930	아이콘: 아키텍트-NVW형	建筑师-NVW型头像		
 item-10001931	아이콘: 이지스SWAP-HD	圣盾SWAP头像-HD		
-item-10001932	잔재주 · Code0: 꼭지점	小把戏 · 代号零：拱点		
-item-10001933	퀸즈 갬빗 · Code0: 꼭지점	后翼弃兵 · 代号零：拱点		
-item-10001934	담금질 · Code0: 꼭지점	淬刃兵锋 · 代号零：拱点		
+item-10001932	잔재주 · Code0: 꼭지점	小把戏 · 代号零：拱点		
+item-10001933	퀸즈 갬빗 · Code0: 꼭지점	后翼弃兵 · 代号零：拱点		
+item-10001934	담금질 · Code0: 꼭지점	淬刃兵锋 · 代号零：拱点		
 item-10001935	UMP45 - 펜로즈 스핀	UMP45-旋转彭罗斯		回るペンローズ
 item-10001936	UMP9 - 볼레로 댄스	UMP9-波莱罗舞雀		ボレロを舞う雀
 item-10001937	HK416 - 볼레로 스냅	HK416-敲击波丽露		打奏のアフロレーロ
@@ -4784,17 +4784,17 @@ item-10001953	카드배경: 노을이 질 때	名片：落暮时刻
 item-10001954	기지배경: 나른한 오후	背景：慵懒午后		
 item-10001955	PM-9 - 백전불패 황금빛	PM-9-不败的金色龙卷		
 item-10001956	드 라일 - 코요테 블루스	德利尔-郊狼蓝调		
-item-10001957	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
+item-10001957	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
 item-10001958	9A-91 - 충성스러운 길동무	9A-91-忠友同游		
 item-10001959	토카레프 - 눈 내리는 오솔길	托卡列夫-深巷的落雪		
 item-10001960	타부크 - 돼지 3형제가 부동산에	塔布克-三只小猪来租房		
 item-10001961	OTs-44 - 깊은 숲속 흰토끼	OTs-44-深郊遇白兔		
-item-10001962	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
+item-10001962	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
 item-10001963	SL8 - 세상 한 구석에서 기다릴게	SL8-在世界的一角等你		
 item-10001964	SP9 - 은하수에 잠든 꿈	SP9-星河中沉睡的梦		
 item-10001965	몬드라곤 M1908 - 안개비 내리는 밤	蒙德拉贡M1908-残雨暝烟		
 item-10001966	Rex Zero 1 - 두근두근 트릴로지	Rex-0-1-怦动三部曲		
-item-10001967	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
+item-10001967	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
 item-10004001	도시의 선물	城市的馈赠	City's Gift	都市の贈り物
 item-10004002	설원의 선물	雪地的馈赠	Snowfield's Gift	雪原の贈り物
 item-10004003	숲의 선물	森林的馈赠	Forest's Gift	森林の贈り物
@@ -7463,7 +7463,7 @@ prize-10002019	OTs-14 - 흩날리는 벚꽃눈	OTs-14-樱吹雪	Flurry of Petals
 prize-10002020	JS05 - 제피란테스	JS05-玉帘草	Fairy Lily	タマスダレ
 prize-10002021	OTs-14 - 크라슐라	OTs-14-紫雨心	Sangria Succulent	
 prize-10002022	64식 소총 - 새해의 소망	Type64-AR-新年祈愿		
-prize-10002023	Px4 스톰 - 크리스마스 모닝퀸	Px4 风暴-圣诞晨间女王		
+prize-10002023	Px4 스톰 - 크리스마스 모닝퀸	Px4 风暴-圣诞晨间女王		
 prize-10002024	S.A.T.8 - 호박꼬치	S.A.T.8-南瓜串串	Pumpkin Skewers	
 prize-10002025	NTW-20 - VIP 체험관	NTW-20-贵族体验馆	The Aristocrat Experience	
 prize-10002026	88식 - 봄 난초	88式-朵幽兰	Noble Orchid	
@@ -8511,7 +8511,7 @@ prize-10040221	편극광 보급상자*12+구출 단서 A*2	偏振光物资箱*12
 prize-10040222	편극광 보급상자*12+구출 단서 B*2	偏振光物资箱*12+打捞保底B*2	偏振光物资箱*12+打捞保底B*2	
 prize-10040223	전술인형: X95	战术人形:X95	T-Doll: X95	
 prize-10040224	전술인형: ACR	战术人形:ACR	T-Doll: ACR	
-prize-10040225	전술인형: 데저트 이글	战术人形:沙漠之鹰	T-Doll: Desert Eagle	
+prize-10040225	전술인형: 데저트 이글	战术人形:沙漠之鹰	T-Doll: Desert Eagle	
 prize-10040226	전술인형: Kord	战术人形:Kord	T-Doll: Kord	
 prize-10040227	전술인형: JS 9	战术人形:JS 9	T-Doll: JS 9	
 prize-10040228	전술인형: M1895 CB	战术人形:M1895 CB	T-Doll: M1895 CB	
@@ -9059,7 +9059,7 @@ prize-10040284	이중난수 보급상자*15	双联乱数物资箱*15
 prize-10040285	가구: 브레멘 악단 포스터	家具：不莱梅乐队海报		
 prize-10040286	가구: 망상 가득한 제복	家具：遐想制服		
 prize-10040287	가구: 상어 인형탈	家具：鲨鱼玩偶服		
-prize-10040288	전술인형: AUG Para	战术人形：AUG SMG		
+prize-10040288	전술인형: AUG Para	战术人形：AUG SMG		
 prize-10040289	가구: 환각 수정구슬	家具：致幻水晶球		
 prize-10040290	전술인형: VSK-94	战术人形：VSK-94		
 prize-10040291	전술인형: S-ACR	战术人形：S-ACR		
@@ -9545,16 +9545,16 @@ prize-10001165	봄날 축제 보상	春日庆典特惠
 prize-10001166	봄날 축제 보급	春日庆典补给		
 prize-10001167	특별 일일 보급	特惠每日补给		
 prize-10001168	특가 구매토큰 패키지	超值采购币礼包		
-prize-10001169	명탕 라오: 닛신 콜라보 특전	名汤·拉王 日清联动特典		
+prize-10001169	명탕 라오: 닛신 콜라보 특전	名汤·拉王 日清联动特典		
 prize-10001170	2021년 4월 출석	2021年4月签到		
 prize-10001171		特惠每日补给		
 prize-10001172		装备制造特惠		
 prize-10001173	특가 구매토큰 패키지	超值采购币礼包		
 prize-10001174	특별 일일 보급	特惠每日补给		
-prize-10092001	NO.4 교향곡 - "마침표"	NO.4 交响曲-“驻足”	Symphony No.4 - Furniture: "Standstill"	交響曲第4番-「足をとめる」
-prize-10092002	NO.4 교향곡 - "개념"	NO.4 交响曲-“概念”	Symphony No.4 - Furniture: "Concept"	交響曲第4番-「概念」
-prize-10092003	NO.4 교향곡 - "목표"	NO.4 交响曲-“目标”	Symphony No.4 - Icon: "Goal"	交響曲第4番-「目標」
-prize-10092004	NO.4 교향곡 - "논쟁"	NO.4 交响曲-“争论”	Symphony No.4 - ID: "Debate"	交響曲第4番-「論争」
+prize-10092001	NO.4 교향곡 - "마침표"	NO.4 交响曲-“驻足”	Symphony No.4 - Furniture: "Standstill"	交響曲第4番-「足をとめる」
+prize-10092002	NO.4 교향곡 - "개념"	NO.4 交响曲-“概念”	Symphony No.4 - Furniture: "Concept"	交響曲第4番-「概念」
+prize-10092003	NO.4 교향곡 - "목표"	NO.4 交响曲-“目标”	Symphony No.4 - Icon: "Goal"	交響曲第4番-「目標」
+prize-10092004	NO.4 교향곡 - "논쟁"	NO.4 交响曲-“争论”	Symphony No.4 - ID: "Debate"	交響曲第4番-「論争」
 prize-10001175	Lawson 콜라보 QBU-88 코스튬	罗森联动限定QBU-88装扮		
 prize-10001176	Happy Zoo 카페 콜라보 특전 가구	Happy Zoo咖啡厅联动家具特典		
 prize-10006794	정적의 기운 - 임무 보상	静寂气息-任务奖励		
@@ -10555,14 +10555,14 @@ skin-10004503	QBU-88 - 자연의 탐험가	QBU-88-自然的探索者	Explorer of
 skin-10004504	RO635 - 규율의 집행인	RO635-规则的实行者	Enforcer of the Law	規則の実行者
 skin-10004505	M4A1 - 세월의 정착자	M4A1-时光的定格者	Suspender of Time	時空の凍結者
 skin-10004506	M16A1 - 앞길의 인도자	M16A1-道路的指引者	Blazer of the Trail	行先を導く者
-skin-10004507	M4 SOPMODII - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	Devourer of the Feast	酒席の掃討者
+skin-10004507	M4 SOPMODII - 연석의 약탈자	M4 SOPMODII-酒席的扫荡者	Devourer of the Feast	酒席の掃討者
 skin-10004508	ST AR-15 - 꿈속의 수감자	ST AR-15-梦境的囚困者	Prisoner of the Dream	夢に囚われし者
 skin-10004509	KSVK - 트루먼 여행객	KSVK-楚门的旅行者	Truman Traveler	トゥルーマンを渡る者
 skin-10004510	Saiga-12 - 노을의 재단사	塞伽12型-晨昏的裁定者	Arbiter of Twilight	黄昏の裁定者
 skin-10004511	Zas M76 - 흑야의 댄서	Zas M76-黑夜的舞蹈者	Dancer of the Night	闇夜と舞う者
 skin-10004514	M1911 - 천공을 뚫는 자	M1911-天空的击破者	Breaker of the Sky	天空を破りし者
 skin-10000530	M4A1 - 소녀세계일주	M4A1-少女的气球漫游记	A Girl's Hot Air Balloon Adventure	少女の風船旅行
-skin-10000531	M4 SOPMODII - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
+skin-10000531	M4 SOPMODII - 모두의 귀염둥이	M4 SOPMODII-被守护的宠爱者	The Guarded Beloved	護られし愛し子
 skin-10000532	ST AR-15 - 꽃밭의 실크햇	ST AR-15-飘向花海的礼帽	Top Hat Drifting to the Flowers	花畑を舞うシルクハット
 skin-10000533	M16A1 - 애꾸 백토기사	M16A1-独眼的白兔骑士	The One-Eyed Rabbit Knight	隻眼の兎騎士
 skin-10000534	RO635 - 논밭의 수호자	RO635-稻田里的守护者	Guardian in the Rye	稲田の守護者
@@ -10663,12 +10663,12 @@ skin-10005704	몬드라곤 M1908 - 숙명의 추적자	蒙德拉贡M1908-宿命�
 skin-10005706	EM-2 - 은색의 탄환	EM-2-银色子弹		銀色の弾丸
 skin-10005707	마갈 - 레이디 마갈	马盖尔-马盖尔小姐		ミス・マガル
 skin-10000550	M4A1 - 소나무 사이 햇볕	M4A1-松间曦光		
-skin-10000551	M4 SOPMODII - 숲의 울림	M4 SOPMODII-深林鸣音		
-skin-10000552	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
+skin-10000551	M4 SOPMODII - 숲의 울림	M4 SOPMODII-深林鸣音		
+skin-10000552	ST AR-15 - 환상의 봄바람	ST AR-15-春日幻风		
 skin-10000553	M16A1 - 폐허 위의 태양	M16A1-墟上烈阳		
 skin-10000554	RO635 - 물에 잠긴 달	RO635-水中融月		
 skin-10000560	M200 - 장엄한 행진	M200-庄严行进	Solemn March	
-skin-10000561	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
+skin-10000561	AUG Para - 제10번 세레나데	AUG SMG-十号小夜曲		
 skin-10000562	VHS - 익살극 백조의 호수	VHS-谐谑天鹅湖		
 skin-10000563	류 소총 - 고민 많은 아침	刘氏步枪-悠思之晨		
 skin-10000564	SL8 - 즉흥 랩소디	SL8-即兴狂想乐	Improvised Rhapsody	
@@ -10686,13 +10686,13 @@ skin-10005902	Lusa - 수비수 꿈나무	卢萨-后卫新星
 skin-10005903	S-ACR - 바람 쫓는 마녀	S-ACR-追风魔女		
 skin-10005904	PKP - 우후대장군	PKP-雨后冲锋队		
 skin-10005905	CF05 - 훠궈 나라 대왕	CF05-火锅国国王		
-skin-10005906	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
+skin-10005906	Ak 5 - 무지개를 잇는 선녀	Ak 5-接引彩虹的花仙子		
 skin-10005907	M82 - 야옹이 대합주	M82-猫咪的合奏		
 skin-10005908	wz.29 - 스윗 드림 메이커	wz.29-甜蜜幻梦使		
 skin-10006107	V-PM5 - 날아라 불가사리	V-PM5-飞翔海星		天翔けるヒトデ
 skin-10006101	LTLX7000 - 밀물 데이트	LTLX7000-夜潮的邀约		
 skin-10006102	DP-12 - 햇살 우화	DP-12-熙光寓言		
-skin-10006103	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
+skin-10006103	Px4 스톰 - 해변 안전수칙	Px4 风暴-临海准则		
 skin-10006105	PPD-40 - 분홍색 산호초	PPD-40-樱桃色珊瑚		
 skin-10006106	UKM-2000 - 레몬에이드 테일즈	UKM-2000-酸甜水物语		
 skin-10006108	QSB-91 - 둥둥 박하차	QSB-91-浮水薄荷茶		
@@ -10709,17 +10709,17 @@ skin-10000558	G11 - 카오스 심포니	G11-混乱交响曲		混迷のシンフ�
 skin-10000559	UMP40 - 클라인 인터루드	UMP40-克莱因间奏		クラインの間奏曲
 skin-10006201	PM-9 - 백전불패 황금빛	PM-9-不败的金色龙卷		
 skin-10006202	드 라일 - 코요테 블루스	德利尔-郊狼蓝调		
-skin-10006203	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
+skin-10006203	Mk 12 - 정의로운 식량털이	Mk 12-食劫者的正义		
 skin-10006204	9A-91 - 충성스러운 길동무	9A-91-忠友同游		
 skin-10006205	토카레프 - 눈 내리는 오솔길	托卡列夫-深巷的落雪		
 skin-10006206	타부크 - 돼지 3형제가 부동산에	塔布克-三只小猪来租房		
 skin-10006207	OTs-44 - 깊은 숲속 흰토끼	OTs-44-深郊遇白兔		
-skin-10006301	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
+skin-10006301	AUG Para - 가을 계곡 소풍	AUG SMG-溯溪踏秋时		
 skin-10006302	SL8 - 세상 한 구석에서 기다릴게	SL8-在世界的一角等你		
 skin-10006303	SP9 - 은하수에 잠든 꿈	SP9-星河中沉睡的梦		
 skin-10006304	몬드라곤 M1908 - 안개비 내리는 밤	蒙德拉贡M1908-残雨暝烟		
 skin-10006305	Rex Zero 1 - 두근두근 트릴로지	Rex-0-1-怦动三部曲		
-skin-10006306	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
+skin-10006306	Model L - 푸른 하늘로 두둥실	Model L-向着碧空漾去		
 squad-10000001	BGM-71	BGM-71	BGM-71	BGM-71
 squad-10000002	AGS-30	AGS-30	AGS-30	AGS-30
 squad-10000003	2B14	2B14	2B14	2B14
@@ -10781,8 +10781,8 @@ prize-10220011			T-Doll:JS05
 prize-10220012			Furniture: Best Friend's Embrace	
 prize-10220013			Furniture: A Ride to Remember	
 prize-10220014			Pet: Halloween Mummy Cat	
-prize-10220015			Makarov Halloween Package	
-prize-10220016			Gr Mk23 Halloween Package	
+prize-10220015			Makarov Halloween Package	
+prize-10220016			Gr Mk23 Halloween Package	
 prize-10220041			T-Doll: M200	
 prize-10220048			Intermediate Training Data*300	
 prize-10220049			Advanced Training Data*300	
@@ -10792,7 +10792,7 @@ prize-10220052			Daily Special Offer Package
 prize-10220053			Intermediate Training Data*300	
 prize-10220054			Extra Energy*10	
 prize-10220055			Advanced Training Data*300	
-prize-10220056			Neural Upgrade Special Offer	
+prize-10220056			Neural Upgrade Special Offer	
 prize-10220057			Daily Special Offer Package	
 prize-10220058			T-Doll: K5	
 prize-10220059			Daily Special Offer Package	
