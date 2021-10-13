@@ -7,15 +7,15 @@ import math
 import pulp as lp
 
 # %% 战区关卡参数
-# 枪种系数：
-coef ={'HG':11,'SMG':10,'RF':6,'AR':11,'MG':3,'SG':5}
-# 妖精加成：5星1.25
-fairy_ratio = 1.25
-# 优势人形
-superior = ['SIG MCX', "AUG SMG","蜜獾","Model L","菲德洛夫"]
-# 昼夜战
-fight_mode = 'day'
-max_dolls = 20
+theater_id = '738'  # 关卡id,如736代表第7期第3区域第6关
+fairy_ratio = 1.25  # 妖精加成：5星1.25
+max_dolls = 20  # 上场人数
+
+# %%
+theater_config = get_theater_config(theater_id)
+class_weight = theater_config['class_weight']
+advantage = theater_config['advantage']
+fight_mode = theater_config['fightmode']
 # %%
 name_table = get_name_table()
 # %%
@@ -104,8 +104,8 @@ for doll in doll_info:
     for i,j,k in itertools.product(*equip_group_all):
         strength = doll_attr_calculate(doll,my_dolls[id],[i,j,k])
         # print(strength)
-        sp_ratio = 1.2 if my_dolls[id]['name'] in superior else 1
-        score = math.floor(coef[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
+        sp_ratio = 1.2 if id % 20000 in advantage else 1
+        score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
         # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
         recipe_name = f"{my_dolls[id]['name']}_{name_table[i[0]['name']]}_{i[1]}_{name_table[j[0]['name']]}_{j[1]}_{name_table[k[0]['name']]}_{k[1]}"
         recipe_content = {
