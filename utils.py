@@ -61,6 +61,7 @@ def doll_effect_calculate(gun_attr, fight_type):
     skill1 = gun_attr["attr_other"]['skill1']
     skill2 = gun_attr["attr_other"]['skill2']
     star = int(gun_attr["attr_other"]["star"])
+    number = gun_attr["attr_other"]["number"]
     skill_effect = int(gun_attr["attr_other"]["skill_effect"])
     skill_effect_per = int(gun_attr["attr_other"]["skill_effect_per"])
 
@@ -90,13 +91,13 @@ def doll_effect_calculate(gun_attr, fight_type):
     bullet = int(gun_attr["attr_fixed"]["bullet"])
     if gun_attr["attr_other"]["type"] == "SG":
         # SG攻击 = 6*5*(3*弹量*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)/(1.5+弹量*50/射速+0.5*弹量)*命中/(命中+23)+8)
-        attack_effect = gf_ceil(6*5*(3*bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(1.5+bullet*50/rate+0.5*bullet)*hit/(hit+23)+8))
+        attack_effect = gf_ceil(6*number*(3*bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(1.5+bullet*50/rate+0.5*bullet)*hit/(hit+23)+8))
     elif gun_attr["attr_other"]["type"] == "MG":
         # MG攻击 = 7*5*(弹量*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)/(弹量/3+4+200/射速)*命中/(命中+23)+8)
-        attack_effect = gf_ceil(7*5*(bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(bullet/3+4+200/rate)*hit/(hit+23)+8))
+        attack_effect = gf_ceil(7*number*(bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(bullet/3+4+200/rate)*hit/(hit+23)+8))
     else:
         # 其他攻击 = 5*5*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)*射速/50*命中/(命中+23)+8)
-        attack_effect = gf_ceil(5*5*((attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)*rate/50*hit/(hit+23)+8))
+        attack_effect = gf_ceil(5*number*((attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)*rate/50*hit/(hit+23)+8))
 
     effect_total = doll_skill_effect + defend_effect + attack_effect
     return effect_total
