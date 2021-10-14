@@ -91,6 +91,17 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
     max_dolls = theater_config['max_dolls']
     fairy_ratio = theater_config['fairy_ratio']
     choices = {}
+    for equip in equip_info:
+        eid = equip['id']
+        if eid not in my_equips.keys():
+            continue
+        ename = my_equips[eid]['name']
+        if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
+            choices[f"强化_{ename}"] = {
+                f"{ename}_0":-1,
+                f"{ename}_10":1,
+                "强化资源":-equip['exclusive_rate'],
+            }
     for doll in doll_info:
         id = doll['id']
         if 1200 < id < 20000 or id > 30000:
@@ -108,7 +119,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
                 if equip['fit_guns'] and id not in equip['fit_guns']:
                     continue
                 eid = equip['id']
-                if my_equips[eid]['level_10'] > 0:
+                if my_equips[eid]['level_10'] > 0 or my_equips[eid]['level_00'] > 0:
                     equip_group_category.append((equip, 10))
                 if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
                     equip_group_category.append((equip, 0))
