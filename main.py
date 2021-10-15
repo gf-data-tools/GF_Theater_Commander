@@ -57,7 +57,7 @@ for k, v in lp_vars.items():
             res.append((k, choices[k]['score']))
 res.sort(key=lambda x: x[1], reverse=True)
 for r in strn:
-    print(r[0], r[1])
+    print(r[0], r[1],sep='\t')
 for r in res:
-    print(r[0], r[1])
+    print(r[0], r[1],sep='\t')
 # %%
