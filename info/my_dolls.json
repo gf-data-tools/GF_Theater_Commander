@@ -42,7 +42,7 @@
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 53
+    "favor": 58
   },
   "6": {
     "id": 6,
@@ -380,11 +380,11 @@
   "44": {
     "id": 44,
     "name": "SV-98",
-    "gun_level": 0,
+    "gun_level": 1,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 0
+    "favor": 50
   },
   "46": {
     "id": 46,
@@ -749,11 +749,11 @@
   "89": {
     "id": 89,
     "name": "布伦",
-    "gun_level": 0,
+    "gun_level": 1,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 0
+    "favor": 50
   },
   "90": {
     "id": 90,
@@ -767,11 +767,11 @@
   "91": {
     "id": 91,
     "name": "MP-446",
-    "gun_level": 0,
+    "gun_level": 1,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 0
+    "favor": 50
   },
   "92": {
     "id": 92,
@@ -785,20 +785,20 @@
   "93": {
     "id": 93,
     "name": "IDW",
-    "gun_level": 0,
+    "gun_level": 1,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 0
+    "favor": 50
   },
   "94": {
     "id": 94,
     "name": "64式",
-    "gun_level": 0,
+    "gun_level": 1,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 0
+    "favor": 50
   },
   "95": {
     "id": 95,
@@ -843,7 +843,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 99
   },
   "100": {
     "id": 100,
@@ -888,7 +888,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 85
+    "favor": 90
   },
   "105": {
     "id": 105,
@@ -1842,7 +1842,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 86
+    "favor": 91
   },
   "211": {
     "id": 211,
@@ -2031,7 +2031,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 81
+    "favor": 86
   },
   "233": {
     "id": 233,
@@ -2355,7 +2355,7 @@
     "skill1": 8,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 99
   },
   "270": {
     "id": 270,
@@ -2661,7 +2661,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 99
   },
   "304": {
     "id": 304,
@@ -2778,7 +2778,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 84
+    "favor": 90
   },
   "317": {
     "id": 317,
@@ -2841,7 +2841,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 99
   },
   "324": {
     "id": 324,
@@ -2859,7 +2859,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 57
+    "favor": 63
   },
   "326": {
     "id": 326,
@@ -2931,7 +2931,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 74
+    "favor": 80
   },
   "334": {
     "id": 334,
@@ -2940,7 +2940,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 99
+    "favor": 100
   },
   "335": {
     "id": 335,
@@ -2958,7 +2958,7 @@
     "skill1": 6,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 100
   },
   "337": {
     "id": 337,
@@ -3003,7 +3003,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 87
+    "favor": 92
   },
   "342": {
     "id": 342,
@@ -3021,15 +3021,15 @@
     "skill1": 1,
     "skill2": 0,
     "number": 5,
-    "favor": 87
+    "favor": 92
   },
   "344": {
     "id": 344,
     "name": "FARA 83",
-    "gun_level": 1,
+    "gun_level": 100,
     "skill1": 1,
     "skill2": 0,
-    "number": 1,
+    "number": 5,
     "favor": 50
   },
   "345": {
@@ -3039,7 +3039,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 82
+    "favor": 87
   },
   "346": {
     "id": 346,
@@ -3057,7 +3057,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 54
+    "favor": 59
   },
   "348": {
     "id": 348,
@@ -3273,7 +3273,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 92
+    "favor": 98
   },
   "1029": {
     "id": 1029,
@@ -3291,7 +3291,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 83
+    "favor": 88
   },
   "1031": {
     "id": 1031,
@@ -3309,7 +3309,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 71
+    "favor": 76
   },
   "1033": {
     "id": 1033,
@@ -3318,7 +3318,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 83
+    "favor": 88
   },
   "1034": {
     "id": 1034,
@@ -3327,7 +3327,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 60
+    "favor": 66
   },
   "20001": {
     "id": 20001,
@@ -3459,7 +3459,7 @@
     "id": 20051,
     "name": "FN-49",
     "gun_level": 115,
-    "skill1": 5,
+    "skill1": 8,
     "skill2": 4,
     "number": 5,
     "favor": 100
@@ -3523,7 +3523,7 @@
     "name": "G3",
     "gun_level": 115,
     "skill1": 10,
-    "skill2": 5,
+    "skill2": 8,
     "number": 5,
     "favor": 100
   },
@@ -3595,7 +3595,7 @@
     "name": "IDW",
     "gun_level": 115,
     "skill1": 10,
-    "skill2": 5,
+    "skill2": 8,
     "number": 5,
     "favor": 100
   },
@@ -3746,7 +3746,7 @@
   "20199": {
     "id": 20199,
     "name": "80式",
-    "gun_level": 118,
+    "gun_level": 119,
     "skill1": 10,
     "skill2": 10,
     "number": 5,
