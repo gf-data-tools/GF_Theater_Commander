@@ -1,2 +1,5 @@
 info/user_info.json
 __pycache__
+*.mps
+*.sol
+output.txt
