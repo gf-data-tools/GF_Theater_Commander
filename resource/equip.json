@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1": {
     "id": 1,
     "type": 1,
     "category": "optical",
@@ -29,7 +29,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "2": {
     "id": 2,
     "type": 1,
     "category": "optical",
@@ -60,7 +60,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "3": {
     "id": 3,
     "type": 1,
     "category": "optical",
@@ -91,7 +91,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "4": {
     "id": 4,
     "type": 1,
     "category": "optical",
@@ -122,7 +122,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "5": {
     "id": 5,
     "type": 2,
     "category": "holo",
@@ -160,7 +160,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "6": {
     "id": 6,
     "type": 2,
     "category": "holo",
@@ -200,7 +200,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "7": {
     "id": 7,
     "type": 2,
     "category": "holo",
@@ -240,7 +240,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "8": {
     "id": 8,
     "type": 2,
     "category": "holo",
@@ -280,7 +280,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "9": {
     "id": 9,
     "type": 3,
     "category": "reddot",
@@ -314,7 +314,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "10": {
     "id": 10,
     "type": 3,
     "category": "reddot",
@@ -349,7 +349,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "11": {
     "id": 11,
     "type": 3,
     "category": "reddot",
@@ -384,7 +384,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "12": {
     "id": 12,
     "type": 3,
     "category": "reddot",
@@ -419,7 +419,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "13": {
     "id": 13,
     "type": 4,
     "category": "nightequip",
@@ -449,7 +449,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "14": {
     "id": 14,
     "type": 4,
     "category": "nightequip",
@@ -479,7 +479,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "15": {
     "id": 15,
     "type": 4,
     "category": "nightequip",
@@ -509,7 +509,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "16": {
     "id": 16,
     "type": 4,
     "category": "nightequip",
@@ -539,7 +539,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "17": {
     "id": 17,
     "type": 5,
     "category": "ap",
@@ -569,7 +569,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "18": {
     "id": 18,
     "type": 5,
     "category": "ap",
@@ -600,7 +600,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "19": {
     "id": 19,
     "type": 5,
     "category": "ap",
@@ -631,7 +631,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "20": {
     "id": 20,
     "type": 5,
     "category": "ap",
@@ -662,7 +662,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "21": {
     "id": 21,
     "type": 6,
     "category": "hp",
@@ -687,7 +687,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "22": {
     "id": 22,
     "type": 6,
     "category": "hp",
@@ -712,7 +712,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "23": {
     "id": 23,
     "type": 6,
     "category": "hp",
@@ -737,7 +737,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "24": {
     "id": 24,
     "type": 6,
     "category": "hp",
@@ -762,7 +762,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "25": {
     "id": 25,
     "type": 6,
     "category": "hp",
@@ -787,7 +787,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "26": {
     "id": 26,
     "type": 6,
     "category": "hp",
@@ -812,7 +812,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "27": {
     "id": 27,
     "type": 6,
     "category": "hp",
@@ -837,7 +837,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "28": {
     "id": 28,
     "type": 6,
     "category": "hp",
@@ -862,7 +862,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "29": {
     "id": 29,
     "type": 8,
     "category": "hv",
@@ -892,7 +892,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "30": {
     "id": 30,
     "type": 8,
     "category": "hv",
@@ -923,7 +923,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "31": {
     "id": 31,
     "type": 8,
     "category": "hv",
@@ -954,7 +954,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "32": {
     "id": 32,
     "type": 8,
     "category": "hv",
@@ -985,7 +985,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "33": {
     "id": 33,
     "type": 9,
     "category": "chip",
@@ -1010,7 +1010,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "34": {
     "id": 34,
     "type": 9,
     "category": "chip",
@@ -1035,7 +1035,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "35": {
     "id": 35,
     "type": 9,
     "category": "chip",
@@ -1060,7 +1060,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "36": {
     "id": 36,
     "type": 9,
     "category": "chip",
@@ -1085,7 +1085,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "37": {
     "id": 37,
     "type": 10,
     "category": "texo",
@@ -1119,7 +1119,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "38": {
     "id": 38,
     "type": 10,
     "category": "texo",
@@ -1154,7 +1154,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "39": {
     "id": 39,
     "type": 10,
     "category": "texo",
@@ -1189,7 +1189,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "40": {
     "id": 40,
     "type": 10,
     "category": "texo",
@@ -1224,7 +1224,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "42": {
     "id": 42,
     "type": 11,
     "category": "armorplate",
@@ -1259,7 +1259,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "43": {
     "id": 43,
     "type": 11,
     "category": "armorplate",
@@ -1294,7 +1294,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "44": {
     "id": 44,
     "type": 11,
     "category": "armorplate",
@@ -1329,7 +1329,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "45": {
     "id": 45,
     "type": 12,
     "category": "exclusive",
@@ -1354,7 +1354,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "46": {
     "id": 46,
     "type": 12,
     "category": "exclusive",
@@ -1379,7 +1379,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "47": {
     "id": 47,
     "type": 12,
     "category": "exclusive",
@@ -1404,7 +1404,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "48": {
     "id": 48,
     "type": 12,
     "category": "exclusive",
@@ -1429,7 +1429,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "49": {
     "id": 49,
     "type": 4,
     "category": "nightequip",
@@ -1459,7 +1459,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "50": {
     "id": 50,
     "type": 5,
     "category": "ap",
@@ -1490,7 +1490,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "51": {
     "id": 51,
     "type": 5,
     "category": "ap",
@@ -1524,7 +1524,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "52": {
     "id": 52,
     "type": 5,
     "category": "ap",
@@ -1558,7 +1558,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "53": {
     "id": 53,
     "type": 5,
     "category": "ap",
@@ -1592,7 +1592,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "54": {
     "id": 54,
     "type": 5,
     "category": "ap",
@@ -1626,7 +1626,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "55": {
     "id": 55,
     "type": 10,
     "category": "xexo",
@@ -1656,7 +1656,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "56": {
     "id": 56,
     "type": 10,
     "category": "xexo",
@@ -1687,7 +1687,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "57": {
     "id": 57,
     "type": 10,
     "category": "xexo",
@@ -1718,7 +1718,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "58": {
     "id": 58,
     "type": 10,
     "category": "xexo",
@@ -1749,7 +1749,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "59": {
     "id": 59,
     "type": 19,
     "category": "exclusive",
@@ -1787,7 +1787,7 @@
       36
     ]
   },
-  {
+  "60": {
     "id": 60,
     "type": 19,
     "category": "exclusive",
@@ -1797,13 +1797,13 @@
     "duration": 3420,
     "stat": {
       "pow": {
-        "min": 12,
-        "max": 16,
-        "upgrade": 600
+        "min": 20,
+        "max": 25,
+        "upgrade": 400
       },
-      "hit": {
-        "min": -5,
-        "max": -1
+      "rate": {
+        "min": -10,
+        "max": -10
       }
     },
     "powerup": {
@@ -1825,7 +1825,7 @@
       20057
     ]
   },
-  {
+  "61": {
     "id": 61,
     "type": 20,
     "category": "exclusive",
@@ -1867,7 +1867,7 @@
       20075
     ]
   },
-  {
+  "62": {
     "id": 62,
     "type": 20,
     "category": "exclusive",
@@ -1905,7 +1905,7 @@
       26
     ]
   },
-  {
+  "63": {
     "id": 63,
     "type": 13,
     "category": "suppressor",
@@ -1939,7 +1939,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "64": {
     "id": 64,
     "type": 13,
     "category": "suppressor",
@@ -1975,7 +1975,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "65": {
     "id": 65,
     "type": 13,
     "category": "suppressor",
@@ -2011,7 +2011,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "66": {
     "id": 66,
     "type": 13,
     "category": "suppressor",
@@ -2047,7 +2047,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "67": {
     "id": 67,
     "type": 14,
     "category": "ammobox",
@@ -2082,7 +2082,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "68": {
     "id": 68,
     "type": 14,
     "category": "ammobox",
@@ -2117,7 +2117,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "69": {
     "id": 69,
     "type": 6,
     "category": "hp",
@@ -2151,7 +2151,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "70": {
     "id": 70,
     "type": 6,
     "category": "hp",
@@ -2186,7 +2186,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "71": {
     "id": 71,
     "type": 6,
     "category": "hp",
@@ -2221,7 +2221,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "72": {
     "id": 72,
     "type": 6,
     "category": "hp",
@@ -2256,7 +2256,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "73": {
     "id": 73,
     "type": 7,
     "category": "buckshot",
@@ -2290,7 +2290,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "74": {
     "id": 74,
     "type": 7,
     "category": "buckshot",
@@ -2326,7 +2326,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "75": {
     "id": 75,
     "type": 7,
     "category": "buckshot",
@@ -2362,7 +2362,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "76": {
     "id": 76,
     "type": 7,
     "category": "buckshot",
@@ -2398,7 +2398,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "77": {
     "id": 77,
     "type": 7,
     "category": "slugshell",
@@ -2428,7 +2428,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "78": {
     "id": 78,
     "type": 7,
     "category": "slugshell",
@@ -2459,7 +2459,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "79": {
     "id": 79,
     "type": 7,
     "category": "slugshell",
@@ -2490,7 +2490,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "80": {
     "id": 80,
     "type": 7,
     "category": "slugshell",
@@ -2521,7 +2521,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "81": {
     "id": 81,
     "type": 11,
     "category": "armorplate",
@@ -2556,7 +2556,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "82": {
     "id": 82,
     "type": 7,
     "category": "buckshot",
@@ -2592,7 +2592,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "83": {
     "id": 83,
     "type": 18,
     "category": "exclusive",
@@ -2631,7 +2631,7 @@
       66
     ]
   },
-  {
+  "84": {
     "id": 84,
     "type": 18,
     "category": "exclusive",
@@ -2670,7 +2670,7 @@
       66
     ]
   },
-  {
+  "85": {
     "id": 85,
     "type": 18,
     "category": "exclusive",
@@ -2709,7 +2709,7 @@
       66
     ]
   },
-  {
+  "86": {
     "id": 86,
     "type": 20,
     "category": "exclusive",
@@ -2753,7 +2753,7 @@
       20039
     ]
   },
-  {
+  "87": {
     "id": 87,
     "type": 15,
     "category": "cloak",
@@ -2787,7 +2787,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "88": {
     "id": 88,
     "type": 15,
     "category": "cloak",
@@ -2822,7 +2822,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "89": {
     "id": 89,
     "type": 15,
     "category": "cloak",
@@ -2857,7 +2857,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "90": {
     "id": 90,
     "type": 15,
     "category": "cloak",
@@ -2892,7 +2892,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "91": {
     "id": 91,
     "type": 20,
     "category": "exclusive",
@@ -2938,7 +2938,7 @@
       54
     ]
   },
-  {
+  "92": {
     "id": 92,
     "type": 20,
     "category": "exclusive",
@@ -2980,7 +2980,7 @@
       20101
     ]
   },
-  {
+  "93": {
     "id": 93,
     "type": 18,
     "category": "exclusive",
@@ -3017,7 +3017,7 @@
       118
     ]
   },
-  {
+  "94": {
     "id": 94,
     "type": 20,
     "category": "exclusive",
@@ -3059,7 +3059,7 @@
       185
     ]
   },
-  {
+  "95": {
     "id": 95,
     "type": 6,
     "category": "hp",
@@ -3094,7 +3094,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "96": {
     "id": 96,
     "type": 15,
     "category": "cloak",
@@ -3129,7 +3129,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "97": {
     "id": 97,
     "type": 20,
     "category": "exclusive",
@@ -3172,7 +3172,7 @@
       9011
     ]
   },
-  {
+  "98": {
     "id": 98,
     "type": 19,
     "category": "exclusive",
@@ -3215,7 +3215,7 @@
       9011
     ]
   },
-  {
+  "99": {
     "id": 99,
     "type": 20,
     "category": "exclusive",
@@ -3259,7 +3259,7 @@
       55
     ]
   },
-  {
+  "100": {
     "id": 100,
     "type": 18,
     "category": "exclusive",
@@ -3268,6 +3268,11 @@
     "rank": 5,
     "duration": 3600,
     "stat": {
+      "pow": {
+        "min": 10,
+        "max": 10,
+        "upgrade": 500
+      },
       "hit": {
         "min": 4,
         "max": 6,
@@ -3276,7 +3281,7 @@
       "critical_harm_rate": {
         "min": 11,
         "max": 15,
-        "upgrade": 350
+        "upgrade": 1000
       }
     },
     "powerup": {
@@ -3298,7 +3303,7 @@
       57
     ]
   },
-  {
+  "101": {
     "id": 101,
     "type": 19,
     "category": "exclusive",
@@ -3336,7 +3341,7 @@
       2
     ]
   },
-  {
+  "102": {
     "id": 102,
     "type": 20,
     "category": "exclusive",
@@ -3379,7 +3384,7 @@
       93
     ]
   },
-  {
+  "103": {
     "id": 103,
     "type": 18,
     "category": "exclusive",
@@ -3418,7 +3423,7 @@
       94
     ]
   },
-  {
+  "104": {
     "id": 104,
     "type": 18,
     "category": "exclusive",
@@ -3457,7 +3462,7 @@
       51
     ]
   },
-  {
+  "105": {
     "id": 105,
     "type": 18,
     "category": "exclusive",
@@ -3495,7 +3500,7 @@
       46
     ]
   },
-  {
+  "106": {
     "id": 106,
     "type": 18,
     "category": "exclusive",
@@ -3539,7 +3544,7 @@
       65
     ]
   },
-  {
+  "107": {
     "id": 107,
     "type": 20,
     "category": "exclusive",
@@ -3584,7 +3589,7 @@
       88
     ]
   },
-  {
+  "108": {
     "id": 108,
     "type": 20,
     "category": "exclusive",
@@ -3626,7 +3631,7 @@
       42
     ]
   },
-  {
+  "109": {
     "id": 109,
     "type": 1,
     "category": "optical",
@@ -3657,7 +3662,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "110": {
     "id": 110,
     "type": 8,
     "category": "hv",
@@ -3688,7 +3693,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "111": {
     "id": 111,
     "type": 18,
     "category": "exclusive",
@@ -3727,7 +3732,7 @@
       39
     ]
   },
-  {
+  "112": {
     "id": 112,
     "type": 18,
     "category": "exclusive",
@@ -3770,7 +3775,7 @@
       75
     ]
   },
-  {
+  "113": {
     "id": 113,
     "type": 18,
     "category": "exclusive",
@@ -3814,7 +3819,7 @@
       5
     ]
   },
-  {
+  "114": {
     "id": 114,
     "type": 18,
     "category": "exclusive",
@@ -3858,7 +3863,7 @@
       91
     ]
   },
-  {
+  "115": {
     "id": 115,
     "type": 20,
     "category": "exclusive",
@@ -3901,7 +3906,7 @@
       44
     ]
   },
-  {
+  "117": {
     "id": 117,
     "type": 18,
     "category": "exclusive",
@@ -3933,7 +3938,7 @@
       1009
     ]
   },
-  {
+  "118": {
     "id": 118,
     "type": 18,
     "category": "exclusive",
@@ -3965,7 +3970,7 @@
       1010
     ]
   },
-  {
+  "119": {
     "id": 119,
     "type": 18,
     "category": "exclusive",
@@ -4008,7 +4013,7 @@
       69
     ]
   },
-  {
+  "120": {
     "id": 120,
     "type": 3,
     "category": "reddot",
@@ -4043,7 +4048,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "121": {
     "id": 121,
     "type": 10,
     "category": "exo",
@@ -4078,7 +4083,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "122": {
     "id": 122,
     "type": 18,
     "category": "exclusive",
@@ -4122,7 +4127,7 @@
       1
     ]
   },
-  {
+  "123": {
     "id": 123,
     "type": 18,
     "category": "exclusive",
@@ -4166,7 +4171,7 @@
       89
     ]
   },
-  {
+  "124": {
     "id": 124,
     "type": 18,
     "category": "exclusive",
@@ -4205,7 +4210,7 @@
       63
     ]
   },
-  {
+  "125": {
     "id": 125,
     "type": 18,
     "category": "exclusive",
@@ -4244,7 +4249,7 @@
       103
     ]
   },
-  {
+  "126": {
     "id": 126,
     "type": 18,
     "category": "exclusive",
@@ -4254,9 +4259,9 @@
     "duration": 3600,
     "stat": {
       "pow": {
-        "min": 6,
-        "max": 9,
-        "upgrade": 350
+        "min": 15,
+        "max": 20,
+        "upgrade": 750
       },
       "hit": {
         "min": 6,
@@ -4287,7 +4292,7 @@
       56
     ]
   },
-  {
+  "127": {
     "id": 127,
     "type": 20,
     "category": "exclusive",
@@ -4330,7 +4335,7 @@
       62
     ]
   },
-  {
+  "128": {
     "id": 128,
     "type": 18,
     "category": "exclusive",
@@ -4369,7 +4374,7 @@
       29
     ]
   },
-  {
+  "129": {
     "id": 129,
     "type": 18,
     "category": "exclusive",
@@ -4408,7 +4413,7 @@
       37
     ]
   },
-  {
+  "130": {
     "id": 130,
     "type": 18,
     "category": "exclusive",
@@ -4447,7 +4452,7 @@
       64
     ]
   },
-  {
+  "131": {
     "id": 131,
     "type": 18,
     "category": "exclusive",
@@ -4491,7 +4496,7 @@
       81
     ]
   },
-  {
+  "132": {
     "id": 132,
     "type": 18,
     "category": "exclusive",
@@ -4534,7 +4539,7 @@
       20125
     ]
   },
-  {
+  "133": {
     "id": 133,
     "type": 18,
     "category": "exclusive",
@@ -4578,7 +4583,7 @@
       7
     ]
   },
-  {
+  "134": {
     "id": 134,
     "type": 18,
     "category": "exclusive",
@@ -4621,7 +4626,7 @@
       32
     ]
   },
-  {
+  "135": {
     "id": 135,
     "type": 19,
     "category": "exclusive",
@@ -4655,7 +4660,7 @@
       60
     ]
   },
-  {
+  "136": {
     "id": 136,
     "type": 19,
     "category": "exclusive",
@@ -4689,7 +4694,7 @@
       61
     ]
   },
-  {
+  "137": {
     "id": 137,
     "type": 18,
     "category": "exclusive",
@@ -4721,7 +4726,7 @@
       1017
     ]
   },
-  {
+  "138": {
     "id": 138,
     "type": 18,
     "category": "exclusive",
@@ -4753,7 +4758,7 @@
       1017
     ]
   },
-  {
+  "139": {
     "id": 139,
     "type": 19,
     "category": "exclusive",
@@ -4785,7 +4790,7 @@
       1017
     ]
   },
-  {
+  "140": {
     "id": 140,
     "type": 19,
     "category": "exclusive",
@@ -4817,7 +4822,7 @@
       1017
     ]
   },
-  {
+  "141": {
     "id": 141,
     "type": 20,
     "category": "exclusive",
@@ -4849,7 +4854,7 @@
       1017
     ]
   },
-  {
+  "142": {
     "id": 142,
     "type": 18,
     "category": "exclusive",
@@ -4881,7 +4886,7 @@
       1017
     ]
   },
-  {
+  "143": {
     "id": 143,
     "type": 19,
     "category": "exclusive",
@@ -4913,7 +4918,7 @@
       1017
     ]
   },
-  {
+  "144": {
     "id": 144,
     "type": 20,
     "category": "exclusive",
@@ -4945,7 +4950,7 @@
       1017
     ]
   },
-  {
+  "145": {
     "id": 145,
     "type": 20,
     "category": "exclusive",
@@ -4987,7 +4992,7 @@
       1022
     ]
   },
-  {
+  "146": {
     "id": 146,
     "type": 19,
     "category": "exclusive",
@@ -5024,7 +5029,7 @@
       1019
     ]
   },
-  {
+  "147": {
     "id": 147,
     "type": 20,
     "category": "exclusive",
@@ -5057,7 +5062,7 @@
       1018
     ]
   },
-  {
+  "148": {
     "id": 148,
     "type": 20,
     "category": "exclusive",
@@ -5099,7 +5104,7 @@
       1020
     ]
   },
-  {
+  "149": {
     "id": 149,
     "type": 20,
     "category": "exclusive",
@@ -5141,7 +5146,7 @@
       1021
     ]
   },
-  {
+  "150": {
     "id": 150,
     "type": 18,
     "category": "exclusive",
@@ -5183,7 +5188,7 @@
       110
     ]
   },
-  {
+  "151": {
     "id": 151,
     "type": 19,
     "category": "exclusive",
@@ -5226,7 +5231,7 @@
       158
     ]
   },
-  {
+  "152": {
     "id": 152,
     "type": 18,
     "category": "exclusive",
@@ -5269,7 +5274,7 @@
       74
     ]
   },
-  {
+  "153": {
     "id": 153,
     "type": 18,
     "category": "exclusive",
@@ -5312,7 +5317,7 @@
       52
     ]
   },
-  {
+  "154": {
     "id": 154,
     "type": 18,
     "category": "exclusive",
@@ -5355,7 +5360,7 @@
       17
     ]
   },
-  {
+  "155": {
     "id": 155,
     "type": 18,
     "category": "exclusive",
@@ -5393,7 +5398,7 @@
       10
     ]
   },
-  {
+  "156": {
     "id": 156,
     "type": 18,
     "category": "exclusive",
@@ -5437,7 +5442,7 @@
       101
     ]
   },
-  {
+  "157": {
     "id": 157,
     "type": 18,
     "category": "exclusive",
@@ -5481,7 +5486,7 @@
       26
     ]
   },
-  {
+  "158": {
     "id": 158,
     "type": 18,
     "category": "exclusive",
@@ -5520,7 +5525,7 @@
       95
     ]
   },
-  {
+  "159": {
     "id": 159,
     "type": 20,
     "category": "exclusive",
@@ -5564,7 +5569,7 @@
       65
     ]
   },
-  {
+  "160": {
     "id": 160,
     "type": 18,
     "category": "exclusive",
@@ -5602,7 +5607,7 @@
       50
     ]
   },
-  {
+  "161": {
     "id": 161,
     "type": 18,
     "category": "exclusive",
@@ -5641,7 +5646,7 @@
       130
     ]
   },
-  {
+  "162": {
     "id": 162,
     "type": 20,
     "category": "exclusive",
@@ -5683,7 +5688,7 @@
       84
     ]
   },
-  {
+  "163": {
     "id": 163,
     "type": 18,
     "category": "exclusive",
@@ -5725,7 +5730,7 @@
       18
     ]
   },
-  {
+  "164": {
     "id": 164,
     "type": 18,
     "category": "exclusive",
@@ -5767,7 +5772,7 @@
       3
     ]
   },
-  {
+  "165": {
     "id": 165,
     "type": 20,
     "category": "exclusive",
@@ -5810,7 +5815,7 @@
       72
     ]
   },
-  {
+  "166": {
     "id": 166,
     "type": 18,
     "category": "exclusive",
@@ -5853,7 +5858,7 @@
       20031
     ]
   },
-  {
+  "167": {
     "id": 167,
     "type": 18,
     "category": "exclusive",
@@ -5892,7 +5897,7 @@
       20012
     ]
   },
-  {
+  "168": {
     "id": 168,
     "type": 18,
     "category": "exclusive",
@@ -5930,7 +5935,7 @@
       228
     ]
   },
-  {
+  "169": {
     "id": 169,
     "type": 18,
     "category": "exclusive",
@@ -5968,7 +5973,7 @@
       172
     ]
   },
-  {
+  "170": {
     "id": 170,
     "type": 19,
     "category": "exclusive",
@@ -6007,7 +6012,7 @@
       20053
     ]
   },
-  {
+  "171": {
     "id": 171,
     "type": 20,
     "category": "exclusive",
@@ -6046,7 +6051,7 @@
       20007
     ]
   },
-  {
+  "172": {
     "id": 172,
     "type": 18,
     "category": "exclusive",
@@ -6084,7 +6089,7 @@
       38
     ]
   },
-  {
+  "173": {
     "id": 173,
     "type": 19,
     "category": "exclusive",
@@ -6122,7 +6127,7 @@
       105
     ]
   },
-  {
+  "174": {
     "id": 174,
     "type": 19,
     "category": "exclusive",
@@ -6160,7 +6165,7 @@
       163
     ]
   },
-  {
+  "175": {
     "id": 175,
     "type": 18,
     "category": "exclusive",
@@ -6203,7 +6208,7 @@
       215
     ]
   },
-  {
+  "176": {
     "id": 176,
     "type": 19,
     "category": "exclusive",
@@ -6247,7 +6252,7 @@
       20221
     ]
   },
-  {
+  "177": {
     "id": 177,
     "type": 18,
     "category": "exclusive",
@@ -6290,7 +6295,7 @@
       20154
     ]
   },
-  {
+  "178": {
     "id": 178,
     "type": 19,
     "category": "exclusive",
@@ -6329,7 +6334,7 @@
       20252
     ]
   },
-  {
+  "179": {
     "id": 179,
     "type": 18,
     "category": "exclusive",
@@ -6368,7 +6373,7 @@
       20097
     ]
   },
-  {
+  "180": {
     "id": 180,
     "type": 18,
     "category": "exclusive",
@@ -6407,7 +6412,7 @@
       20008
     ]
   },
-  {
+  "181": {
     "id": 181,
     "type": 19,
     "category": "exclusive",
@@ -6448,7 +6453,7 @@
       27
     ]
   },
-  {
+  "182": {
     "id": 182,
     "type": 19,
     "category": "exclusive",
@@ -6485,7 +6490,7 @@
       127
     ]
   },
-  {
+  "183": {
     "id": 183,
     "type": 20,
     "category": "exclusive",
@@ -6522,7 +6527,7 @@
       1024
     ]
   },
-  {
+  "184": {
     "id": 184,
     "type": 20,
     "category": "exclusive",
@@ -6560,7 +6565,7 @@
       1027
     ]
   },
-  {
+  "185": {
     "id": 185,
     "type": 18,
     "category": "exclusive",
@@ -6603,7 +6608,7 @@
       1026
     ]
   },
-  {
+  "186": {
     "id": 186,
     "type": 19,
     "category": "exclusive",
@@ -6646,7 +6651,7 @@
       1025
     ]
   },
-  {
+  "187": {
     "id": 187,
     "type": 18,
     "category": "exclusive",
@@ -6689,7 +6694,7 @@
       1023
     ]
   },
-  {
+  "188": {
     "id": 188,
     "type": 18,
     "category": "exclusive",
@@ -6732,7 +6737,7 @@
       1026
     ]
   },
-  {
+  "189": {
     "id": 189,
     "type": 18,
     "category": "exclusive",
@@ -6775,7 +6780,7 @@
       1026
     ]
   },
-  {
+  "190": {
     "id": 190,
     "type": 20,
     "category": "exclusive",
@@ -6819,7 +6824,7 @@
       20122
     ]
   },
-  {
+  "191": {
     "id": 191,
     "type": 18,
     "category": "exclusive",
@@ -6858,7 +6863,7 @@
       20124
     ]
   },
-  {
+  "192": {
     "id": 192,
     "type": 20,
     "category": "exclusive",
@@ -6896,7 +6901,7 @@
       20143
     ]
   },
-  {
+  "193": {
     "id": 193,
     "type": 20,
     "category": "exclusive",
@@ -6934,7 +6939,7 @@
       20161
     ]
   },
-  {
+  "194": {
     "id": 194,
     "type": 18,
     "category": "exclusive",
@@ -6972,7 +6977,7 @@
       113
     ]
   },
-  {
+  "195": {
     "id": 195,
     "type": 19,
     "category": "exclusive",
@@ -7009,7 +7014,7 @@
       14
     ]
   },
-  {
+  "196": {
     "id": 196,
     "type": 18,
     "category": "exclusive",
@@ -7047,7 +7052,7 @@
       92
     ]
   },
-  {
+  "197": {
     "id": 197,
     "type": 20,
     "category": "exclusive",
@@ -7084,7 +7089,7 @@
       115
     ]
   },
-  {
+  "198": {
     "id": 198,
     "type": 18,
     "category": "exclusive",
@@ -7122,7 +7127,7 @@
       126
     ]
   },
-  {
+  "199": {
     "id": 199,
     "type": 18,
     "category": "exclusive",
@@ -7160,7 +7165,7 @@
       1028
     ]
   },
-  {
+  "200": {
     "id": 200,
     "type": 19,
     "category": "exclusive",
@@ -7197,7 +7202,7 @@
       1028
     ]
   },
-  {
+  "201": {
     "id": 201,
     "type": 20,
     "category": "exclusive",
@@ -7234,7 +7239,7 @@
       1028
     ]
   },
-  {
+  "202": {
     "id": 202,
     "type": 18,
     "category": "exclusive",
@@ -7267,7 +7272,7 @@
       1029
     ]
   },
-  {
+  "203": {
     "id": 203,
     "type": 19,
     "category": "exclusive",
@@ -7300,7 +7305,7 @@
       1029
     ]
   },
-  {
+  "204": {
     "id": 204,
     "type": 20,
     "category": "exclusive",
@@ -7333,7 +7338,7 @@
       1029
     ]
   },
-  {
+  "205": {
     "id": 205,
     "type": 20,
     "category": "exclusive",
@@ -7376,7 +7381,7 @@
       20071
     ]
   },
-  {
+  "206": {
     "id": 206,
     "type": 19,
     "category": "exclusive",
@@ -7415,7 +7420,7 @@
       20152
     ]
   },
-  {
+  "207": {
     "id": 207,
     "type": 18,
     "category": "exclusive",
@@ -7454,7 +7459,7 @@
       20136
     ]
   },
-  {
+  "208": {
     "id": 208,
     "type": 18,
     "category": "exclusive",
@@ -7492,7 +7497,7 @@
       145
     ]
   },
-  {
+  "209": {
     "id": 209,
     "type": 18,
     "category": "exclusive",
@@ -7530,7 +7535,7 @@
       133
     ]
   },
-  {
+  "210": {
     "id": 210,
     "type": 18,
     "category": "exclusive",
@@ -7568,7 +7573,7 @@
       169
     ]
   },
-  {
+  "211": {
     "id": 211,
     "type": 19,
     "category": "exclusive",
@@ -7606,7 +7611,7 @@
       270
     ]
   },
-  {
+  "212": {
     "id": 212,
     "type": 19,
     "category": "exclusive",
@@ -7645,7 +7650,7 @@
       20049
     ]
   },
-  {
+  "213": {
     "id": 213,
     "type": 20,
     "category": "exclusive",
@@ -7683,7 +7688,7 @@
       20114
     ]
   },
-  {
+  "214": {
     "id": 214,
     "type": 20,
     "category": "exclusive",
@@ -7722,7 +7727,7 @@
       178
     ]
   },
-  {
+  "215": {
     "id": 215,
     "type": 19,
     "category": "exclusive",
@@ -7761,7 +7766,7 @@
       20199
     ]
   },
-  {
+  "216": {
     "id": 216,
     "type": 19,
     "category": "exclusive",
@@ -7799,7 +7804,7 @@
       302
     ]
   },
-  {
+  "217": {
     "id": 217,
     "type": 18,
     "category": "exclusive",
@@ -7837,7 +7842,7 @@
       48
     ]
   },
-  {
+  "218": {
     "id": 218,
     "type": 20,
     "category": "exclusive",
@@ -7871,7 +7876,7 @@
       20094
     ]
   },
-  {
+  "219": {
     "id": 219,
     "type": 18,
     "category": "exclusive",
@@ -7906,10 +7911,11 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      21
+      21,
+      20021
     ]
   },
-  {
+  "220": {
     "id": 220,
     "type": 18,
     "category": "exclusive",
@@ -7952,7 +7958,7 @@
       80
     ]
   },
-  {
+  "221": {
     "id": 221,
     "type": 19,
     "category": "exclusive",
@@ -7991,7 +7997,7 @@
       20095
     ]
   },
-  {
+  "222": {
     "id": 222,
     "type": 16,
     "category": "rmr",
@@ -8027,7 +8033,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "223": {
     "id": 223,
     "type": 16,
     "category": "rmr",
@@ -8063,7 +8069,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "224": {
     "id": 224,
     "type": 16,
     "category": "rmr",
@@ -8099,7 +8105,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "225": {
     "id": 225,
     "type": 6,
     "category": "flare",
@@ -8129,7 +8135,7 @@
     "skill_effect": 150.0,
     "fit_guns": []
   },
-  {
+  "226": {
     "id": 226,
     "type": 5,
     "category": "m1022ap",
@@ -8165,7 +8171,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "227": {
     "id": 227,
     "type": 5,
     "category": "m1022ap",
@@ -8201,7 +8207,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "228": {
     "id": 228,
     "type": 17,
     "category": "slap",
@@ -8236,7 +8242,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "229": {
     "id": 229,
     "type": 17,
     "category": "slap",
@@ -8271,7 +8277,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "230": {
     "id": 230,
     "type": 7,
     "category": "birdshot",
@@ -8306,7 +8312,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "231": {
     "id": 231,
     "type": 7,
     "category": "birdshot",
@@ -8341,7 +8347,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "232": {
     "id": 232,
     "type": 9,
     "category": "chip",
@@ -8381,7 +8387,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "233": {
     "id": 233,
     "type": 9,
     "category": "chip",
@@ -8421,7 +8427,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "234": {
     "id": 234,
     "type": 9,
     "category": "chip",
@@ -8461,7 +8467,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "235": {
     "id": 235,
     "type": 7,
     "category": "flashbang",
@@ -8492,7 +8498,7 @@
     "skill_effect": 0.0,
     "fit_guns": []
   },
-  {
+  "236": {
     "id": 236,
     "type": 20,
     "category": "exclusive",
@@ -8529,7 +8535,7 @@
       16
     ]
   },
-  {
+  "237": {
     "id": 237,
     "type": 20,
     "category": "exclusive",
@@ -8566,7 +8572,7 @@
       96
     ]
   },
-  {
+  "238": {
     "id": 238,
     "type": 19,
     "category": "exclusive",
@@ -8600,7 +8606,7 @@
       20008
     ]
   },
-  {
+  "239": {
     "id": 239,
     "type": 19,
     "category": "exclusive",
@@ -8638,7 +8644,7 @@
       20125
     ]
   },
-  {
+  "240": {
     "id": 240,
     "type": 20,
     "category": "exclusive",
@@ -8676,7 +8682,7 @@
       20159
     ]
   },
-  {
+  "241": {
     "id": 241,
     "type": 19,
     "category": "exclusive",
@@ -8719,7 +8725,7 @@
       20200
     ]
   },
-  {
+  "242": {
     "id": 242,
     "type": 19,
     "category": "exclusive",
@@ -8757,7 +8763,7 @@
       43
     ]
   },
-  {
+  "243": {
     "id": 243,
     "type": 18,
     "category": "exclusive",
@@ -8795,7 +8801,7 @@
       107
     ]
   },
-  {
+  "244": {
     "id": 244,
     "type": 18,
     "category": "exclusive",
@@ -8838,7 +8844,7 @@
       24
     ]
   },
-  {
+  "245": {
     "id": 245,
     "type": 18,
     "category": "exclusive",
@@ -8881,7 +8887,7 @@
       15
     ]
   },
-  {
+  "246": {
     "id": 246,
     "type": 18,
     "category": "exclusive",
@@ -8919,7 +8925,7 @@
       248
     ]
   },
-  {
+  "247": {
     "id": 247,
     "type": 18,
     "category": "exclusive",
@@ -8957,7 +8963,7 @@
       222
     ]
   },
-  {
+  "248": {
     "id": 248,
     "type": 20,
     "category": "exclusive",
@@ -8995,7 +9001,7 @@
       118
     ]
   },
-  {
+  "249": {
     "id": 249,
     "type": 18,
     "category": "exclusive",
@@ -9037,7 +9043,7 @@
       135
     ]
   },
-  {
+  "250": {
     "id": 250,
     "type": 20,
     "category": "exclusive",
@@ -9075,7 +9081,7 @@
       203
     ]
   },
-  {
+  "251": {
     "id": 251,
     "type": 18,
     "category": "exclusive",
@@ -9112,7 +9118,7 @@
       1034
     ]
   },
-  {
+  "252": {
     "id": 252,
     "type": 18,
     "category": "exclusive",
@@ -9155,7 +9161,7 @@
       1033
     ]
   },
-  {
+  "253": {
     "id": 253,
     "type": 20,
     "category": "exclusive",
@@ -9193,7 +9199,7 @@
       1030
     ]
   },
-  {
+  "254": {
     "id": 254,
     "type": 20,
     "category": "exclusive",
@@ -9230,7 +9236,7 @@
       1031
     ]
   },
-  {
+  "255": {
     "id": 255,
     "type": 20,
     "category": "exclusive",
@@ -9272,7 +9278,7 @@
       1032
     ]
   },
-  {
+  "256": {
     "id": 256,
     "type": 20,
     "category": "exclusive",
@@ -9310,7 +9316,7 @@
       79
     ]
   },
-  {
+  "257": {
     "id": 257,
     "type": 18,
     "category": "exclusive",
@@ -9348,7 +9354,7 @@
       82
     ]
   },
-  {
+  "258": {
     "id": 258,
     "type": 19,
     "category": "exclusive",
@@ -9386,7 +9392,7 @@
       180
     ]
   },
-  {
+  "259": {
     "id": 259,
     "type": 20,
     "category": "exclusive",
@@ -9418,5 +9424,908 @@
     "fit_guns": [
       317
     ]
+  },
+  "260": {
+    "id": 260,
+    "type": 20,
+    "category": "exclusive",
+    "name": "equip-10000260",
+    "code": "人形_特殊_G36C",
+    "rank": 5,
+    "duration": 3120,
+    "stat": {
+      "dodge": {
+        "min": 16,
+        "max": 20,
+        "upgrade": 1000
+      },
+      "speed": {
+        "min": 3,
+        "max": 3
+      }
+    },
+    "powerup": {
+      "mp": 0.3,
+      "ammo": 0.25,
+      "mre": 0.12,
+      "part": 0.38
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 0.0,
+      "part": 4.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      104,
+      20104
+    ]
+  },
+  "261": {
+    "id": 261,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000261",
+    "code": "配件_特殊_利贝罗勒",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 4,
+        "max": 6,
+        "upgrade": 700
+      },
+      "hit": {
+        "min": 11,
+        "max": 15,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      171,
+      20171
+    ]
+  },
+  "262": {
+    "id": 262,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000262",
+    "code": "弹匣_特殊_猎豹M1",
+    "rank": 5,
+    "duration": 3300,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 600
+      },
+      "armor_piercing": {
+        "min": 95,
+        "max": 100,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.08,
+      "ammo": 0.5,
+      "mre": 0.3,
+      "part": 0.3
+    },
+    "retire": {
+      "mp": 0.0,
+      "ammo": 4.0,
+      "mre": 2.0,
+      "part": 3.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      201,
+      20201
+    ]
+  },
+  "263": {
+    "id": 263,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000263",
+    "code": "弹匣_特殊_MP443",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "hit": {
+        "min": 8,
+        "max": 12,
+        "upgrade": 700
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 150.0,
+    "fit_guns": [
+      220,
+      20220
+    ]
+  },
+  "264": {
+    "id": 264,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000264",
+    "code": "配件_特殊_PK",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "hit": {
+        "min": 3,
+        "max": 5
+      },
+      "critical_percent": {
+        "min": 20,
+        "max": 25,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      85
+    ]
+  },
+  "265": {
+    "id": 265,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000265",
+    "code": "配件_特殊_M37",
+    "rank": 5,
+    "duration": 3000,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 600
+      },
+      "hit": {
+        "min": 11,
+        "max": 15,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      153
+    ]
+  },
+  "266": {
+    "id": 266,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000266",
+    "code": "配件_特殊_Px4Storm",
+    "rank": 5,
+    "duration": 2820,
+    "stat": {
+      "dodge": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 8,
+        "max": 10,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.23,
+      "mre": 0.23,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      233
+    ]
+  },
+  "267": {
+    "id": 267,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000267",
+    "code": "配件_特殊_P38",
+    "rank": 5,
+    "duration": 2820,
+    "stat": {
+      "hit": {
+        "min": 3,
+        "max": 3
+      },
+      "dodge": {
+        "min": 10,
+        "max": 12,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 350
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.23,
+      "mre": 0.23,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      9
+    ]
+  },
+  "268": {
+    "id": 268,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000268",
+    "code": "弹匣_特殊_Type03",
+    "rank": 5,
+    "duration": 3480,
+    "stat": {
+      "pow": {
+        "min": 8,
+        "max": 12,
+        "upgrade": 700
+      },
+      "critical_harm_rate": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 500
+      }
+    },
+    "powerup": {
+      "mp": 0.15,
+      "ammo": 0.6,
+      "mre": 0.38,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 0.0,
+      "ammo": 5.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      239
+    ]
+  },
+  "269": {
+    "id": 269,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000269",
+    "code": "配件_特殊_Mk23",
+    "rank": 5,
+    "duration": 2940,
+    "stat": {
+      "dodge": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "night_view_percent": {
+        "min": 95,
+        "max": 100
+      }
+    },
+    "powerup": {
+      "mp": 0.33,
+      "ammo": 0.22,
+      "mre": 0.5,
+      "part": 0.18
+    },
+    "retire": {
+      "mp": 3.0,
+      "ammo": 0.0,
+      "mre": 4.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      99
+    ]
+  },
+  "270": {
+    "id": 270,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000270",
+    "code": "配件_特殊_CZ75",
+    "rank": 5,
+    "duration": 3540,
+    "stat": {
+      "pow": {
+        "min": 1,
+        "max": 3,
+        "upgrade": 700
+      },
+      "hit": {
+        "min": 10,
+        "max": 12,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 13,
+        "max": 15,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      166
+    ]
+  },
+  "271": {
+    "id": 271,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000271",
+    "code": "弹匣_特殊_蟒蛇",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 10,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "armor_piercing": {
+        "min": -7,
+        "max": -7
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      4
+    ]
+  },
+  "272": {
+    "id": 272,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000272",
+    "code": "弹匣_特殊_PPsh41",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "armor_piercing": {
+        "min": -10,
+        "max": -7
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      21,
+      20021
+    ]
+  },
+  "273": {
+    "id": 273,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000273",
+    "code": "配件_特殊_XM8",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 4,
+        "max": 6,
+        "upgrade": 1000
+      },
+      "hit": {
+        "min": 11,
+        "max": 15,
+        "upgrade": 1000
+      },
+      "rate": {
+        "min": -6,
+        "max": -4
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      216,
+      20216
+    ]
+  },
+  "274": {
+    "id": 274,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000274",
+    "code": "配件_特殊_AN94",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "critical_harm_rate": {
+        "min": 10,
+        "max": 15,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 20,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      205,
+      20205
+    ]
+  },
+  "275": {
+    "id": 275,
+    "type": 20,
+    "category": "exclusive",
+    "name": "equip-10000275",
+    "code": "人形_特殊_AK15",
+    "rank": 5,
+    "duration": 3060,
+    "stat": {
+      "pow": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "dodge": {
+        "min": 8,
+        "max": 12,
+        "upgrade": 700
+      },
+      "critical_harm_rate": {
+        "min": 8,
+        "max": 10,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.3,
+      "ammo": 0.23,
+      "mre": 0.15,
+      "part": 0.38
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 3.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      293,
+      20293
+    ]
+  },
+  "276": {
+    "id": 276,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000276",
+    "code": "配件_特殊_P7",
+    "rank": 5,
+    "duration": 2820,
+    "stat": {
+      "dodge": {
+        "min": 7,
+        "max": 10,
+        "upgrade": 1500
+      },
+      "critical_percent": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 350
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.23,
+      "mre": 0.23,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      100
+    ]
+  },
+  "277": {
+    "id": 277,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000277",
+    "code": "配件_特殊_P90",
+    "rank": 5,
+    "duration": 2820,
+    "stat": {
+      "hit": {
+        "min": 4,
+        "max": 6,
+        "upgrade": 700
+      },
+      "dodge": {
+        "min": 7,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "speed": {
+        "min": 3,
+        "max": 3
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.23,
+      "mre": 0.23,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      245
+    ]
+  },
+  "278": {
+    "id": 278,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000278",
+    "code": "配件_特殊_P22",
+    "rank": 5,
+    "duration": 2820,
+    "stat": {
+      "dodge": {
+        "min": 8,
+        "max": 10,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 700
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.23,
+      "mre": 0.23,
+      "part": 0.23
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      242
+    ]
+  },
+  "279": {
+    "id": 279,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000279",
+    "code": "配件_特殊_加兰德",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "rate": {
+        "min": 1,
+        "max": 2,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 17,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      34
+    ]
+  },
+  "280": {
+    "id": 280,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000280",
+    "code": "弹匣_特殊_T77",
+    "rank": 5,
+    "duration": 3180,
+    "stat": {
+      "pow": {
+        "min": 7,
+        "max": 12,
+        "upgrade": 900
+      },
+      "hit": {
+        "min": 1,
+        "max": 3,
+        "upgrade": 700
+      },
+      "rate": {
+        "min": -6,
+        "max": -6
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      218
+    ]
+  },
+  "281": {
+    "id": 281,
+    "type": 19,
+    "category": "exclusive",
+    "name": "equip-10000281",
+    "code": "弹匣_特殊_SVT38",
+    "rank": 5,
+    "duration": 3300,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "armor_piercing": {
+        "min": 110,
+        "max": 120,
+        "upgrade": 500
+      }
+    },
+    "powerup": {
+      "mp": 0.08,
+      "ammo": 0.5,
+      "mre": 0.3,
+      "part": 0.3
+    },
+    "retire": {
+      "mp": 0.0,
+      "ammo": 4.0,
+      "mre": 2.0,
+      "part": 3.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      40
+    ]
+  },
+  "282": {
+    "id": 282,
+    "type": 18,
+    "category": "exclusive",
+    "name": "equip-10000282",
+    "code": "配件_特殊_64式自",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "critical_harm_rate": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 800
+      },
+      "critical_percent": {
+        "min": 17,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      243
+    ]
   }
-]
+}

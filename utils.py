@@ -14,7 +14,7 @@ def get_name_table():
 
 # %%
 def get_theater_config(theater_id='724'):
-    with open(r'resource/theater_info.json') as f:
+    with open(r'resource/theater_info.json','r',encoding='utf-8') as f:
         theater_info = ujson.load(f)
         theater = theater_info[theater_id]
     types = ['HG','SMG','RF','AR','MG','SG']
@@ -27,15 +27,15 @@ def get_theater_config(theater_id='724'):
 # %%
 def load_info():
     name_table = get_name_table()
-    with open(r'resource/doll.json') as f:
+    with open(r'resource/doll.json','r',encoding='utf-8') as f:
         doll_info = ujson.load(f)
-    with open(r'resource/equip.json',encoding='utf-8') as f:
+    with open(r'resource/equip.json','r',encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json') as f:
+    with open(r'info/user_info.json','r',encoding='gbk') as f:
         user_info = ujson.load(f)
     # %% 统计持有人形信息
     my_dolls = {}
-    for doll in doll_info:
+    for doll in doll_info.values():
         id = doll['id']
         if 1200 < id < 20000 or id > 30000:
             continue
@@ -57,7 +57,7 @@ def load_info():
     #     ujson.dump(my_dolls, f, ensure_ascii=False, indent=2)
     # %% 统计持有装备信息
     my_equips = {}
-    for equip in equip_info:
+    for equip in equip_info.values():
         if equip['rank'] < 5:
             continue
         id = equip['id']
@@ -91,7 +91,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
     max_dolls = theater_config['max_dolls']
     fairy_ratio = theater_config['fairy_ratio']
     choices = {}
-    for equip in equip_info:
+    for equip in equip_info.values():
         eid = equip['id']
         if eid not in my_equips.keys() or eid in [16,49]:
             continue
@@ -102,7 +102,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
                 f"{ename}_10":1,
                 "强化资源":-equip['exclusive_rate'],
             }
-    for doll in doll_info:
+    for doll in doll_info.values():
         id = doll['id']
         if 1200 < id < 20000 or id > 30000:
             continue
@@ -113,7 +113,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
             equip_group_category = []
             types = [int(i) for i in type_str.split(',')]
             # print(category, types)
-            for equip in equip_info:
+            for equip in equip_info.values():
                 if equip['rank'] <5 or equip['type'] not in types:
                     continue
                 if equip['fit_guns'] and id not in equip['fit_guns']:
