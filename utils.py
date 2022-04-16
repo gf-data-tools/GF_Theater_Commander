@@ -25,14 +25,20 @@ def get_theater_config(theater_id='724'):
     }
 
 # %%
-def load_info():
+def load_info(userinfo_encoding='utf-8'):
     name_table = get_name_table()
     with open(r'resource/doll.json','r',encoding='utf-8') as f:
         doll_info = ujson.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json','r',encoding='gbk') as f:
-        user_info = ujson.load(f)
+    with open(r'info/user_info.json','r',encoding=userinfo_encoding) as f:
+        try:
+            user_info = ujson.load(f)
+        except UnicodeDecodeError:
+            print(f'user_info.json does not seem to be encoded in {userinfo_encoding}, '
+                  f'try specifying the correct encoding with -e option')
+            exit(1)
+
     # %% 统计持有人形信息
     my_dolls = {}
     for doll in doll_info.values():
@@ -135,7 +141,8 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
             sp_ratio = 1.2 if id % 20000 in advantage else 1
             score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
             # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
-            recipe_name = f"{my_dolls[id]['name']}\t{name_table[i[0]['name']]}\t{i[1]}\t{name_table[j[0]['name']]}\t{j[1]}\t{name_table[k[0]['name']]}\t{k[1]}"
+            recipe_name = f"{my_dolls[id]['name']}\t{name_table[i[0]['name']]}\t{i[1]}\t{name_table[j[0]['name']]}\t{j[1]}\t{name_table[k[0]['name']]}\t{k[1]}" \
+                          f"\t{my_dolls[id]['skill1']}\t{my_dolls[id]['skill2'] if my_dolls[id]['skill2'] > 0 else 'NA'}"
             recipe_content = {
                 my_dolls[id]['name']:-1,
                 f"{name_table[i[0]['name']]}_{i[1]}":-1,
