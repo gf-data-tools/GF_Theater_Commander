@@ -2,8 +2,8 @@
 # %%
 import csv
 import math
-from os import error
 import ujson
+import itertools
 # %%
 def get_name_table():
     with open(r'resource/table.tsv','r',encoding='utf-8') as f:
@@ -23,9 +23,119 @@ def get_theater_config(theater_id='724'):
         'advantage': theater['advantage_gun'], 
         'fightmode': 'night' if theater['boss']['is_night'] else 'day'
     }
-get_theater_config()
-# %%
 
+# %%
+def load_info():
+    name_table = get_name_table()
+    with open(r'resource/doll.json') as f:
+        doll_info = ujson.load(f)
+    with open(r'resource/equip.json',encoding='utf-8') as f:
+        equip_info = ujson.load(f)
+    with open(r'info/user_info.json') as f:
+        user_info = ujson.load(f)
+    # %% 统计持有人形信息
+    my_dolls = {}
+    for doll in doll_info:
+        id = doll['id']
+        if 1200 < id < 20000 or id > 30000:
+            continue
+        my_dolls[doll['id']] = {
+            'id':doll['id'],
+            'name':name_table[doll['name']],
+            'gun_level': 0,
+            'skill1': 1,
+            'skill2': 0,
+            'number': 1,
+            'favor': 0,
+        }
+    for doll in user_info['gun_with_user_info']:
+        for k in ['gun_level','skill1','skill2','number']:
+            my_dolls[int(doll['gun_id'])][k] = max(int(doll[k]), my_dolls[int(doll['gun_id'])][k])
+        my_dolls[int(doll['gun_id'])]['favor'] = max(int(doll['favor'])//10000, my_dolls[int(doll['gun_id'])]['favor'])
+
+    with open(r'info/my_dolls.json','w',encoding='utf-8') as f:
+        ujson.dump(my_dolls, f, ensure_ascii=False, indent=2)
+    # %% 统计持有装备信息
+    my_equips = {}
+    for equip in equip_info:
+        if equip['rank'] < 5:
+            continue
+        id = equip['id']
+        my_equips[equip['id']] = {
+            'id':equip['id'],
+            'name':name_table[equip['name']],
+            'code':equip['code'],
+            'fit_guns': equip['fit_guns'],
+            'level_00': 0,
+            'level_10': 0,
+        }
+    for _, equip in user_info['equip_with_user_info'].items():
+        id = int(equip['equip_id'])
+        if id not in my_equips.keys():
+            continue
+        level = int(equip['equip_level'])
+        if level == 10:
+            my_equips[id]['level_10'] += 1
+        else:
+            my_equips[id]['level_00'] += 1
+            
+    with open(r'info/my_equips.json','w',encoding='utf-8') as f:
+        ujson.dump(my_equips, f, ensure_ascii=False, indent=2)
+    return doll_info, equip_info, my_dolls, my_equips
+# %%
+def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
+    name_table = get_name_table()
+    class_weight = theater_config['class_weight']
+    advantage = theater_config['advantage']
+    fight_mode = theater_config['fightmode']
+    max_dolls = theater_config['max_dolls']
+    fairy_ratio = theater_config['fairy_ratio']
+    choices = {}
+    for doll in doll_info:
+        id = doll['id']
+        if 1200 < id < 20000 or id > 30000:
+            continue
+        if my_dolls[id]['gun_level'] == 0:
+            continue
+        equip_group_all = []
+        for category, type_str in enumerate(doll['type_equip'].split('|')):
+            equip_group_category = []
+            types = [int(i) for i in type_str.split(',')]
+            # print(category, types)
+            for equip in equip_info:
+                if equip['rank'] <5 or equip['type'] not in types:
+                    continue
+                if equip['fit_guns'] and id not in equip['fit_guns']:
+                    continue
+                eid = equip['id']
+                if my_equips[eid]['level_10'] > 0:
+                    equip_group_category.append((equip, 10))
+                if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
+                    equip_group_category.append((equip, 0))
+            # print([name_table[equip[0]['name']] for equip in equip_group_category])
+            equip_group_all.append(equip_group_category)
+        # print(my_dolls[id])
+        # print(doll)
+        for i,j,k in itertools.product(*equip_group_all):
+            if i[0]['type']==j[0]['type'] or i[0]['type']==k[0]['type'] or j[0]['type']==k[0]['type']:
+                continue
+            strength = doll_attr_calculate(doll,my_dolls[id],[i,j,k])
+            # print(strength)
+            sp_ratio = 1.2 if id % 20000 in advantage else 1
+            score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
+            # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
+            recipe_name = f"{my_dolls[id]['name']}_{name_table[i[0]['name']]}_{i[1]}_{name_table[j[0]['name']]}_{j[1]}_{name_table[k[0]['name']]}_{k[1]}"
+            recipe_content = {
+                my_dolls[id]['name']:-1,
+                f"{name_table[i[0]['name']]}_{i[1]}":-1,
+                f"{name_table[j[0]['name']]}_{j[1]}":-1,
+                f"{name_table[k[0]['name']]}_{k[1]}":-1,
+                'score': score
+            }
+            choices[recipe_name] = recipe_content
+    return choices
+
+# %%
 def doll_attr_calculate(doll, my_doll, equip_group):
     lv = my_doll['gun_level']
     favor_factor = 0.95 + (my_doll['favor']+10)//50*0.05

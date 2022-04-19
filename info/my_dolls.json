@@ -42,7 +42,7 @@
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 53
   },
   "6": {
     "id": 6,
@@ -254,11 +254,11 @@
   "29": {
     "id": 29,
     "name": "司登MkⅡ",
-    "gun_level": 1,
+    "gun_level": 0,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 0
   },
   "31": {
     "id": 31,
@@ -380,11 +380,11 @@
   "44": {
     "id": 44,
     "name": "SV-98",
-    "gun_level": 1,
+    "gun_level": 0,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 0
   },
   "46": {
     "id": 46,
@@ -524,11 +524,11 @@
   "61": {
     "id": 61,
     "name": "StG44",
-    "gun_level": 1,
+    "gun_level": 0,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 0
   },
   "62": {
     "id": 62,
@@ -767,11 +767,11 @@
   "91": {
     "id": 91,
     "name": "MP-446",
-    "gun_level": 1,
+    "gun_level": 0,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 0
   },
   "92": {
     "id": 92,
@@ -794,11 +794,11 @@
   "94": {
     "id": 94,
     "name": "64式",
-    "gun_level": 1,
+    "gun_level": 0,
     "skill1": 1,
     "skill2": 0,
     "number": 1,
-    "favor": 50
+    "favor": 0
   },
   "95": {
     "id": 95,
@@ -843,7 +843,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 90
+    "favor": 94
   },
   "100": {
     "id": 100,
@@ -888,7 +888,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 81
+    "favor": 85
   },
   "105": {
     "id": 105,
@@ -1842,7 +1842,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 82
+    "favor": 86
   },
   "211": {
     "id": 211,
@@ -1860,7 +1860,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 95
   },
   "213": {
     "id": 213,
@@ -2031,7 +2031,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 77
+    "favor": 81
   },
   "233": {
     "id": 233,
@@ -2355,7 +2355,7 @@
     "skill1": 8,
     "skill2": 0,
     "number": 5,
-    "favor": 90
+    "favor": 94
   },
   "270": {
     "id": 270,
@@ -2364,7 +2364,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 95
+    "favor": 96
   },
   "271": {
     "id": 271,
@@ -2661,7 +2661,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 90
+    "favor": 94
   },
   "304": {
     "id": 304,
@@ -2778,7 +2778,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 80
+    "favor": 84
   },
   "317": {
     "id": 317,
@@ -2841,7 +2841,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 90
+    "favor": 94
   },
   "324": {
     "id": 324,
@@ -2859,7 +2859,7 @@
     "skill1": 4,
     "skill2": 0,
     "number": 5,
-    "favor": 53
+    "favor": 57
   },
   "326": {
     "id": 326,
@@ -2922,7 +2922,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 94
+    "favor": 95
   },
   "333": {
     "id": 333,
@@ -2931,7 +2931,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 71
+    "favor": 74
   },
   "334": {
     "id": 334,
@@ -2940,7 +2940,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 96
+    "favor": 99
   },
   "335": {
     "id": 335,
@@ -2958,7 +2958,7 @@
     "skill1": 6,
     "skill2": 0,
     "number": 5,
-    "favor": 90
+    "favor": 94
   },
   "337": {
     "id": 337,
@@ -2985,7 +2985,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 98
+    "favor": 99
   },
   "340": {
     "id": 340,
@@ -3003,7 +3003,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 83
+    "favor": 87
   },
   "342": {
     "id": 342,
@@ -3021,7 +3021,7 @@
     "skill1": 1,
     "skill2": 0,
     "number": 5,
-    "favor": 83
+    "favor": 87
   },
   "344": {
     "id": 344,
@@ -3039,7 +3039,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 78
+    "favor": 82
   },
   "346": {
     "id": 346,
@@ -3057,7 +3057,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 50
+    "favor": 54
   },
   "348": {
     "id": 348,
@@ -3273,7 +3273,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 89
+    "favor": 92
   },
   "1029": {
     "id": 1029,
@@ -3291,7 +3291,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 79
+    "favor": 83
   },
   "1031": {
     "id": 1031,
@@ -3309,7 +3309,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 67
+    "favor": 71
   },
   "1033": {
     "id": 1033,
@@ -3318,7 +3318,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 79
+    "favor": 83
   },
   "1034": {
     "id": 1034,
@@ -3327,7 +3327,7 @@
     "skill1": 10,
     "skill2": 0,
     "number": 5,
-    "favor": 57
+    "favor": 60
   },
   "20001": {
     "id": 20001,
@@ -3359,7 +3359,7 @@
   "20007": {
     "id": 20007,
     "name": "斯捷奇金",
-    "gun_level": 119,
+    "gun_level": 120,
     "skill1": 10,
     "skill2": 10,
     "number": 5,
@@ -3368,7 +3368,7 @@
   "20008": {
     "id": 20008,
     "name": "马卡洛夫",
-    "gun_level": 118,
+    "gun_level": 119,
     "skill1": 10,
     "skill2": 10,
     "number": 5,
@@ -3514,7 +3514,7 @@
     "name": "StG44",
     "gun_level": 115,
     "skill1": 10,
-    "skill2": 9,
+    "skill2": 10,
     "number": 5,
     "favor": 100
   },
@@ -3638,7 +3638,7 @@
   "20103": {
     "id": 20103,
     "name": "UMP45",
-    "gun_level": 118,
+    "gun_level": 119,
     "skill1": 10,
     "skill2": 10,
     "number": 5,
@@ -3703,7 +3703,7 @@
     "name": "M1897",
     "gun_level": 115,
     "skill1": 10,
-    "skill2": 9,
+    "skill2": 10,
     "number": 5,
     "favor": 100
   },
@@ -3714,7 +3714,7 @@
     "skill1": 10,
     "skill2": 10,
     "number": 5,
-    "favor": 95
+    "favor": 96
   },
   "20159": {
     "id": 20159,
@@ -3739,7 +3739,7 @@
     "name": "F1",
     "gun_level": 115,
     "skill1": 10,
-    "skill2": 9,
+    "skill2": 10,
     "number": 5,
     "favor": 100
   },
