@@ -52,7 +52,7 @@ for k, recipe in choices.items():
 for k, v in resource.items():
     problem += v >= 0, k
 problem += resource['score']
-problem.solve()
+problem.solve(lp.PULP_CBC_CMD(msg=0))
 print(resource['score'].value())
 strn = []
 res = []

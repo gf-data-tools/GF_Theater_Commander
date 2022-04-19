@@ -18,6 +18,7 @@ def get_theater_config(theater_id='724'):
         theater_info = ujson.load(f)
         theater = theater_info[theater_id]
     types = ['HG','SMG','RF','AR','MG','SG']
+    assert theater['boss'], f'no boss fight in stage {theater_id}'
     return {
         'class_weight': {types[i]: theater['class_weight'][i] for i in range(6)}, 
         'advantage': theater['advantage_gun'], 
@@ -31,7 +32,7 @@ def load_info():
         doll_info = ujson.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json','r',errors='ignore') as f:
+    with open(r'info/user_info.json','r',encoding='utf-8',errors='ignore') as f:
         user_info = ujson.load(f)
     # %% 统计持有人形信息
     my_dolls = {}
