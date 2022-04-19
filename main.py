@@ -51,8 +51,8 @@ for k, v in resource.items():
     problem += v >= 0, k
 problem += resource['score']
 problem.solve(lp.PULP_CBC_CMD(msg=0))
-print(resource['score'].value())
-strn = []
+
+print(f"总效能: {resource['score'].value()}")
 strn_table = PrettyTable(['强化装备','数量'])
 res_table = PrettyTable(['人形','装备1','强化1','装备2','强化2','装备3','强化3','效能'])
 for i in range(1,4):
