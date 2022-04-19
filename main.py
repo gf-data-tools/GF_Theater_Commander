@@ -1,11 +1,9 @@
 # %%
-import ujson
-import csv
 from utils import *
-import itertools
-import math
 import pulp as lp
 import argparse
+from prettytable import PrettyTable
+
 # %% argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('theater_id',default='748',type=str,help='关卡id,如736代表第7期高级区第6关')
@@ -55,16 +53,21 @@ problem += resource['score']
 problem.solve(lp.PULP_CBC_CMD(msg=0))
 print(resource['score'].value())
 strn = []
-res = []
+strn_table = PrettyTable(['强化装备','数量'])
+res_table = PrettyTable(['人形','装备1','强化1','装备2','强化2','装备3','强化3','效能'])
+for i in range(1,4):
+    res_table.align[f'强化{i}'] = 'r'
+res_table.sortby = '效能'
+res_table.reversesort = True
 for k, v in lp_vars.items():
     if v.value()>0:
         if k[:2] == '强化':
-            strn.append((k, v.value()))
+            strn_table.add_row((k, v.value()))
         else:
-            res.append((k, choices[k]['score']))
-res.sort(key=lambda x: x[1], reverse=True)
-for r in strn:
-    print(r[0], r[1],sep='\t')
-for r in res:
-    print(r[0], r[1],sep='\t')
+            new_row = k.split('\t')
+            new_row.append(choices[k]['score'])
+            res_table.add_row(new_row)
+print(strn_table)
+print(res_table)
+
 # %%

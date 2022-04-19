@@ -117,7 +117,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
             types = [int(i) for i in type_str.split(',')]
             # print(category, types)
             for equip in equip_info.values():
-                if equip['rank'] <5 or equip['type'] not in types:
+                if equip['rank'] < 5 or equip['type'] not in types:
                     continue
                 if equip['fit_guns'] and id not in equip['fit_guns']:
                     continue
