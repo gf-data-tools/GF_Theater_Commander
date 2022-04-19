@@ -53,8 +53,8 @@ def load_info():
             my_dolls[int(doll['gun_id'])][k] = max(int(doll[k]), my_dolls[int(doll['gun_id'])][k])
         my_dolls[int(doll['gun_id'])]['favor'] = max(int(doll['favor'])//10000, my_dolls[int(doll['gun_id'])]['favor'])
 
-    with open(r'info/my_dolls.json','w',encoding='utf-8') as f:
-        ujson.dump(my_dolls, f, ensure_ascii=False, indent=2)
+    # with open(r'info/my_dolls.json','w',encoding='utf-8') as f:
+    #     ujson.dump(my_dolls, f, ensure_ascii=False, indent=2)
     # %% 统计持有装备信息
     my_equips = {}
     for equip in equip_info:
@@ -79,8 +79,8 @@ def load_info():
         else:
             my_equips[id]['level_00'] += 1
             
-    with open(r'info/my_equips.json','w',encoding='utf-8') as f:
-        ujson.dump(my_equips, f, ensure_ascii=False, indent=2)
+    # with open(r'info/my_equips.json','w',encoding='utf-8') as f:
+    #     ujson.dump(my_equips, f, ensure_ascii=False, indent=2)
     return doll_info, equip_info, my_dolls, my_equips
 # %%
 def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
