@@ -32,7 +32,7 @@ def load_info():
         doll_info = ujson.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json','r',encoding='utf-8',errors='ignore') as f:
+    with open(r'info/user_info.json','r',encoding='gbk',errors='ignore') as f:
         user_info = ujson.load(f)
     # %% 统计持有人形信息
     my_dolls = {}
