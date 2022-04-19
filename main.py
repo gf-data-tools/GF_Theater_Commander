@@ -7,10 +7,10 @@ import math
 import pulp as lp
 
 # %% 战区关卡参数
-theater_id = '748'  # 关卡id,如736代表第7期第3区域第6关
+theater_id = '743'  # 关卡id,如736代表第7期第3区域第6关
 fairy_ratio = 1.25  # 妖精加成：5星1.25
 max_dolls = 20  # 上场人数
-upgrade_resource = 10 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+upgrade_resource = 30 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
 
 # %%
 theater_config = get_theater_config(theater_id)
@@ -47,11 +47,17 @@ for k, v in resource.items():
 problem += resource['score']
 problem.solve()
 print(resource['score'].value())
+strn = []
 res = []
 for k, v in lp_vars.items():
     if v.value()>0:
-        res.append((k, v.value()))
+        if k[:2] == '强化':
+            strn.append((k, v.value()))
+        else:
+            res.append((k, choices[k]['score']))
 res.sort(key=lambda x: x[1], reverse=True)
+for r in strn:
+    print(r[0], r[1])
 for r in res:
     print(r[0], r[1])
 # %%

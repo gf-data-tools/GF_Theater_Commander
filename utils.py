@@ -93,7 +93,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
     choices = {}
     for equip in equip_info:
         eid = equip['id']
-        if eid not in my_equips.keys():
+        if eid not in my_equips.keys() or eid in [16,49]:
             continue
         ename = my_equips[eid]['name']
         if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
