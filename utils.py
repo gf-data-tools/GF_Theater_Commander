@@ -5,12 +5,39 @@ import math
 import ujson
 import itertools
 # %%
-def get_name_table():
+def get_name_table(language: str = "zh-CN"):
+    """
+    Return the name table of the specified language.
+
+    :param language: IETF language tag defined in the header of that tsv
+    :return: name_table or the corresponding language if found
+    """
     with open(r'resource/table.tsv','r',encoding='utf-8') as f:
         name_table = {}
-        for row in csv.DictReader(f, delimiter='\t'):
-            name_table[row['key']] = row['zh-CN']
+        try:
+            for row in csv.DictReader(f, delimiter='\t'):
+                name_table[row['key']] = row[language]
+        except KeyError:
+            print(f'{language} does not exist in resource/table.tsv')
     return name_table
+
+
+def get_translation(entry: str, name_table: dict):
+    """
+    Attempt to find a translation for the given entry
+
+    For example, given an input "gun-10020171" ("Ribeyrolles MOD") and zh-CN name_table, the output will be "利贝罗勒".
+
+    If no translation is available the output will be the same as input. (e.g. as of 20220416 JP you get gun-10020171).
+    If the input is score or skill level the same numerical will be returned because nothing could be found.
+
+    :param entry: a string to be translated
+    :param name_table: name_table obtained from get_name_table()
+    :return: translated string if translation exist
+    """
+    result = name_table.get(entry, entry)
+    return result if result != '' else entry
+
 
 # %%
 def get_theater_config(theater_id='724'):
@@ -27,7 +54,6 @@ def get_theater_config(theater_id='724'):
 
 # %%
 def load_info():
-    name_table = get_name_table()
     with open(r'resource/doll.json','r',encoding='utf-8') as f:
         doll_info = ujson.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
@@ -44,7 +70,7 @@ def load_info():
             continue
         my_dolls[doll['id']] = {
             'id':doll['id'],
-            'name':name_table[doll['name']],
+            'name':doll['name'],
             'gun_level': 0,
             'skill1': 1,
             'skill2': 0,
@@ -66,7 +92,7 @@ def load_info():
         id = equip['id']
         my_equips[equip['id']] = {
             'id':equip['id'],
-            'name':name_table[equip['name']],
+            'name':equip['name'],
             'code':equip['code'],
             'fit_guns': equip['fit_guns'],
             'level_00': 0,
@@ -87,7 +113,6 @@ def load_info():
     return doll_info, equip_info, my_dolls, my_equips
 # %%
 def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
-    name_table = get_name_table()
     class_weight = theater_config['class_weight']
     advantage = theater_config['advantage']
     fight_mode = theater_config['fightmode']
@@ -108,6 +133,9 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
     for doll in doll_info.values():
         id = doll['id']
         if 1200 < id < 20000 or id > 30000:
+            continue
+        # no point of the calculating non-modded version if modded one exist
+        if id + 20000 in my_dolls:
             continue
         if my_dolls[id]['gun_level'] == 0:
             continue
@@ -138,12 +166,12 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
             sp_ratio = 1.2 if id % 20000 in advantage else 1
             score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
             # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
-            recipe_name = f"{my_dolls[id]['name']}\t{name_table[i[0]['name']]}\t{i[1]}\t{name_table[j[0]['name']]}\t{j[1]}\t{name_table[k[0]['name']]}\t{k[1]}"
+            recipe_name = f"{my_dolls[id]['name']}\t{i[0]['name']}\t{i[1]}\t{j[0]['name']}\t{j[1]}\t{k[0]['name']}\t{k[1]}"
             recipe_content = {
                 my_dolls[id]['name']:-1,
-                f"{name_table[i[0]['name']]}_{i[1]}":-1,
-                f"{name_table[j[0]['name']]}_{j[1]}":-1,
-                f"{name_table[k[0]['name']]}_{k[1]}":-1,
+                f"{i[0]['name']}_{i[1]}":-1,
+                f"{j[0]['name']}_{j[1]}":-1,
+                f"{k[0]['name']}_{k[1]}":-1,
                 'score': score
             }
             choices[recipe_name] = recipe_content
