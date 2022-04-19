@@ -1,6 +1,9 @@
 
+# %%
 import csv
 import math
+from os import error
+import ujson
 # %%
 def get_name_table():
     with open(r'resource/table.tsv','r',encoding='utf-8') as f:
@@ -8,6 +11,19 @@ def get_name_table():
         for row in csv.DictReader(f, delimiter='\t'):
             name_table[row['key']] = row['zh-CN']
     return name_table
+
+# %%
+def get_theater_config(theater_id='724'):
+    with open(r'resource/theater_info.json') as f:
+        theater_info = ujson.load(f)
+        theater = theater_info[theater_id]
+    types = ['HG','SMG','RF','AR','MG','SG']
+    return {
+        'class_weight': {types[i]: theater['class_weight'][i] for i in range(6)}, 
+        'advantage': theater['advantage_gun'], 
+        'fightmode': 'night' if theater['boss']['is_night'] else 'day'
+    }
+get_theater_config()
 # %%
 
 def doll_attr_calculate(doll, my_doll, equip_group):
@@ -16,7 +32,7 @@ def doll_attr_calculate(doll, my_doll, equip_group):
 
     attr_change = {"hp": 0, "pow": 0, "rate": 0, "hit": 0, "dodge": 0, "armor": 0}
     attr_fixed = {"critical_harm_rate": 150, "critical_percent": doll['crit'],
-                  "armor_piercing": doll['armor_piercing'], "night_view_percent": 0, "bullet": doll['bullet']}
+                  "armor_piercing": doll['armor_piercing'], "night_view_percent": 0, "bullet_number_up": doll['bullet']}
     attr_other = {
         "id": doll["id"], "star": doll["rank"], "upgrade": lv, "type": doll["type"], 
         "skill_effect_per": 0, "skill_effect": 0, 
@@ -88,17 +104,18 @@ def doll_effect_calculate(gun_attr, fight_type):
     critical = int(gun_attr["attr_fixed"]["critical_percent"])
     critical_damage = int(gun_attr["attr_fixed"]["critical_harm_rate"])
     armor_piercing = int(gun_attr["attr_fixed"]["armor_piercing"])
-    bullet = int(gun_attr["attr_fixed"]["bullet"])
+    bullet = int(gun_attr["attr_fixed"]["bullet_number_up"])
     if gun_attr["attr_other"]["type"] == "SG":
         # SG攻击 = 6*5*(3*弹量*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)/(1.5+弹量*50/射速+0.5*弹量)*命中/(命中+23)+8)
         attack_effect = gf_ceil(6*number*(3*bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(1.5+bullet*50/rate+0.5*bullet)*hit/(hit+23)+8))
     elif gun_attr["attr_other"]["type"] == "MG":
         # MG攻击 = 7*5*(弹量*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)/(弹量/3+4+200/射速)*命中/(命中+23)+8)
         attack_effect = gf_ceil(7*number*(bullet*(attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)/(bullet/3+4+200/rate)*hit/(hit+23)+8))
-    else:
+    elif gun_attr["attr_other"]["type"] in ['HG','SMG','RF','AR']:
         # 其他攻击 = 5*5*(伤害+穿甲/3)*(1+暴击率*(暴击伤害-100)/10000)*射速/50*命中/(命中+23)+8)
         attack_effect = gf_ceil(5*number*((attack+armor_piercing/3)*(1+critical*(critical_damage-100)/10000)*rate/50*hit/(hit+23)+8))
-
+    else:
+        exit('gun type error: '+gun_attr["attr_other"]["type"])
     effect_total = doll_skill_effect + defend_effect + attack_effect
     return effect_total
 
@@ -164,3 +181,4 @@ def calculate(lv, attr_type, doll):
         base = BASIC[attr-1] * BASE_ATTR[guntype][attr] * ratio / 100
         accretion = (GROW[mod][attr-1][1] + (lv-1)*GROW[mod][attr-1][0]) * BASE_ATTR[guntype][attr] * ratio * growth / 100 / 100
         return math.ceil(base) + math.ceil(accretion)
+# %%
