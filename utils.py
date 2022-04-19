@@ -135,7 +135,7 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
             sp_ratio = 1.2 if id % 20000 in advantage else 1
             score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
             # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
-            recipe_name = f"{my_dolls[id]['name']}_{name_table[i[0]['name']]}_{i[1]}_{name_table[j[0]['name']]}_{j[1]}_{name_table[k[0]['name']]}_{k[1]}"
+            recipe_name = f"{my_dolls[id]['name']}\t{name_table[i[0]['name']]}\t{i[1]}\t{name_table[j[0]['name']]}\t{j[1]}\t{name_table[k[0]['name']]}\t{k[1]}"
             recipe_content = {
                 my_dolls[id]['name']:-1,
                 f"{name_table[i[0]['name']]}_{i[1]}":-1,
