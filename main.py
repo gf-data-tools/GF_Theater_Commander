@@ -5,12 +5,19 @@ from utils import *
 import itertools
 import math
 import pulp as lp
-
+import argparse
+# %% argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('theater_id',default='748',type=str,help='关卡id,如736代表第7期高级区第6关')
+parser.add_argument('-m','--max_dolls',type=int,default=30,help='上场人数')
+parser.add_argument('-f','--fairy_ratio',type=float,default=1.25,help='妖精加成,默认5星1.25')
+parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
+args = parser.parse_args()
 # %% 战区关卡参数
-theater_id = '743'  # 关卡id,如736代表第7期第3区域第6关
-fairy_ratio = 1.25  # 妖精加成：5星1.25
-max_dolls = 20  # 上场人数
-upgrade_resource = 30 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+theater_id = args.theater_id  # 关卡id,如736代表第7期第3区域第6关
+fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
+max_dolls = args.max_dolls  # 上场人数
+upgrade_resource = args.upgrade_resource # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
 
 # %%
 theater_config = get_theater_config(theater_id)
