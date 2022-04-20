@@ -1,4 +1,5 @@
 # %%
+from collections import defaultdict
 from utils import *
 import pulp as lp
 import argparse
@@ -42,13 +43,18 @@ resource['count'] = max_dolls
 resource['score'] = 0
 resource['强化资源'] = upgrade_resource
 lp_vars = {}
+coeff_lp_var_dict = defaultdict(list)
 problem = lp.LpProblem('battlefield', lp.LpMaximize)
 for k, recipe in choices.items():
     lp_vars[k] = lp.LpVariable(k, cat=lp.LpInteger, lowBound=0)
     for r, c in recipe.items():
-        resource[r] += c*lp_vars[k]
+        # build a dict with value as lists of (coefficient, LpVar) tuples before building LpAffineExpression in bulk
+        # else doing += coefficient*LpVar would trigger significantly amount of costly LpAffineExpression.__init__ call
+        coeff_lp_var_dict[r].append((lp_vars[k], c))
     if k[:2] != '强化':
         resource['count'] -= lp_vars[k]
+for k,v in coeff_lp_var_dict.items():
+    resource[k] += lp.LpAffineExpression(v)
 for k, v in resource.items():
     problem += v >= 0, k
 problem += resource['score']
