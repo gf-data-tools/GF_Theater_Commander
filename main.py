@@ -5,7 +5,7 @@ import pulp as lp
 import argparse
 from prettytable import PrettyTable
 import os
-os.environ['PATH']+=';./'
+os.environ['PATH']+=';./solverdir/cbc/win/64/;./solverdir/cbc/osx/64/'
 
 # %% argparse
 parser = argparse.ArgumentParser()
