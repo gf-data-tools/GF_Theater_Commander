@@ -4,9 +4,9 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['D:\\Workspace\\gfline\\GF_Theater_Commander'],
+             pathex=[],
              binaries=[],
-             datas=[('C:\\Users\\ZeroRin\\Miniconda3\\envs\\gfl\\Lib\\site-packages\\pulp', 'pulp'), ('info', 'info'), ('resource', 'resource')],
+             datas=[('cbc.exe','./'), ('info', 'info'), ('resource', 'resource')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],

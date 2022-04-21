@@ -1,0 +1,29 @@
+name: Releases
+
+on: 
+  push:
+    # tags:
+    # - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: PyInstaller Windows
+      uses: JackMcKew/pyinstaller-action-windows@main
+      with:
+        path: ./
+    
+    - name: test
+      run: cd dist/windows/main; zip -r ../../../GF_Theater_Commander.zip ./;cd ../../.. 
+
+    - uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Development Build"
+        files: |
+          ./GF_Theater_Commander.zip

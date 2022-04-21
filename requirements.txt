@@ -1,3 +1,4 @@
 ujson
 pulp
 prettytable
+pyinstaller==5.0

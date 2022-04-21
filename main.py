@@ -4,6 +4,8 @@ from utils import *
 import pulp as lp
 import argparse
 from prettytable import PrettyTable
+import os
+os.environ['PATH']+=';./'
 
 # %% argparse
 parser = argparse.ArgumentParser()
@@ -58,7 +60,7 @@ for k,v in coeff_lp_var_dict.items():
 for k, v in resource.items():
     problem += v >= 0, k
 problem += resource['score']
-problem.solve(lp.PULP_CBC_CMD(msg=0))
+problem.solve(lp.COIN_CMD(msg=0))
 
 print(f"总效能: {resource['score'].value()}")
 strn_table = PrettyTable(['强化装备','数量'])
