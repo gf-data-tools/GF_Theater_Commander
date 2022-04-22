@@ -4,6 +4,7 @@ import csv
 import math
 import ujson
 import itertools
+from pathlib import Path
 # %%
 def get_name_table(language: str = "zh-CN"):
     """
@@ -12,7 +13,7 @@ def get_name_table(language: str = "zh-CN"):
     :param language: IETF language tag defined in the header of that tsv
     :return: name_table or the corresponding language if found
     """
-    with open(r'resource/table.tsv','r',encoding='utf-8') as f:
+    with open(Path(__file__).resolve().parent/r'resource/table.tsv', 'r', encoding='utf-8') as f:
         name_table = {}
         try:
             for row in csv.DictReader(f, delimiter='\t'):
@@ -41,7 +42,7 @@ def get_translation(entry: str, name_table: dict):
 
 # %%
 def get_theater_config(theater_id='724'):
-    with open(r'resource/theater_info.json','r',encoding='utf-8') as f:
+    with open(Path(__file__).resolve().parent/r'resource/theater_info.json', 'r', encoding='utf-8') as f:
         theater_info = ujson.load(f)
         theater = theater_info[theater_id]
     types = ['HG','SMG','RF','AR','MG','SG']
@@ -54,11 +55,11 @@ def get_theater_config(theater_id='724'):
 
 # %%
 def load_info():
-    with open(r'resource/doll.json','r',encoding='utf-8') as f:
+    with open(Path(__file__).resolve().parent/r'resource/doll.json', 'r', encoding='utf-8') as f:
         doll_info = ujson.load(f)
-    with open(r'resource/equip.json','r',encoding='utf-8') as f:
+    with open(Path(__file__).resolve().parent/r'resource/equip.json', 'r', encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json','rb') as f:
+    with open(Path(__file__).resolve().parent/r'info/user_info.json', 'rb') as f:
         user_info = ujson.decode(f.read().decode("ascii", "ignore"))
     # with open(r'info/user_info.json','r',encoding='gbk',errors='ignore') as f:
         # user_info = ujson.load(f)
