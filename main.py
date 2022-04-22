@@ -58,7 +58,7 @@ for k,v in coeff_lp_var_dict.items():
     resource[k] += lp.LpAffineExpression(v)
 for k, v in resource.items():
     problem += v >= 0, k
-problem += resource['score']
+problem += resource['score'] + 0.001*resource['强化资源']
 
 lp_bin_rel = lp.core.pulp_cbc_path.split('solverdir\\')[-1]
 lp_bin_abs = os.path.join(os.getcwd(), 'solverdir', lp_bin_rel)
