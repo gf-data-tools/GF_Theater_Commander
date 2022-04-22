@@ -18,7 +18,7 @@ args = parser.parse_args()
 theater_id = args.theater_id  # 关卡id,如736代表第7期第3区域第6关
 fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
 max_dolls = args.max_dolls  # 上场人数
-upgrade_resource = args.upgrade_resource # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+upgrade_resource = min(args.upgrade_resource, 30*9) # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
 language = args.language  # language code to be used to pick a column from resource/table.tsv
 
 # %%
@@ -64,7 +64,7 @@ lp_bin_rel = lp.core.pulp_cbc_path.split('solverdir\\')[-1]
 lp_bin_abs = os.path.join(os.getcwd(), 'solverdir', lp_bin_rel)
 problem.solve(lp.COIN_CMD(msg=0,path=lp_bin_abs))
 
-print(f"总效能: {resource['score'].value()}")
+print(f"总效能: {resource['score'].value():.0f}")
 strn_table = PrettyTable(['强化装备','数量'])
 res_table = PrettyTable(['人形','装备1','强化1','装备2','强化2','装备3','强化3','效能'])
 for i in range(1,4):
@@ -74,7 +74,7 @@ res_table.reversesort = True
 for k, v in lp_vars.items():
     if v.value()>0:
         if k[:2] == '强化':
-            strn_table.add_row(((get_translation(k[3:], name_table)), v.value()))
+            strn_table.add_row(((get_translation(k[3:], name_table)), int(v.value())))
         else:
             new_row = k.split('\t')
             new_row = [get_translation(e, name_table) for e in new_row]
