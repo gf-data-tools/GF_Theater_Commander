@@ -10,7 +10,7 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('theater_id',default='748',type=str,help='关卡id,如736代表第7期高级区第6关')
 parser.add_argument('-m','--max_dolls',type=int,default=30,help='上场人数')
-parser.add_argument('-f','--fairy_ratio',type=float,default=1.25,help='妖精加成,默认5星1.25')
+parser.add_argument('-f','--fairy_ratio',type=float,default=2,help='妖精加成,默认4个5星1+0.25*4=2倍')
 parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
 parser.add_argument('-l', '--language', type=str, default='zh-CN', help='pick a column from resource/table.csv')
 args = parser.parse_args()
