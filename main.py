@@ -60,9 +60,12 @@ for k, v in resource.items():
     problem += v >= 0, k
 problem += resource['score'] + 0.001*resource['强化资源']
 
-lp_bin_rel = lp.core.pulp_cbc_path.split('solverdir\\')[-1]
-lp_bin_abs = os.path.join(os.getcwd(), 'solverdir', lp_bin_rel)
-problem.solve(lp.COIN_CMD(msg=0,path=lp_bin_abs))
+lp_bin = os.path.join(
+    os.getcwd(),'solverdir\\cbc',
+    lp.core.operating_system,lp.core.arch,
+    lp.core.LpSolver_CMD.executableExtension('cbc')
+)
+problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
 
 print(f"总效能: {resource['score'].value():.0f}")
 strn_table = PrettyTable(['强化装备','数量'])
