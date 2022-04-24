@@ -58,8 +58,17 @@ def load_info():
         doll_info = ujson.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
         equip_info = ujson.load(f)
-    with open(r'info/user_info.json','rb') as f:
-        user_info = ujson.decode(f.read().decode("ascii", "ignore"))
+    try:
+        with open(r'info/user_info.json','r',encoding='gbk') as f:
+            user_info = ujson.load(f)
+    except UnicodeDecodeError as e:
+        print('utf-8 decode error, trying gbk')
+        try:
+            with open(r'info/user_info.json','r',encoding='utf-8') as f:
+                user_info = ujson.load(f)
+        except UnicodeDecodeError as e:
+            print('gbk decode error')
+            raise e
     # with open(r'info/user_info.json','r',encoding='gbk',errors='ignore') as f:
         # user_info = ujson.load(f)
     # %% 统计持有人形信息
