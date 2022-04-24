@@ -73,6 +73,8 @@ for i in range(1,4):
     res_table.align[f'强化{i}'] = 'r'
 res_table.sortby = '效能'
 res_table.reversesort = True
+strn_table.sortby = '数量'
+strn_table.reversesort = True
 for k, v in lp_vars.items():
     if v.value()>0:
         if k[:2] == '强化':

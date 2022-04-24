@@ -134,48 +134,42 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
                 "强化资源":-equip['exclusive_rate'],
             }
             
-    for doll in doll_info.values():
-        id = doll['id']
-        if 1200 < id < 20000 or id > 30000:
-            continue
-        if str(id) not in my_dolls.keys():
-            continue
-        
+    for id, my_doll in my_dolls.items():
+        doll = doll_info[id]
         equip_group_all = []
         for category, type_str in enumerate(doll['type_equip'].split('|')):
             equip_group_category = []
             types = [int(i) for i in type_str.split(',')]
-            # print(category, types)
-            for equip in equip_info.values():
-                eid = equip['id']
-                if str(eid) not in my_equips.keys():
-                    continue
+            
+            for eid, my_equip in my_equips.items():
+                equip = equip_info[eid]
                 if equip['rank'] < 5 or equip['type'] not in types:
                     continue
-                if equip['fit_guns'] and str(id) not in equip['fit_guns']:
+                if equip['fit_guns'] and doll['id'] not in equip['fit_guns']:
                     continue
-                if my_equips[str(eid)]['level_10'] > 0 or my_equips[str(eid)]['level_00'] > 0:
+                if my_equip['level_10'] > 0 or my_equip['level_00'] > 0:
                     equip_group_category.append((equip, 10))
-                if my_equips[str(eid)]['level_00'] > 0 and my_equips[str(eid)]['level_10'] < max_dolls:
+                if my_equip['level_00'] > 0 and my_equip['level_10'] < max_dolls:
                     equip_group_category.append((equip, 0))
             equip_group_all.append(equip_group_category)
 
         for i,j,k in itertools.product(*equip_group_all):
             if i[0]['type']==j[0]['type'] or i[0]['type']==k[0]['type'] or j[0]['type']==k[0]['type']:
                 continue
-            strength = doll_attr_calculate(doll,my_dolls[str(id)],[i,j,k])
+            strength = doll_attr_calculate(doll,my_doll,[i,j,k])
             # print(strength)
-            sp_ratio = 1.2 if id % 20000 in advantage else 1
+            sp_ratio = 1.2 if int(id) % 20000 in advantage else 1
             score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
-            recipe_name = f"{my_dolls[str(id)]['name']}\t{i[0]['name']}\t{i[1]}\t{j[0]['name']}\t{j[1]}\t{k[0]['name']}\t{k[1]}"
+            recipe_name = f"{my_doll['name']}\t{i[0]['name']}\t{i[1]}\t{j[0]['name']}\t{j[1]}\t{k[0]['name']}\t{k[1]}"
             recipe_content = {
-                my_dolls[str(id)]['name']:-1,
+                my_doll['name']:-1,
                 f"{i[0]['name']}_{i[1]}":-1,
                 f"{j[0]['name']}_{j[1]}":-1,
                 f"{k[0]['name']}_{k[1]}":-1,
                 'score': score
             }
             choices[recipe_name] = recipe_content
+            
     return choices
 
 # %%
