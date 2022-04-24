@@ -102,3 +102,24 @@ print(strn_table)
 print(res_table)
 
 # %%
+from openpyxl import Workbook
+wb = Workbook()
+ws = wb.active
+
+
+for k, v in lp_vars.items():
+    if v.value()>0:
+        if k[0] == 'u':
+            pass
+        else:
+            info = choices[k]['info']
+            ws.cell(1,1,get_translation(doll_info[info['gid']]['name'], name_table))
+            ws.cell(1,2,get_translation(doll_info[info['gid']]['type'], name_table))
+            ws.cell(2,1,f"效能：{info['score']}")
+            ws.cell(2,2,get_translation(f"{my_dolls[info['gid']]['skill1']}|{my_dolls[info['gid']]['skill2']}", name_table))
+            for i in range(1,4):
+                ws.cell(i+2,1,get_translation(equip_info[info[f'eid_{i}']]['name'],name_table))
+                ws.cell(i+2,2,info[f'elv_{i}'])
+            break
+wb.save('a.xlsx')
+# %%
