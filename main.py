@@ -66,7 +66,6 @@ lp_bin = os.path.join(
     lp.core.LpSolver_CMD.executableExtension('cbc')
 )
 problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
-
 print(f"总效能: {resource['score'].value():.0f}")
 strn_table = PrettyTable(['强化装备','数量'])
 res_table = PrettyTable(['人形','装备1','强化1','装备2','强化2','装备3','强化3','效能'])

@@ -69,56 +69,50 @@ def load_info():
         except UnicodeDecodeError as e:
             print('gbk decode error')
             raise e
-    # with open(r'info/user_info.json','r',encoding='gbk',errors='ignore') as f:
-        # user_info = ujson.load(f)
-    # %% 统计持有人形信息
+    # 统计持有人形信息
     my_dolls = {}
-    for doll in doll_info.values():
-        id = doll['id']
-        if 1200 < id < 20000 or id > 30000:
-            continue
-        my_dolls[doll['id']] = {
-            'id':doll['id'],
-            'name':doll['name'],
-            'gun_level': 0,
-            'skill1': 1,
-            'skill2': 0,
-            'number': 1,
-            'favor': 0,
-        }
     for doll in user_info['gun_with_user_info']:
+        id = doll['gun_id']
+        my_dolls.setdefault(
+            id,
+            {
+                'id':id,
+                'name':doll_info[id]['name'],
+                'gun_level': 0,
+                'skill1': 1,
+                'skill2': 0,
+                'number': 1,
+                'favor': 0,
+            }
+        )
         for k in ['gun_level','skill1','skill2','number']:
-            my_dolls[int(doll['gun_id'])][k] = max(int(doll[k]), my_dolls[int(doll['gun_id'])][k])
-        my_dolls[int(doll['gun_id'])]['favor'] = max(int(doll['favor'])//10000, my_dolls[int(doll['gun_id'])]['favor'])
+            my_dolls[id][k] = \
+                max(int(doll[k]), my_dolls[id][k])
+        my_dolls[id]['favor'] = \
+            max(int(doll['favor'])//10000, my_dolls[id]['favor'])
 
-    # with open(r'info/my_dolls.json','w',encoding='utf-8') as f:
-    #     ujson.dump(my_dolls, f, ensure_ascii=False, indent=2)
-    # %% 统计持有装备信息
+    # 统计持有装备信息
     my_equips = {}
-    for equip in equip_info.values():
-        if equip['rank'] < 5:
+    for equip in user_info['equip_with_user_info'].values():
+        id = equip['equip_id']
+        if equip_info[id]['rank'] < 5:
             continue
-        id = equip['id']
-        my_equips[equip['id']] = {
-            'id':equip['id'],
-            'name':equip['name'],
-            'code':equip['code'],
-            'fit_guns': equip['fit_guns'],
-            'level_00': 0,
-            'level_10': 0,
-        }
-    for _, equip in user_info['equip_with_user_info'].items():
-        id = int(equip['equip_id'])
-        if id not in my_equips.keys():
-            continue
+        my_equips.setdefault(
+            id,
+            {
+                'id':id,
+                'name':equip_info[id]['name'],
+                'fit_guns': equip_info[id]['fit_guns'],
+                'level_00': 0,
+                'level_10': 0,
+            }
+        )
         level = int(equip['equip_level'])
         if level == 10:
             my_equips[id]['level_10'] += 1
         else:
             my_equips[id]['level_00'] += 1
-            
-    # with open(r'info/my_equips.json','w',encoding='utf-8') as f:
-    #     ujson.dump(my_equips, f, ensure_ascii=False, indent=2)
+
     return doll_info, equip_info, my_dolls, my_equips
 # %%
 def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
@@ -128,56 +122,54 @@ def prepare_choices(doll_info, equip_info, my_dolls, my_equips, theater_config):
     max_dolls = theater_config['max_dolls']
     fairy_ratio = theater_config['fairy_ratio']
     choices = {}
-    for equip in equip_info.values():
-        eid = equip['id']
-        if eid not in my_equips.keys() or eid in [16,49]:
+    for eid, my_equip in my_equips.items():
+        equip = equip_info[eid]
+        if eid in ['16','49']:
             continue
-        ename = my_equips[eid]['name']
-        if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
+        ename = my_equip['name']
+        if my_equip['level_00'] > 0 and my_equip['level_10'] < max_dolls:
             choices[f"强化_{ename}"] = {
                 f"{ename}_0":-1,
                 f"{ename}_10":1,
                 "强化资源":-equip['exclusive_rate'],
             }
+            
     for doll in doll_info.values():
         id = doll['id']
         if 1200 < id < 20000 or id > 30000:
             continue
-        # no point of the calculating non-modded version if modded one exist
-        if id + 20000 in my_dolls:
+        if str(id) not in my_dolls.keys():
             continue
-        if my_dolls[id]['gun_level'] == 0:
-            continue
+        
         equip_group_all = []
         for category, type_str in enumerate(doll['type_equip'].split('|')):
             equip_group_category = []
             types = [int(i) for i in type_str.split(',')]
             # print(category, types)
             for equip in equip_info.values():
+                eid = equip['id']
+                if str(eid) not in my_equips.keys():
+                    continue
                 if equip['rank'] < 5 or equip['type'] not in types:
                     continue
-                if equip['fit_guns'] and id not in equip['fit_guns']:
+                if equip['fit_guns'] and str(id) not in equip['fit_guns']:
                     continue
-                eid = equip['id']
-                if my_equips[eid]['level_10'] > 0 or my_equips[eid]['level_00'] > 0:
+                if my_equips[str(eid)]['level_10'] > 0 or my_equips[str(eid)]['level_00'] > 0:
                     equip_group_category.append((equip, 10))
-                if my_equips[eid]['level_00'] > 0 and my_equips[eid]['level_10'] < max_dolls:
+                if my_equips[str(eid)]['level_00'] > 0 and my_equips[str(eid)]['level_10'] < max_dolls:
                     equip_group_category.append((equip, 0))
-            # print([name_table[equip[0]['name']] for equip in equip_group_category])
             equip_group_all.append(equip_group_category)
-        # print(my_dolls[id])
-        # print(doll)
+
         for i,j,k in itertools.product(*equip_group_all):
             if i[0]['type']==j[0]['type'] or i[0]['type']==k[0]['type'] or j[0]['type']==k[0]['type']:
                 continue
-            strength = doll_attr_calculate(doll,my_dolls[id],[i,j,k])
+            strength = doll_attr_calculate(doll,my_dolls[str(id)],[i,j,k])
             # print(strength)
             sp_ratio = 1.2 if id % 20000 in advantage else 1
             score = math.floor(class_weight[doll['type']]*sp_ratio*fairy_ratio*strength[fight_mode]/100)
-            # print(name_table[i[0]['name']],i[1],name_table[j[0]['name']],j[1],name_table[k[0]['name']],k[1],score)
-            recipe_name = f"{my_dolls[id]['name']}\t{i[0]['name']}\t{i[1]}\t{j[0]['name']}\t{j[1]}\t{k[0]['name']}\t{k[1]}"
+            recipe_name = f"{my_dolls[str(id)]['name']}\t{i[0]['name']}\t{i[1]}\t{j[0]['name']}\t{j[1]}\t{k[0]['name']}\t{k[1]}"
             recipe_content = {
-                my_dolls[id]['name']:-1,
+                my_dolls[str(id)]['name']:-1,
                 f"{i[0]['name']}_{i[1]}":-1,
                 f"{j[0]['name']}_{j[1]}":-1,
                 f"{k[0]['name']}_{k[1]}":-1,
