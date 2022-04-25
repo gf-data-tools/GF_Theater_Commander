@@ -4,7 +4,9 @@ from utils import *
 import pulp as lp
 import argparse
 import os
+from pathlib import Path
 
+os.chdir(Path(__file__).resolve().parent)
 # %% argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('theater_id',default='748',type=str,help='关卡id,如736代表第7期高级区第6关')

@@ -5,3 +5,4 @@ __pycache__
 output.txt
 build
 dist
+info/result.txt
