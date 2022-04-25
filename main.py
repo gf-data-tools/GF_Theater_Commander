@@ -5,6 +5,7 @@ import pulp as lp
 import argparse
 import os
 from pathlib import Path
+import re
 
 os.chdir(Path(__file__).resolve().parent)
 # %% argparse
@@ -68,12 +69,13 @@ problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
 # %%
 from rich import box
 from rich.table import Table, Column
-from rich.console import Console
+from rich.console import Console, CONSOLE_HTML_FORMAT
+from rich.terminal_theme import MONOKAI
 
 console=Console(record=True)
 if console.width < 60:
     console.width = 1000
-box_per_row = min(5,(console.width-5)//24)
+box_per_row = min(5,(console.width-10)//24)
 
 u_info, g_info = [], []
 for k, v in lp_vars.items():
@@ -126,7 +128,7 @@ for info, v in g_info:
         doll_info[info['gid']]['rank'] if not doll_info[info['gid']]['collabo'] else 1,
         my_dolls[info['gid']]['favor']
     )
-    gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [white]{gun_type}',f'{"[red]⚬" if gun_favor>100 else "[magenta]♡"} {gun_favor:3d}')
+    gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type}',f'{"[red]o" if gun_favor>100 else "[magenta]♡"} {gun_favor:3d}')
     # res_table.add_row((f'{gun_name}',gun_type))
     score, slv1, slv2 = (
         info['score'],
@@ -153,6 +155,9 @@ full_table.add_row(strn_table)
 full_table.add_row(res_table)
 
 console.print(full_table)
-console.save_text('info/result.txt')
+console.save_text('info/result.txt',clear=False)
+code_format = re.sub(r"font-family:", r"font-family:'Iosevka SS05','微软雅黑',",CONSOLE_HTML_FORMAT)
+console.save_html('info/result.html',code_format=code_format,clear=False,theme=MONOKAI)
+
 
 # %%
