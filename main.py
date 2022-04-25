@@ -1,10 +1,8 @@
 # %%
 from collections import defaultdict
-import prettytable
 from utils import *
 import pulp as lp
 import argparse
-from prettytable import PrettyTable
 import os
 
 # %% argparse
@@ -66,45 +64,14 @@ lp_bin = os.path.join(
 )
 problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
 # %%
-# print(f"总效能: {resource['score'].value():.0f}")
-# strn_table = PrettyTable(['强化装备','数量'])
-# res_table = PrettyTable(['人形','枪种','技能1','技能2','装备1','强化1','装备2','强化2','装备3','强化3','效能'])
-# for i in range(1,4):
-#     res_table.align[f'强化{i}'] = 'r'
-# res_table.sortby = '效能'
-# res_table.reversesort = True
-# strn_table.sortby = '数量'
-# strn_table.reversesort = True
-# for k, v in lp_vars.items():
-#     if v.value()>0:
-#         if k[0] == 'u':
-#             info = choices[k]['info']
-#             strn_table.add_row(
-#                 (get_translation(equip_info[info['eid']]['name'], name_table), 
-#                 int(v.value()))
-#             )
-#         else:
-#             info = choices[k]['info']
-#             new_row = (
-#                 get_translation(my_dolls[info['gid']]['name'], name_table),
-#                 get_translation(doll_info[info['gid']]['type'], name_table),
-#                 get_translation(my_dolls[info['gid']]['skill1'], name_table),
-#                 get_translation(my_dolls[info['gid']]['skill2'], name_table),
-#                 get_translation(equip_info[info['eid_1']]['name'], name_table),
-#                 info['elv_1'],
-#                 get_translation(equip_info[info['eid_2']]['name'], name_table),
-#                 info['elv_2'],
-#                 get_translation(equip_info[info['eid_3']]['name'], name_table),
-#                 info['elv_3'],
-#                 info['score']
-#             )
-#             res_table.add_row(new_row)
-# print(strn_table)
-# print(res_table)
+from rich import box
+from rich.table import Table, Column
+from rich.console import Console
 
-# %%
-import prettytable
-from termcolor import colored
+console=Console(record=True)
+if console.width < 60:
+    console.width = 1000
+box_per_row = min(5,(console.width-5)//24)
 
 u_info, g_info = [], []
 for k, v in lp_vars.items():
@@ -123,55 +90,67 @@ lv_color = {
     8:'green',9:'yellow',10:'yellow',
 }
 
-print(f"总效能: {resource['score'].value():.0f}")
-strn_table = PrettyTable(['强化装备','数量'])
-for info, v in u_info:
-        ename, erank = (
-            get_translation(equip_info[info['eid']]['name'], name_table),
-            6 if equip_info[info['eid']]['category']=='exclusive' else equip_info[info['eid']]['rank']
+equip_list = []
+for i, (info, v) in enumerate(u_info):
+    if i%5 == 0:
+        equip_table = Table.grid(
+            Column('name',width=16,justify='right'),
+            Column('value',width=5,justify='left'),
+            padding=(0,1,0,0)
         )
-        strn_table.add_row((
-            colored(ename,rank_color[erank]), 
-            str(int(v.value()))
-        ))
+    ename, erank = (
+        get_translation(equip_info[info['eid']]['name'], name_table),
+        6 if equip_info[info['eid']]['category']=='exclusive' else equip_info[info['eid']]['rank']
+    )
+    equip_table.add_row(f'[{rank_color[erank]}]{ename}', f'{v.value():2.0f}')
+    if (i+1)%5 == 0 or i+1==len(u_info):
+        equip_list.append(equip_table)
 
+strn_table = Table(show_header=False,show_lines=True,box=box.SQUARE,padding=(0,0,0,0),title='强化装备',title_justify='left')
+for i in range(0,len(equip_list),box_per_row):
+    strn_table.add_row(*equip_list[i:min(i+box_per_row,len(equip_list))])
 
 gun_list = []
 for info, v in g_info:
-    gun_table = PrettyTable(('name', 'value'), border=False, header=False)
-    gun_table.align['name']='r'
-    gun_table.min_width['name']=16
-    gun_table.align['value']='l'
-    gun_table.min_width['value']=5
+    gun_table = Table.grid(
+        Column('name',width=16,justify='right'),
+        Column('value',width=5,justify='left'),
+        padding=(0,1,0,0)
+    )
 
-    gun_name, gun_type, gun_rank = (
+    gun_name, gun_type, gun_rank, gun_favor = (
         get_translation(my_dolls[info['gid']]['name'], name_table),
         get_translation(doll_info[info['gid']]['type'], name_table),
         doll_info[info['gid']]['rank'] if not doll_info[info['gid']]['collabo'] else 1,
+        my_dolls[info['gid']]['favor']
     )
-    gun_table.add_row((colored(gun_name,rank_color[gun_rank]),gun_type))
+    gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [white]{gun_type}',f'{"[red]⚬" if gun_favor>100 else "[magenta]♡"} {gun_favor:3d}')
     # res_table.add_row((f'{gun_name}',gun_type))
     score, slv1, slv2 = (
         info['score'],
         my_dolls[info['gid']]['skill1'], 
         my_dolls[info['gid']]['skill2'],
     )
-    gun_table.add_row((f'效能：{score}', colored(f'{slv1:2d}',lv_color[slv1])+'/'+colored(f'{slv2:2d}',lv_color[slv2])))
+    gun_table.add_row(f'效能：{score}', f'[{lv_color[slv1]}]{slv1:2d}'+'[white]/'+f'[{lv_color[slv2]}]{slv2:2d}')
     for e in range(3):
         ename, elv, erank = (
             get_translation(equip_info[info[f'eid_{e+1}']]['name'], name_table),
             info[f'elv_{e+1}'],
             6 if equip_info[info[f'eid_{e+1}']]['category']=='exclusive' else equip_info[info[f'eid_{e+1}']]['rank']
         )
-        gun_table.add_row((colored(ename,rank_color[erank]),colored(f'{elv}',lv_color[elv])))
+        gun_table.add_row(f'[{rank_color[erank]}]{ename}',f'[{lv_color[elv]}]{elv}')
     gun_list.append(gun_table)
     
-res_table = PrettyTable(header=False,hrules=prettytable.ALL,vrule=prettytable.NONE)
-for i in range(0,max_dolls,5):
-    res_table.add_row(gun_list[i:min(i+5,max_dolls)])
+res_table = Table(show_header=False,show_lines=True,box=box.SQUARE,padding=(0,0,0,0),title='出战配置',title_justify='left')
 
-full_table = PrettyTable(header=False,border=False)
-full_table.add_row([res_table,strn_table])
-print(full_table)
-    
+for i in range(0,max_dolls,box_per_row):
+    res_table.add_row(*gun_list[i:min(i+box_per_row,max_dolls)])
+full_table = Table(show_header=False,box=None,caption=f"总效能: {resource['score'].value():.0f}",caption_justify='left')
+
+full_table.add_row(strn_table)
+full_table.add_row(res_table)
+
+console.print(full_table)
+console.save_text('info/result.txt')
+
 # %%
