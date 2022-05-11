@@ -1,0 +1,6 @@
+{
+    "user_info_json": "info/user_info.json", // user_info.json的默认位置，可修改为GFAlarm的输出路径省去每次的复制和命名
+    "output_dir": "info/", // 输出的txt和html文件存储目录
+    "language": 'zh-CN', //language selection, can be ko-KR, zh-CN, en-US, ja-JP or zh-TW
+    "font_family": "'Sarasa Term SC'", // HTML 输出设定的字体，设置中英等宽字体组合以获得最佳体验，默认为更纱黑体(https://github.com/be5invis/Sarasa-Gothic/releases)
+}
