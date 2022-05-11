@@ -87,7 +87,7 @@ for k, v in lp_vars.items():
 u_info.sort(key=lambda x:0.001*v.value()-equip_info[x[0]['eid']]['exclusive_rate'],reverse=True)
 g_info.sort(key=lambda x:x[0]['score'],reverse=True)
 
-rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow', 6:'red'}
+rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow1', 6:'red'}
 lv_color = {
     0:'white', 1:'white', 2:'white', 3:'cyan',
     4:'cyan', 5:'cyan', 6:'green', 7:'green', 
@@ -128,7 +128,7 @@ for info, v in g_info:
         doll_info[info['gid']]['rank'] if not doll_info[info['gid']]['collabo'] else 1,
         my_dolls[info['gid']]['favor']
     )
-    gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type}',f'{"[red]o" if gun_favor>100 else "[magenta]♡"} {gun_favor:3d}')
+    gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type:<3}',f'{"[red]o" if gun_favor>100 else "[magenta] "} {gun_favor:3d}')
     # res_table.add_row((f'{gun_name}',gun_type))
     score, slv1, slv2 = (
         info['score'],
@@ -156,7 +156,7 @@ full_table.add_row(res_table)
 
 console.print(full_table)
 console.save_text('info/result.txt',clear=False)
-code_format = re.sub(r"font-family:", r"font-family:'Iosevka SS05','微软雅黑',",CONSOLE_HTML_FORMAT)
+code_format = re.sub(r"font-family:", r"font-family:'Sarasa Term SC',",CONSOLE_HTML_FORMAT)
 console.save_html('info/result.html',code_format=code_format,clear=False,theme=MONOKAI)
 
 
