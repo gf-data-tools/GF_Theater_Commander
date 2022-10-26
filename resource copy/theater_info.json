@@ -1,0 +1,8364 @@
+{
+  "411": {
+    "id": 411,
+    "name": "theater_area-10000411",
+    "desc": "theater_area-20000411",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1843,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1846,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1847,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      26,
+      100
+    ],
+    "boss": null
+  },
+  "412": {
+    "id": 412,
+    "name": "theater_area-10000412",
+    "desc": "theater_area-20000412",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1848,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1844,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1847,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      26,
+      100
+    ],
+    "boss": null
+  },
+  "413": {
+    "id": 413,
+    "name": "theater_area-10000413",
+    "desc": "theater_area-20000413",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 490,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1499,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 565,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      26,
+      100
+    ],
+    "boss": null
+  },
+  "414": {
+    "id": 414,
+    "name": "theater_area-10000414",
+    "desc": "theater_area-20000414",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 901,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 568,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 900,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 904,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      26,
+      100
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "415": {
+    "id": 415,
+    "name": "theater_area-10000415",
+    "desc": "theater_area-20000415",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 577,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 670,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 914,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": null
+  },
+  "416": {
+    "id": 416,
+    "name": "theater_area-10000416",
+    "desc": "theater_area-20000416",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 445,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 577,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 670,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": null
+  },
+  "417": {
+    "id": 417,
+    "name": "theater_area-10000417",
+    "desc": "theater_area-20000417",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 444,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 445,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": null
+  },
+  "418": {
+    "id": 418,
+    "name": "theater_area-10000418",
+    "desc": "theater_area-20000418",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 442,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "421": {
+    "id": 421,
+    "name": "theater_area-10000421",
+    "desc": "theater_area-20000421",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 669,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228
+    ],
+    "boss": null
+  },
+  "422": {
+    "id": 422,
+    "name": "theater_area-10000422",
+    "desc": "theater_area-20000422",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 637,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 637,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 638,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228
+    ],
+    "boss": null
+  },
+  "423": {
+    "id": 423,
+    "name": "theater_area-10000423",
+    "desc": "theater_area-20000423",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 642,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 639,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 640,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228
+    ],
+    "boss": null
+  },
+  "424": {
+    "id": 424,
+    "name": "theater_area-10000424",
+    "desc": "theater_area-20000424",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 643,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2239,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 2237,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1423,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "425": {
+    "id": 425,
+    "name": "theater_area-10000425",
+    "desc": "theater_area-20000425",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1421,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 743,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 744,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 745,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": null
+  },
+  "426": {
+    "id": 426,
+    "name": "theater_area-10000426",
+    "desc": "theater_area-20000426",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 747,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 748,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 808,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 808,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": null
+  },
+  "427": {
+    "id": 427,
+    "name": "theater_area-10000427",
+    "desc": "theater_area-20000427",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 807,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 810,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 743,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 804,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": null
+  },
+  "428": {
+    "id": 428,
+    "name": "theater_area-10000428",
+    "desc": "theater_area-20000428",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1120,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1123,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1105,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 804,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 745,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "431": {
+    "id": 431,
+    "name": "theater_area-10000431",
+    "desc": "theater_area-20000431",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162
+    ],
+    "boss": null
+  },
+  "432": {
+    "id": 432,
+    "name": "theater_area-10000432",
+    "desc": "theater_area-20000432",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1474,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162
+    ],
+    "boss": null
+  },
+  "433": {
+    "id": 433,
+    "name": "theater_area-10000433",
+    "desc": "theater_area-20000433",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "434": {
+    "id": 434,
+    "name": "theater_area-10000434",
+    "desc": "theater_area-20000434",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162
+    ],
+    "boss": null
+  },
+  "435": {
+    "id": 435,
+    "name": "theater_area-10000435",
+    "desc": "theater_area-20000435",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": null
+  },
+  "436": {
+    "id": 436,
+    "name": "theater_area-10000436",
+    "desc": "theater_area-20000436",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2227,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1823,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1990,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2002,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2671,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": {
+      "enemy_team_id": 700004,
+      "is_night": true
+    }
+  },
+  "437": {
+    "id": 437,
+    "name": "theater_area-10000437",
+    "desc": "theater_area-20000437",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2227,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2222,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1738,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1768,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": null
+  },
+  "438": {
+    "id": 438,
+    "name": "theater_area-10000438",
+    "desc": "theater_area-20000438",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1985,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "441": {
+    "id": 441,
+    "name": "theater_area-10000441",
+    "desc": "theater_area-20000441",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 490,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 565,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1843,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": null
+  },
+  "442": {
+    "id": 442,
+    "name": "theater_area-10000442",
+    "desc": "theater_area-20000442",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1004,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1043,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1041,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1044,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 568,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": null
+  },
+  "443": {
+    "id": 443,
+    "name": "theater_area-10000443",
+    "desc": "theater_area-20000443",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 669,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 672,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 637,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      53,
+      129,
+      118
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "444": {
+    "id": 444,
+    "name": "theater_area-10000444",
+    "desc": "theater_area-20000444",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 744,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 745,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 747,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 748,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 808,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 804,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": null
+  },
+  "445": {
+    "id": 445,
+    "name": "theater_area-10000445",
+    "desc": "theater_area-20000445",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317968,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1792,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1981,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1823,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 2414,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": null
+  },
+  "446": {
+    "id": 446,
+    "name": "theater_area-10000446",
+    "desc": "theater_area-20000446",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2624,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 2723,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2720,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2720,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2723,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 2778,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 2701,
+        "is_night": false
+      },
+      "9": {
+        "enemy_team_id": 2727,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "447": {
+    "id": 447,
+    "name": "theater_area-10000447",
+    "desc": "theater_area-20000447",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2723,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 2778,
+        "is_night": false
+      },
+      "9": {
+        "enemy_team_id": 2701,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": null
+  },
+  "448": {
+    "id": 448,
+    "name": "theater_area-10000448",
+    "desc": "theater_area-20000448",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 317972,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 317972,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "8": {
+        "enemy_team_id": 2723,
+        "is_night": false
+      },
+      "9": {
+        "enemy_team_id": 2720,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "511": {
+    "id": 511,
+    "name": "theater_area-10000511",
+    "desc": "theater_area-20000511",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1843,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1846,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1847,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      16,
+      100,
+      27,
+      6
+    ],
+    "boss": null
+  },
+  "512": {
+    "id": 512,
+    "name": "theater_area-10000512",
+    "desc": "theater_area-20000512",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1848,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1844,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1847,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      16,
+      100,
+      27,
+      6
+    ],
+    "boss": null
+  },
+  "513": {
+    "id": 513,
+    "name": "theater_area-10000513",
+    "desc": "theater_area-20000513",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 490,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1499,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 565,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      16,
+      100,
+      27,
+      6
+    ],
+    "boss": null
+  },
+  "514": {
+    "id": 514,
+    "name": "theater_area-10000514",
+    "desc": "theater_area-20000514",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 901,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 568,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 900,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 904,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      36,
+      16,
+      100,
+      27,
+      6
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "515": {
+    "id": 515,
+    "name": "theater_area-10000515",
+    "desc": "theater_area-20000515",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 577,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 670,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 914,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": null
+  },
+  "516": {
+    "id": 516,
+    "name": "theater_area-10000516",
+    "desc": "theater_area-20000516",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 445,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 577,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 670,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": null
+  },
+  "517": {
+    "id": 517,
+    "name": "theater_area-10000517",
+    "desc": "theater_area-20000517",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 444,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 445,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": null
+  },
+  "518": {
+    "id": 518,
+    "name": "theater_area-10000518",
+    "desc": "theater_area-20000518",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 442,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2506,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "521": {
+    "id": 521,
+    "name": "theater_area-10000521",
+    "desc": "theater_area-20000521",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 669,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 333201,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228,
+      185,
+      221
+    ],
+    "boss": null
+  },
+  "522": {
+    "id": 522,
+    "name": "theater_area-10000522",
+    "desc": "theater_area-20000522",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 637,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 637,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 638,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 333405,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228,
+      185,
+      221
+    ],
+    "boss": null
+  },
+  "523": {
+    "id": 523,
+    "name": "theater_area-10000523",
+    "desc": "theater_area-20000523",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 642,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 639,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 640,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228,
+      185,
+      221
+    ],
+    "boss": null
+  },
+  "524": {
+    "id": 524,
+    "name": "theater_area-10000524",
+    "desc": "theater_area-20000524",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 643,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2239,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 2237,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1423,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      128,
+      202,
+      228,
+      185,
+      221
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "525": {
+    "id": 525,
+    "name": "theater_area-10000525",
+    "desc": "theater_area-20000525",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1421,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 743,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 744,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 745,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": null
+  },
+  "526": {
+    "id": 526,
+    "name": "theater_area-10000526",
+    "desc": "theater_area-20000526",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 747,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 748,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 808,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 808,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": null
+  },
+  "527": {
+    "id": 527,
+    "name": "theater_area-10000527",
+    "desc": "theater_area-20000527",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 807,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 810,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 743,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 804,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 334954,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 333901,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": null
+  },
+  "528": {
+    "id": 528,
+    "name": "theater_area-10000528",
+    "desc": "theater_area-20000528",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1120,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1123,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1105,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 804,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 745,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 333901,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "531": {
+    "id": 531,
+    "name": "theater_area-10000531",
+    "desc": "theater_area-20000531",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 334609,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162,
+      214,
+      156
+    ],
+    "boss": null
+  },
+  "532": {
+    "id": 532,
+    "name": "theater_area-10000532",
+    "desc": "theater_area-20000532",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1474,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 337252,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 337210,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162,
+      214,
+      156
+    ],
+    "boss": null
+  },
+  "533": {
+    "id": 533,
+    "name": "theater_area-10000533",
+    "desc": "theater_area-20000533",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 337212,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162,
+      214,
+      156
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "534": {
+    "id": 534,
+    "name": "theater_area-10000534",
+    "desc": "theater_area-20000534",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 335203,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      127,
+      197,
+      162,
+      214,
+      156
+    ],
+    "boss": null
+  },
+  "535": {
+    "id": 535,
+    "name": "theater_area-10000535",
+    "desc": "theater_area-20000535",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 335204,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": null
+  },
+  "536": {
+    "id": 536,
+    "name": "theater_area-10000536",
+    "desc": "theater_area-20000536",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2227,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1823,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1990,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2002,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2671,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334707,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 335302,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": {
+      "enemy_team_id": 700004,
+      "is_night": true
+    }
+  },
+  "537": {
+    "id": 537,
+    "name": "theater_area-10000537",
+    "desc": "theater_area-20000537",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2227,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2222,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1738,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1768,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334707,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": null
+  },
+  "538": {
+    "id": 538,
+    "name": "theater_area-10000538",
+    "desc": "theater_area-20000538",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1985,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 335904,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 337250,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "541": {
+    "id": 541,
+    "name": "theater_area-10000541",
+    "desc": "theater_area-20000541",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 490,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 565,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1843,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": null
+  },
+  "542": {
+    "id": 542,
+    "name": "theater_area-10000542",
+    "desc": "theater_area-20000542",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1004,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1043,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1041,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1044,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 568,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2506,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": null
+  },
+  "543": {
+    "id": 543,
+    "name": "theater_area-10000543",
+    "desc": "theater_area-20000543",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 939,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 938,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 669,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 672,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 637,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334910,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      161,
+      129,
+      130,
+      126,
+      118
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "544": {
+    "id": 544,
+    "name": "theater_area-10000544",
+    "desc": "theater_area-20000544",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 745,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 747,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 748,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 808,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 804,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334954,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 333804,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 334606,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": null
+  },
+  "545": {
+    "id": 545,
+    "name": "theater_area-10000545",
+    "desc": "theater_area-20000545",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 317968,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1792,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1981,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1823,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 2414,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 334707,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 337211,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": null
+  },
+  "546": {
+    "id": 546,
+    "name": "theater_area-10000546",
+    "desc": "theater_area-20000546",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2624,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 2720,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2778,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2701,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2727,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 336410,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 336406,
+        "is_night": true
+      },
+      "8": {
+        "enemy_team_id": 337255,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      208,
+      189,
+      179,
+      171,
+      252
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "547": {
+    "id": 547,
+    "name": "theater_area-10000547",
+    "desc": "theater_area-20000547",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2723,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2778,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2701,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 336605,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 336410,
+        "is_night": true
+      },
+      "8": {
+        "enemy_team_id": 336813,
+        "is_night": true
+      },
+      "9": {
+        "enemy_team_id": 336304,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": null
+  },
+  "548": {
+    "id": 548,
+    "name": "theater_area-10000548",
+    "desc": "theater_area-20000548",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2691,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2730,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 317972,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2740,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2720,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 336609,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 336613,
+        "is_night": true
+      },
+      "7": {
+        "enemy_team_id": 336707,
+        "is_night": true
+      },
+      "8": {
+        "enemy_team_id": 336304,
+        "is_night": true
+      },
+      "9": {
+        "enemy_team_id": 334999,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      100,
+      0,
+      50,
+      0,
+      200,
+      50,
+      100,
+      0,
+      100,
+      50,
+      0,
+      100,
+      100
+    ],
+    "advantage_gun": [
+      194,
+      115,
+      46,
+      53,
+      261
+    ],
+    "boss": {
+      "enemy_team_id": 700006,
+      "is_night": false
+    }
+  },
+  "611": {
+    "id": 611,
+    "name": "theater_area-10000611",
+    "desc": "theater_area-20000611",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 390150,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334609,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      287,
+      150,
+      13,
+      6,
+      27
+    ],
+    "boss": null
+  },
+  "612": {
+    "id": 612,
+    "name": "theater_area-10000612",
+    "desc": "theater_area-20000612",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 362915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 337252,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 337210,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      287,
+      150,
+      13,
+      6,
+      27
+    ],
+    "boss": null
+  },
+  "613": {
+    "id": 613,
+    "name": "theater_area-10000613",
+    "desc": "theater_area-20000613",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 600001,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 337212,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      287,
+      150,
+      13,
+      6,
+      27
+    ],
+    "boss": null
+  },
+  "614": {
+    "id": 614,
+    "name": "theater_area-10000614",
+    "desc": "theater_area-20000614",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 335203,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      252,
+      -32,
+      80,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      287,
+      150,
+      13,
+      6,
+      27
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "615": {
+    "id": 615,
+    "name": "theater_area-10000615",
+    "desc": "theater_area-20000615",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 334107,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 335204,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": null
+  },
+  "616": {
+    "id": 616,
+    "name": "theater_area-10000616",
+    "desc": "theater_area-20000616",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2606,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2616,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2634,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2700,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2712,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2715,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": null
+  },
+  "617": {
+    "id": 617,
+    "name": "theater_area-10000617",
+    "desc": "theater_area-20000617",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": null
+  },
+  "618": {
+    "id": 618,
+    "name": "theater_area-10000618",
+    "desc": "theater_area-20000618",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 411004,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 411306,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 9130113,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 335904,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 337250,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      190,
+      38,
+      29,
+      58,
+      100,
+      7,
+      -100,
+      -20,
+      -36,
+      -82,
+      -81,
+      -81,
+      -91
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "621": {
+    "id": 621,
+    "name": "theater_area-10000621",
+    "desc": "theater_area-20000621",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 390150,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334609,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      62,
+      185,
+      297,
+      286,
+      221,
+      20221
+    ],
+    "boss": null
+  },
+  "622": {
+    "id": 622,
+    "name": "theater_area-10000622",
+    "desc": "theater_area-20000622",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 362915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 337252,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 337210,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      62,
+      185,
+      297,
+      286,
+      221,
+      20221
+    ],
+    "boss": null
+  },
+  "623": {
+    "id": 623,
+    "name": "theater_area-10000623",
+    "desc": "theater_area-20000623",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 600001,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 337212,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      62,
+      185,
+      297,
+      286,
+      221,
+      20221
+    ],
+    "boss": null
+  },
+  "624": {
+    "id": 624,
+    "name": "theater_area-10000624",
+    "desc": "theater_area-20000624",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 335203,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      252,
+      -32,
+      80,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      62,
+      185,
+      297,
+      286,
+      221,
+      20221
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "625": {
+    "id": 625,
+    "name": "theater_area-10000625",
+    "desc": "theater_area-20000625",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 334107,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 335204,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": null
+  },
+  "626": {
+    "id": 626,
+    "name": "theater_area-10000626",
+    "desc": "theater_area-20000626",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2606,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2616,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2634,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2700,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2712,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2715,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": null
+  },
+  "627": {
+    "id": 627,
+    "name": "theater_area-10000627",
+    "desc": "theater_area-20000627",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": null
+  },
+  "628": {
+    "id": 628,
+    "name": "theater_area-10000628",
+    "desc": "theater_area-20000628",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 411004,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 411306,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 9130113,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 335904,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 337250,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      190,
+      38,
+      29,
+      58,
+      100,
+      7,
+      -100,
+      -20,
+      -36,
+      -82,
+      -81,
+      -81,
+      -91
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "631": {
+    "id": 631,
+    "name": "theater_area-10000631",
+    "desc": "theater_area-20000631",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 390150,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334609,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      127,
+      245,
+      270,
+      295,
+      288
+    ],
+    "boss": null
+  },
+  "632": {
+    "id": 632,
+    "name": "theater_area-10000632",
+    "desc": "theater_area-20000632",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 362915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 337252,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 337210,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      127,
+      245,
+      270,
+      295,
+      288
+    ],
+    "boss": null
+  },
+  "633": {
+    "id": 633,
+    "name": "theater_area-10000633",
+    "desc": "theater_area-20000633",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 600001,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 337212,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      190,
+      38,
+      29,
+      58,
+      100,
+      7,
+      -100,
+      -20,
+      -36,
+      -82,
+      -81,
+      -81,
+      -91
+    ],
+    "advantage_gun": [
+      127,
+      245,
+      270,
+      295,
+      288
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "634": {
+    "id": 634,
+    "name": "theater_area-10000634",
+    "desc": "theater_area-20000634",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 335203,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      127,
+      245,
+      270,
+      295,
+      288
+    ],
+    "boss": null
+  },
+  "635": {
+    "id": 635,
+    "name": "theater_area-10000635",
+    "desc": "theater_area-20000635",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 334107,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 335204,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": null
+  },
+  "636": {
+    "id": 636,
+    "name": "theater_area-10000636",
+    "desc": "theater_area-20000636",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2606,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2616,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2634,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2700,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2712,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2715,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": {
+      "enemy_team_id": 700004,
+      "is_night": true
+    }
+  },
+  "637": {
+    "id": 637,
+    "name": "theater_area-10000637",
+    "desc": "theater_area-20000637",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": null
+  },
+  "638": {
+    "id": 638,
+    "name": "theater_area-10000638",
+    "desc": "theater_area-20000638",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 411004,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 411306,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 9130113,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 335904,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 337250,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      107,
+      -100,
+      -20,
+      -36,
+      -71,
+      -91,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "641": {
+    "id": 641,
+    "name": "theater_area-10000641",
+    "desc": "theater_area-20000641",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 390150,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317967,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1390,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1393,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1429,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 334609,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": null
+  },
+  "642": {
+    "id": 642,
+    "name": "theater_area-10000642",
+    "desc": "theater_area-20000642",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 362915,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 317976,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1473,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1475,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 337252,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 337210,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": null
+  },
+  "643": {
+    "id": 643,
+    "name": "theater_area-10000643",
+    "desc": "theater_area-20000643",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 600001,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317984,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 749,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1194,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1381,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1385,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 337212,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      129,
+      130,
+      236,
+      304,
+      9
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "644": {
+    "id": 644,
+    "name": "theater_area-10000644",
+    "desc": "theater_area-20000644",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 317975,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1563,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1564,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 2387,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 335203,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": null
+  },
+  "645": {
+    "id": 645,
+    "name": "theater_area-10000645",
+    "desc": "theater_area-20000645",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 334107,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2677,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1791,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1792,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 335204,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": null
+  },
+  "646": {
+    "id": 646,
+    "name": "theater_area-10000646",
+    "desc": "theater_area-20000646",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2606,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 2608,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2616,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2634,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2700,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 2712,
+        "is_night": true
+      },
+      "6": {
+        "enemy_team_id": 2715,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      296,
+      307,
+      189,
+      171,
+      256
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "647": {
+    "id": 647,
+    "name": "theater_area-10000647",
+    "desc": "theater_area-20000647",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 2398,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 2398,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": null
+  },
+  "648": {
+    "id": 648,
+    "name": "theater_area-10000648",
+    "desc": "theater_area-20000648",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 411004,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 411306,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 9130113,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 2667,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1999,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1795,
+        "is_night": false
+      },
+      "6": {
+        "enemy_team_id": 1999,
+        "is_night": false
+      },
+      "7": {
+        "enemy_team_id": 335904,
+        "is_night": false
+      },
+      "8": {
+        "enemy_team_id": 337250,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      127,
+      38,
+      29,
+      58,
+      0,
+      7,
+      -100,
+      -20,
+      -36,
+      -71,
+      -81,
+      -81,
+      -81
+    ],
+    "advantage_gun": [
+      115,
+      46,
+      313,
+      260,
+      312
+    ],
+    "boss": {
+      "enemy_team_id": 700007,
+      "is_night": false
+    }
+  },
+  "711": {
+    "id": 711,
+    "name": "theater_area-10000711",
+    "desc": "theater_area-20000711",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071103,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "712": {
+    "id": 712,
+    "name": "theater_area-10000712",
+    "desc": "theater_area-20000712",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "713": {
+    "id": 713,
+    "name": "theater_area-10000713",
+    "desc": "theater_area-20000713",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071304,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "714": {
+    "id": 714,
+    "name": "theater_area-10000714",
+    "desc": "theater_area-20000714",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071404,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      4,
+      7,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "715": {
+    "id": 715,
+    "name": "theater_area-10000715",
+    "desc": "theater_area-20000715",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1071505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      171,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "716": {
+    "id": 716,
+    "name": "theater_area-10000716",
+    "desc": "theater_area-20000716",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071601,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071602,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071603,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071604,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1071605,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      171,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "717": {
+    "id": 717,
+    "name": "theater_area-10000717",
+    "desc": "theater_area-20000717",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1071705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1071706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      171,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "718": {
+    "id": 718,
+    "name": "theater_area-10000718",
+    "desc": "theater_area-20000718",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1071801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1071802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1071803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1071804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1071805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1071806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      3,
+      11,
+      5,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      171,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "721": {
+    "id": 721,
+    "name": "theater_area-10000721",
+    "desc": "theater_area-20000721",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072104,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "722": {
+    "id": 722,
+    "name": "theater_area-10000722",
+    "desc": "theater_area-20000722",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "723": {
+    "id": 723,
+    "name": "theater_area-10000723",
+    "desc": "theater_area-20000723",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072301,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1072302,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1072303,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1072304,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1072305,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "724": {
+    "id": 724,
+    "name": "theater_area-10000724",
+    "desc": "theater_area-20000724",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1072405,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      10,
+      6,
+      11,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "725": {
+    "id": 725,
+    "name": "theater_area-10000725",
+    "desc": "theater_area-20000725",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1072505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "726": {
+    "id": 726,
+    "name": "theater_area-10000726",
+    "desc": "theater_area-20000726",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072601,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1072602,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1072603,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1072604,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1072605,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1072606,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "727": {
+    "id": 727,
+    "name": "theater_area-10000727",
+    "desc": "theater_area-20000727",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1072705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1072706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "728": {
+    "id": 728,
+    "name": "theater_area-10000728",
+    "desc": "theater_area-20000728",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1072801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1072802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1072803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1072804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1072805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1072806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      16,
+      10,
+      6,
+      7,
+      3,
+      8,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": {
+      "enemy_team_id": 700006,
+      "is_night": false
+    }
+  },
+  "731": {
+    "id": 731,
+    "name": "theater_area-10000731",
+    "desc": "theater_area-20000731",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073104,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": null
+  },
+  "732": {
+    "id": 732,
+    "name": "theater_area-10000732",
+    "desc": "theater_area-20000732",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": null
+  },
+  "733": {
+    "id": 733,
+    "name": "theater_area-10000733",
+    "desc": "theater_area-20000733",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073304,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1073305,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      16,
+      6,
+      9,
+      7,
+      3,
+      8,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": {
+      "enemy_team_id": 700007,
+      "is_night": false
+    }
+  },
+  "734": {
+    "id": 734,
+    "name": "theater_area-10000734",
+    "desc": "theater_area-20000734",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1073405,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      171
+    ],
+    "boss": null
+  },
+  "735": {
+    "id": 735,
+    "name": "theater_area-10000735",
+    "desc": "theater_area-20000735",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1073505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      171
+    ],
+    "boss": null
+  },
+  "736": {
+    "id": 736,
+    "name": "theater_area-10000736",
+    "desc": "theater_area-20000736",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073601,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1073602,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1073603,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1073604,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1073605,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1073606,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      14,
+      13,
+      4,
+      15,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      171
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "737": {
+    "id": 737,
+    "name": "theater_area-10000737",
+    "desc": "theater_area-20000737",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1073705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1073706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      325,
+      326,
+      162,
+      319,
+      85,
+      264
+    ],
+    "boss": null
+  },
+  "738": {
+    "id": 738,
+    "name": "theater_area-10000738",
+    "desc": "theater_area-20000738",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1073801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1073802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1073803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1073804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1073805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1073806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      15,
+      6,
+      10,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      325,
+      326,
+      162,
+      319,
+      85,
+      264
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "741": {
+    "id": 741,
+    "name": "theater_area-10000741",
+    "desc": "theater_area-20000741",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074104,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074105,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074106,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": null
+  },
+  "742": {
+    "id": 742,
+    "name": "theater_area-10000742",
+    "desc": "theater_area-20000742",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074204,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074205,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074206,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": null
+  },
+  "743": {
+    "id": 743,
+    "name": "theater_area-10000743",
+    "desc": "theater_area-20000743",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074304,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074305,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074306,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      9,
+      4,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "744": {
+    "id": 744,
+    "name": "theater_area-10000744",
+    "desc": "theater_area-20000744",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074405,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074406,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": null
+  },
+  "745": {
+    "id": 745,
+    "name": "theater_area-10000745",
+    "desc": "theater_area-20000745",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074505,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074506,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": null
+  },
+  "746": {
+    "id": 746,
+    "name": "theater_area-10000746",
+    "desc": "theater_area-20000746",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074601,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074602,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074603,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074604,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074605,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074606,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      9,
+      8,
+      10,
+      6,
+      10,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "747": {
+    "id": 747,
+    "name": "theater_area-10000747",
+    "desc": "theater_area-20000747",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1074702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1074703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1074704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1074705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1074706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      21,
+      13,
+      12,
+      15,
+      6,
+      10,
+      1,
+      9,
+      6,
+      3,
+      2,
+      2,
+      2
+    ],
+    "advantage_gun": [
+      336,
+      328,
+      203,
+      330,
+      171,
+      187
+    ],
+    "boss": null
+  },
+  "748": {
+    "id": 748,
+    "name": "theater_area-10000748",
+    "desc": "theater_area-20000748",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1074801,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1074802,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1074803,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1074804,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1074805,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1074806,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      21,
+      19,
+      6,
+      22,
+      6,
+      10,
+      1,
+      9,
+      6,
+      3,
+      2,
+      2,
+      2
+    ],
+    "advantage_gun": [
+      336,
+      328,
+      203,
+      330,
+      171,
+      187
+    ],
+    "boss": {
+      "enemy_team_id": 700004,
+      "is_night": true
+    }
+  },
+  "811": {
+    "id": 811,
+    "name": "theater_area-10000811",
+    "desc": "theater_area-20000811",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081103,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "812": {
+    "id": 812,
+    "name": "theater_area-10000812",
+    "desc": "theater_area-20000812",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "813": {
+    "id": 813,
+    "name": "theater_area-10000813",
+    "desc": "theater_area-20000813",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081304,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      4,
+      4,
+      5,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": null
+  },
+  "814": {
+    "id": 814,
+    "name": "theater_area-10000814",
+    "desc": "theater_area-20000814",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081404,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      4,
+      7,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      330,
+      27,
+      10,
+      13,
+      328,
+      115
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "815": {
+    "id": 815,
+    "name": "theater_area-10000815",
+    "desc": "theater_area-20000815",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1081505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      349,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "816": {
+    "id": 816,
+    "name": "theater_area-10000816",
+    "desc": "theater_area-20000816",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081601,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081602,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081603,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081604,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1081605,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      349,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "817": {
+    "id": 817,
+    "name": "theater_area-10000817",
+    "desc": "theater_area-20000817",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1081705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1081706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      349,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": null
+  },
+  "818": {
+    "id": 818,
+    "name": "theater_area-10000818",
+    "desc": "theater_area-20000818",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1081801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1081802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1081803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1081804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1081805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1081806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      3,
+      11,
+      5,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      298,
+      349,
+      73,
+      106,
+      70,
+      6
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "821": {
+    "id": 821,
+    "name": "theater_area-10000821",
+    "desc": "theater_area-20000821",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082104,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "822": {
+    "id": 822,
+    "name": "theater_area-10000822",
+    "desc": "theater_area-20000822",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "823": {
+    "id": 823,
+    "name": "theater_area-10000823",
+    "desc": "theater_area-20000823",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082301,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1082302,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1082303,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1082304,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1082305,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": null
+  },
+  "824": {
+    "id": 824,
+    "name": "theater_area-10000824",
+    "desc": "theater_area-20000824",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1082405,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      10,
+      6,
+      11,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      176,
+      203,
+      315,
+      223,
+      335,
+      338
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "825": {
+    "id": 825,
+    "name": "theater_area-10000825",
+    "desc": "theater_area-20000825",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1082505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "826": {
+    "id": 826,
+    "name": "theater_area-10000826",
+    "desc": "theater_area-20000826",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082601,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1082602,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1082603,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1082604,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1082605,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1082606,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "827": {
+    "id": 827,
+    "name": "theater_area-10000827",
+    "desc": "theater_area-20000827",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1082705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1082706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": null
+  },
+  "828": {
+    "id": 828,
+    "name": "theater_area-10000828",
+    "desc": "theater_area-20000828",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1082801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1082802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1082803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1082804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1082805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1082806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      16,
+      10,
+      6,
+      7,
+      3,
+      8,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      232,
+      202,
+      162,
+      164,
+      209,
+      286
+    ],
+    "boss": {
+      "enemy_team_id": 700006,
+      "is_night": false
+    }
+  },
+  "831": {
+    "id": 831,
+    "name": "theater_area-10000831",
+    "desc": "theater_area-20000831",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083104,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": null
+  },
+  "832": {
+    "id": 832,
+    "name": "theater_area-10000832",
+    "desc": "theater_area-20000832",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083204,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      11,
+      6,
+      6,
+      7,
+      3,
+      5,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": null
+  },
+  "833": {
+    "id": 833,
+    "name": "theater_area-10000833",
+    "desc": "theater_area-20000833",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083304,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1083305,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      16,
+      6,
+      9,
+      7,
+      3,
+      8,
+      1,
+      5,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      113,
+      168,
+      260,
+      284,
+      317,
+      329
+    ],
+    "boss": {
+      "enemy_team_id": 700007,
+      "is_night": false
+    }
+  },
+  "834": {
+    "id": 834,
+    "name": "theater_area-10000834",
+    "desc": "theater_area-20000834",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1083405,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      349
+    ],
+    "boss": null
+  },
+  "835": {
+    "id": 835,
+    "name": "theater_area-10000835",
+    "desc": "theater_area-20000835",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1083505,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      349
+    ],
+    "boss": null
+  },
+  "836": {
+    "id": 836,
+    "name": "theater_area-10000836",
+    "desc": "theater_area-20000836",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083601,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1083602,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1083603,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1083604,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1083605,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1083606,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      14,
+      13,
+      4,
+      15,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      327,
+      27,
+      176,
+      335,
+      330,
+      349
+    ],
+    "boss": {
+      "enemy_team_id": 700003,
+      "is_night": true
+    }
+  },
+  "837": {
+    "id": 837,
+    "name": "theater_area-10000837",
+    "desc": "theater_area-20000837",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1083705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1083706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      325,
+      326,
+      162,
+      319,
+      85,
+      264
+    ],
+    "boss": null
+  },
+  "838": {
+    "id": 838,
+    "name": "theater_area-10000838",
+    "desc": "theater_area-20000838",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1083801,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1083802,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1083803,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1083804,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1083805,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1083806,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      15,
+      6,
+      10,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      325,
+      326,
+      162,
+      319,
+      85,
+      264
+    ],
+    "boss": {
+      "enemy_team_id": 700005,
+      "is_night": false
+    }
+  },
+  "841": {
+    "id": 841,
+    "name": "theater_area-10000841",
+    "desc": "theater_area-20000841",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084101,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084102,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084103,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084104,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084105,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084106,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": null
+  },
+  "842": {
+    "id": 842,
+    "name": "theater_area-10000842",
+    "desc": "theater_area-20000842",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084201,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084202,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084203,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084204,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084205,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084206,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": null
+  },
+  "843": {
+    "id": 843,
+    "name": "theater_area-10000843",
+    "desc": "theater_area-20000843",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084301,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084302,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084303,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084304,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084305,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084306,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      9,
+      4,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      157,
+      324,
+      164,
+      173,
+      238,
+      263
+    ],
+    "boss": {
+      "enemy_team_id": 700002,
+      "is_night": false
+    }
+  },
+  "844": {
+    "id": 844,
+    "name": "theater_area-10000844",
+    "desc": "theater_area-20000844",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084401,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084402,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084403,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084404,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084405,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084406,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": null
+  },
+  "845": {
+    "id": 845,
+    "name": "theater_area-10000845",
+    "desc": "theater_area-20000845",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084501,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084502,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084503,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084504,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084505,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084506,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      14,
+      9,
+      8,
+      10,
+      4,
+      7,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": null
+  },
+  "846": {
+    "id": 846,
+    "name": "theater_area-10000846",
+    "desc": "theater_area-20000846",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084601,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084602,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084603,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084604,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084605,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084606,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      7,
+      9,
+      8,
+      10,
+      6,
+      10,
+      1,
+      6,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "advantage_gun": [
+      299,
+      278,
+      190,
+      84,
+      80,
+      300
+    ],
+    "boss": {
+      "enemy_team_id": 700001,
+      "is_night": false
+    }
+  },
+  "847": {
+    "id": 847,
+    "name": "theater_area-10000847",
+    "desc": "theater_area-20000847",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084701,
+        "is_night": false
+      },
+      "1": {
+        "enemy_team_id": 1084702,
+        "is_night": false
+      },
+      "2": {
+        "enemy_team_id": 1084703,
+        "is_night": false
+      },
+      "3": {
+        "enemy_team_id": 1084704,
+        "is_night": false
+      },
+      "4": {
+        "enemy_team_id": 1084705,
+        "is_night": false
+      },
+      "5": {
+        "enemy_team_id": 1084706,
+        "is_night": false
+      }
+    },
+    "class_weight": [
+      21,
+      13,
+      12,
+      15,
+      6,
+      10,
+      1,
+      9,
+      6,
+      3,
+      2,
+      2,
+      2
+    ],
+    "advantage_gun": [
+      336,
+      328,
+      203,
+      330,
+      349,
+      187
+    ],
+    "boss": null
+  },
+  "848": {
+    "id": 848,
+    "name": "theater_area-10000848",
+    "desc": "theater_area-20000848",
+    "enemy_group": {
+      "0": {
+        "enemy_team_id": 1084801,
+        "is_night": true
+      },
+      "1": {
+        "enemy_team_id": 1084802,
+        "is_night": true
+      },
+      "2": {
+        "enemy_team_id": 1084803,
+        "is_night": true
+      },
+      "3": {
+        "enemy_team_id": 1084804,
+        "is_night": true
+      },
+      "4": {
+        "enemy_team_id": 1084805,
+        "is_night": true
+      },
+      "5": {
+        "enemy_team_id": 1084806,
+        "is_night": true
+      }
+    },
+    "class_weight": [
+      21,
+      19,
+      6,
+      22,
+      6,
+      10,
+      1,
+      9,
+      6,
+      3,
+      2,
+      2,
+      2
+    ],
+    "advantage_gun": [
+      336,
+      328,
+      203,
+      330,
+      349,
+      187
+    ],
+    "boss": {
+      "enemy_team_id": 700004,
+      "is_night": true
+    }
+  }
+}

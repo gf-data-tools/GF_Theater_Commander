@@ -62,8 +62,8 @@ problem += resource['score'] + 0.001*resource['upgrade']
 
 lp_bin = os.path.join(
     os.getcwd(),'solverdir\\cbc',
-    lp.core.operating_system,lp.core.arch,
-    lp.core.LpSolver_CMD.executableExtension('cbc')
+    lp.operating_system,lp.arch,
+    lp.LpSolver_CMD.executableExtension('cbc')
 )
 problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
 # %%
@@ -104,7 +104,7 @@ for i, (info, v) in enumerate(u_info):
         )
     ename, erank = (
         get_translation(equip_info[info['eid']]['name'], name_table),
-        6 if equip_info[info['eid']]['category']=='exclusive' else equip_info[info['eid']]['rank']
+        6 if equip_info[info[f'eid']]['type'] in [18,19,20] else equip_info[info['eid']]['rank']
     )
     equip_table.add_row(f'[{rank_color[erank]}]{ename}', f'{v.value():2.0f}')
     if (i+1)%5 == 0 or i+1==len(u_info):
@@ -140,7 +140,7 @@ for info, v in g_info:
         ename, elv, erank = (
             get_translation(equip_info[info[f'eid_{e+1}']]['name'], name_table),
             info[f'elv_{e+1}'],
-            6 if equip_info[info[f'eid_{e+1}']]['category']=='exclusive' else equip_info[info[f'eid_{e+1}']]['rank']
+            6 if equip_info[info[f'eid_{e+1}']]['type'] in [18,19,20] else equip_info[info[f'eid_{e+1}']]['rank']
         )
         gun_table.add_row(f'[{rank_color[erank]}]{ename}',f'[{lv_color[elv]}]{elv}')
     gun_list.append(gun_table)

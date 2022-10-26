@@ -2,7 +2,7 @@
 # %%
 import csv
 import math
-import ujson
+import json
 import itertools
 import re
 # %%
@@ -43,7 +43,7 @@ def get_translation(entry: str, name_table: dict):
 # %%
 def get_theater_config(theater_id='724'):
     with open(r'resource/theater_info.json','r',encoding='utf-8') as f:
-        theater_info = ujson.load(f)
+        theater_info = json.load(f)
         theater = theater_info[theater_id]
     types = ['HG','SMG','RF','AR','MG','SG']
     assert theater['boss'], f'no boss fight in stage {theater_id}'
@@ -56,13 +56,13 @@ def get_theater_config(theater_id='724'):
 # %%
 def load_info():
     with open(r'resource/doll.json','r',encoding='utf-8') as f:
-        doll_info = ujson.load(f)
+        doll_info = json.load(f)
     with open(r'resource/equip.json','r',encoding='utf-8') as f:
-        equip_info = ujson.load(f)
+        equip_info = json.load(f)
     with open(r'info/user_info.json','rb') as f:
         data = f.read().decode('ascii','ignore')
         data = re.sub(r'"name":".*?"',r'"name":""',data)
-        user_info = ujson.decode(data)
+        user_info = json.loads(data)
     # 统计持有人形信息
     my_dolls = {}
     for doll in user_info['gun_with_user_info']:

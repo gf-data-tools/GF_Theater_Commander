@@ -227,7 +227,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 125,
-    "type_equip": "4,13,16,18|6|10"
+    "type_equip": "4,13,16,18|6,19|10"
   },
   "11": {
     "id": 11,
@@ -250,7 +250,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 130,
-    "type_equip": "4,13,16|6|10"
+    "type_equip": "4,13,16,18|6|10"
   },
   "12": {
     "id": 12,
@@ -296,7 +296,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 110,
-    "type_equip": "4,13,16|6|10"
+    "type_equip": "4,13,16|6,19|10"
   },
   "14": {
     "id": 14,
@@ -1009,7 +1009,7 @@
     "crit": 40,
     "bullet": 0,
     "grow": 135,
-    "type_equip": "5|1,2,3,13,18|15"
+    "type_equip": "5|1,2,3,13,18|15,20"
   },
   "47": {
     "id": 47,
@@ -1101,7 +1101,7 @@
     "crit": 40,
     "bullet": 0,
     "grow": 135,
-    "type_equip": "5|1,2,3,13,18|15"
+    "type_equip": "5,19|1,2,3,13,18|15"
   },
   "51": {
     "id": 51,
@@ -1469,7 +1469,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 110,
-    "type_equip": "1,2,3,4,13,18|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10,20"
   },
   "68": {
     "id": 68,
@@ -1607,7 +1607,7 @@
     "crit": 30,
     "bullet": 0,
     "grow": 125,
-    "type_equip": "1,2,3,4,13|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10"
   },
   "74": {
     "id": 74,
@@ -1860,7 +1860,7 @@
     "crit": 5,
     "bullet": 10,
     "grow": 115,
-    "type_equip": "5,17|1,2,3,16|14"
+    "type_equip": "5,17|1,2,3,16,18|14"
   },
   "87": {
     "id": 87,
@@ -1906,7 +1906,7 @@
     "crit": 5,
     "bullet": 10,
     "grow": 110,
-    "type_equip": "5,17|1,2,3,16|14,20"
+    "type_equip": "5,17|1,2,3,16,18|14,20"
   },
   "89": {
     "id": 89,
@@ -2527,7 +2527,7 @@
     "crit": 5,
     "bullet": 0,
     "grow": 105,
-    "type_equip": "9,10,20|6|1,2,3,4,13"
+    "type_equip": "9,10,20|6,19|1,2,3,4,13"
   },
   "116": {
     "id": 116,
@@ -2642,7 +2642,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 115,
-    "type_equip": "1,2,3,4,13|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10"
   },
   "121": {
     "id": 121,
@@ -3562,7 +3562,7 @@
     "crit": 40,
     "bullet": 5,
     "grow": 100,
-    "type_equip": "11|7|1,2,3,4"
+    "type_equip": "11|7|1,2,3,4,18"
   },
   "161": {
     "id": 161,
@@ -4183,7 +4183,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 115,
-    "type_equip": "1,2,3,4,13|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10"
   },
   "188": {
     "id": 188,
@@ -5149,7 +5149,7 @@
     "crit": 40,
     "bullet": 0,
     "grow": 120,
-    "type_equip": "5|1,2,3,13|15"
+    "type_equip": "5|1,2,3,13,18|15"
   },
   "231": {
     "id": 231,
@@ -5172,7 +5172,7 @@
     "crit": 40,
     "bullet": 0,
     "grow": 128,
-    "type_equip": "5|1,2,3,13|15"
+    "type_equip": "5|1,2,3,13,18|15"
   },
   "232": {
     "id": 232,
@@ -5448,7 +5448,7 @@
     "crit": 20,
     "bullet": 0,
     "grow": 140,
-    "type_equip": "1,2,3,4,13|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10"
   },
   "244": {
     "id": 244,
@@ -5839,7 +5839,7 @@
     "crit": 40,
     "bullet": 0,
     "grow": 135,
-    "type_equip": "5|1,2,3,13|15"
+    "type_equip": "5|1,2,3,13,18|15"
   },
   "262": {
     "id": 262,
@@ -6138,7 +6138,7 @@
     "crit": 30,
     "bullet": 0,
     "grow": 132,
-    "type_equip": "1,2,3,4,13|8|9,10"
+    "type_equip": "1,2,3,4,13,18|8|9,10"
   },
   "275": {
     "id": 275,
@@ -7288,7 +7288,7 @@
     "crit": 40,
     "bullet": 4,
     "grow": 115,
-    "type_equip": "11|7|1,2,3,4"
+    "type_equip": "11,20|7|1,2,3,4"
   },
   "325": {
     "id": 325,
@@ -8232,6 +8232,213 @@
     "bullet": 0,
     "grow": 135,
     "type_equip": "1,2,3,4,13|8|9,10"
+  },
+  "366": {
+    "id": 366,
+    "type": "SG",
+    "name": "gun-10000366",
+    "code": "SPAS15",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 31200,
+    "stat": {
+      "hp": 120,
+      "pow": 118,
+      "hit": 125,
+      "dodge": 80,
+      "speed": 100,
+      "rate": 130,
+      "armor": 125
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 3,
+    "grow": 105,
+    "type_equip": "11|7|1,2,3,4"
+  },
+  "367": {
+    "id": 367,
+    "type": "SG",
+    "name": "gun-10000367",
+    "code": "MK3A1",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 30600,
+    "stat": {
+      "hp": 100,
+      "pow": 110,
+      "hit": 95,
+      "dodge": 100,
+      "speed": 100,
+      "rate": 140,
+      "armor": 125
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 6,
+    "grow": 115,
+    "type_equip": "11|7|1,2,3,4"
+  },
+  "368": {
+    "id": 368,
+    "type": "SG",
+    "name": "gun-10000368",
+    "code": "UTS15",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 27300,
+    "stat": {
+      "hp": 105,
+      "pow": 120,
+      "hit": 120,
+      "dodge": 130,
+      "speed": 100,
+      "rate": 100,
+      "armor": 110
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 5,
+    "grow": 125,
+    "type_equip": "11|7|1,2,3,4"
+  },
+  "369": {
+    "id": 369,
+    "type": "HG",
+    "name": "gun-10000369",
+    "code": "M327",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 5700,
+    "stat": {
+      "hp": 105,
+      "pow": 132,
+      "hit": 120,
+      "dodge": 85,
+      "speed": 100,
+      "rate": 106,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 135,
+    "type_equip": "4,13,16|6|10"
+  },
+  "370": {
+    "id": 370,
+    "type": "HG",
+    "name": "gun-10000370",
+    "code": "P290",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 3240,
+    "stat": {
+      "hp": 110,
+      "pow": 96,
+      "hit": 116,
+      "dodge": 112,
+      "speed": 100,
+      "rate": 112,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 122,
+    "type_equip": "4,13,16|6|10"
+  },
+  "371": {
+    "id": 371,
+    "type": "RF",
+    "name": "gun-10000371",
+    "code": "Saiga308",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 15900,
+    "stat": {
+      "hp": 100,
+      "pow": 114,
+      "hit": 115,
+      "dodge": 90,
+      "speed": 100,
+      "rate": 110,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 0,
+    "grow": 122,
+    "type_equip": "5|1,2,3,13|15"
+  },
+  "372": {
+    "id": 372,
+    "type": "AR",
+    "name": "gun-10000372",
+    "code": "AR18",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 14160,
+    "stat": {
+      "hp": 105,
+      "pow": 118,
+      "hit": 122,
+      "dodge": 110,
+      "speed": 100,
+      "rate": 110,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 122,
+    "type_equip": "1,2,3,4,13|8|9,10"
+  },
+  "373": {
+    "id": 373,
+    "type": "AR",
+    "name": "gun-10000373",
+    "code": "CMR30",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 13200,
+    "stat": {
+      "hp": 98,
+      "pow": 102,
+      "hit": 125,
+      "dodge": 106,
+      "speed": 100,
+      "rate": 105,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 130,
+    "type_equip": "1,2,3,4,13|8|9,10"
+  },
+  "374": {
+    "id": 374,
+    "type": "MG",
+    "name": "gun-10000374",
+    "code": "M240L",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 22560,
+    "stat": {
+      "hp": 106,
+      "pow": 115,
+      "hit": 120,
+      "dodge": 110,
+      "speed": 100,
+      "rate": 115,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 5,
+    "bullet": 11,
+    "grow": 135,
+    "type_equip": "5,17|1,2,3,16|14"
   },
   "1001": {
     "id": 1001,
@@ -10125,7 +10332,7 @@
     "name": "gun-10009056",
     "code": "Rico",
     "rank": 5,
-    "collabo": 0,
+    "collabo": 1,
     "duration": 17400,
     "stat": {
       "hp": 90,
@@ -10148,7 +10355,7 @@
     "name": "gun-10009057",
     "code": "Rico",
     "rank": 5,
-    "collabo": 0,
+    "collabo": 1,
     "duration": 17400,
     "stat": {
       "hp": 90,
@@ -11154,6 +11361,98 @@
     "grow": 100,
     "type_equip": "9,10|6|1,2,3,4,13"
   },
+  "9101": {
+    "id": 9101,
+    "type": "HG",
+    "name": "gun-10009101",
+    "code": "summer_commander",
+    "rank": 3,
+    "collabo": 0,
+    "duration": 2700,
+    "stat": {
+      "hp": 650,
+      "pow": 120,
+      "hit": 105,
+      "dodge": 100,
+      "speed": 100,
+      "rate": 100,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 105,
+    "type_equip": "4,13|6|9,10"
+  },
+  "9102": {
+    "id": 9102,
+    "type": "AR",
+    "name": "gun-10009102",
+    "code": "AR18_NPC",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 14100,
+    "stat": {
+      "hp": 108,
+      "pow": 120,
+      "hit": 120,
+      "dodge": 98,
+      "speed": 60,
+      "rate": 112,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 122,
+    "type_equip": "1,2,3,4,13|8|9,10"
+  },
+  "9103": {
+    "id": 9103,
+    "type": "HG",
+    "name": "gun-10009103",
+    "code": "ColtWalker_NPC",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 12900,
+    "stat": {
+      "hp": 100,
+      "pow": 100,
+      "hit": 100,
+      "dodge": 100,
+      "speed": 100,
+      "rate": 100,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 50,
+    "bullet": 0,
+    "grow": 100,
+    "type_equip": "4,13,16|6|10"
+  },
+  "9104": {
+    "id": 9104,
+    "type": "SMG",
+    "name": "gun-10009104",
+    "code": "Erma_NPC",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 2700,
+    "stat": {
+      "hp": 115,
+      "pow": 110,
+      "hit": 85,
+      "dodge": 95,
+      "speed": 100,
+      "rate": 120,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 5,
+    "bullet": 0,
+    "grow": 110,
+    "type_equip": "9,10|6|1,2,3,4,13"
+  },
   "20001": {
     "id": 20001,
     "type": "HG",
@@ -11269,6 +11568,29 @@
     "grow": 130,
     "type_equip": "4,13,16,18|6,19|10"
   },
+  "20010": {
+    "id": 20010,
+    "type": "HG",
+    "name": "gun-10020010",
+    "code": "PPKMod",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 1320,
+    "stat": {
+      "hp": 100,
+      "pow": 95,
+      "hit": 115,
+      "dodge": 130,
+      "speed": 100,
+      "rate": 115,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 125,
+    "type_equip": "4,13,16,18|6,19|10"
+  },
   "20012": {
     "id": 20012,
     "type": "HG",
@@ -11291,6 +11613,29 @@
     "bullet": 0,
     "grow": 108,
     "type_equip": "4,13,16,18|6|10"
+  },
+  "20013": {
+    "id": 20013,
+    "type": "HG",
+    "name": "gun-10020013",
+    "code": "92typeMod",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 2100,
+    "stat": {
+      "hp": 110,
+      "pow": 115,
+      "hit": 105,
+      "dodge": 115,
+      "speed": 100,
+      "rate": 115,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 112,
+    "type_equip": "4,13,16|6,19|10"
   },
   "20021": {
     "id": 20021,
@@ -11476,6 +11821,29 @@
     "grow": 115,
     "type_equip": "5|1,2,3,13|15,20"
   },
+  "20046": {
+    "id": 20046,
+    "type": "RF",
+    "name": "gun-10020046",
+    "code": "98KMod",
+    "rank": 6,
+    "collabo": 0,
+    "duration": 16800,
+    "stat": {
+      "hp": 98,
+      "pow": 122,
+      "hit": 115,
+      "dodge": 110,
+      "speed": 100,
+      "rate": 98,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 0,
+    "grow": 135,
+    "type_equip": "5|1,2,3,13,18|15,20"
+  },
   "20049": {
     "id": 20049,
     "type": "RF",
@@ -11498,6 +11866,29 @@
     "bullet": 0,
     "grow": 110,
     "type_equip": "5,19|1,2,3,13|15"
+  },
+  "20050": {
+    "id": 20050,
+    "type": "RF",
+    "name": "gun-10020050",
+    "code": "MLEMK1Mod",
+    "rank": 6,
+    "collabo": 0,
+    "duration": 18000,
+    "stat": {
+      "hp": 100,
+      "pow": 118,
+      "hit": 115,
+      "dodge": 105,
+      "speed": 100,
+      "rate": 105,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 0,
+    "grow": 135,
+    "type_equip": "5,19|1,2,3,13,18|15"
   },
   "20051": {
     "id": 20051,
@@ -11729,6 +12120,29 @@
     "grow": 118,
     "type_equip": "1,2,3,4,13,18|8|9,10,20"
   },
+  "20066": {
+    "id": 20066,
+    "type": "AR",
+    "name": "gun-10020066",
+    "code": "56-1typeMod",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 12300,
+    "stat": {
+      "hp": 130,
+      "pow": 125,
+      "hit": 100,
+      "dodge": 100,
+      "speed": 100,
+      "rate": 105,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 20,
+    "bullet": 0,
+    "grow": 115,
+    "type_equip": "1,2,3,4,13,18|8|9,10,20"
+  },
   "20071": {
     "id": 20071,
     "type": "AR",
@@ -11797,6 +12211,29 @@
     "bullet": 10,
     "grow": 100,
     "type_equip": "5,17|1,2,3,16,18|14"
+  },
+  "20088": {
+    "id": 20088,
+    "type": "MG",
+    "name": "gun-10020088",
+    "code": "MG3Mod",
+    "rank": 5,
+    "collabo": 0,
+    "duration": 23400,
+    "stat": {
+      "hp": 120,
+      "pow": 115,
+      "hit": 110,
+      "dodge": 95,
+      "speed": 100,
+      "rate": 125,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 5,
+    "bullet": 10,
+    "grow": 110,
+    "type_equip": "5,17|1,2,3,16,18|14,20"
   },
   "20089": {
     "id": 20089,
@@ -12027,6 +12464,29 @@
     "bullet": 0,
     "grow": 140,
     "type_equip": "4,13,16|6|10,20"
+  },
+  "20115": {
+    "id": 20115,
+    "type": "SMG",
+    "name": "gun-10020115",
+    "code": "KP31Mod",
+    "rank": 6,
+    "collabo": 0,
+    "duration": 8700,
+    "stat": {
+      "hp": 125,
+      "pow": 118,
+      "hit": 130,
+      "dodge": 115,
+      "speed": 100,
+      "rate": 120,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 5,
+    "bullet": 0,
+    "grow": 108,
+    "type_equip": "9,10,20|6,19|1,2,3,4,13"
   },
   "20122": {
     "id": 20122,
@@ -12442,6 +12902,29 @@
     "grow": 105,
     "type_equip": "4,13,16|6,19|10"
   },
+  "20230": {
+    "id": 20230,
+    "type": "RF",
+    "name": "gun-10020230",
+    "code": "OBRMod",
+    "rank": 4,
+    "collabo": 0,
+    "duration": 15600,
+    "stat": {
+      "hp": 95,
+      "pow": 112,
+      "hit": 125,
+      "dodge": 95,
+      "speed": 100,
+      "rate": 110,
+      "armor": 0
+    },
+    "armor_piercing": 15,
+    "crit": 40,
+    "bullet": 0,
+    "grow": 120,
+    "type_equip": "5|1,2,3,13,18|15"
+  },
   "20252": {
     "id": 20252,
     "type": "RF",
@@ -12562,7 +13045,7 @@
     "type": "SMG",
     "name": "gun-10090001",
     "code": "ISC",
-    "rank": 2,
+    "rank": 5,
     "collabo": 0,
     "duration": 6600,
     "stat": {

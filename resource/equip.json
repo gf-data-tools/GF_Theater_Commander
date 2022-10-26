@@ -2,7 +2,6 @@
   "1": {
     "id": 1,
     "type": 1,
-    "category": "optical",
     "name": "equip-10000001",
     "code": "配件_光学瞄准镜_N",
     "rank": 2,
@@ -32,7 +31,6 @@
   "2": {
     "id": 2,
     "type": 1,
-    "category": "optical",
     "name": "equip-10000002",
     "code": "配件_光学瞄准镜_N",
     "rank": 3,
@@ -63,7 +61,6 @@
   "3": {
     "id": 3,
     "type": 1,
-    "category": "optical",
     "name": "equip-10000003",
     "code": "配件_光学瞄准镜_N",
     "rank": 4,
@@ -94,7 +91,6 @@
   "4": {
     "id": 4,
     "type": 1,
-    "category": "optical",
     "name": "equip-10000004",
     "code": "配件_光学瞄准镜_N",
     "rank": 5,
@@ -125,7 +121,6 @@
   "5": {
     "id": 5,
     "type": 2,
-    "category": "holo",
     "name": "equip-10000005",
     "code": "配件_全息瞄准镜_N",
     "rank": 2,
@@ -163,7 +158,6 @@
   "6": {
     "id": 6,
     "type": 2,
-    "category": "holo",
     "name": "equip-10000006",
     "code": "配件_全息瞄准镜_N",
     "rank": 3,
@@ -203,7 +197,6 @@
   "7": {
     "id": 7,
     "type": 2,
-    "category": "holo",
     "name": "equip-10000007",
     "code": "配件_全息瞄准镜_N",
     "rank": 4,
@@ -243,7 +236,6 @@
   "8": {
     "id": 8,
     "type": 2,
-    "category": "holo",
     "name": "equip-10000008",
     "code": "配件_全息瞄准镜_N",
     "rank": 5,
@@ -283,7 +275,6 @@
   "9": {
     "id": 9,
     "type": 3,
-    "category": "reddot",
     "name": "equip-10000009",
     "code": "配件_ACOG瞄准镜_N",
     "rank": 2,
@@ -317,7 +308,6 @@
   "10": {
     "id": 10,
     "type": 3,
-    "category": "reddot",
     "name": "equip-10000010",
     "code": "配件_ACOG瞄准镜_N",
     "rank": 3,
@@ -352,7 +342,6 @@
   "11": {
     "id": 11,
     "type": 3,
-    "category": "reddot",
     "name": "equip-10000011",
     "code": "配件_ACOG瞄准镜_N",
     "rank": 4,
@@ -387,7 +376,6 @@
   "12": {
     "id": 12,
     "type": 3,
-    "category": "reddot",
     "name": "equip-10000012",
     "code": "配件_ACOG瞄准镜_N",
     "rank": 5,
@@ -422,7 +410,6 @@
   "13": {
     "id": 13,
     "type": 4,
-    "category": "nightequip",
     "name": "equip-10000013",
     "code": "配件_红外夜视仪_N",
     "rank": 2,
@@ -452,7 +439,6 @@
   "14": {
     "id": 14,
     "type": 4,
-    "category": "nightequip",
     "name": "equip-10000014",
     "code": "配件_红外夜视仪_N",
     "rank": 3,
@@ -482,7 +468,6 @@
   "15": {
     "id": 15,
     "type": 4,
-    "category": "nightequip",
     "name": "equip-10000015",
     "code": "配件_红外夜视仪_N",
     "rank": 4,
@@ -512,7 +497,6 @@
   "16": {
     "id": 16,
     "type": 4,
-    "category": "nightequip",
     "name": "equip-10000016",
     "code": "配件_红外夜视仪_N",
     "rank": 5,
@@ -542,7 +526,6 @@
   "17": {
     "id": 17,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000017",
     "code": "弹匣_穿甲弹_N",
     "rank": 2,
@@ -572,7 +555,6 @@
   "18": {
     "id": 18,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000018",
     "code": "弹匣_穿甲弹_N",
     "rank": 3,
@@ -603,7 +585,6 @@
   "19": {
     "id": 19,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000019",
     "code": "弹匣_穿甲弹_N",
     "rank": 4,
@@ -634,7 +615,6 @@
   "20": {
     "id": 20,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000020",
     "code": "弹匣_穿甲弹_N",
     "rank": 5,
@@ -665,7 +645,6 @@
   "21": {
     "id": 21,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000021",
     "code": "21",
     "rank": 2,
@@ -690,7 +669,6 @@
   "22": {
     "id": 22,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000022",
     "code": "22",
     "rank": 3,
@@ -715,7 +693,6 @@
   "23": {
     "id": 23,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000023",
     "code": "23",
     "rank": 4,
@@ -740,7 +717,6 @@
   "24": {
     "id": 24,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000024",
     "code": "24",
     "rank": 5,
@@ -765,7 +741,6 @@
   "25": {
     "id": 25,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000025",
     "code": "25",
     "rank": 2,
@@ -790,7 +765,6 @@
   "26": {
     "id": 26,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000026",
     "code": "26",
     "rank": 3,
@@ -815,7 +789,6 @@
   "27": {
     "id": 27,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000027",
     "code": "27",
     "rank": 4,
@@ -840,7 +813,6 @@
   "28": {
     "id": 28,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000028",
     "code": "28",
     "rank": 5,
@@ -865,7 +837,6 @@
   "29": {
     "id": 29,
     "type": 8,
-    "category": "hv",
     "name": "equip-10000029",
     "code": "弹匣_高速弹_N",
     "rank": 2,
@@ -895,7 +866,6 @@
   "30": {
     "id": 30,
     "type": 8,
-    "category": "hv",
     "name": "equip-10000030",
     "code": "弹匣_高速弹_N",
     "rank": 3,
@@ -926,7 +896,6 @@
   "31": {
     "id": 31,
     "type": 8,
-    "category": "hv",
     "name": "equip-10000031",
     "code": "弹匣_高速弹_N",
     "rank": 4,
@@ -957,7 +926,6 @@
   "32": {
     "id": 32,
     "type": 8,
-    "category": "hv",
     "name": "equip-10000032",
     "code": "弹匣_高速弹_N",
     "rank": 5,
@@ -988,7 +956,6 @@
   "33": {
     "id": 33,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000033",
     "code": "33",
     "rank": 2,
@@ -1013,7 +980,6 @@
   "34": {
     "id": 34,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000034",
     "code": "34",
     "rank": 3,
@@ -1038,7 +1004,6 @@
   "35": {
     "id": 35,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000035",
     "code": "35",
     "rank": 4,
@@ -1063,7 +1028,6 @@
   "36": {
     "id": 36,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000036",
     "code": "36",
     "rank": 5,
@@ -1088,7 +1052,6 @@
   "37": {
     "id": 37,
     "type": 10,
-    "category": "texo",
     "name": "equip-10000037",
     "code": "人形装备_外骨骼_N",
     "rank": 2,
@@ -1122,7 +1085,6 @@
   "38": {
     "id": 38,
     "type": 10,
-    "category": "texo",
     "name": "equip-10000038",
     "code": "人形装备_外骨骼_N",
     "rank": 3,
@@ -1157,7 +1119,6 @@
   "39": {
     "id": 39,
     "type": 10,
-    "category": "texo",
     "name": "equip-10000039",
     "code": "人形装备_外骨骼_N",
     "rank": 4,
@@ -1192,7 +1153,6 @@
   "40": {
     "id": 40,
     "type": 10,
-    "category": "texo",
     "name": "equip-10000040",
     "code": "人形装备_外骨骼_N",
     "rank": 5,
@@ -1227,7 +1187,6 @@
   "42": {
     "id": 42,
     "type": 11,
-    "category": "armorplate",
     "name": "equip-10000042",
     "code": "人形装备_防弹插板_N",
     "rank": 3,
@@ -1262,7 +1221,6 @@
   "43": {
     "id": 43,
     "type": 11,
-    "category": "armorplate",
     "name": "equip-10000043",
     "code": "人形装备_防弹插板_N",
     "rank": 4,
@@ -1297,7 +1255,6 @@
   "44": {
     "id": 44,
     "type": 11,
-    "category": "armorplate",
     "name": "equip-10000044",
     "code": "人形装备_防弹插板_N",
     "rank": 5,
@@ -1332,7 +1289,6 @@
   "45": {
     "id": 45,
     "type": 12,
-    "category": "exclusive",
     "name": "equip-10000045",
     "code": "45",
     "rank": 2,
@@ -1357,7 +1313,6 @@
   "46": {
     "id": 46,
     "type": 12,
-    "category": "exclusive",
     "name": "equip-10000046",
     "code": "46",
     "rank": 3,
@@ -1382,7 +1337,6 @@
   "47": {
     "id": 47,
     "type": 12,
-    "category": "exclusive",
     "name": "equip-10000047",
     "code": "47",
     "rank": 4,
@@ -1407,7 +1361,6 @@
   "48": {
     "id": 48,
     "type": 12,
-    "category": "exclusive",
     "name": "equip-10000048",
     "code": "48",
     "rank": 5,
@@ -1432,7 +1385,6 @@
   "49": {
     "id": 49,
     "type": 4,
-    "category": "nightequip",
     "name": "equip-10000049",
     "code": "配件_红外夜视仪_S",
     "rank": 5,
@@ -1462,7 +1414,6 @@
   "50": {
     "id": 50,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000050",
     "code": "弹匣_穿甲弹_S",
     "rank": 5,
@@ -1493,7 +1444,6 @@
   "51": {
     "id": 51,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000051",
     "code": "51",
     "rank": 2,
@@ -1527,7 +1477,6 @@
   "52": {
     "id": 52,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000052",
     "code": "52",
     "rank": 3,
@@ -1561,7 +1510,6 @@
   "53": {
     "id": 53,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000053",
     "code": "53",
     "rank": 4,
@@ -1595,7 +1543,6 @@
   "54": {
     "id": 54,
     "type": 5,
-    "category": "ap",
     "name": "equip-10000054",
     "code": "54",
     "rank": 5,
@@ -1629,7 +1576,6 @@
   "55": {
     "id": 55,
     "type": 10,
-    "category": "xexo",
     "name": "equip-10000055",
     "code": "人形装备_外骨骼_X_N",
     "rank": 2,
@@ -1659,7 +1605,6 @@
   "56": {
     "id": 56,
     "type": 10,
-    "category": "xexo",
     "name": "equip-10000056",
     "code": "人形装备_外骨骼_X_N",
     "rank": 3,
@@ -1690,7 +1635,6 @@
   "57": {
     "id": 57,
     "type": 10,
-    "category": "xexo",
     "name": "equip-10000057",
     "code": "人形装备_外骨骼_X_N",
     "rank": 4,
@@ -1721,7 +1665,6 @@
   "58": {
     "id": 58,
     "type": 10,
-    "category": "xexo",
     "name": "equip-10000058",
     "code": "人形装备_外骨骼_X_N",
     "rank": 5,
@@ -1752,7 +1695,6 @@
   "59": {
     "id": 59,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000059",
     "code": "弹匣_穿甲弹_Springfield",
     "rank": 5,
@@ -1790,7 +1732,6 @@
   "60": {
     "id": 60,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000060",
     "code": "弹匣_高速弹_AR15",
     "rank": 5,
@@ -1828,7 +1769,6 @@
   "61": {
     "id": 61,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000061",
     "code": "人形装备_战术核芯片_M1918",
     "rank": 5,
@@ -1870,7 +1810,6 @@
   "62": {
     "id": 62,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000062",
     "code": "人形装备_外骨骼_MP5",
     "rank": 5,
@@ -1908,7 +1847,6 @@
   "63": {
     "id": 63,
     "type": 13,
-    "category": "suppressor",
     "name": "equip-10000063",
     "code": "配件_消音器_N",
     "rank": 2,
@@ -1942,7 +1880,6 @@
   "64": {
     "id": 64,
     "type": 13,
-    "category": "suppressor",
     "name": "equip-10000064",
     "code": "配件_消音器_N",
     "rank": 3,
@@ -1978,7 +1915,6 @@
   "65": {
     "id": 65,
     "type": 13,
-    "category": "suppressor",
     "name": "equip-10000065",
     "code": "配件_消音器_N",
     "rank": 4,
@@ -2014,7 +1950,6 @@
   "66": {
     "id": 66,
     "type": 13,
-    "category": "suppressor",
     "name": "equip-10000066",
     "code": "配件_消音器_N",
     "rank": 5,
@@ -2050,7 +1985,6 @@
   "67": {
     "id": 67,
     "type": 14,
-    "category": "ammobox",
     "name": "equip-10000067",
     "code": "人形装备_弹链箱_N",
     "rank": 4,
@@ -2085,7 +2019,6 @@
   "68": {
     "id": 68,
     "type": 14,
-    "category": "ammobox",
     "name": "equip-10000068",
     "code": "人形装备_弹链箱_N",
     "rank": 5,
@@ -2120,7 +2053,6 @@
   "69": {
     "id": 69,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000069",
     "code": "弹匣_状态弹_空尖弹_N",
     "rank": 2,
@@ -2154,7 +2086,6 @@
   "70": {
     "id": 70,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000070",
     "code": "弹匣_状态弹_空尖弹_N",
     "rank": 3,
@@ -2189,7 +2120,6 @@
   "71": {
     "id": 71,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000071",
     "code": "弹匣_状态弹_空尖弹_N",
     "rank": 4,
@@ -2224,7 +2154,6 @@
   "72": {
     "id": 72,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000072",
     "code": "弹匣_状态弹_空尖弹_N",
     "rank": 5,
@@ -2259,7 +2188,6 @@
   "73": {
     "id": 73,
     "type": 7,
-    "category": "buckshot",
     "name": "equip-10000073",
     "code": "弹匣_霰弹_鹿弹_N",
     "rank": 2,
@@ -2293,7 +2221,6 @@
   "74": {
     "id": 74,
     "type": 7,
-    "category": "buckshot",
     "name": "equip-10000074",
     "code": "弹匣_霰弹_鹿弹_N",
     "rank": 3,
@@ -2329,7 +2256,6 @@
   "75": {
     "id": 75,
     "type": 7,
-    "category": "buckshot",
     "name": "equip-10000075",
     "code": "弹匣_霰弹_鹿弹_N",
     "rank": 4,
@@ -2365,7 +2291,6 @@
   "76": {
     "id": 76,
     "type": 7,
-    "category": "buckshot",
     "name": "equip-10000076",
     "code": "弹匣_霰弹_鹿弹_N",
     "rank": 5,
@@ -2401,7 +2326,6 @@
   "77": {
     "id": 77,
     "type": 7,
-    "category": "slugshell",
     "name": "equip-10000077",
     "code": "弹匣_霰弹_独头弹_N",
     "rank": 2,
@@ -2431,7 +2355,6 @@
   "78": {
     "id": 78,
     "type": 7,
-    "category": "slugshell",
     "name": "equip-10000078",
     "code": "弹匣_霰弹_独头弹_N",
     "rank": 3,
@@ -2462,7 +2385,6 @@
   "79": {
     "id": 79,
     "type": 7,
-    "category": "slugshell",
     "name": "equip-10000079",
     "code": "弹匣_霰弹_独头弹_N",
     "rank": 4,
@@ -2493,7 +2415,6 @@
   "80": {
     "id": 80,
     "type": 7,
-    "category": "slugshell",
     "name": "equip-10000080",
     "code": "弹匣_霰弹_独头弹_N",
     "rank": 5,
@@ -2524,7 +2445,6 @@
   "81": {
     "id": 81,
     "type": 11,
-    "category": "armorplate",
     "name": "equip-10000081",
     "code": "人形装备_防弹插板_S",
     "rank": 5,
@@ -2559,7 +2479,6 @@
   "82": {
     "id": 82,
     "type": 7,
-    "category": "buckshot",
     "name": "equip-10000082",
     "code": "弹匣_霰弹_鹿弹_S",
     "rank": 5,
@@ -2595,7 +2514,6 @@
   "83": {
     "id": 83,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000083",
     "code": "配件_光学瞄准镜_AK",
     "rank": 5,
@@ -2628,13 +2546,13 @@
     "skill_effect": 0.0,
     "fit_guns": [
       58,
-      66
+      66,
+      20066
     ]
   },
   "84": {
     "id": 84,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000084",
     "code": "配件_光学瞄准镜_AK",
     "rank": 5,
@@ -2667,13 +2585,13 @@
     "skill_effect": 0.0,
     "fit_guns": [
       58,
-      66
+      66,
+      20066
     ]
   },
   "85": {
     "id": 85,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000085",
     "code": "配件_光学瞄准镜_AK",
     "rank": 5,
@@ -2706,13 +2624,13 @@
     "skill_effect": 0.0,
     "fit_guns": [
       58,
-      66
+      66,
+      20066
     ]
   },
   "86": {
     "id": 86,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000086",
     "code": "人形装备_战术核芯片_莫辛纳甘",
     "rank": 5,
@@ -2756,7 +2674,6 @@
   "87": {
     "id": 87,
     "type": 15,
-    "category": "cloak",
     "name": "equip-10000087",
     "code": "人形装备_伪装披风_N1",
     "rank": 2,
@@ -2790,7 +2707,6 @@
   "88": {
     "id": 88,
     "type": 15,
-    "category": "cloak",
     "name": "equip-10000088",
     "code": "人形装备_伪装披风_N1",
     "rank": 3,
@@ -2825,7 +2741,6 @@
   "89": {
     "id": 89,
     "type": 15,
-    "category": "cloak",
     "name": "equip-10000089",
     "code": "人形装备_伪装披风_N2",
     "rank": 4,
@@ -2860,7 +2775,6 @@
   "90": {
     "id": 90,
     "type": 15,
-    "category": "cloak",
     "name": "equip-10000090",
     "code": "人形装备_伪装披风_N3",
     "rank": 5,
@@ -2895,7 +2809,6 @@
   "91": {
     "id": 91,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000091",
     "code": "人形装备_防弹插板_M16A1",
     "rank": 5,
@@ -2941,7 +2854,6 @@
   "92": {
     "id": 92,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000092",
     "code": "人形装备_外骨骼_UMP",
     "rank": 5,
@@ -2983,7 +2895,6 @@
   "93": {
     "id": 93,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000093",
     "code": "配件_红外夜视仪_9A91",
     "rank": 5,
@@ -3020,7 +2931,6 @@
   "94": {
     "id": 94,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000094",
     "code": "人形装备_战术核芯片_阿梅利",
     "rank": 5,
@@ -3062,7 +2972,6 @@
   "95": {
     "id": 95,
     "type": 6,
-    "category": "hp",
     "name": "equip-10000095",
     "code": "弹匣_状态弹_空尖弹_S",
     "rank": 5,
@@ -3097,7 +3006,6 @@
   "96": {
     "id": 96,
     "type": 15,
-    "category": "cloak",
     "name": "equip-10000096",
     "code": "人形装备_伪装披风_N3_S",
     "rank": 5,
@@ -3132,7 +3040,6 @@
   "97": {
     "id": 97,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000097",
     "code": "人形装备_防弹插板_N",
     "rank": 5,
@@ -3175,7 +3082,6 @@
   "98": {
     "id": 98,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000098",
     "code": "弹匣_穿甲弹_N",
     "rank": 5,
@@ -3218,7 +3124,6 @@
   "99": {
     "id": 99,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000099",
     "code": "人形装备_特殊_M4A1",
     "rank": 5,
@@ -3262,7 +3167,6 @@
   "100": {
     "id": 100,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000100",
     "code": "配件_特殊_AR15",
     "rank": 5,
@@ -3306,7 +3210,6 @@
   "101": {
     "id": 101,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000101",
     "code": "弹匣_空尖弹_M1911",
     "rank": 5,
@@ -3344,7 +3247,6 @@
   "102": {
     "id": 102,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000102",
     "code": "人形装备_战术核芯片_IDW",
     "rank": 5,
@@ -3387,7 +3289,6 @@
   "103": {
     "id": 103,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000103",
     "code": "配件_消音器_64式",
     "rank": 5,
@@ -3426,7 +3327,6 @@
   "104": {
     "id": 104,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000104",
     "code": "配件_特殊_FN49",
     "rank": 5,
@@ -3465,7 +3365,6 @@
   "105": {
     "id": 105,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000105",
     "code": "配件_光学瞄准镜_Kar98k",
     "rank": 5,
@@ -3497,13 +3396,13 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      46
+      46,
+      20046
     ]
   },
   "106": {
     "id": 106,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000106",
     "code": "配件_全息瞄准镜_HK416",
     "rank": 5,
@@ -3547,7 +3446,6 @@
   "107": {
     "id": 107,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000107",
     "code": "人形装备_弹链箱_MG3",
     "rank": 5,
@@ -3586,13 +3484,13 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      88
+      88,
+      20088
     ]
   },
   "108": {
     "id": 108,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000108",
     "code": "人形装备_伪装披风_PTRD",
     "rank": 5,
@@ -3634,7 +3532,6 @@
   "109": {
     "id": 109,
     "type": 1,
-    "category": "optical",
     "name": "equip-10000109",
     "code": "配件_光学瞄准镜_S",
     "rank": 5,
@@ -3665,7 +3562,6 @@
   "110": {
     "id": 110,
     "type": 8,
-    "category": "hv",
     "name": "equip-10000110",
     "code": "弹匣_高速弹_S",
     "rank": 5,
@@ -3696,7 +3592,6 @@
   "111": {
     "id": 111,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000111",
     "code": "配件_光学瞄准镜_莫辛纳甘",
     "rank": 5,
@@ -3735,7 +3630,6 @@
   "112": {
     "id": 112,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000112",
     "code": "配件_ACOG瞄准镜_M1918",
     "rank": 5,
@@ -3778,7 +3672,6 @@
   "113": {
     "id": 113,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000113",
     "code": "配件_消音器_纳甘左轮",
     "rank": 5,
@@ -3822,7 +3715,6 @@
   "114": {
     "id": 114,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000114",
     "code": "配件_特殊_MP446",
     "rank": 5,
@@ -3866,7 +3758,6 @@
   "115": {
     "id": 115,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000115",
     "code": "人形装备_伪装披风_SV98",
     "rank": 5,
@@ -3909,7 +3800,6 @@
   "117": {
     "id": 117,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000117",
     "code": "配件_特殊_clear",
     "rank": 5,
@@ -3941,7 +3831,6 @@
   "118": {
     "id": 118,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000118",
     "code": "配件_特殊_fail",
     "rank": 5,
@@ -3973,7 +3862,6 @@
   "119": {
     "id": 119,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000119",
     "code": "配件_光学瞄准镜_FAMAS",
     "rank": 5,
@@ -4016,7 +3904,6 @@
   "120": {
     "id": 120,
     "type": 3,
-    "category": "reddot",
     "name": "equip-10000120",
     "code": "配件_ACOG瞄准镜_S",
     "rank": 5,
@@ -4051,7 +3938,6 @@
   "121": {
     "id": 121,
     "type": 10,
-    "category": "exo",
     "name": "equip-10000121",
     "code": "人形装备_外骨骼_S",
     "rank": 5,
@@ -4086,7 +3972,6 @@
   "122": {
     "id": 122,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000122",
     "code": "配件_特殊_柯尔特左轮",
     "rank": 5,
@@ -4130,7 +4015,6 @@
   "123": {
     "id": 123,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000123",
     "code": "配件_特殊_布伦",
     "rank": 5,
@@ -4174,7 +4058,6 @@
   "124": {
     "id": 124,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000124",
     "code": "配件_特殊_G3",
     "rank": 5,
@@ -4213,7 +4096,6 @@
   "125": {
     "id": 125,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000125",
     "code": "配件_特殊_UMP45",
     "rank": 5,
@@ -4252,7 +4134,6 @@
   "126": {
     "id": 126,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000126",
     "code": "配件_特殊_M4SOPMODII",
     "rank": 5,
@@ -4295,7 +4176,6 @@
   "127": {
     "id": 127,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000127",
     "code": "人形装备_特殊_G41",
     "rank": 5,
@@ -4338,7 +4218,6 @@
   "128": {
     "id": 128,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000128",
     "code": "配件_消音器_司登",
     "rank": 5,
@@ -4377,7 +4256,6 @@
   "129": {
     "id": 129,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000129",
     "code": "配件_特殊_M14",
     "rank": 5,
@@ -4416,7 +4294,6 @@
   "130": {
     "id": 130,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000130",
     "code": "配件_光学瞄准镜_G36",
     "rank": 5,
@@ -4455,7 +4332,6 @@
   "131": {
     "id": 131,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000131",
     "code": "配件_ACOG瞄准镜_LWMMG",
     "rank": 5,
@@ -4499,7 +4375,6 @@
   "132": {
     "id": 132,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000132",
     "code": "配件_ACOG瞄准镜_MG4",
     "rank": 5,
@@ -4542,7 +4417,6 @@
   "133": {
     "id": 133,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000133",
     "code": "配件_特殊_斯捷奇金",
     "rank": 5,
@@ -4586,7 +4460,6 @@
   "134": {
     "id": 134,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000134",
     "code": "配件_ACOG瞄准镜_乌兹",
     "rank": 5,
@@ -4629,7 +4502,6 @@
   "135": {
     "id": 135,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000135",
     "code": "弹匣_高速弹_ASVal",
     "rank": 5,
@@ -4663,7 +4535,6 @@
   "136": {
     "id": 136,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000136",
     "code": "弹匣_高速弹_StG44",
     "rank": 5,
@@ -4697,7 +4568,6 @@
   "137": {
     "id": 137,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000137",
     "code": "配件_特殊1_吉尔",
     "rank": 5,
@@ -4729,7 +4599,6 @@
   "138": {
     "id": 138,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000138",
     "code": "配件_特殊2_吉尔",
     "rank": 5,
@@ -4761,7 +4630,6 @@
   "139": {
     "id": 139,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000139",
     "code": "弹匣_特殊1_吉尔",
     "rank": 5,
@@ -4793,7 +4661,6 @@
   "140": {
     "id": 140,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000140",
     "code": "弹匣_特殊2_吉尔",
     "rank": 5,
@@ -4825,7 +4692,6 @@
   "141": {
     "id": 141,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000141",
     "code": "人形_特殊1_吉尔",
     "rank": 5,
@@ -4857,7 +4723,6 @@
   "142": {
     "id": 142,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000142",
     "code": "配件_特殊3_吉尔",
     "rank": 5,
@@ -4889,7 +4754,6 @@
   "143": {
     "id": 143,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000143",
     "code": "弹匣_特殊3_吉尔",
     "rank": 5,
@@ -4921,7 +4785,6 @@
   "144": {
     "id": 144,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000144",
     "code": "人形_特殊2_吉尔",
     "rank": 5,
@@ -4953,7 +4816,6 @@
   "145": {
     "id": 145,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000145",
     "code": "人形_特殊_达娜",
     "rank": 5,
@@ -4995,7 +4857,6 @@
   "146": {
     "id": 146,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000146",
     "code": "弹匣_状态弹_多萝西",
     "rank": 5,
@@ -5032,7 +4893,6 @@
   "147": {
     "id": 147,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000147",
     "code": "人形_外骨骼_赛伊",
     "rank": 5,
@@ -5065,7 +4925,6 @@
   "148": {
     "id": 148,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000148",
     "code": "人形_特殊_史黛拉",
     "rank": 5,
@@ -5107,7 +4966,6 @@
   "149": {
     "id": 149,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000149",
     "code": "人形_特殊_阿尔玛",
     "rank": 5,
@@ -5149,7 +5007,6 @@
   "150": {
     "id": 150,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000150",
     "code": "配件_光学瞄准镜_FG42",
     "rank": 5,
@@ -5191,7 +5048,6 @@
   "151": {
     "id": 151,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000151",
     "code": "弹匣_霰弹_鹿弹_KS23",
     "rank": 5,
@@ -5234,7 +5090,6 @@
   "152": {
     "id": 152,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000152",
     "code": "配件_特殊_SIG510",
     "rank": 5,
@@ -5277,7 +5132,6 @@
   "153": {
     "id": 153,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000153",
     "code": "配件_特殊_BM59",
     "rank": 5,
@@ -5320,7 +5174,6 @@
   "154": {
     "id": 154,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000154",
     "code": "配件_消音器_M3",
     "rank": 5,
@@ -5363,7 +5216,6 @@
   "155": {
     "id": 155,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000155",
     "code": "配件_消音器_PPK",
     "rank": 5,
@@ -5395,13 +5247,13 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      10
+      10,
+      20010
     ]
   },
   "156": {
     "id": 156,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000156",
     "code": "配件_ACOG_UMP9",
     "rank": 5,
@@ -5445,7 +5297,6 @@
   "157": {
     "id": 157,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000157",
     "code": "配件_其它_MP5",
     "rank": 5,
@@ -5489,7 +5340,6 @@
   "158": {
     "id": 158,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000158",
     "code": "配件_其它_汉阳造",
     "rank": 5,
@@ -5528,7 +5378,6 @@
   "159": {
     "id": 159,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000159",
     "code": "配件_人形_hk416",
     "rank": 5,
@@ -5572,7 +5421,6 @@
   "160": {
     "id": 160,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000160",
     "code": "配件_光瞄_lee",
     "rank": 5,
@@ -5604,13 +5452,13 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      50
+      50,
+      20050
     ]
   },
   "161": {
     "id": 161,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000161",
     "code": "配件_光瞄_9597",
     "rank": 5,
@@ -5649,7 +5497,6 @@
   "162": {
     "id": 162,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000162",
     "code": "配件_特殊_RPD",
     "rank": 5,
@@ -5691,7 +5538,6 @@
   "163": {
     "id": 163,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000163",
     "code": "配件_上机匣_MAC10",
     "rank": 5,
@@ -5733,7 +5579,6 @@
   "164": {
     "id": 164,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000164",
     "code": "配件_聚合物握把_M9",
     "rank": 5,
@@ -5775,7 +5620,6 @@
   "165": {
     "id": 165,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000165",
     "code": "人形装备_其它_Tar21",
     "rank": 5,
@@ -5818,7 +5662,6 @@
   "166": {
     "id": 166,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000166",
     "code": "配件_全息_伯莱塔38",
     "rank": 5,
@@ -5861,7 +5704,6 @@
   "167": {
     "id": 167,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000167",
     "code": "配件_特殊_C96",
     "rank": 5,
@@ -5900,7 +5742,6 @@
   "168": {
     "id": 168,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000168",
     "code": "配件_特殊_樱花",
     "rank": 5,
@@ -5938,7 +5779,6 @@
   "169": {
     "id": 169,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000169",
     "code": "配件_导轨_RFB",
     "rank": 5,
@@ -5976,7 +5816,6 @@
   "170": {
     "id": 170,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000170",
     "code": "弹匣_子弹_NTW20",
     "rank": 5,
@@ -6015,7 +5854,6 @@
   "171": {
     "id": 171,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000171",
     "code": "人形装备_呆毛_斯捷奇金",
     "rank": 5,
@@ -6054,7 +5892,6 @@
   "172": {
     "id": 172,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000172",
     "code": "配件_光瞄_M21",
     "rank": 5,
@@ -6092,7 +5929,6 @@
   "173": {
     "id": 173,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000173",
     "code": "弹匣_子弹_ots12",
     "rank": 5,
@@ -6130,7 +5966,6 @@
   "174": {
     "id": 174,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000174",
     "code": "弹匣_高爆弹_AA12",
     "rank": 5,
@@ -6168,7 +6003,6 @@
   "175": {
     "id": 175,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000175",
     "code": "配件_消音_MDR",
     "rank": 5,
@@ -6211,7 +6045,6 @@
   "176": {
     "id": 176,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000176",
     "code": "弹匣_子弹_Gsh18",
     "rank": 5,
@@ -6255,7 +6088,6 @@
   "177": {
     "id": 177,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000177",
     "code": "配件_特殊_M500",
     "rank": 5,
@@ -6298,7 +6130,6 @@
   "178": {
     "id": 178,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000178",
     "code": "弹匣_子弹_KSVK",
     "rank": 5,
@@ -6337,7 +6168,6 @@
   "179": {
     "id": 179,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000179",
     "code": "配件_特殊_M950A",
     "rank": 5,
@@ -6376,7 +6206,6 @@
   "180": {
     "id": 180,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000180",
     "code": "配件_枪托_马卡洛夫",
     "rank": 5,
@@ -6415,7 +6244,6 @@
   "181": {
     "id": 181,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000181",
     "code": "弹闸_子弹_蝎式",
     "rank": 5,
@@ -6456,7 +6284,6 @@
   "182": {
     "id": 182,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000182",
     "code": "弹闸_子弹_79式",
     "rank": 5,
@@ -6493,7 +6320,6 @@
   "183": {
     "id": 183,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000183",
     "code": "人形_特殊_莉可",
     "rank": 5,
@@ -6530,7 +6356,6 @@
   "184": {
     "id": 184,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000184",
     "code": "人形_特殊_安洁莉卡",
     "rank": 5,
@@ -6568,7 +6393,6 @@
   "185": {
     "id": 185,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000185",
     "code": "配件_特殊_库拉耶丝",
     "rank": 5,
@@ -6611,7 +6435,6 @@
   "186": {
     "id": 186,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000186",
     "code": "配件_特殊_崔耶拉",
     "rank": 5,
@@ -6654,7 +6477,6 @@
   "187": {
     "id": 187,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000187",
     "code": "配件_特殊_海莉艾塔",
     "rank": 5,
@@ -6697,7 +6519,6 @@
   "188": {
     "id": 188,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000188",
     "code": "配件_陨石_库拉耶丝",
     "rank": 5,
@@ -6740,7 +6561,6 @@
   "189": {
     "id": 189,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000189",
     "code": "配件_手表_库拉耶丝",
     "rank": 5,
@@ -6783,7 +6603,6 @@
   "190": {
     "id": 190,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000190",
     "code": "人形装备_Gbox_G11",
     "rank": 5,
@@ -6827,7 +6646,6 @@
   "191": {
     "id": 191,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000191",
     "code": "配件_枪托_Super SASS",
     "rank": 5,
@@ -6866,7 +6684,6 @@
   "192": {
     "id": 192,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000192",
     "code": "人形装备_特殊_RO635",
     "rank": 5,
@@ -6904,7 +6721,6 @@
   "193": {
     "id": 193,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000193",
     "code": "人形装备_插板_97霰",
     "rank": 5,
@@ -6942,7 +6758,6 @@
   "194": {
     "id": 194,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000194",
     "code": "配件_特殊_谢尔久科夫",
     "rank": 5,
@@ -6980,7 +6795,6 @@
   "195": {
     "id": 195,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000195",
     "code": "弹匣_子弹_阿斯特拉",
     "rank": 5,
@@ -7017,7 +6831,6 @@
   "196": {
     "id": 196,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000196",
     "code": "配件_特殊_幽灵",
     "rank": 5,
@@ -7055,7 +6868,6 @@
   "197": {
     "id": 197,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000197",
     "code": "人形装备_特殊_索米",
     "rank": 5,
@@ -7086,13 +6898,13 @@
     "exclusive_rate": 3.0,
     "skill_effect": 0.0,
     "fit_guns": [
-      115
+      115,
+      20115
     ]
   },
   "198": {
     "id": 198,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000198",
     "code": "配件_枪托_NZ75",
     "rank": 5,
@@ -7130,7 +6942,6 @@
   "199": {
     "id": 199,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000199",
     "code": "配件_消音器_特工Vector",
     "rank": 5,
@@ -7168,7 +6979,6 @@
   "200": {
     "id": 200,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000200",
     "code": "弹匣_状态弹_空尖弹_特工Vector",
     "rank": 5,
@@ -7205,7 +7015,6 @@
   "201": {
     "id": 201,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000201",
     "code": "人形装备_外骨骼_特工Vector",
     "rank": 5,
@@ -7242,7 +7051,6 @@
   "202": {
     "id": 202,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000202",
     "code": "配件_光学瞄准镜_特工416",
     "rank": 5,
@@ -7275,7 +7083,6 @@
   "203": {
     "id": 203,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000203",
     "code": "弹匣_高速弹_特工416",
     "rank": 5,
@@ -7308,7 +7115,6 @@
   "204": {
     "id": 204,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000204",
     "code": "人形装备_外骨骼_X_特工416",
     "rank": 5,
@@ -7341,7 +7147,6 @@
   "205": {
     "id": 205,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000205",
     "code": "人形装备_护木_加利尔",
     "rank": 5,
@@ -7384,7 +7189,6 @@
   "206": {
     "id": 206,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000206",
     "code": "弹匣_霰弹_鹿弹_M1897",
     "rank": 5,
@@ -7423,7 +7227,6 @@
   "207": {
     "id": 207,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000207",
     "code": "配件_特殊_PP19",
     "rank": 5,
@@ -7462,7 +7265,6 @@
   "208": {
     "id": 208,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000208",
     "code": "配件_光瞄_Ots-44",
     "rank": 5,
@@ -7500,7 +7302,6 @@
   "209": {
     "id": 209,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000209",
     "code": "配件_特殊_63式",
     "rank": 5,
@@ -7538,7 +7339,6 @@
   "210": {
     "id": 210,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000210",
     "code": "配件_特殊_SCW",
     "rank": 5,
@@ -7576,7 +7376,6 @@
   "211": {
     "id": 211,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000211",
     "code": "弹匣_子弹_四式",
     "rank": 5,
@@ -7614,7 +7413,6 @@
   "212": {
     "id": 212,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000212",
     "code": "弹匣_子弹_56式半",
     "rank": 5,
@@ -7653,7 +7451,6 @@
   "213": {
     "id": 213,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000213",
     "code": "人形装备_行动包_维尔德",
     "rank": 5,
@@ -7691,7 +7488,6 @@
   "214": {
     "id": 214,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000214",
     "code": "人形装备_求生刀_F1",
     "rank": 5,
@@ -7730,7 +7526,6 @@
   "215": {
     "id": 215,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000215",
     "code": "弹匣_子弹_80式",
     "rank": 5,
@@ -7769,7 +7564,6 @@
   "216": {
     "id": 216,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000216",
     "code": "弹匣_独头弹_防卫者",
     "rank": 5,
@@ -7807,7 +7601,6 @@
   "217": {
     "id": 217,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000217",
     "code": "配件_光瞄_WA2000",
     "rank": 5,
@@ -7845,7 +7638,6 @@
   "218": {
     "id": 218,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000218",
     "code": "人形装备_特殊_64式",
     "rank": 5,
@@ -7879,7 +7671,6 @@
   "219": {
     "id": 219,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000219",
     "code": "配件_特殊_ppsh41",
     "rank": 5,
@@ -7918,7 +7709,6 @@
   "220": {
     "id": 220,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000220",
     "code": "配件_特殊_1919",
     "rank": 5,
@@ -7961,7 +7751,6 @@
   "221": {
     "id": 221,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000221",
     "code": "弹闸_子弹_汉阳造",
     "rank": 5,
@@ -8000,7 +7789,6 @@
   "222": {
     "id": 222,
     "type": 16,
-    "category": "rmr",
     "name": "equip-10000222",
     "code": "配件_备用瞄具_N",
     "rank": 3,
@@ -8036,7 +7824,6 @@
   "223": {
     "id": 223,
     "type": 16,
-    "category": "rmr",
     "name": "equip-10000223",
     "code": "配件_备用瞄具_N",
     "rank": 4,
@@ -8072,7 +7859,6 @@
   "224": {
     "id": 224,
     "type": 16,
-    "category": "rmr",
     "name": "equip-10000224",
     "code": "配件_备用瞄具_N",
     "rank": 5,
@@ -8108,7 +7894,6 @@
   "225": {
     "id": 225,
     "type": 6,
-    "category": "flare",
     "name": "equip-10000225",
     "code": "弹匣_信号弹_N",
     "rank": 5,
@@ -8138,7 +7923,6 @@
   "226": {
     "id": 226,
     "type": 5,
-    "category": "m1022ap",
     "name": "equip-10000226",
     "code": "弹匣_狙击弹_N",
     "rank": 4,
@@ -8174,7 +7958,6 @@
   "227": {
     "id": 227,
     "type": 5,
-    "category": "m1022ap",
     "name": "equip-10000227",
     "code": "弹匣_狙击弹_N",
     "rank": 5,
@@ -8210,7 +7993,6 @@
   "228": {
     "id": 228,
     "type": 17,
-    "category": "slap",
     "name": "equip-10000228",
     "code": "弹匣_脱壳穿甲弹_N",
     "rank": 4,
@@ -8245,7 +8027,6 @@
   "229": {
     "id": 229,
     "type": 17,
-    "category": "slap",
     "name": "equip-10000229",
     "code": "弹匣_脱壳穿甲弹_N",
     "rank": 5,
@@ -8280,7 +8061,6 @@
   "230": {
     "id": 230,
     "type": 7,
-    "category": "birdshot",
     "name": "equip-10000230",
     "code": "弹匣_霰弹_鸟弹_N",
     "rank": 4,
@@ -8315,7 +8095,6 @@
   "231": {
     "id": 231,
     "type": 7,
-    "category": "birdshot",
     "name": "equip-10000231",
     "code": "弹匣_霰弹_鸟弹_N",
     "rank": 5,
@@ -8350,7 +8129,6 @@
   "232": {
     "id": 232,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000232",
     "code": "人形装备_运算芯片_N",
     "rank": 3,
@@ -8390,7 +8168,6 @@
   "233": {
     "id": 233,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000233",
     "code": "人形装备_运算芯片_N",
     "rank": 4,
@@ -8430,7 +8207,6 @@
   "234": {
     "id": 234,
     "type": 9,
-    "category": "chip",
     "name": "equip-10000234",
     "code": "人形装备_运算芯片_N",
     "rank": 5,
@@ -8470,7 +8246,6 @@
   "235": {
     "id": 235,
     "type": 7,
-    "category": "flashbang",
     "name": "equip-10000235",
     "code": "弹匣_霰弹_闪光弹_N",
     "rank": 5,
@@ -8501,7 +8276,6 @@
   "236": {
     "id": 236,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000236",
     "code": "人形装备_外骨骼_THOMPSON",
     "rank": 5,
@@ -8538,7 +8312,6 @@
   "237": {
     "id": 237,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000237",
     "code": "人形装备_外骨骼_灰熊MkV",
     "rank": 5,
@@ -8575,7 +8348,6 @@
   "238": {
     "id": 238,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000238",
     "code": "弹匣_子弹_马卡洛夫",
     "rank": 5,
@@ -8609,7 +8381,6 @@
   "239": {
     "id": 239,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000239",
     "code": "弹匣_子弹_MG4",
     "rank": 5,
@@ -8647,7 +8418,6 @@
   "240": {
     "id": 240,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000240",
     "code": "人形装备_插板_RMB93",
     "rank": 5,
@@ -8685,7 +8455,6 @@
   "241": {
     "id": 241,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000241",
     "code": "弹匣_子弹_XM3",
     "rank": 5,
@@ -8728,7 +8497,6 @@
   "242": {
     "id": 242,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000242",
     "code": "弹匣_子弹_SVD",
     "rank": 5,
@@ -8766,7 +8534,6 @@
   "243": {
     "id": 243,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000243",
     "code": "配件_光学瞄具_F2000",
     "rank": 5,
@@ -8804,7 +8571,6 @@
   "244": {
     "id": 244,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000244",
     "code": "配件_全息瞄具_PP2000",
     "rank": 5,
@@ -8847,7 +8613,6 @@
   "245": {
     "id": 245,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000245",
     "code": "配件_备用瞄具_Glock17",
     "rank": 5,
@@ -8890,7 +8655,6 @@
   "246": {
     "id": 246,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000246",
     "code": "配件_枪托_杰里科",
     "rank": 5,
@@ -8928,7 +8692,6 @@
   "247": {
     "id": 247,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000247",
     "code": "配件_光学瞄准镜_TAC50",
     "rank": 5,
@@ -8966,7 +8729,6 @@
   "248": {
     "id": 248,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000248",
     "code": "人形_芯片_9A91",
     "rank": 5,
@@ -9004,7 +8766,6 @@
   "249": {
     "id": 249,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000249",
     "code": "配件_特殊人形_SR3MP",
     "rank": 5,
@@ -9046,7 +8807,6 @@
   "250": {
     "id": 250,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000250",
     "code": "人形_特殊_PDW",
     "rank": 5,
@@ -9084,7 +8844,6 @@
   "251": {
     "id": 251,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000251",
     "code": "配件_特殊_米诺斯",
     "rank": 5,
@@ -9121,7 +8880,6 @@
   "252": {
     "id": 252,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000252",
     "code": "配件_特殊_百合铃",
     "rank": 5,
@@ -9164,7 +8922,6 @@
   "253": {
     "id": 253,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000253",
     "code": "人形装备_特殊_小邪神",
     "rank": 5,
@@ -9202,7 +8959,6 @@
   "254": {
     "id": 254,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000254",
     "code": "人形_特殊_佩柯拉",
     "rank": 5,
@@ -9239,7 +8995,6 @@
   "255": {
     "id": 255,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000255",
     "code": "人形装备_外骨骼_美杜莎",
     "rank": 5,
@@ -9281,7 +9036,6 @@
   "256": {
     "id": 256,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000256",
     "code": "人形_特殊_M249SAW",
     "rank": 5,
@@ -9319,7 +9073,6 @@
   "257": {
     "id": 257,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000257",
     "code": "配件_特殊_DP28",
     "rank": 5,
@@ -9357,7 +9110,6 @@
   "258": {
     "id": 258,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000258",
     "code": "弹匣_特殊_PzB39",
     "rank": 5,
@@ -9395,7 +9147,6 @@
   "259": {
     "id": 259,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000259",
     "code": "人形_特殊_MondragonM1908",
     "rank": 5,
@@ -9428,7 +9179,6 @@
   "260": {
     "id": 260,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000260",
     "code": "人形_特殊_G36C",
     "rank": 5,
@@ -9466,7 +9216,6 @@
   "261": {
     "id": 261,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000261",
     "code": "配件_特殊_利贝罗勒",
     "rank": 5,
@@ -9505,7 +9254,6 @@
   "262": {
     "id": 262,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000262",
     "code": "弹匣_特殊_猎豹M1",
     "rank": 5,
@@ -9544,7 +9292,6 @@
   "263": {
     "id": 263,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000263",
     "code": "弹匣_特殊_MP443",
     "rank": 5,
@@ -9578,7 +9325,6 @@
   "264": {
     "id": 264,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000264",
     "code": "配件_特殊_PK",
     "rank": 5,
@@ -9620,7 +9366,6 @@
   "265": {
     "id": 265,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000265",
     "code": "配件_特殊_M37",
     "rank": 5,
@@ -9658,7 +9403,6 @@
   "266": {
     "id": 266,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000266",
     "code": "配件_特殊_Px4Storm",
     "rank": 5,
@@ -9696,7 +9440,6 @@
   "267": {
     "id": 267,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000267",
     "code": "配件_特殊_P38",
     "rank": 5,
@@ -9738,7 +9481,6 @@
   "268": {
     "id": 268,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000268",
     "code": "弹匣_特殊_Type03",
     "rank": 5,
@@ -9776,7 +9518,6 @@
   "269": {
     "id": 269,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000269",
     "code": "配件_特殊_Mk23",
     "rank": 5,
@@ -9813,7 +9554,6 @@
   "270": {
     "id": 270,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000270",
     "code": "配件_特殊_CZ75",
     "rank": 5,
@@ -9856,7 +9596,6 @@
   "271": {
     "id": 271,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000271",
     "code": "弹匣_特殊_蟒蛇",
     "rank": 5,
@@ -9893,7 +9632,6 @@
   "272": {
     "id": 272,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000272",
     "code": "弹匣_特殊_PPsh41",
     "rank": 5,
@@ -9931,7 +9669,6 @@
   "273": {
     "id": 273,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000273",
     "code": "配件_特殊_XM8",
     "rank": 5,
@@ -9974,7 +9711,6 @@
   "274": {
     "id": 274,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000274",
     "code": "配件_特殊_AN94",
     "rank": 5,
@@ -10013,7 +9749,6 @@
   "275": {
     "id": 275,
     "type": 20,
-    "category": "exclusive",
     "name": "equip-10000275",
     "code": "人形_特殊_AK15",
     "rank": 5,
@@ -10057,7 +9792,6 @@
   "276": {
     "id": 276,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000276",
     "code": "配件_特殊_P7",
     "rank": 5,
@@ -10095,7 +9829,6 @@
   "277": {
     "id": 277,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000277",
     "code": "配件_特殊_P90",
     "rank": 5,
@@ -10137,7 +9870,6 @@
   "278": {
     "id": 278,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000278",
     "code": "配件_特殊_P22",
     "rank": 5,
@@ -10175,7 +9907,6 @@
   "279": {
     "id": 279,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000279",
     "code": "配件_特殊_加兰德",
     "rank": 5,
@@ -10213,7 +9944,6 @@
   "280": {
     "id": 280,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000280",
     "code": "弹匣_特殊_T77",
     "rank": 5,
@@ -10255,7 +9985,6 @@
   "281": {
     "id": 281,
     "type": 19,
-    "category": "exclusive",
     "name": "equip-10000281",
     "code": "弹匣_特殊_SVT38",
     "rank": 5,
@@ -10293,7 +10022,6 @@
   "282": {
     "id": 282,
     "type": 18,
-    "category": "exclusive",
     "name": "equip-10000282",
     "code": "配件_特殊_64式自",
     "rank": 5,
@@ -10326,6 +10054,687 @@
     "skill_effect": 0.0,
     "fit_guns": [
       243
+    ]
+  },
+  "283": {
+    "id": 283,
+    "type": 18,
+    "name": "equip-10000283",
+    "code": "配件_特殊_M82A1",
+    "rank": 5,
+    "duration": 2700,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 17,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      231
+    ]
+  },
+  "284": {
+    "id": 284,
+    "type": 19,
+    "name": "equip-10000284",
+    "code": "弹匣_特殊_PPK",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "hit": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 150.0,
+    "fit_guns": [
+      10,
+      20010
+    ]
+  },
+  "285": {
+    "id": 285,
+    "type": 18,
+    "name": "equip-10000285",
+    "code": "配件_特殊_MG3",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "hit": {
+        "min": 1,
+        "max": 3,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 18,
+        "max": 25,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      88,
+      20088
+    ]
+  },
+  "286": {
+    "id": 286,
+    "type": 19,
+    "name": "equip-10000286",
+    "code": "弹匣_特殊_索米",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "hit": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 700
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 150.0,
+    "fit_guns": [
+      115,
+      20115
+    ]
+  },
+  "287": {
+    "id": 287,
+    "type": 18,
+    "name": "equip-10000287",
+    "code": "配件_特殊_OBR",
+    "rank": 5,
+    "duration": 2700,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 17,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      230,
+      20230
+    ]
+  },
+  "288": {
+    "id": 288,
+    "type": 18,
+    "name": "equip-10000288",
+    "code": "配件_特殊_Ak5",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "hit": {
+        "min": 15,
+        "max": 20,
+        "upgrade": 750
+      },
+      "rate": {
+        "min": -4,
+        "max": -4
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      187
+    ]
+  },
+  "289": {
+    "id": 289,
+    "type": 18,
+    "name": "equip-10000289",
+    "code": "配件_特殊_ARX160",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 4,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 18,
+        "max": 25,
+        "upgrade": 800
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      120
+    ]
+  },
+  "290": {
+    "id": 290,
+    "type": 18,
+    "name": "equip-10000290",
+    "code": "配件_特殊_MG42",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 2,
+        "max": 4,
+        "upgrade": 1000
+      },
+      "hit": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 19,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      86
+    ]
+  },
+  "291": {
+    "id": 291,
+    "type": 18,
+    "name": "equip-10000291",
+    "code": "配件_特殊_P08",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 1,
+        "max": 3,
+        "upgrade": 700
+      },
+      "hit": {
+        "min": 12,
+        "max": 15,
+        "upgrade": 700
+      },
+      "critical_percent": {
+        "min": 13,
+        "max": 15,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 2.0,
+      "mre": 2.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      11
+    ]
+  },
+  "292": {
+    "id": 292,
+    "type": 18,
+    "name": "equip-10000292",
+    "code": "配件_特殊_Saiga12",
+    "rank": 5,
+    "duration": 3000,
+    "stat": {
+      "pow": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 600
+      },
+      "hit": {
+        "min": 11,
+        "max": 15,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      160
+    ]
+  },
+  "293": {
+    "id": 293,
+    "type": 20,
+    "name": "equip-10000293",
+    "code": "人形_特殊_M6ASW",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 1,
+        "max": 3,
+        "upgrade": 700
+      },
+      "armor": {
+        "min": 6,
+        "max": 8,
+        "upgrade": 400
+      }
+    },
+    "powerup": {
+      "mp": 0.23,
+      "ammo": 0.23,
+      "mre": 0.33,
+      "part": 0.33
+    },
+    "retire": {
+      "mp": 2.0,
+      "ammo": 2.0,
+      "mre": 3.0,
+      "part": 3.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      324
+    ]
+  },
+  "294": {
+    "id": 294,
+    "type": 18,
+    "name": "equip-10000294",
+    "code": "配件_特殊_ACR",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "pow": {
+        "min": 2,
+        "max": 4,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 17,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      274
+    ]
+  },
+  "295": {
+    "id": 295,
+    "type": 18,
+    "name": "equip-10000295",
+    "code": "配件_特殊_AUG",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "critical_harm_rate": {
+        "min": 8,
+        "max": 10,
+        "upgrade": 500
+      },
+      "critical_percent": {
+        "min": 25,
+        "max": 30,
+        "upgrade": 850
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      73
+    ]
+  },
+  "296": {
+    "id": 296,
+    "type": 19,
+    "name": "equip-10000296",
+    "code": "弹匣_特殊_92type",
+    "rank": 5,
+    "duration": 3600,
+    "stat": {
+      "hit": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.48,
+      "ammo": 0.48,
+      "mre": 0.08,
+      "part": 0.25
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 4.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 150.0,
+    "fit_guns": [
+      13,
+      20013
+    ]
+  },
+  "297": {
+    "id": 297,
+    "type": 20,
+    "name": "equip-10000297",
+    "code": "人形_特殊_98K",
+    "rank": 5,
+    "duration": 3360,
+    "stat": {
+      "dodge": {
+        "min": -4,
+        "max": -1
+      },
+      "critical_harm_rate": {
+        "min": 25,
+        "max": 30,
+        "upgrade": 600
+      }
+    },
+    "powerup": {
+      "mp": 0.55,
+      "ammo": 0.16,
+      "mre": 0.6,
+      "part": 0.16
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 5.0,
+      "part": 0.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      46,
+      20046
+    ]
+  },
+  "298": {
+    "id": 298,
+    "type": 19,
+    "name": "equip-10000298",
+    "code": "弹匣_特殊_MLEMK1",
+    "rank": 5,
+    "duration": 3300,
+    "stat": {
+      "pow": {
+        "min": 2,
+        "max": 4,
+        "upgrade": 1000
+      },
+      "armor_piercing": {
+        "min": 195,
+        "max": 200,
+        "upgrade": 250
+      }
+    },
+    "powerup": {
+      "mp": 0.08,
+      "ammo": 0.5,
+      "mre": 0.3,
+      "part": 0.3
+    },
+    "retire": {
+      "mp": 0.0,
+      "ammo": 4.0,
+      "mre": 2.0,
+      "part": 3.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      50,
+      20050
+    ]
+  },
+  "299": {
+    "id": 299,
+    "type": 20,
+    "name": "equip-10000299",
+    "code": "人形_特殊_56-1type",
+    "rank": 5,
+    "duration": 3060,
+    "stat": {
+      "pow": {
+        "min": 6,
+        "max": 10,
+        "upgrade": 500
+      },
+      "rate": {
+        "min": 3,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "critical_harm_rate": {
+        "min": -10,
+        "max": -10
+      }
+    },
+    "powerup": {
+      "mp": 0.3,
+      "ammo": 0.23,
+      "mre": 0.15,
+      "part": 0.38
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 3.0,
+      "mre": 0.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      66,
+      20066
+    ]
+  },
+  "300": {
+    "id": 300,
+    "type": 18,
+    "name": "equip-10000300",
+    "code": "配件_特殊_QBU88",
+    "rank": 5,
+    "duration": 2700,
+    "stat": {
+      "pow": {
+        "min": 5,
+        "max": 5,
+        "upgrade": 1000
+      },
+      "critical_percent": {
+        "min": 24,
+        "max": 24,
+        "upgrade": 1000
+      }
+    },
+    "powerup": {
+      "mp": 0.45,
+      "ammo": 0.15,
+      "mre": 0.3,
+      "part": 0.15
+    },
+    "retire": {
+      "mp": 4.0,
+      "ammo": 0.0,
+      "mre": 3.0,
+      "part": 2.0
+    },
+    "exclusive_rate": 3.0,
+    "skill_effect": 0.0,
+    "fit_guns": [
+      261
     ]
   }
 }
