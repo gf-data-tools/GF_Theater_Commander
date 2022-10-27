@@ -8,6 +8,7 @@ def load_user_info(user_info:dict, game_data:dict):
     for c in gun_user_df.columns:
         gun_user_df[c] = pd.to_numeric(gun_user_df[c])
     gun_user_df['raw_gun_id'] = gun_user_df['gun_id'] % 20000
+    gun_user_df['favor'] = gun_user_df['favor'] // 10000
     gun_user_df_agg = gun_user_df.groupby('raw_gun_id').agg(max)
     gun_user_df_agg['name'] = gun_user_df_agg['gun_id'].map(lambda idx: gun_info[idx]['name'])
     gun_user_record = gun_user_df_agg.to_dict(orient='index')
@@ -21,8 +22,10 @@ def load_user_info(user_info:dict, game_data:dict):
     equip_user_df_agg = equip_user_df.groupby(['equip_id']).agg(sum).reset_index().drop(columns=['equip_level'])
     equip_user_df_agg['name'] = equip_user_df_agg['equip_id'].map(lambda idx: equip_info[idx]['name'])
     equip_user_df_agg['rank'] = equip_user_df_agg['equip_id'].map(lambda idx: equip_info[idx]['rank'])
+    equip_user_df_agg['upgrade'] = equip_user_df_agg['equip_id'].map(lambda idx: -1 if not equip_info[idx]['bonus_type'] else int(equip_info[idx]['exclusive_rate']))
     equip_user_df_agg['fit_guns'] = equip_user_df_agg['equip_id'].map(lambda idx: [int(i) for i in equip_info[idx]['fit_guns'].split(',')] if equip_info[idx]['fit_guns'] else [])
     equip_user_df_agg = equip_user_df_agg.query('rank==5').set_index('equip_id',drop=False)
+    equip_user_df_agg.to_csv('test.csv')
     equip_user_record = equip_user_df_agg.to_dict(orient='index')
     
     return gun_user_record, equip_user_record
@@ -48,7 +51,7 @@ def load_perfect_info(game_data:dict):
             'equip_id': idx, 
             'level_10': 50 if equip['bonus_type'] else 0, 
             'level_00': 0 if equip['bonus_type'] else 50, 
-            'name': equip['name'], 'rank': 5,
+            'name': equip['name'], 'rank': 5, 'upgrade': -1 if not equip['bonus_type'] else equip['exclusive_rate'],
             'fit_guns': [int(i) for i in equip['fit_guns'].split(',')] if equip['fit_guns'] else []
         }
     
