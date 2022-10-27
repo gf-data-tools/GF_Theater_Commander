@@ -12,7 +12,7 @@ import json
 
 os.chdir(Path(__file__).resolve().parent)
 # %% 战区关卡参数
-theater_id = 838
+theater_id = 848
 fairy_ratio = 2  # 妖精加成：5星1.25
 max_dolls = 30  # 上场人数
 upgrade_resource = 300 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
