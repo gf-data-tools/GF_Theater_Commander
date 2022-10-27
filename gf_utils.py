@@ -4,28 +4,8 @@ from urllib import request
 from urllib.error import URLError
 from socket import timeout
 import socket
-from tqdm.auto import tqdm
-from multiprocessing import Pool
 from logger_tt import logger
 
-class MultiProcessDownloader:
-    def __init__(self,n_jobs:int=16,timeout:float=30,retry:int=10):
-        self.n_jobs = n_jobs
-        self.timeout = timeout
-        self.retry = retry 
-        self.pool = Pool(n_jobs)
-
-    def download(self, tasks:Iterable[Iterable]):
-        for task in tasks:
-            task.append(self.retry)
-            task.append(self.timeout)
-        try:
-            for _ in tqdm(self.pool.imap_unordered(download_multitask, tasks),total=len(tasks),ascii=True): 
-                pass
-        except KeyboardInterrupt as e:
-            self.pool.terminate()
-            self.pool.join()
-            raise e
 
 def download(url, path, max_retry=10,timeout_sec=30):
     socket.setdefaulttimeout(timeout_sec)
@@ -46,8 +26,6 @@ def download(url, path, max_retry=10,timeout_sec=30):
         logger.error(f'Exceeded max retry times, failed to download {fname} from {url}')
     return path
 
-def download_multitask(x):
-    return download(*x)
 
 # %%
 import os
