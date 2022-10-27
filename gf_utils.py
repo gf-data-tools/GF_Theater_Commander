@@ -4,8 +4,8 @@ from urllib import request
 from urllib.error import URLError
 from socket import timeout
 import socket
-from logger_tt import logger
-
+import logging
+logger = logging.getLogger()
 
 def download(url, path, max_retry=10,timeout_sec=30):
     socket.setdefaulttimeout(timeout_sec)
