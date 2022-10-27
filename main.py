@@ -17,7 +17,7 @@ from rich.terminal_theme import MONOKAI
 from rich.status import Status
 
 console=Console(record=True)
-with Status('Initializing',console=console) as status:
+with Status('Initializing',console=console,spinner='bouncingBar') as status:
     os.chdir(Path(__file__).resolve().parent)
     # %% argparse
     parser = argparse.ArgumentParser()
@@ -32,9 +32,9 @@ with Status('Initializing',console=console) as status:
     theater_id = args.theater_id
     fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
     max_dolls = args.max_dolls  # 上场人数
-    upgrade_resource = args.upgrade_resource # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
-    region = args.region
-    use_perfect = args.perfect
+    region = args.region    # 服务器
+    use_perfect = args.perfect  # 完美梯队
+    upgrade_resource = args.upgrade_resource if not use_perfect else 999 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
 
     # %%
     status.update('Downloading data')

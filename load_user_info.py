@@ -48,8 +48,8 @@ def load_perfect_info(game_data:dict):
             continue
         equip_user_record[idx] = {
             'equip_id': idx, 
-            'level_10': 50 if equip['bonus_type'] else 0, 
-            'level_00': 0 if equip['bonus_type'] else 50, 
+            'level_10': 0, 
+            'level_00': 99, 
             'name': equip['name'], 'rank': 5, 'upgrade': -1 if not equip['bonus_type'] else equip['exclusive_rate'],
             'fit_guns': [int(i) for i in equip['fit_guns'].split(',')] if equip['fit_guns'] else []
         }
