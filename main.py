@@ -42,13 +42,13 @@ with Status('Initializing',console=console) as status:
     status.update('Reading user info')
     game_data = get_stc_data(f'data/{region}')
     gun_info, equip_info = game_data['gun'], game_data['equip']
-    with open(r'info/user_info.json','rb') as f:
-        data = f.read().decode('ascii','ignore')
-        data = re.sub(r'"name":".*?"',r'"name":""',data)
-        user_info = json.loads(data)
     if use_perfect:
         user_gun, user_equip = load_perfect_info(game_data)
     else:
+        with open(r'info/user_info.json','rb') as f:
+            data = f.read().decode('ascii','ignore')
+            data = re.sub(r'"name":".*?"',r'"name":""',data)
+            user_info = json.loads(data)
         user_gun, user_equip = load_user_info(user_info,game_data)
     status.update('Forming problem')
     choices = prepare_choices(user_gun,user_equip,theater_id,max_dolls,fairy_ratio,game_data)
