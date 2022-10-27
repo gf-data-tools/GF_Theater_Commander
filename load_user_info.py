@@ -25,7 +25,6 @@ def load_user_info(user_info:dict, game_data:dict):
     equip_user_df_agg['upgrade'] = equip_user_df_agg['equip_id'].map(lambda idx: -1 if not equip_info[idx]['bonus_type'] else int(equip_info[idx]['exclusive_rate']))
     equip_user_df_agg['fit_guns'] = equip_user_df_agg['equip_id'].map(lambda idx: [int(i) for i in equip_info[idx]['fit_guns'].split(',')] if equip_info[idx]['fit_guns'] else [])
     equip_user_df_agg = equip_user_df_agg.query('rank==5').set_index('equip_id',drop=False)
-    equip_user_df_agg.to_csv('test.csv')
     equip_user_record = equip_user_df_agg.to_dict(orient='index')
     
     return gun_user_record, equip_user_record

@@ -9,24 +9,38 @@ from load_user_info import load_user_info,load_perfect_info
 from prepare_choices import prepare_choices
 from gf_utils.stc_data import get_stc_data
 import json
+import argparse
 
 os.chdir(Path(__file__).resolve().parent)
+# %% argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('theater_id',default='848',type=int,help='关卡id,如736代表第7期高级区第6关')
+parser.add_argument('-m','--max_dolls',type=int,default=30,help='上场人数')
+parser.add_argument('-f','--fairy_ratio',type=float,default=2,help='妖精加成,默认4个5星1+0.25*4=2倍')
+parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
+parser.add_argument('-r', '--region', type=str, default='ch', help='ch/tw/kr/jp/us')
+parser.add_argument('-p', '--perfect', action='store_true')
+args = parser.parse_args()
 # %% 战区关卡参数
-theater_id = 848
-fairy_ratio = 2  # 妖精加成：5星1.25
-max_dolls = 30  # 上场人数
-upgrade_resource = 300 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+theater_id = args.theater_id
+fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
+max_dolls = args.max_dolls  # 上场人数
+upgrade_resource = args.upgrade_resource # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+region = args.region
+use_perfect = args.perfect
 
 # %%
 download_data()
-game_data = get_stc_data('data/ch')
+game_data = get_stc_data(f'data/{region}')
 gun_info, equip_info = game_data['gun'], game_data['equip']
 with open(r'info/user_info.json','rb') as f:
     data = f.read().decode('ascii','ignore')
     data = re.sub(r'"name":".*?"',r'"name":""',data)
     user_info = json.loads(data)
-user_gun, user_equip = load_user_info(user_info,game_data)
-user_gun, user_equip = load_perfect_info(game_data)
+if use_perfect:
+    user_gun, user_equip = load_perfect_info(game_data)
+else:
+    user_gun, user_equip = load_user_info(user_info,game_data)
 choices = prepare_choices(user_gun,user_equip,theater_id,max_dolls,fairy_ratio,game_data)
 
 # %%
@@ -69,7 +83,7 @@ from rich.terminal_theme import MONOKAI
 console=Console(record=True)
 if console.width < 60:
     console.width = 1000
-box_per_row = min(5,(console.width-10)//24)
+box_per_row = min(5,(console.width-10)//25)
 
 u_info, g_info = [], []
 for k, v in lp_vars.items():
@@ -92,7 +106,7 @@ equip_list = []
 for i, (info, v) in enumerate(u_info):
     if i%5 == 0:
         equip_table = Table.grid(
-            Column('name',width=16,justify='right'),
+            Column('name',width=17,justify='right'),
             Column('value',width=5,justify='left'),
             padding=(0,1,0,0)
         )
@@ -111,7 +125,7 @@ for i in range(0,len(equip_list),box_per_row):
 gun_list = []
 for info, v in g_info:
     gun_table = Table.grid(
-        Column('name',width=16,justify='right'),
+        Column('name',width=17,justify='right'),
         Column('value',width=5,justify='left'),
         padding=(0,1,0,0)
     )
@@ -154,5 +168,3 @@ console.save_text('info/result.txt',clear=False)
 code_format = re.sub(r"font-family:", r"font-family:'Sarasa Term SC',",CONSOLE_HTML_FORMAT)
 console.save_html('info/result.html',code_format=code_format,clear=False,theme=MONOKAI)
 
-
-# %%
