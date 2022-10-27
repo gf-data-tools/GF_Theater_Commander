@@ -38,7 +38,7 @@ with Status('Initializing',console=console) as status:
 
     # %%
     status.update('Downloading data')
-    download_data()
+    download_data(dir='./data',region=region)
     status.update('Reading user info')
     game_data = get_stc_data(f'data/{region}')
     gun_info, equip_info = game_data['gun'], game_data['equip']
