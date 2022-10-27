@@ -2,8 +2,6 @@ from functools import reduce
 import itertools
 from attr_calc import doll_attr_calculate
 import math
-from pprint import pprint
-from tqdm import tqdm
 
 def get_theater_config(theater_id, theater_area):
     area_cfg = theater_area[theater_id]

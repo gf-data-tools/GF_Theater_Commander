@@ -1,4 +1,4 @@
-from gf_utils.download import download
+from gf_utils import download
 from pathlib import Path
 
 REGIONS = ['ch','kr','tw','jp','us']

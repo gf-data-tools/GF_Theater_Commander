@@ -7,7 +7,7 @@ import re
 from download_data import download_data
 from load_user_info import load_user_info,load_perfect_info
 from prepare_choices import prepare_choices
-from gf_utils.stc_data import get_stc_data
+from gf_utils import get_stc_data
 import json
 import argparse
 from rich import box
