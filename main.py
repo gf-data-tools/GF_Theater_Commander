@@ -101,7 +101,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     u_info.sort(key=lambda x:0.001*v.value()-equip_info[x[0]['eid']]['exclusive_rate'],reverse=True)
     g_info.sort(key=lambda x:x[0]['score'],reverse=True)
 
-    rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow1', 6:'red', 7:'magenta'}
+    rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow', 6:'red', 7:'magenta'}
     lv_color = {
         0:'grey', 1:'white', 2:'white', 3:'cyan',
         4:'cyan', 5:'cyan', 6:'green', 7:'green', 
@@ -142,7 +142,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
             gun_info[info['gid']]['rank_display'],
             user_gun[info['gid']%20000]['favor']
         )
-        gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type:<3}',f'{"[red]o" if gun_favor>100 else "[magenta] "} {gun_favor:3d}')
+        gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type:<3}',f'{"[bold red]o" if gun_favor>100 else "[magenta] "} {gun_favor:3d}')
         # res_table.add_row((f'{gun_name}',gun_type))
         glv, score, slv1, slv2 = (
             user_gun[info['gid']%20000]["gun_level"],
@@ -150,7 +150,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
             user_gun[info['gid']%20000]['skill1'], 
             user_gun[info['gid']%20000]['skill2'],
         )
-        gun_table.add_row(f'[{rank_color[(glv-1)//20+1]}]Lv{glv:>3}[/{rank_color[(glv-1)//20+1]}] [{lv_color[slv1]}]{slv1:2d}'+'[white]/'+f'[{lv_color[slv2]}]{slv2:2d}', f'{score:>5}')
+        gun_table.add_row(f'[bold][{rank_color[(glv-1)//20+1]}]Lv{glv:>3}[/{rank_color[(glv-1)//20+1]}] [{lv_color[slv1]}]{slv1:2d}'+'[white]/'+f'[{lv_color[slv2]}]{slv2:2d}', f'{score:>5}')
         for e in range(3):
             ename, elv, erank = (
                 equip_info[info[f'eid_{e+1}']]['name'],
