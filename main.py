@@ -26,7 +26,7 @@ with Status('Initializing',console=console) as status:
     parser.add_argument('-f','--fairy_ratio',type=float,default=2,help='妖精加成,默认4个5星1+0.25*4=2倍')
     parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
     parser.add_argument('-r', '--region', type=str, default='ch', help='ch/tw/kr/jp/us')
-    parser.add_argument('-p', '--perfect', action='store_true')
+    parser.add_argument('-p', '--perfect', action='store_true',help='使用完美仓库（满婚满级满技满装备）')
     args = parser.parse_args()
     # %% 战区关卡参数
     theater_id = args.theater_id
