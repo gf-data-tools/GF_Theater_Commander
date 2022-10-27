@@ -1,6 +1,4 @@
 from gf_utils.download import download
-import itertools
-import os
 from pathlib import Path
 
 REGIONS = ['ch','kr','tw','jp','us']
