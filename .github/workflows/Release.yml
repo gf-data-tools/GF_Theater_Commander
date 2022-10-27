@@ -1,25 +1,41 @@
-name: PreReleases
+name: Releases
 
 on: 
   push:
-    tags:
-      - "v*"
+    paths-ignore:
+      - "resdata.zip"
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: PyInstaller Windows
-      uses: JackMcKew/pyinstaller-action-windows@main
+    - uses: actions/checkout@v3
+    - name: Setup Python
+      uses: actions/setup-python@v2.2.2
       with:
-        path: ./
-    
-    - name: test
-      run: cd dist/windows/main; zip -r ../../../GF_Theater_Commander.zip ./;cd ../../.. 
-
-    - uses: "marvinpinto/action-automatic-releases@latest"
+        python-version: '3.10'
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Build Executable
+      run: |
+        pyinstaller main.spec
+        dir dist
+    - name: Create zip file
+      run: Compress-Archive -Path dist/main/* -DestinationPath GF_Theater_Commander.zip -Force
+    - name: Pre-Release
+      uses: "marvinpinto/action-automatic-releases@latest"
+      if: "!contains(github.ref, 'refs/tags/v')"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        files: |
+          ./GF_Theater_Commander.zip
+    - name: Tagged Release
+      uses: "marvinpinto/action-automatic-releases@latest"
+      if: "contains(github.ref, 'refs/tags/v')"
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
