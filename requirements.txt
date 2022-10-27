@@ -1,4 +1,4 @@
-ujson
+git+https://github.com/gf-data-tools/gf-utils.git
 pulp
-prettytable
 pyinstaller==5.0
+rich
