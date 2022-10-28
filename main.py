@@ -15,11 +15,15 @@ from rich.table import Table, Column
 from rich.console import Console, CONSOLE_HTML_FORMAT
 from rich.terminal_theme import MONOKAI
 from rich.status import Status
+from rich.logging import RichHandler
 import logging
-logger = logging.getLogger()
-logging.basicConfig(format="%(asctime)s-%(name)s-%(levelname)s-%(message)s")
 
 console=Console(record=True)
+logging.basicConfig(
+    format="%(message)s",
+    handlers=[RichHandler(console=console,show_time=False,show_path=False)]
+)
+
 with Status('Initializing',console=console,spinner='bouncingBar') as status:
     os.chdir(Path(__file__).resolve().parent)
     # %% argparse
@@ -173,7 +177,4 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     full_table.add_row(res_table)
 
     console.print(full_table)
-    console.save_text('info/result.txt',clear=False)
-    code_format = re.sub(r"font-family:", r"font-family:'Sarasa Term SC',",CONSOLE_HTML_FORMAT)
-    console.save_html('info/result.html',code_format=code_format,clear=False,theme=MONOKAI)
 
