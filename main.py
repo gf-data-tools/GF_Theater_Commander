@@ -15,6 +15,9 @@ from rich.table import Table, Column
 from rich.console import Console, CONSOLE_HTML_FORMAT
 from rich.terminal_theme import MONOKAI
 from rich.status import Status
+import logging
+logger = logging.getLogger()
+logging.basicConfig(format="%(asctime)s-%(name)s-%(levelname)s-%(message)s")
 
 console=Console(record=True)
 with Status('Initializing',console=console,spinner='bouncingBar') as status:

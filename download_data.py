@@ -12,7 +12,7 @@ def download_data(dir='./data',region='ch'):
         url = f'https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json'
         path = data_dir/region/f'{table}.json'
         if not path.exists():
-            download(url, str(path),timeout_sec=5)
+            download(url, str(path))
                 
 if __name__=='__main__':
     download_data()

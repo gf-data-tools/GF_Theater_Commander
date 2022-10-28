@@ -23,7 +23,7 @@ def download(url, path, max_retry=10,timeout_sec=30):
             logger.info(f'Successfully downloaded {fname}')
             break
     else:
-        logger.error(f'Exceeded max retry times, failed to download {fname} from {url}')
+        logger.error(f'Failed to download {url} to {path}, you may download it manually')
     return path
 
 
