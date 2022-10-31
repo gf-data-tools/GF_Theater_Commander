@@ -44,7 +44,7 @@ def load_perfect_info(game_data:dict):
 
     equip_user_record = {}
     for idx, equip in equip_info.items():
-        if equip['rank'] < 5 or equip['is_show']==0:
+        if equip['rank'] < 5 or equip['is_show']==0 or equip['code'].endswith('_S'):
             continue
         equip_user_record[idx] = {
             'equip_id': idx, 
