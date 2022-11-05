@@ -17,6 +17,9 @@ from rich.terminal_theme import MONOKAI
 from rich.status import Status
 from rich.logging import RichHandler
 import logging
+from pathlib import Path
+
+os.chdir(Path(__file__).resolve().parent)
 
 console=Console(record=True)
 logging.basicConfig(
@@ -86,12 +89,8 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
         problem += v >= 0, k
     problem += resource['score'] + 0.001*resource['upgrade']
 
-    lp_bin = os.path.join(
-        os.getcwd(),'solverdir\\cbc',
-        lp.operating_system,lp.arch,
-        lp.LpSolver_CMD.executableExtension('cbc')
-    )
-    problem.solve(lp.COIN_CMD(msg=0,path=lp_bin))
+    lp_bin:Path = Path(os.getcwd()) / 'solverdir' / 'cbc' / lp.operating_system / lp.arch / lp.LpSolver_CMD.executableExtension('cbc')
+    problem.solve(lp.COIN_CMD(msg=0,path=str(lp_bin)))
     # %%
     status.update('Done')
     if console.width < 60:
