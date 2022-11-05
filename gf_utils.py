@@ -24,6 +24,7 @@ def download(url, path, max_retry=10,timeout_sec=30):
             break
     else:
         logger.error(f'Failed to download {url} to {path}, you may download it manually')
+        exit()
     return path
 
 

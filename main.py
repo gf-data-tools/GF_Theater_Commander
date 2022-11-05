@@ -18,8 +18,7 @@ from rich.status import Status
 from rich.logging import RichHandler
 import logging
 from pathlib import Path
-
-os.chdir(Path(__file__).resolve().parent)
+import shutil
 
 console=Console(record=True)
 logging.basicConfig(
@@ -37,6 +36,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
     parser.add_argument('-r', '--region', type=str, default='ch', help='ch/tw/kr/jp/us')
     parser.add_argument('-p', '--perfect', action='store_true',help='使用完美仓库（满婚满级满技满装备）')
+    parser.add_argument('-d', '--delete_data', action='store_true',help='删除现有数据文件，强制重新下载')
     args = parser.parse_args()
     # %% 战区关卡参数
     theater_id = args.theater_id
@@ -48,6 +48,8 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
 
     # %%
     status.update('Downloading data')
+    if args.delete_data:
+        shutil.rmtree('./data')
     download_data(dir='./data',region=region)
     status.update('Reading user info')
     game_data = get_stc_data(f'data/{region}')
