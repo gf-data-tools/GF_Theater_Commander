@@ -19,6 +19,7 @@ from rich.logging import RichHandler
 import logging
 from pathlib import Path
 import shutil
+logger = logging.getLogger()
 
 console=Console(record=True)
 logging.basicConfig(
@@ -57,10 +58,18 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     if use_perfect:
         user_gun, user_equip = load_perfect_info(game_data)
     else:
-        with open(r'info/user_info.json','rb') as f:
-            data = f.read().decode('ascii','ignore')
-            data = re.sub(r'"name":".*?"',r'"name":""',data)
-            user_info = json.loads(data)
+        user_info_file = Path('info/user_info.json')
+        for encoding in ['utf-8', 'gbk']:
+            try:
+                data = user_info_file.read_text(encoding=encoding)
+            except Exception as e:
+                logger.warning(e)
+                logger.warning(f'Failed to user_info.json with encoding={encoding}, retrying with another encoding')
+            else:
+                user_info = json.loads(data)
+                break
+        else:
+            logger.error('Failed to open user_info.json')
         user_gun, user_equip = load_user_info(user_info,game_data)
     status.update('Forming problem')
     choices = prepare_choices(user_gun,user_equip,theater_id,max_dolls,fairy_ratio,game_data)
