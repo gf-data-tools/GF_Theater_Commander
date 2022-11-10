@@ -62,14 +62,14 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
         for encoding in ['utf-8', 'gbk']:
             try:
                 data = user_info_file.read_text(encoding=encoding)
-            except Exception as e:
+            except UnicodeDecodeError as e:
                 logger.warning(e)
                 logger.warning(f'Failed to user_info.json with encoding={encoding}, retrying with another encoding')
             else:
                 user_info = json.loads(data)
                 break
         else:
-            logger.error('Failed to open user_info.json')
+            logger.error('Failed to open user_info.json with both encoding options')
         user_gun, user_equip = load_user_info(user_info,game_data)
     status.update('Forming problem')
     choices = prepare_choices(user_gun,user_equip,theater_id,max_dolls,fairy_ratio,game_data)
