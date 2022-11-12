@@ -12,13 +12,16 @@ https://gall.dcinside.com/mgallery/board/view?id=micateam&no=1439586) or other t
 
 ## Usage
 ```
-usage: main.py [-h] [-m MAX_DOLLS] [-f FAIRY_RATIO] [-u UPGRADE_RESOURCE] [-r REGION] [-p] theater_id
+usage: main.py [-h] [-d] [-e [ENCODING ...]] [-m MAX_DOLLS] [-f FAIRY_RATIO] [-u UPGRADE_RESOURCE] [-r REGION] [-p] theater_id
 
 positional arguments:
   theater_id            theater id, e.g. 736 indicates 7th event, difficulty 3, stage 6
 
 options:
   -h, --help            show this help message and exit
+  -d, --delete_data     delete existing game data and re-download
+  -e [ENCODING ...], --encoding [ENCODING ...]
+                        specify encoding for user_info.json, try utf-8 and gbk by default
   -m MAX_DOLLS, --max_dolls MAX_DOLLS
                         the maxium T-dolls you can send
   -f FAIRY_RATIO, --fairy_ratio FAIRY_RATIO
