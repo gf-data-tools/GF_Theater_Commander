@@ -33,7 +33,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     parser = argparse.ArgumentParser()
     parser.add_argument('theater_id',default='848',type=int,help='关卡id,如736代表第7期高级区第6关')
     parser.add_argument('-d', '--delete_data', action='store_true',help='删除现有数据文件，强制重新下载')
-    parser.add_argument('-e', '--encoding', type=str, nargs='*', help='用于读取user_info的编码，默认仅尝试utf-8和gbk')
+    parser.add_argument('-e', '--encoding', type=str, nargs='*', default=['utf-8','gbk'], help='用于读取user_info的编码，默认仅尝试utf-8和gbk')
     parser.add_argument('-m','--max_dolls',type=int,default=30,help='上场人数')
     parser.add_argument('-f','--fairy_ratio',type=float,default=2,help='妖精加成,默认4个5星1+0.25*4=2倍')
     parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
@@ -60,7 +60,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
         user_gun, user_equip = load_perfect_info(game_data)
     else:
         user_info_file = Path('info/user_info.json')
-        encoding_options = {*args.encoding, 'utf-8', 'gbk'}
+        encoding_options = {*args.encoding}
         for encoding in encoding_options:
             try:
                 data = user_info_file.read_text(encoding=encoding)
