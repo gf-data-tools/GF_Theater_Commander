@@ -19,6 +19,7 @@ from rich.logging import RichHandler
 import logging
 from pathlib import Path
 import shutil
+import locale
 logger = logging.getLogger()
 
 console=Console(record=True)
@@ -60,7 +61,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
         user_gun, user_equip = load_perfect_info(game_data)
     else:
         user_info_file = Path('info/user_info.json')
-        encoding_options = {*args.encoding}
+        encoding_options = {*args.encoding, locale.getpreferredencoding()}
         for encoding in encoding_options:
             try:
                 data = user_info_file.read_text(encoding=encoding)
