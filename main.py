@@ -122,7 +122,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     if not args.type_sort:
         g_info.sort(key=lambda x:x[0]['score'],reverse=True)
     else:
-        g_info.sort(key=lambda x:(gun_info[int(x[0]['gid'])]['type'],-x[0]['score']))
+        g_info.sort(key=lambda x:(gun_info[int(x[0]['gid'])]['type'],int(x[0]['gid'])))
 
     rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow', 6:'red', 7:'magenta'}
     lv_color = {
