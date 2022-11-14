@@ -40,6 +40,7 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
     parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
     parser.add_argument('-r', '--region', type=str, default='ch', help='ch/tw/kr/jp/us')
     parser.add_argument('-p', '--perfect', action='store_true',help='使用完美仓库（满婚满级满技满装备）')
+    parser.add_argument('-t', '--type_sort', action='store_true',help='按枪种排序')
     args = parser.parse_args()
     # %% 战区关卡参数
     theater_id = args.theater_id
@@ -118,7 +119,10 @@ with Status('Initializing',console=console,spinner='bouncingBar') as status:
             else:
                 g_info.append([choices[k]['info'],v])
     u_info.sort(key=lambda x:0.001*v.value()-equip_info[x[0]['eid']]['exclusive_rate'],reverse=True)
-    g_info.sort(key=lambda x:x[0]['score'],reverse=True)
+    if not args.type_sort:
+        g_info.sort(key=lambda x:x[0]['score'],reverse=True)
+    else:
+        g_info.sort(key=lambda x:(gun_info[int(x[0]['gid'])]['type'],-x[0]['score']))
 
     rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow', 6:'red', 7:'magenta'}
     lv_color = {
