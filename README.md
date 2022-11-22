@@ -1,8 +1,8 @@
 # GF_Theater_Commander
 ## Requirements
-- ujson
 - pulp
-- prettytable
+- rich
+- pandas
   
 Install dependencies by running `pip install -r requirements.txt`
 
@@ -33,5 +33,6 @@ options:
                         ch/tw/kr/jp/us
   -p, --perfect
                         use perfect team instead of your own team
+  -t, --type_sort       sour by (gun_type,gun_id) instead of score
 ```
-Run `python main.py -h` to see details.
+Run `python main.py -h` to see details in Chinese.
