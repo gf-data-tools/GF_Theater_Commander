@@ -18,7 +18,7 @@ jobs:
         pip install -r requirements.txt
     - name: Build Executable
       run: |
-        pyinstaller main.spec
+        pyinstaller GF-Theater-Commander.spec
         dir dist
     - name: Create zip file
       run: Compress-Archive -Path dist/GF-Theater-Commander/* -DestinationPath GF-Theater-Commander.zip -Force
