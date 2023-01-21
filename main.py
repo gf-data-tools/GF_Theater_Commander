@@ -171,7 +171,7 @@ class TheaterCommander(tk.Tk):
         gun_table = ttk.Treeview(self)
         column_cfg = {
             "type": {"text": _("枪种"), "width": 40},
-            "idx": {"text": _("编号"), "width": 40},
+            "idx": {"text": _("编号"), "width": 60},
             "name": {"text": _("人形"), "width": 120},
             "score": {"text": _("得分"), "width": 40},
             "level": {"text": _("等级"), "width": 40},
