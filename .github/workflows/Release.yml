@@ -21,7 +21,7 @@ jobs:
         pyinstaller main.spec
         dir dist
     - name: Create zip file
-      run: Compress-Archive -Path dist/main/* -DestinationPath GF_Theater_Commander.zip -Force
+      run: Compress-Archive -Path dist/GF-Theater-Commander/* -DestinationPath GF-Theater-Commander.zip -Force
     - name: Pre-Release
       uses: "marvinpinto/action-automatic-releases@latest"
       if: "!contains(github.ref, 'refs/tags/v')"
@@ -30,7 +30,7 @@ jobs:
         automatic_release_tag: "latest"
         prerelease: true
         files: |
-          ./GF_Theater_Commander.zip
+          ./GF-Theater-Commander.zip
     - name: Tagged Release
       uses: "marvinpinto/action-automatic-releases@latest"
       if: "contains(github.ref, 'refs/tags/v')"
@@ -38,4 +38,4 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
         files: |
-          ./GF_Theater_Commander.zip
+          ./GF-Theater-Commander.zip
