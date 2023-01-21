@@ -8,7 +8,7 @@ from functools import partial
 from gettext import install
 from pathlib import Path
 from tkinter.filedialog import askopenfilename
-from tkinter.messagebox import showerror
+from tkinter.messagebox import showerror, showinfo
 from tkinter.simpledialog import Dialog
 from typing import *
 
@@ -207,15 +207,28 @@ class TheaterCommander(tk.Tk):
         self.equip_table = equip_table
 
     def download_data(self, region="ch", re_download=False):
-        data_dir = Path(f"data/{region}")
-        if re_download:
-            shutil.rmtree(data_dir)
+        data_dir = Path(__file__).resolve().parent / f"data/{region}"
+        tmp_dir = Path(__file__).resolve().parent / f"data/tmp"
+        if tmp_dir.exists():
+            shutil.rmtree(tmp_dir)
         os.makedirs(data_dir, exist_ok=True)
-        for table in ["gun", "equip", "theater_area"]:
-            url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
-            path = data_dir / f"{table}.json"
-            if not path.exists():
-                download(url, str(path))
+        os.makedirs(tmp_dir)
+        try:
+            for table in ["gun", "equip", "theater_area"]:
+                url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
+                if not (data_dir / f"{table}.json").exists() or re_download:
+                    download(url, str(tmp_dir / f"{table}.json"))
+                    os.remove((data_dir / f"{table}.json"))
+                    (tmp_dir / f"{table}.json").rename(data_dir / f"{table}.json")
+        except Exception as e:
+            showerror(
+                title=_("下载数据失败"),
+                message=_("下载 {} 失败").format(url) + f"\n{e.__class__.__name__}: {e}",
+            )
+        else:
+            if re_download:
+                showinfo(title=_("完成下载"), message="数据已更新")
+            self.gamedata = GameData(data_dir)
 
     def setup_stage_menu(self, master=None) -> tk.Menubutton:
         stage_dict = DefaultDict(dict)

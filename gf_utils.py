@@ -94,7 +94,7 @@ class GameData(MutableMapping):
         return len(self.__keys)
 
 
-def download(url, path, max_retry=10, timeout_sec=30):
+def download(url, path, max_retry=3, timeout_sec=5):
     socket.setdefaulttimeout(timeout_sec)
     fname = os.path.split(path)[-1]
     logger.info(f"Start downloading {fname}")
@@ -104,11 +104,12 @@ def download(url, path, max_retry=10, timeout_sec=30):
                 request.urlretrieve(url, path + ".tmp")
                 os.rename(path + ".tmp", path)
         except (URLError, timeout, ConnectionResetError):
-            logger.warning(f"Failed to download {fname} for {i+1}/10 tries")
-            continue
+            if i + 1 < max_retry:
+                logger.warning(f"Failed to download {fname} for {i+1}/10 tries")
+                continue
+            else:
+                raise
         else:
             logger.info(f"Successfully downloaded {fname}")
             break
-    else:
-        logger.error(f"Exceeded max retry times, failed to download {fname} from {url}")
     return path
