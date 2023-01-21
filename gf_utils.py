@@ -1,36 +1,16 @@
-import os
-from typing import Iterable
-from urllib import request
-from urllib.error import URLError
-from socket import timeout
-import socket
-import logging
-logger = logging.getLogger()
-
-def download(url, path, max_retry=10,timeout_sec=30):
-    socket.setdefaulttimeout(timeout_sec)
-    fname = os.path.split(path)[-1]
-    logger.info(f'Start downloading {fname}')
-    for i in range(max_retry):
-        try:
-            if not os.path.exists(path):
-                request.urlretrieve(url,path+'.tmp')
-                os.rename(path+'.tmp',path)
-        except (URLError, timeout, ConnectionResetError):
-            logger.warning(f'Failed to download {fname} for {i+1}/10 tries')
-            continue
-        else:
-            logger.info(f'Successfully downloaded {fname}')
-            break
-    else:
-        raise ConnectionError(f'Failed to download {url} to {path}, you may download it manually')
-    return path
-
-
 # %%
-import os
 import json
 import logging
+import os
+import socket
+from collections.abc import MutableMapping
+from pathlib import Path
+from socket import timeout
+from urllib import request
+from urllib.error import URLError
+
+logger = logging.getLogger(__name__)
+
 # %%
 special_keys = {
     "achievement": "identity",
@@ -66,41 +46,69 @@ special_keys = {
     "weekly": "identity",
 }
 
-def get_stc_data(stc_dir, table_dir=None,subset=None,to_dict=True):
-    stc_data = dict()
-    for fname in os.listdir(stc_dir):
-        name = os.path.splitext(fname)[0]
-        if subset is not None and name not in subset:
-            continue
-        if fname=='catchdata':
-            continue
-        logging.debug(f'Reading {fname}')
-        with open(os.path.join(stc_dir,fname),encoding='utf-8') as f:
+
+class GameData(MutableMapping):
+    def __init__(self, stc_dir, to_dict=True) -> None:
+        self.stc_dir = Path(stc_dir)
+        self.to_dict = to_dict
+        self.__keys = [p.name[:-5] for p in self.stc_dir.glob("*.json")]
+        self.__data = {}
+
+    def __get_stc_dict(self, name):
+        logger.debug(f"Reading {name}.json")
+        with (self.stc_dir / f"{name}.json").open("r", encoding="utf-8") as f:
             data = json.load(f)
-            if to_dict and len(data)>0:
-                k = 'id' if 'id' in data[0].keys() else (special_keys[name] if name in special_keys.keys() else None)
+            if self.to_dict and len(data) > 0:
+                k = (
+                    "id"
+                    if "id" in data[0].keys()
+                    else (special_keys[name] if name in special_keys.keys() else None)
+                )
                 if k is not None:
                     data = {d[k]: d for d in data}
-            stc_data[name] = data
-    return stc_data
-    
+        return data
 
-def convert_text(data, text_table):
-    if type(data)==list:
-        return [convert_text(i,text_table) for i in data]
-    elif type(data)==dict:
-        return {k: convert_text(v,text_table) for k,v in data.items()}
-    else:
-        text = text_table(data)
-        if text != '':
-            return text
+    def __getitem__(self, key):
+        if key not in self.__keys:
+            raise KeyError(key)
+        if key not in self.__data:
+            self.__data[key] = self.__get_stc_dict(key)
+        return self.__data[key]
+
+    def __getattr__(self, k):
+        return self[k]
+
+    def __call__(self, k):
+        return self[k]
+
+    def __setitem__(self, key, value):
+        pass
+
+    def __delitem__(self, key):
+        pass
+
+    def __iter__(self):
+        return iter(self.__keys)
+
+    def __len__(self):
+        return len(self.__keys)
+
+
+def download(url, path, max_retry=10, timeout_sec=30):
+    socket.setdefaulttimeout(timeout_sec)
+    fname = os.path.split(path)[-1]
+    logger.info(f"Start downloading {fname}")
+    for i in range(max_retry):
+        try:
+            if not os.path.exists(path):
+                request.urlretrieve(url, path + ".tmp")
+                os.rename(path + ".tmp", path)
+        except (URLError, timeout, ConnectionResetError):
+            logger.warning(f"Failed to download {fname} for {i+1}/10 tries")
+            continue
         else:
-            return data
-
-# %%
-if __name__=='__main__':
-    logging.basicConfig(level='DEBUG',force=True)
-    table_dir = r'.\data-miner\data\ch\asset\table'
-    stc_dir = r'.\data-miner\data\ch\stc'
-    stc = get_stc_data(stc_dir,table_dir)
-# %%
+            logger.info(f"Successfully downloaded {fname}")
+            break
+    else:
+        logger.error(f"Exceeded max retry times, failed to download {fname} from {url}")
+    return path

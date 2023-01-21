@@ -1,196 +1,398 @@
-# %%
-from collections import defaultdict
-import pulp as lp
-import os
-from pathlib import Path
-import re
-from download_data import download_data
-from load_user_info import load_user_info,load_perfect_info
-from prepare_choices import prepare_choices
-from gf_utils import get_stc_data
 import json
-import argparse
-from rich import box
-from rich.table import Table, Column
-from rich.console import Console, CONSOLE_HTML_FORMAT
-from rich.terminal_theme import MONOKAI
-from rich.status import Status
-from rich.logging import RichHandler
-import logging
-from pathlib import Path
-import shutil
 import locale
-logger = logging.getLogger()
+import os
+import shutil
+import tkinter as tk
+import tkinter.ttk as ttk
+from functools import partial
+from gettext import install
+from pathlib import Path
+from tkinter.filedialog import askopenfilename
+from tkinter.messagebox import showerror
+from tkinter.simpledialog import Dialog
+from typing import *
 
-console=Console(record=True)
-logging.basicConfig(
-    format="%(message)s",
-    handlers=[RichHandler(console=console,show_time=False,show_path=False)]
-)
+import pulp as lp
 
-with Status('Initializing',console=console,spinner='bouncingBar') as status:
-    os.chdir(Path(__file__).resolve().parent)
-    # %% argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument('theater_id',default='848',type=int,help='关卡id,如736代表第7期高级区第6关')
-    parser.add_argument('-d', '--delete_data', action='store_true',help='删除现有数据文件，强制重新下载')
-    parser.add_argument('-e', '--encoding', type=str, nargs='*', default=['utf-8','gbk'], help='用于读取user_info的编码，默认仅尝试utf-8和gbk')
-    parser.add_argument('-m','--max_dolls',type=int,default=30,help='上场人数')
-    parser.add_argument('-f','--fairy_ratio',type=float,default=2,help='妖精加成,默认4个5星1+0.25*4=2倍')
-    parser.add_argument('-u','--upgrade_resource',type=int,default=0,help='可以用于强化的资源量（普通装备消耗1份，专属消耗3份）')
-    parser.add_argument('-r', '--region', type=str, default='ch', help='ch/tw/kr/jp/us')
-    parser.add_argument('-p', '--perfect', action='store_true',help='使用完美仓库（满婚满级满技满装备）')
-    parser.add_argument('-t', '--type_sort', action='store_true',help='按枪种排序')
-    args = parser.parse_args()
-    # %% 战区关卡参数
-    theater_id = args.theater_id
-    fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
-    max_dolls = args.max_dolls  # 上场人数
-    region = args.region    # 服务器
-    use_perfect = args.perfect  # 完美梯队
-    upgrade_resource = args.upgrade_resource if not use_perfect else 999 # 可以用于强化的资源量（普通装备消耗1份，专属消耗3份）
+from gf_utils import GameData, download
+from load_user_info import load_perfect_info, load_user_info
+from prepare_choices import prepare_choices
 
-    # %%
-    status.update('Downloading data')
-    if args.delete_data:
-        shutil.rmtree('./data')
-    download_data(dir='./data',region=region)
-    status.update('Reading user info')
-    game_data = get_stc_data(f'data/{region}')
-    gun_info, equip_info = game_data['gun'], game_data['equip']
-    if use_perfect:
-        user_gun, user_equip = load_perfect_info(game_data)
-    else:
-        user_info_file = Path('info/user_info.json')
-        encoding_options = {*args.encoding, locale.getpreferredencoding()}
-        for encoding in encoding_options:
-            try:
-                data = user_info_file.read_text(encoding=encoding)
-            except UnicodeDecodeError as e:
-                logger.warning(e)
-            else:
-                user_info = json.loads(data)
-                break
+
+def menu_from_dict(
+    master: tk.Widget, options: dict, var_key: tk.Variable, var_value: tk.Variable
+):
+    menu = tk.Menu(master, tearoff=False)
+    for k, v in options.items():
+        if isinstance(v, dict):
+            menu.add_cascade(label=k, menu=menu_from_dict(menu, v, var_key, var_value))
         else:
-            raise RuntimeError('Failed to open user_info.json with all encoding options')
-        user_gun, user_equip = load_user_info(user_info,game_data)
-    status.update('Forming problem')
-    choices = prepare_choices(user_gun,user_equip,theater_id,max_dolls,fairy_ratio,game_data)
-
-    # %%
-    status.update('Solving')
-    resource = {}
-    for id, _ in user_gun.items():
-        resource[f'g_{id}']=1
-    for eid, equip in user_equip.items():
-        resource[f"e{eid}_10"]=equip['level_10']
-        resource[f"e{eid}_0"]=equip['level_00']
-    resource['count'] = max_dolls
-    resource['score'] = 0
-    resource['upgrade'] = upgrade_resource
-    lp_vars = {}
-    coeff_lp_var_dict = defaultdict(list)
-    problem = lp.LpProblem('battlefield', lp.LpMaximize)
-    for k, recipe in choices.items():
-        lp_vars[k] = lp.LpVariable(k, cat=lp.LpInteger, lowBound=0)
-        for r, c in recipe['content'].items():
-            # build a dict with value as lists of (coefficient, LpVar) tuples before building LpAffineExpression in bulk
-            # else doing += coefficient*LpVar would trigger significantly amount of costly LpAffineExpression.__init__ call
-            coeff_lp_var_dict[r].append((lp_vars[k], c))
-    for k,v in coeff_lp_var_dict.items():
-        resource[k] += lp.LpAffineExpression(v)
-    for k, v in resource.items():
-        problem += v >= 0, k
-    problem += resource['score'] + 0.001*resource['upgrade']
-
-    lp_bin:Path = Path(os.getcwd()) / 'solverdir' / 'cbc' / lp.operating_system / lp.arch / lp.LpSolver_CMD.executableExtension('cbc')
-    problem.solve(lp.COIN_CMD(msg=0,path=str(lp_bin)))
-    # %%
-    status.update('Done')
-    if console.width < 60:
-        console.width = 1000
-    box_per_row = min(5,(console.width-10)//25)
-
-    u_info, g_info = [], []
-    for k, v in lp_vars.items():
-        if v.value()>0:
-            if k[0] == 'u':
-                u_info.append([choices[k]['info'],v])
-            else:
-                g_info.append([choices[k]['info'],v])
-    u_info.sort(key=lambda x:0.001*v.value()-equip_info[x[0]['eid']]['exclusive_rate'],reverse=True)
-    if not args.type_sort:
-        g_info.sort(key=lambda x:x[0]['score'],reverse=True)
-    else:
-        g_info.sort(key=lambda x:(gun_info[int(x[0]['gid'])]['type'],int(x[0]['gid'])))
-
-    rank_color = {1:'magenta', 2:'white', 3:'cyan', 4:'green', 5:'yellow', 6:'red', 7:'magenta'}
-    lv_color = {
-        0:'grey', 1:'white', 2:'white', 3:'cyan',
-        4:'cyan', 5:'cyan', 6:'green', 7:'green', 
-        8:'green',9:'yellow',10:'yellow',
-    }
-
-    equip_list = []
-    for i, (info, v) in enumerate(u_info):
-        if i%5 == 0:
-            equip_table = Table.grid(
-                Column('name',width=17,justify='right'),
-                Column('value',width=5,justify='left'),
-                padding=(0,1,0,0)
+            menu.add_radiobutton(
+                label=k,
+                indicatoron=False,
+                command=lambda k=k, v=v: (var_key.set(k), var_value.set(v)),
             )
-        ename, erank = (
-            equip_info[info['eid']]['name'],
-            6 if equip_info[info[f'eid']]['type'] in [18,19,20] else equip_info[info['eid']]['rank']
-        )
-        equip_table.add_row(f'[{rank_color[erank]}]{ename}', f'{v.value():2.0f}')
-        if (i+1)%5 == 0 or i+1==len(u_info):
-            equip_list.append(equip_table)
+    return menu
 
-    strn_table = Table(show_header=False,show_lines=True,box=box.SQUARE,padding=(0,0,0,0),title='强化装备',title_justify='left')
-    for i in range(0,len(equip_list),box_per_row):
-        strn_table.add_row(*equip_list[i:min(i+box_per_row,len(equip_list))])
 
-    gun_list = []
-    for info, v in g_info:
-        gun_table = Table.grid(
-            Column('name',width=17,justify='right'),
-            Column('value',width=5,justify='left'),
-            padding=(0,1,0,0)
+def var_min_max(var: tk.IntVar, min: int, max: int, *_):
+    try:
+        v = var.get()
+    except:
+        v = 0
+    if v < min:
+        var.set(min)
+    if v > max:
+        var.set(max)
+
+
+def treeview_sort_column(tv: ttk.Treeview, col: str, reverse: bool):
+    l = [(tv.set(k, col), k) for k in tv.get_children("")]
+    try:
+        l.sort(key=lambda t: int(t[0]), reverse=reverse)
+    except ValueError:
+        l.sort(reverse=reverse)
+    # rearrange items in sorted positions
+    for index, (val, k) in enumerate(l):
+        tv.move(k, "", index)
+        tv.item(k, tags=("oddrow" if index % 2 else "evenrow"))
+
+    # reverse sort next time
+    tv.heading(col, command=partial(treeview_sort_column, tv, col, not reverse))
+
+
+class TheaterCommander(tk.Tk):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.setup()
+
+    def setup(self, region="ch"):
+        for widget in self.winfo_children():
+            widget.destroy()
+        install(region)
+        self.download_data(region)
+        self.gamedata = GameData(f"data/{region}")
+
+        self.var_stage = tk.IntVar(self, value=948)
+        self.var_stage_d = tk.StringVar(self, _("第9期 核心8"))
+        self.var_gun = tk.IntVar(self, value=30)
+        self.var_gun.trace_add("write", partial(var_min_max, self.var_gun, 0, 999))
+        self.var_fairy = tk.IntVar(self, value=4)
+        self.var_fairy.trace_add("write", partial(var_min_max, self.var_fairy, 0, 4))
+        self.var_upgrade = tk.IntVar(self, value=0)
+        self.var_upgrade.trace_add(
+            "write", partial(var_min_max, self.var_upgrade, 0, 100)
         )
-        typestr = ["HG", "SMG", "RF", "AR", "MG", "SG"]
-        gun_name, gun_type, gun_rank, gun_favor = (
-            gun_info[info['gid']]['name'],
-            typestr[gun_info[info['gid']]['type']-1],
-            gun_info[info['gid']]['rank_display'],
-            user_gun[info['gid']%20000]['favor']
+        self.var_perfect = tk.BooleanVar(self, value=False)
+        self.var_encoding = tk.StringVar(self, value=locale.getdefaultlocale()[-1])
+
+        frm_control_panel = tk.Frame(self)
+        frm_control_panel.grid_columnconfigure(0, weight=100, minsize=100)
+        frm_control_panel.grid_columnconfigure(1, weight=160, minsize=160)
+        tk.Label(frm_control_panel, text=_("服务器切换")).grid(row=0, column=0)
+        frm_btns = tk.Frame(frm_control_panel)
+        frm_btns.grid(row=0, column=1, sticky="we")
+        frm_btns.grid_columnconfigure(0, weight=1)
+        opt_region = tk.OptionMenu(
+            frm_btns,
+            tk.StringVar(self, value=region),
+            *["ch", "tw", "kr", "us", "jp"],
+            command=lambda r: self.setup(r),
         )
-        gun_table.add_row(f'[{rank_color[gun_rank]} bold]{gun_name} [/{rank_color[gun_rank]} bold]{gun_type:<3}',f'{"[bold red]o" if gun_favor>100 else "[magenta] "} {gun_favor:3d}')
-        # res_table.add_row((f'{gun_name}',gun_type))
-        glv, score, slv1, slv2 = (
-            user_gun[info['gid']%20000]["gun_level"],
-            info['score'],
-            user_gun[info['gid']%20000]['skill1'], 
-            user_gun[info['gid']%20000]['skill2'],
+        opt_region.config(relief="groove", indicatoron=False)
+        opt_region.grid(row=0, column=0, sticky="we")
+        tk.Button(
+            frm_btns,
+            text=_("  更新数据  "),
+            command=partial(self.download_data, region, True),
+        ).grid(row=0, column=1, sticky="we")
+
+        tk.Label(frm_control_panel, text=_("关卡选择")).grid(row=1, column=0)
+        self.setup_stage_menu(frm_control_panel).grid(row=1, column=1, sticky="we")
+
+        tk.Label(frm_control_panel, text=_("人形数量")).grid(row=2, column=0)
+        tk.Entry(frm_control_panel, textvariable=self.var_gun).grid(
+            row=2, column=1, sticky="we"
         )
-        gun_table.add_row(f'[bold][{rank_color[(glv-1)//20+1]}]Lv{glv:>3}[/{rank_color[(glv-1)//20+1]}] [{lv_color[slv1]}]{slv1:2d}'+'[white]/'+f'[{lv_color[slv2]}]{slv2:2d}', f'{score:>5}')
-        for e in range(3):
-            ename, elv, erank = (
-                equip_info[info[f'eid_{e+1}']]['name'],
-                info[f'elv_{e+1}'],
-                6 if equip_info[info[f'eid_{e+1}']]['type'] in [18,19,20] else equip_info[info[f'eid_{e+1}']]['rank']
+
+        tk.Label(frm_control_panel, text=_("妖精数量")).grid(row=3, column=0)
+        tk.Entry(frm_control_panel, textvariable=self.var_fairy).grid(
+            row=3, column=1, sticky="we"
+        )
+
+        tk.Label(frm_control_panel, text=_("强化资源")).grid(row=4, column=0)
+        self.ent_upgrade = tk.Entry(frm_control_panel, textvariable=self.var_upgrade)
+        self.ent_upgrade.grid(row=4, column=1, sticky="we")
+
+        frm_control_panel.grid_rowconfigure(5, weight=0, minsize=40)
+        tk.Checkbutton(
+            frm_control_panel, text=_("完美配置"), variable=self.var_perfect
+        ).grid(row=5, column=0)
+
+        self.frm_upload = tk.Frame(frm_control_panel)
+        self.frm_upload.grid_columnconfigure(0, weight=1)
+        self.frm_upload.grid(row=5, column=1, sticky="we")
+        tk.Button(self.frm_upload, text=_("导入"), command=self.read_file).grid(
+            row=0, column=0
+        )
+        tk.Label(self.frm_upload, text=_("编码")).grid(row=0, column=1)
+        tk.Entry(self.frm_upload, textvariable=self.var_encoding, width=8).grid(
+            row=0, column=2
+        )
+        self.lbl_upload_status = tk.Label(self.frm_upload, text="      ", width=4)
+        self.lbl_upload_status.grid(row=0, column=3)
+
+        self.btn_calculate = tk.Button(
+            frm_control_panel, text=_("开始计算"), command=self.execute, state="disabled"
+        )
+        self.btn_calculate.grid(row=7, column=0, columnspan=2, sticky="we")
+
+        self.var_perfect.trace_add("write", lambda *_: self.switch_perfect())
+
+        equip_table = ttk.Treeview(self)
+        column_cfg = {
+            "name": {"text": _("装备"), "width": 120},
+            "rank": {"text": _("星级"), "width": 40},
+            "count": {"text": _("数量"), "width": 40},
+        }
+        equip_table["columns"] = list(column_cfg.keys())
+        equip_table.column("#0", width=0, stretch=tk.NO)
+        equip_table.heading("#0", text="", anchor=tk.CENTER)
+        for k, v in column_cfg.items():
+            equip_table.column(k, anchor="e", width=v["width"])
+            equip_table.heading(
+                k,
+                text=v["text"],
+                anchor="e",
+                command=partial(treeview_sort_column, equip_table, k, False),
             )
-            gun_table.add_row(f'[{rank_color[erank]}]{ename}',f'[{lv_color[elv]}]{elv:>2}')
-        gun_list.append(gun_table)
-        
-    res_table = Table(show_header=False,show_lines=True,box=box.SQUARE,padding=(0,0,0,0),title='出战配置',title_justify='left')
+        equip_table.tag_configure("oddrow", background="#dddddd")
 
-    for i in range(0,max_dolls,box_per_row):
-        res_table.add_row(*gun_list[i:min(i+box_per_row,max_dolls)])
-    full_table = Table(show_header=False,box=None,caption=f"总效能: {resource['score'].value():.0f}",caption_justify='left')
+        gun_table = ttk.Treeview(self)
+        column_cfg = {
+            "type": {"text": _("枪种"), "width": 40},
+            "idx": {"text": _("编号"), "width": 40},
+            "name": {"text": _("人形"), "width": 120},
+            "score": {"text": _("得分"), "width": 40},
+            "level": {"text": _("等级"), "width": 40},
+            "rank": {"text": _("星级"), "width": 40},
+            "favor": {"text": _("好感"), "width": 40},
+            "skill1": {"text": _("技能1"), "width": 40},
+            "skill2": {"text": _("技能2"), "width": 40},
+            "equip1": {"text": _("装备1"), "width": 120},
+            "elv1": {"text": _("装等1"), "width": 40},
+            "equip2": {"text": _("装备2"), "width": 120},
+            "elv2": {"text": _("装等2"), "width": 40},
+            "equip3": {"text": _("装备3"), "width": 120},
+            "elv3": {"text": _("装等3"), "width": 40},
+        }
+        gun_table["columns"] = list(column_cfg.keys())
+        gun_table.column("#0", width=0, stretch=tk.NO)
+        gun_table.heading("#0", text="", anchor=tk.CENTER)
+        for k, v in column_cfg.items():
+            gun_table.column(k, anchor="e", width=v["width"])
+            gun_table.heading(
+                k,
+                text=v["text"],
+                anchor="e",
+                command=partial(treeview_sort_column, gun_table, k, False),
+            )
+        gun_table.tag_configure("oddrow", background="#dddddd")
 
-    full_table.add_row(strn_table)
-    full_table.add_row(res_table)
+        gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
+        frm_control_panel.pack(padx=5, pady=5, side="top", fill="x")
+        equip_table.pack(padx=5, pady=5, fill="both", expand=True)
 
-    console.print(full_table)
+        self.gun_table = gun_table
+        self.equip_table = equip_table
 
+    def download_data(self, region="ch", re_download=False):
+        data_dir = Path(f"data/{region}")
+        if re_download:
+            shutil.rmtree(data_dir)
+        os.makedirs(data_dir, exist_ok=True)
+        for table in ["gun", "equip", "theater_area"]:
+            url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
+            path = data_dir / f"{table}.json"
+            if not path.exists():
+                download(url, str(path))
+
+    def setup_stage_menu(self, master=None) -> tk.Menubutton:
+        stage_dict = DefaultDict(dict)
+        difficulty = {"1": _("初级"), "2": _("中级"), "3": _("高级"), "4": _("核心")}
+        for idx, area in self.gamedata["theater_area"].items():
+            if area["boss"]:
+                a, b, c = str(idx)
+                d = difficulty[b]
+                stage_dict[_("第{}期").format(a)][_("第{}期 {}{}").format(a, d, c)] = idx
+
+        opt_stage = tk.Menubutton(
+            master, textvariable=self.var_stage_d, relief="groove"
+        )
+        opt_stage.config(
+            menu=menu_from_dict(opt_stage, stage_dict, self.var_stage_d, self.var_stage)
+        )
+        return opt_stage
+
+    def read_file(self):
+        try:
+            fname = askopenfilename(filetypes=[("JSON", "*.json")])
+            if fname:
+                self.user_data = json.load(
+                    Path(fname).open("r", encoding=self.var_encoding.get())
+                )
+                self.lbl_upload_status.config(text=_("完成"), fg="green")
+                self.btn_calculate.config(state="normal")
+        except Exception as e:
+            self.lbl_upload_status.config(text=_("失败"), fg="red")
+            self.btn_calculate.config(state="disabled")
+            showerror(title=_("读取用户信息失败"), message=f"{e.__class__.__name__}: {e}")
+
+    def switch_perfect(self):
+        if self.var_perfect.get():
+            self.frm_upload.grid_forget()
+            self.btn_calculate.config(state="normal")
+            self.ent_upgrade.config(state="disabled")
+        else:
+            self.frm_upload.grid(row=5, column=1, sticky="we")
+            self.btn_calculate.config(state="disabled")
+            self.ent_upgrade.config(state="normal")
+            self.lbl_upload_status.config(text=_(""), fg="green")
+
+    def execute(self):
+        # prepare data
+        game_data = self.gamedata
+        for item in self.gun_table.get_children():
+            self.gun_table.delete(item)
+        for item in self.equip_table.get_children():
+            self.equip_table.delete(item)
+
+        theater_id = self.var_stage.get()
+        fairy_ratio = 1 + self.var_fairy.get() / 4
+        max_dolls = self.var_gun.get()
+        upgrade_resource = self.var_upgrade.get()
+        use_perfect = self.var_perfect.get()
+        if use_perfect:
+            upgrade_resource = 999
+
+        gun_info, equip_info = game_data["gun"], game_data["equip"]
+        if use_perfect:
+            user_gun, user_equip = load_perfect_info(game_data)
+        else:
+            user_gun, user_equip = load_user_info(self.user_data, game_data)
+        choices = prepare_choices(
+            user_gun, user_equip, theater_id, max_dolls, fairy_ratio, game_data
+        )
+
+        # optimization
+        resource = {}
+        for id, item in user_gun.items():
+            resource[f"g_{id}"] = 1
+        for eid, equip in user_equip.items():
+            resource[f"e{eid}_10"] = equip["level_10"]
+            resource[f"e{eid}_0"] = equip["level_00"]
+        resource["count"] = max_dolls
+        resource["score"] = 0
+        resource["upgrade"] = upgrade_resource
+        lp_vars = {}
+        coeff_lp_var_dict = DefaultDict(list)
+        problem = lp.LpProblem("battlefield", lp.LpMaximize)
+        for k, recipe in choices.items():
+            lp_vars[k] = lp.LpVariable(k, cat=lp.LpInteger, lowBound=0)
+            for r, c in recipe["content"].items():
+                # build a dict with value as lists of (coefficient, LpVar) tuples before building LpAffineExpression in bulk
+                # else doing += coefficient*LpVar would trigger significantly amount of costly LpAffineExpression.__init__ call
+                coeff_lp_var_dict[r].append((lp_vars[k], c))
+        for k, v in coeff_lp_var_dict.items():
+            resource[k] += lp.LpAffineExpression(v)
+        for k, v in resource.items():
+            problem += v >= 0, k
+        problem += resource["score"] + 0.001 * resource["upgrade"]
+
+        lp_bin: Path = (
+            Path(__file__).resolve().parent
+            / "solverdir"
+            / "cbc"
+            / lp.operating_system
+            / lp.arch
+            / lp.LpSolver_CMD.executableExtension("cbc")
+        )
+        problem.solve(lp.COIN_CMD(msg=0, path=str(lp_bin)))
+
+        u_info, g_info = [], []
+        for k, v in lp_vars.items():
+            if v.value() > 0:
+                if k[0] == "u":
+                    u_info.append([choices[k]["info"], v])
+                else:
+                    g_info.append([choices[k]["info"], v])
+
+        # analyze result
+        equip_counter = DefaultDict(int)
+        for i, (info, v) in enumerate(g_info):
+            record = {
+                "type": ["HG", "SMG", "RF", "AR", "MG", "SG"][
+                    gun_info[info["gid"]]["type"] - 1
+                ],
+                "idx": info["gid"],
+                "name": gun_info[info["gid"]]["name"],
+                "score": info["score"],
+                "level": user_gun[info["gid"] % 20000]["gun_level"],
+                "rank": gun_info[info["gid"]]["rank_display"],
+                "favor": user_gun[info["gid"] % 20000]["favor"],
+                "skill1": user_gun[info["gid"] % 20000]["skill1"],
+                "skill2": user_gun[info["gid"] % 20000]["skill2"],
+                "equip1": equip_info[info[f"eid_1"]]["name"],
+                "elv1": info[f"elv_1"],
+                "equip2": equip_info[info[f"eid_2"]]["name"],
+                "elv2": info[f"elv_2"],
+                "equip3": equip_info[info[f"eid_3"]]["name"],
+                "elv3": info[f"elv_3"],
+            }
+            self.gun_table.insert(
+                "",
+                "end",
+                values=[str(v) for v in record.values()],
+                tags=("oddrow" if i % 2 else "evenrow"),
+            )
+            for i in range(1, 4):
+                equip_counter[info[f"eid_{i}"]] += 1
+
+        if not use_perfect:
+            self.equip_table.heading("count", text="强化")
+            for i, (info, v) in enumerate(u_info):
+                record = {
+                    "name": equip_info[info["eid"]]["name"],
+                    "rank": 6
+                    if equip_info[info[f"eid"]]["type"] in [18, 19, 20]
+                    else equip_info[info["eid"]]["rank"],
+                    "count": int(v.value()),
+                }
+                self.equip_table.insert(
+                    "",
+                    "end",
+                    values=[str(v) for v in record.values()],
+                    tags=("oddrow" if i % 2 else "evenrow"),
+                )
+        else:
+            self.equip_table.heading("count", text="数量")
+            for i, (eid, count) in enumerate(equip_counter.items()):
+                record = {
+                    "name": equip_info[eid]["name"],
+                    "rank": 6
+                    if equip_info[eid]["type"] in [18, 19, 20]
+                    else equip_info[eid]["rank"],
+                    "count": count,
+                }
+                self.equip_table.insert(
+                    "",
+                    "end",
+                    values=[str(v) for v in record.values()],
+                    tags=("oddrow" if i % 2 else "evenrow"),
+                )
+
+
+if __name__ == "__main__":
+    window = TheaterCommander()
+    window.title(_("战区计算器"))
+    window.mainloop()
