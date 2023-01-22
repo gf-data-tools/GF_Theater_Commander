@@ -4,9 +4,10 @@ import os
 import shutil
 import tkinter as tk
 import tkinter.ttk as ttk
-from functools import partial
+from functools import partial, wraps
 from gettext import install
 from pathlib import Path
+from threading import RLock, Thread
 from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import showerror, showinfo
 from tkinter.simpledialog import Dialog
@@ -61,15 +62,26 @@ def treeview_sort_column(tv: ttk.Treeview, col: str, reverse: bool):
     tv.heading(col, command=partial(treeview_sort_column, tv, col, not reverse))
 
 
+def locked(func):
+    @wraps(func)
+    def wrapped(self, *args, **kwargs):
+        with self.lock:
+            func(self, *args, **kwargs)
+
+    return wrapped
+
+
 class TheaterCommander(tk.Tk):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.lock = RLock()
         self.setup()
 
     def setup(self, region="ch"):
+        install(region)
+        self.title(_("战区计算器"))
         for widget in self.winfo_children():
             widget.destroy()
-        install(region)
         self.download_data(region)
         self.gamedata = GameData(f"data/{region}")
 
@@ -104,7 +116,9 @@ class TheaterCommander(tk.Tk):
         tk.Button(
             frm_btns,
             text=_("  更新数据  "),
-            command=partial(self.download_data, region, True),
+            command=lambda region=region: Thread(
+                target=self.download_data, args=(region, True)
+            ).start(),
         ).grid(row=0, column=1, sticky="we")
 
         tk.Label(frm_control_panel, text=_("关卡选择")).grid(row=1, column=0)
@@ -143,13 +157,19 @@ class TheaterCommander(tk.Tk):
         self.lbl_upload_status.grid(row=0, column=3)
 
         self.btn_calculate = tk.Button(
-            frm_control_panel, text=_("开始计算"), command=self.execute, state="disabled"
+            frm_control_panel,
+            text=_("开始计算"),
+            command=lambda: Thread(target=self.execute).start(),
+            state="disabled",
         )
         self.btn_calculate.grid(row=7, column=0, columnspan=2, sticky="we")
 
         self.var_perfect.trace_add("write", lambda *_: self.switch_perfect())
 
-        equip_table = ttk.Treeview(self)
+        equip_table_bar = ttk.Scrollbar(self, orient="vertical")
+        equip_table = ttk.Treeview(self, yscrollcommand=equip_table_bar.set)
+        equip_table_bar.config(command=equip_table.yview)
+
         column_cfg = {
             "name": {"text": _("装备"), "width": 120},
             "rank": {"text": _("星级"), "width": 40},
@@ -168,7 +188,10 @@ class TheaterCommander(tk.Tk):
             )
         equip_table.tag_configure("oddrow", background="#dddddd")
 
-        gun_table = ttk.Treeview(self)
+        gun_table_bar = ttk.Scrollbar(self, orient="vertical")
+        gun_table = ttk.Treeview(self, yscrollcommand=gun_table_bar.set)
+        gun_table_bar.config(command=gun_table.yview)
+
         column_cfg = {
             "type": {"text": _("枪种"), "width": 40},
             "idx": {"text": _("编号"), "width": 60},
@@ -199,13 +222,16 @@ class TheaterCommander(tk.Tk):
             )
         gun_table.tag_configure("oddrow", background="#dddddd")
 
+        gun_table_bar.pack(padx=5, pady=5, fill="y", side="right")
         gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
         frm_control_panel.pack(padx=5, pady=5, side="top", fill="x")
+        equip_table_bar.pack(fill="y", side="right")
         equip_table.pack(padx=5, pady=5, fill="both", expand=True)
 
         self.gun_table = gun_table
         self.equip_table = equip_table
 
+    @locked
     def download_data(self, region="ch", re_download=False):
         data_dir = Path(__file__).resolve().parent / f"data/{region}"
         tmp_dir = Path(__file__).resolve().parent / f"data/tmp"
@@ -215,11 +241,11 @@ class TheaterCommander(tk.Tk):
         os.makedirs(tmp_dir)
         try:
             for table in ["gun", "equip", "theater_area"]:
+                self.title(_("战区计算器") + _(" - 正在下载") + f"{table}.json")
                 url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
                 if not (data_dir / f"{table}.json").exists() or re_download:
                     download(url, str(tmp_dir / f"{table}.json"))
-                    os.remove((data_dir / f"{table}.json"))
-                    (tmp_dir / f"{table}.json").rename(data_dir / f"{table}.json")
+                    os.rename(tmp_dir / f"{table}.json", data_dir / f"{table}.json")
         except Exception as e:
             showerror(
                 title=_("下载数据失败"),
@@ -229,6 +255,8 @@ class TheaterCommander(tk.Tk):
             if re_download:
                 showinfo(title=_("完成下载"), message="数据已更新")
             self.gamedata = GameData(data_dir)
+        finally:
+            self.title(_("战区计算器"))
 
     def setup_stage_menu(self, master=None) -> tk.Menubutton:
         stage_dict = DefaultDict(dict)
@@ -272,7 +300,9 @@ class TheaterCommander(tk.Tk):
             self.ent_upgrade.config(state="normal")
             self.lbl_upload_status.config(text=_(""), fg="green")
 
+    @locked
     def execute(self):
+        self.title(_("战区计算器") + _(" - 计算中"))
         # prepare data
         game_data = self.gamedata
         for item in self.gun_table.get_children():
@@ -407,5 +437,4 @@ class TheaterCommander(tk.Tk):
 
 if __name__ == "__main__":
     window = TheaterCommander()
-    window.title(_("战区计算器"))
     window.mainloop()
