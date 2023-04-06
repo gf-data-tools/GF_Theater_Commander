@@ -64,9 +64,13 @@ def treeview_sort_column(tv: ttk.Treeview, col: str, reverse: bool):
 
 def locked(func):
     @wraps(func)
-    def wrapped(self, *args, **kwargs):
-        with self.lock:
-            func(self, *args, **kwargs)
+    def wrapped(self: "TheaterCommander", *args, **kwargs):
+        if self.lock.acquire(timeout=0.01):
+            self.lock.release()
+            with self.lock:
+                func(self, *args, **kwargs)
+        else:
+            print("action ignored")
 
     return wrapped
 
@@ -238,6 +242,7 @@ class TheaterCommander(tk.Tk):
         if tmp_dir.exists():
             shutil.rmtree(tmp_dir)
         os.makedirs(tmp_dir)
+        data_dir.mkdir(parents=True, exist_ok=True)
         try:
             for table in ["gun", "equip", "theater_area"]:
                 self.title(_("战区计算器") + _(" - 正在下载") + f"{table}.json")
