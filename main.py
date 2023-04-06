@@ -85,8 +85,8 @@ class TheaterCommander(tk.Tk):
         self.download_data(region)
         self.gamedata = GameData(f"data/{region}")
 
-        self.var_stage = tk.IntVar(self, value=948)
-        self.var_stage_d = tk.StringVar(self, _("第9期 核心8"))
+        self.var_stage = tk.IntVar(self, value=1048)
+        self.var_stage_d = tk.StringVar(self, _("第10期 核心8"))
         self.var_gun = tk.IntVar(self, value=30)
         self.var_gun.trace_add("write", partial(var_min_max, self.var_gun, 0, 999))
         self.var_fairy = tk.IntVar(self, value=4)
@@ -237,7 +237,6 @@ class TheaterCommander(tk.Tk):
         tmp_dir = Path(__file__).resolve().parent / f"data/tmp"
         if tmp_dir.exists():
             shutil.rmtree(tmp_dir)
-        os.makedirs(data_dir, exist_ok=True)
         os.makedirs(tmp_dir)
         try:
             for table in ["gun", "equip", "theater_area"]:
@@ -245,7 +244,9 @@ class TheaterCommander(tk.Tk):
                 url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
                 if not (data_dir / f"{table}.json").exists() or re_download:
                     download(url, str(tmp_dir / f"{table}.json"))
-                    os.rename(tmp_dir / f"{table}.json", data_dir / f"{table}.json")
+                    if (data_dir / f"{table}.json").exists():
+                        os.remove(data_dir / f"{table}.json")
+                    (tmp_dir / f"{table}.json").rename(data_dir / f"{table}.json")
         except Exception as e:
             showerror(
                 title=_("下载数据失败"),
@@ -257,13 +258,16 @@ class TheaterCommander(tk.Tk):
             self.gamedata = GameData(data_dir)
         finally:
             self.title(_("战区计算器"))
+            if re_download:
+                self.setup()
 
     def setup_stage_menu(self, master=None) -> tk.Menubutton:
         stage_dict = DefaultDict(dict)
         difficulty = {"1": _("初级"), "2": _("中级"), "3": _("高级"), "4": _("核心")}
         for idx, area in self.gamedata["theater_area"].items():
             if area["boss"]:
-                a, b, c = str(idx)
+                i = str(idx)
+                a, b, c = i[:-2], i[-2], i[-1]
                 d = difficulty[b]
                 stage_dict[_("第{}期").format(a)][_("第{}期 {}{}").format(a, d, c)] = idx
 
@@ -369,7 +373,7 @@ class TheaterCommander(tk.Tk):
                     u_info.append([choices[k]["info"], v])
                 else:
                     g_info.append([choices[k]["info"], v])
-
+        g_info.sort(key=lambda x: x[0]["gid"])
         # analyze result
         equip_counter = DefaultDict(int)
         for i, (info, v) in enumerate(g_info):
@@ -433,6 +437,7 @@ class TheaterCommander(tk.Tk):
                     values=[str(v) for v in record.values()],
                     tags=("oddrow" if i % 2 else "evenrow"),
                 )
+        self.title(_("战区计算器"))
 
 
 if __name__ == "__main__":
