@@ -59,10 +59,10 @@ def load_perfect_info(game_data:dict):
 
 
 if __name__=='__main__':
-    from gf_utils.stc_data import get_stc_data
+    from gf_utils import GameData
     import re
     import json
-    game_data = get_stc_data('data/ch')
+    game_data = GameData('data/ch')
     
     with open(r'info/user_info.json','rb') as f:
         data = f.read().decode('ascii','ignore')
