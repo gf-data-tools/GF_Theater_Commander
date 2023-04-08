@@ -76,11 +76,13 @@ class Commander:
         for i, (info, v) in enumerate(g_info):
             g_records.append(
                 {
+                    "type_id": gun_info[info["gid"]]["type"],
                     "type": ["HG", "SMG", "RF", "AR", "MG", "SG"][
                         gun_info[info["gid"]]["type"] - 1
                     ],
                     "idx": info["gid"],
                     "name": gun_info[info["gid"]]["name"],
+                    "effect": info["effect"],
                     "score": info["score"],
                     "level": user_gun[info["gid"] % 20000]["gun_level"],
                     "rank": gun_info[info["gid"]]["rank_display"],

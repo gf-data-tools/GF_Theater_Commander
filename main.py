@@ -15,6 +15,7 @@ from typing import *
 
 import pulp as lp
 
+from commander.commander import Commander
 from gf_utils import GameData, download
 from load_user_info import load_perfect_info, load_user_info
 from prepare_choices import prepare_choices
@@ -80,6 +81,7 @@ class TheaterCommander(tk.Tk):
         super().__init__(*args, **kwargs)
         self.lock = RLock()
         self.setup()
+        self.user_data = None
 
     def setup(self, region="ch"):
         install(region)
@@ -179,6 +181,7 @@ class TheaterCommander(tk.Tk):
             "rank": {"text": _("星级"), "width": 40},
             "count": {"text": _("数量"), "width": 40},
         }
+        self.equip_column = column_cfg
         equip_table["columns"] = list(column_cfg.keys())
         equip_table.column("#0", width=0, stretch=tk.NO)
         equip_table.heading("#0", text="", anchor=tk.CENTER)
@@ -213,6 +216,7 @@ class TheaterCommander(tk.Tk):
             "equip3": {"text": _("装备3"), "width": 120},
             "elv3": {"text": _("装等3"), "width": 40},
         }
+        self.gun_column = column_cfg
         gun_table["columns"] = list(column_cfg.keys())
         gun_table.column("#0", width=0, stretch=tk.NO)
         gun_table.heading("#0", text="", anchor=tk.CENTER)
@@ -312,54 +316,6 @@ class TheaterCommander(tk.Tk):
     @locked
     def execute(self):
         self.title(_("战区计算器") + _(" - 计算中"))
-        # prepare data
-        game_data = self.gamedata
-        for item in self.gun_table.get_children():
-            self.gun_table.delete(item)
-        for item in self.equip_table.get_children():
-            self.equip_table.delete(item)
-
-        theater_id = self.var_stage.get()
-        fairy_ratio = 1 + self.var_fairy.get() / 4
-        max_dolls = self.var_gun.get()
-        upgrade_resource = self.var_upgrade.get()
-        use_perfect = self.var_perfect.get()
-        if use_perfect:
-            upgrade_resource = 999
-
-        gun_info, equip_info = game_data["gun"], game_data["equip"]
-        if use_perfect:
-            user_gun, user_equip = load_perfect_info(game_data)
-        else:
-            user_gun, user_equip = load_user_info(self.user_data, game_data)
-        choices = prepare_choices(
-            user_gun, user_equip, theater_id, max_dolls, fairy_ratio, game_data
-        )
-
-        # optimization
-        resource = {}
-        for id, item in user_gun.items():
-            resource[f"g_{id}"] = 1
-        for eid, equip in user_equip.items():
-            resource[f"e{eid}_10"] = equip["level_10"]
-            resource[f"e{eid}_0"] = equip["level_00"]
-        resource["count"] = max_dolls
-        resource["score"] = 0
-        resource["upgrade"] = upgrade_resource
-        lp_vars = {}
-        coeff_lp_var_dict = DefaultDict(list)
-        problem = lp.LpProblem("battlefield", lp.LpMaximize)
-        for k, recipe in choices.items():
-            lp_vars[k] = lp.LpVariable(k, cat=lp.LpInteger, lowBound=0)
-            for r, c in recipe["content"].items():
-                # build a dict with value as lists of (coefficient, LpVar) tuples before building LpAffineExpression in bulk
-                # else doing += coefficient*LpVar would trigger significantly amount of costly LpAffineExpression.__init__ call
-                coeff_lp_var_dict[r].append((lp_vars[k], c))
-        for k, v in coeff_lp_var_dict.items():
-            resource[k] += lp.LpAffineExpression(v)
-        for k, v in resource.items():
-            problem += v >= 0, k
-        problem += resource["score"] + 0.001 * resource["upgrade"]
 
         lp_bin: Path = (
             Path(__file__).resolve().parent
@@ -369,79 +325,39 @@ class TheaterCommander(tk.Tk):
             / lp.arch
             / lp.LpSolver_CMD.executableExtension("cbc")
         )
-        problem.solve(lp.COIN_CMD(msg=0, path=str(lp_bin)))
+        solver = lp.COIN_CMD(msg=0, path=str(lp_bin))
 
-        u_info, g_info = [], []
-        for k, v in lp_vars.items():
-            if v.value() > 0:
-                if k[0] == "u":
-                    u_info.append([choices[k]["info"], v])
-                else:
-                    g_info.append([choices[k]["info"], v])
-        g_info.sort(key=lambda x: x[0]["gid"])
+        commander = Commander(self.gamedata, solver, self.user_data)
+        g_records, u_records = commander.solve(
+            theater_id=self.var_stage.get(),
+            fairy_ratio=1 + self.var_fairy.get() / 4,
+            max_dolls=self.var_gun.get(),
+            upgrade_resource=self.var_upgrade.get(),
+            use_perfect=self.var_perfect.get(),
+        )
+
         # analyze result
-        equip_counter = DefaultDict(int)
-        for i, (info, v) in enumerate(g_info):
-            record = {
-                "type": ["HG", "SMG", "RF", "AR", "MG", "SG"][
-                    gun_info[info["gid"]]["type"] - 1
-                ],
-                "idx": info["gid"],
-                "name": gun_info[info["gid"]]["name"],
-                "score": info["score"],
-                "level": user_gun[info["gid"] % 20000]["gun_level"],
-                "rank": gun_info[info["gid"]]["rank_display"],
-                "favor": user_gun[info["gid"] % 20000]["favor"],
-                "skill1": user_gun[info["gid"] % 20000]["skill1"],
-                "skill2": user_gun[info["gid"] % 20000]["skill2"],
-                "equip1": equip_info[info[f"eid_1"]]["name"],
-                "elv1": info[f"elv_1"],
-                "equip2": equip_info[info[f"eid_2"]]["name"],
-                "elv2": info[f"elv_2"],
-                "equip3": equip_info[info[f"eid_3"]]["name"],
-                "elv3": info[f"elv_3"],
-            }
+        total_score = sum([r["score"] for r in g_records])
+        print(total_score)
+        g_records.sort(
+            key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
+        )
+        for i, record in enumerate(g_records):
             self.gun_table.insert(
                 "",
                 "end",
-                values=[str(v) for v in record.values()],
+                values=[str(record[k]) for k in self.gun_column],
                 tags=("oddrow" if i % 2 else "evenrow"),
             )
-            for i in range(1, 4):
-                equip_counter[info[f"eid_{i}"]] += 1
 
-        if not use_perfect:
-            self.equip_table.heading("count", text="强化")
-            for i, (info, v) in enumerate(u_info):
-                record = {
-                    "name": equip_info[info["eid"]]["name"],
-                    "rank": 6
-                    if equip_info[info[f"eid"]]["type"] in [18, 19, 20]
-                    else equip_info[info["eid"]]["rank"],
-                    "count": int(v.value()),
-                }
-                self.equip_table.insert(
-                    "",
-                    "end",
-                    values=[str(v) for v in record.values()],
-                    tags=("oddrow" if i % 2 else "evenrow"),
-                )
-        else:
-            self.equip_table.heading("count", text="数量")
-            for i, (eid, count) in enumerate(equip_counter.items()):
-                record = {
-                    "name": equip_info[eid]["name"],
-                    "rank": 6
-                    if equip_info[eid]["type"] in [18, 19, 20]
-                    else equip_info[eid]["rank"],
-                    "count": count,
-                }
-                self.equip_table.insert(
-                    "",
-                    "end",
-                    values=[str(v) for v in record.values()],
-                    tags=("oddrow" if i % 2 else "evenrow"),
-                )
+        u_records.sort(key=lambda r: (r["rank"], -r["count"]))
+        for i, record in enumerate(u_records):
+            self.equip_table.insert(
+                "",
+                "end",
+                values=[str(record[k]) for k in self.equip_column],
+                tags=("oddrow" if i % 2 else "evenrow"),
+            )
         self.title(_("战区计算器"))
 
 
