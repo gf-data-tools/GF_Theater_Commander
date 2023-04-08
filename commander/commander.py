@@ -90,10 +90,15 @@ class Commander:
                     "skill1": user_gun[info["gid"] % 20000]["skill1"],
                     "skill2": user_gun[info["gid"] % 20000]["skill2"],
                     "equip1": equip_info[info[f"eid_1"]]["name"],
+                    "erank1": equip_info[info[f"eid_1"]]["rank"]
+                    if equip_info[info[f"eid_1"]]["type"] not in [18, 19, 20]
+                    else 6,
                     "elv1": info[f"elv_1"],
                     "equip2": equip_info[info[f"eid_2"]]["name"],
+                    "erank2": equip_info[info[f"eid_2"]]["rank"],
                     "elv2": info[f"elv_2"],
                     "equip3": equip_info[info[f"eid_3"]]["name"],
+                    "erank3": equip_info[info[f"eid_2"]]["rank"],
                     "elv3": info[f"elv_3"],
                 }
             )
@@ -133,7 +138,4 @@ if __name__ == "__main__":
 
     commander = Commander(game_data, solver, user_data)
     g_records, u_records = commander.solve(1048, 2, 30, 0, False)
-    for r in g_records:
-        print(r)
-    for r in u_records:
-        print(r)
+    print(g_records)

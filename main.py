@@ -17,6 +17,7 @@ import pulp as lp
 
 from commander.commander import Commander
 from gf_utils import GameData, download
+from gunframe import GunFrame
 from load_user_info import load_perfect_info, load_user_info
 from prepare_choices import prepare_choices
 
@@ -195,42 +196,15 @@ class TheaterCommander(tk.Tk):
             )
         equip_table.tag_configure("oddrow", background="#dddddd")
 
-        gun_table_bar = ttk.Scrollbar(self, orient="vertical")
-        gun_table = ttk.Treeview(self, yscrollcommand=gun_table_bar.set)
-        gun_table_bar.config(command=gun_table.yview)
+        gun_table = ttk.Frame(self)
+        self.lbl_total_score = tk.Label(
+            master=gun_table, text=_("总效能：") + f"{0:>6}", anchor="w", justify="left"
+        )
+        self.lbl_total_score.grid(row=0, column=0, columnspan=5, sticky="w")
+        self.gun_frame = [GunFrame(master=gun_table) for i in range(40)]
+        for i in range(30):
+            self.gun_frame[i].grid(row=i // 5 + 1, column=i % 5)
 
-        column_cfg = {
-            "type": {"text": _("枪种"), "width": 40},
-            "idx": {"text": _("编号"), "width": 60},
-            "name": {"text": _("人形"), "width": 120},
-            "score": {"text": _("得分"), "width": 40},
-            "level": {"text": _("等级"), "width": 40},
-            "rank": {"text": _("星级"), "width": 40},
-            "favor": {"text": _("好感"), "width": 40},
-            "skill1": {"text": _("技能1"), "width": 40},
-            "skill2": {"text": _("技能2"), "width": 40},
-            "equip1": {"text": _("装备1"), "width": 120},
-            "elv1": {"text": _("装等1"), "width": 40},
-            "equip2": {"text": _("装备2"), "width": 120},
-            "elv2": {"text": _("装等2"), "width": 40},
-            "equip3": {"text": _("装备3"), "width": 120},
-            "elv3": {"text": _("装等3"), "width": 40},
-        }
-        self.gun_column = column_cfg
-        gun_table["columns"] = list(column_cfg.keys())
-        gun_table.column("#0", width=0, stretch=tk.NO)
-        gun_table.heading("#0", text="", anchor=tk.CENTER)
-        for k, v in column_cfg.items():
-            gun_table.column(k, anchor="e", width=v["width"])
-            gun_table.heading(
-                k,
-                text=v["text"],
-                anchor="e",
-                command=partial(treeview_sort_column, gun_table, k, False),
-            )
-        gun_table.tag_configure("oddrow", background="#dddddd")
-
-        gun_table_bar.pack(padx=5, pady=5, fill="y", side="right")
         gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
         frm_control_panel.pack(padx=5, pady=5, side="top", fill="x")
         equip_table_bar.pack(fill="y", side="right")
@@ -338,18 +312,18 @@ class TheaterCommander(tk.Tk):
 
         # analyze result
         total_score = sum([r["score"] for r in g_records])
-        print(total_score)
+        self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
         g_records.sort(
             key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
         )
-        for i, record in enumerate(g_records):
-            self.gun_table.insert(
-                "",
-                "end",
-                values=[str(record[k]) for k in self.gun_column],
-                tags=("oddrow" if i % 2 else "evenrow"),
-            )
+        for frame in self.gun_frame:
+            frame.reset()
 
+        for i, record in enumerate(g_records):
+            self.gun_frame[i].update(record)
+
+        for item in self.equip_table.get_children():
+            self.equip_table.delete(item)
         u_records.sort(key=lambda r: (r["rank"], -r["count"]))
         for i, record in enumerate(u_records):
             self.equip_table.insert(
