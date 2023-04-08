@@ -29,42 +29,56 @@ logging.basicConfig(
     format="%(message)s",
     handlers=[RichHandler(console=console, show_time=False, show_path=False)],
 )
-
+os.chdir(Path(__file__).resolve().parent)
+# %% argparse
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "theater_id", default="848", type=int, help="关卡id,如736代表第7期高级区第6关"
+)
+parser.add_argument(
+    "-d", "--delete_data",
+    action="store_true",
+    help="删除现有数据文件，强制重新下载"
+)
+parser.add_argument(
+    "-e",
+    "--encoding",
+    type=str,
+    nargs="*",
+    default=["utf-8", "gbk"],
+    help="用于读取user_info的编码，默认仅尝试utf-8和gbk",
+)
+parser.add_argument("-m", "--max_dolls", type=int, default=30, help="上场人数")
+parser.add_argument(
+    "-f", "--fairy_ratio", type=float, default=2, help="妖精加成,默认4个5星1+0.25*4=2倍"
+)
+parser.add_argument(
+    "-u",
+    "--upgrade_resource",
+    type=int,
+    default=0,
+    help="可以用于强化的资源量（普通装备消耗1份，专属消耗3份）"
+)
+parser.add_argument(
+    "-r", "--region", 
+    type=str, 
+    default="ch",
+    choices=['ch', 'tw', 'kr', 'jp', 'us'],
+    help="ch/tw/kr/jp/us"
+)
+parser.add_argument(
+    "-p", "--perfect", action="store_true", help="使用完美仓库（满婚满级满技满装备）"
+)
+parser.add_argument("-t", "--type_sort", action="store_true", help="按枪种排序")
+parser.add_argument(
+    "-i", "--input",
+    type=Path,
+    default=Path("./info/user_info.json"),
+    help="自定义用户数据路径"
+)
+args = parser.parse_known_args()[0]
+# %% Start
 with Status("Initializing", console=console, spinner="bouncingBar") as status:
-    os.chdir(Path(__file__).resolve().parent)
-    # %% argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "theater_id", default="848", type=int, help="关卡id,如736代表第7期高级区第6关"
-    )
-    parser.add_argument(
-        "-d", "--delete_data", action="store_true", help="删除现有数据文件，强制重新下载"
-    )
-    parser.add_argument(
-        "-e",
-        "--encoding",
-        type=str,
-        nargs="*",
-        default=["utf-8", "gbk"],
-        help="用于读取user_info的编码，默认仅尝试utf-8和gbk",
-    )
-    parser.add_argument("-m", "--max_dolls", type=int, default=30, help="上场人数")
-    parser.add_argument(
-        "-f", "--fairy_ratio", type=float, default=2, help="妖精加成,默认4个5星1+0.25*4=2倍"
-    )
-    parser.add_argument(
-        "-u",
-        "--upgrade_resource",
-        type=int,
-        default=0,
-        help="可以用于强化的资源量（普通装备消耗1份，专属消耗3份）",
-    )
-    parser.add_argument("-r", "--region", type=str, default="ch", help="ch/tw/kr/jp/us")
-    parser.add_argument(
-        "-p", "--perfect", action="store_true", help="使用完美仓库（满婚满级满技满装备）"
-    )
-    parser.add_argument("-t", "--type_sort", action="store_true", help="按枪种排序")
-    args = parser.parse_args()
     # %% 战区关卡参数
     theater_id = args.theater_id
     fairy_ratio = args.fairy_ratio  # 妖精加成：5星1.25
@@ -80,13 +94,14 @@ with Status("Initializing", console=console, spinner="bouncingBar") as status:
     if args.delete_data:
         shutil.rmtree("./data")
     download_data(dir="./data", region=region)
-    status.update("Reading user info")
     game_data = GameData(f"data/{region}")
     gun_info, equip_info = game_data["gun"], game_data["equip"]
+
+    status.update("Reading user info")
     if use_perfect:
         user_gun, user_equip = load_perfect_info(game_data)
     else:
-        user_info_file = Path("info/user_info.json")
+        user_info_file = args.input
         encoding_options = {*args.encoding, locale.getpreferredencoding()}
         for encoding in encoding_options:
             try:
