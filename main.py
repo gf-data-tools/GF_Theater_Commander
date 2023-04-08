@@ -224,13 +224,21 @@ class TheaterCommander(tk.Tk):
                 anchor="e",
                 command=partial(treeview_sort_column, gun_table, k, False),
             )
-        gun_table.tag_configure("oddrow", background="#dddddd")
+        # gun_table.tag_configure("oddrow", background="#dddddd")
 
         gun_table_bar.pack(padx=5, pady=5, fill="y", side="right")
         gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
         frm_control_panel.pack(padx=5, pady=5, side="top", fill="x")
         equip_table_bar.pack(fill="y", side="right")
         equip_table.pack(padx=5, pady=5, fill="both", expand=True)
+        
+        gun_table.tag_configure("magenta",foreground="magenta")
+        gun_table.tag_configure("black",foreground="black")
+        gun_table.tag_configure("cyan",foreground="cyan")
+        gun_table.tag_configure("green",foreground="green")
+        gun_table.tag_configure("orange",foreground="orange")
+        gun_table.tag_configure("red",foreground="red")
+ 
 
         self.gun_table = gun_table
         self.equip_table = equip_table
@@ -380,6 +388,15 @@ class TheaterCommander(tk.Tk):
                     g_info.append([choices[k]["info"], v])
         g_info.sort(key=lambda x: x[0]["gid"])
         # analyze result
+        rank_color = {
+            1: "magenta",
+            2: "white",
+            3: "cyan",
+            4: "green",
+            5: "orange",
+            6: "red",
+            7: "magenta",
+        }
         equip_counter = DefaultDict(int)
         for i, (info, v) in enumerate(g_info):
             record = {
@@ -405,8 +422,9 @@ class TheaterCommander(tk.Tk):
                 "",
                 "end",
                 values=[str(v) for v in record.values()],
-                tags=("oddrow" if i % 2 else "evenrow"),
+                tags=rank_color[record["rank"]],
             )
+
             for i in range(1, 4):
                 equip_counter[info[f"eid_{i}"]] += 1
 
