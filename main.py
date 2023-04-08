@@ -201,9 +201,7 @@ class TheaterCommander(tk.Tk):
             master=gun_table, text=_("总效能：") + f"{0:>6}", anchor="w", justify="left"
         )
         self.lbl_total_score.grid(row=0, column=0, columnspan=5, sticky="w")
-        self.gun_frame = [GunFrame(master=gun_table) for i in range(40)]
-        for i in range(30):
-            self.gun_frame[i].grid(row=i // 5 + 1, column=i % 5)
+        self.gun_frame: list[GunFrame] = []
 
         gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
         frm_control_panel.pack(padx=5, pady=5, side="top", fill="x")
@@ -317,10 +315,14 @@ class TheaterCommander(tk.Tk):
             key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
         )
         for frame in self.gun_frame:
-            frame.reset()
+            frame.destroy()
 
+        self.gun_frame = []
         for i, record in enumerate(g_records):
-            self.gun_frame[i].update(record)
+            frame = GunFrame(master=self.gun_table)
+            frame.update(record)
+            frame.grid(row=i // 5, column=i % 5)
+            self.gun_frame.append(frame)
 
         for item in self.equip_table.get_children():
             self.equip_table.delete(item)
