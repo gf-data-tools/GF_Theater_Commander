@@ -386,7 +386,7 @@ class TheaterCommander(tk.Tk):
                 "type": ["HG", "SMG", "RF", "AR", "MG", "SG"][
                     gun_info[info["gid"]]["type"] - 1
                 ],
-                "idx": info["gid"],
+                "idx": info["gid"] % 20000,
                 "name": gun_info[info["gid"]]["name"],
                 "score": info["score"],
                 "level": user_gun[info["gid"] % 20000]["gun_level"],
