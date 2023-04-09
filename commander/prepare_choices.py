@@ -2,7 +2,7 @@ import itertools
 import math
 from functools import reduce
 
-from attr_calc import doll_attr_calculate
+from .attr_calc import doll_attr_calculate
 
 
 def get_theater_config(theater_id, theater_area):
