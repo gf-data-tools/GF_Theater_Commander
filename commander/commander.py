@@ -95,10 +95,14 @@ class Commander:
                     else 6,
                     "elv1": info[f"elv_1"],
                     "equip2": equip_info[info[f"eid_2"]]["name"],
-                    "erank2": equip_info[info[f"eid_2"]]["rank"],
+                    "erank2": 6
+                    if equip_info[info[f"eid_2"]]["type"] in [18, 19, 20]
+                    else equip_info[info[f"eid_2"]]["rank"],
                     "elv2": info[f"elv_2"],
                     "equip3": equip_info[info[f"eid_3"]]["name"],
-                    "erank3": equip_info[info[f"eid_2"]]["rank"],
+                    "erank3": 6
+                    if equip_info[info[f"eid_3"]]["type"] in [18, 19, 20]
+                    else equip_info[info[f"eid_3"]]["rank"],
                     "elv3": info[f"elv_3"],
                 }
             )

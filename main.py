@@ -311,6 +311,7 @@ class TheaterCommander(tk.Tk):
         # analyze result
         total_score = sum([r["score"] for r in g_records])
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
+
         g_records.sort(
             key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
         )
@@ -321,7 +322,7 @@ class TheaterCommander(tk.Tk):
         for i, record in enumerate(g_records):
             frame = GunFrame(master=self.gun_table)
             frame.update(record)
-            frame.grid(row=i // 5, column=i % 5)
+            frame.grid(row=i // 5 + 1, column=i % 5)
             self.gun_frame.append(frame)
 
         for item in self.equip_table.get_children():
