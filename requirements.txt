@@ -1,3 +1,4 @@
 pulp
 pyinstaller==5.0
 pandas
+rich
