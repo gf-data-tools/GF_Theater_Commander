@@ -313,7 +313,7 @@ class TheaterCommander(tk.Tk):
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
 
         g_records.sort(
-            key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
+            key=lambda r: (r["score"], -r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
         )
         for frame in self.gun_frame:
             frame.destroy()
