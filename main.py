@@ -176,7 +176,7 @@ class TheaterCommander(tk.Tk):
         opt_sort_by = tk.OptionMenu(
             self.frm_upload,
             tk.StringVar(self,value="默认"),
-            *["枪种", "等级", "星级", "编号", "得分", "好感"],
+            *["枪种", "等级", "星级", "编号", "效能", "好感"],
             command=self.update_gun_frame
         )
         opt_sort_by.config(relief="groove", indicatoron=False)
@@ -303,9 +303,9 @@ class TheaterCommander(tk.Tk):
         sort_dict = {
             "枪种": "tyep_id",
             "编号": "idx",
-            "得分": "score",
+            "效能": "score",
             "等级": "level",
-            "星级": "rand",
+            "星级": "rank",
             "好感": "favor",
             "默认": "default",
         }
