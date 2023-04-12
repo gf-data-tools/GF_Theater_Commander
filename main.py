@@ -172,18 +172,7 @@ class TheaterCommander(tk.Tk):
             state="disabled",
         )
 
-        tk.Label(self.frm_upload, text=_("排序")).grid(row=1, column=1)
-        opt_sort_by = tk.OptionMenu(
-            self.frm_upload,
-            tk.StringVar(self,value="默认"),
-            *["枪种", "等级", "星级", "编号", "效能", "好感"],
-            command=self.update_gun_frame
-        )
-        opt_sort_by.config(relief="groove", indicatoron=False)
-        opt_sort_by.grid(row=1, column=2)
-
         self.btn_calculate.grid(row=7, column=0, columnspan=2, sticky="we")
-
 
         self.var_perfect.trace_add("write", lambda *_: self.switch_perfect())
 
@@ -214,7 +203,20 @@ class TheaterCommander(tk.Tk):
         self.lbl_total_score = tk.Label(
             master=gun_table, text=_("总效能：") + f"{0:>6}", anchor="w", justify="left"
         )
-        self.lbl_total_score.grid(row=0, column=0, columnspan=5, sticky="w")
+        self.lbl_total_score.grid(row=0, column=0, sticky="w")
+
+        sort_box = tk.Frame(gun_table)
+        sort_box.grid(row=0, column=4, sticky="e")
+        tk.Label(sort_box, text=_("排序")).pack(side="left")
+        opt_sort_by = tk.OptionMenu(
+            sort_box,
+            tk.StringVar(self, value="枪种"),
+            *["枪种", "等级", "星级", "编号", "效能", "好感"],
+            command=self.update_gun_frame,
+        )
+        opt_sort_by.config(relief="groove", indicatoron=False)
+        opt_sort_by.pack(side="left")
+
         self.gun_frame: list[GunFrame] = []
 
         gun_table.pack(padx=5, pady=5, fill="both", side="right", expand=True)
@@ -299,7 +301,7 @@ class TheaterCommander(tk.Tk):
             self.ent_upgrade.config(state="normal")
             self.lbl_upload_status.config(text=_(""), fg="green")
 
-    def update_gun_frame(self, sort_by: str = "默认"):
+    def update_gun_frame(self, sort_by: str = "枪种"):
         sort_dict = {
             "枪种": "tyep_id",
             "编号": "idx",
@@ -307,16 +309,16 @@ class TheaterCommander(tk.Tk):
             "等级": "level",
             "星级": "rank",
             "好感": "favor",
-            "默认": "default",
         }
         match sort_dict[sort_by]:
-            case "default"|"tyep_id":  
+            case "default" | "tyep_id":
                 self.g_records.sort(
-                    key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
+                    key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]),
+                    reverse=True,
                 )
             case _:
                 self.g_records.sort(key=lambda r: (r[sort_dict[sort_by]]), reverse=True)
-                
+
         for frame in self.gun_frame:
             frame.destroy()
 
@@ -364,7 +366,7 @@ class TheaterCommander(tk.Tk):
         # analyze result
         total_score = sum([r["score"] for r in self.g_records])
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
-        self.update_gun_frame()    
+        self.update_gun_frame()
         self.title(_("战区计算器"))
 
 
