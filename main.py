@@ -83,6 +83,8 @@ class TheaterCommander(tk.Tk):
         self.lock = RLock()
         self.setup()
         self.user_data = None
+        self.g_records = None
+        self.u_records = None
 
     def setup(self, region="ch"):
         install(region)
@@ -169,7 +171,19 @@ class TheaterCommander(tk.Tk):
             command=lambda: Thread(target=self.execute).start(),
             state="disabled",
         )
+
+        tk.Label(self.frm_upload, text=_("排序")).grid(row=1, column=1)
+        opt_sort_by = tk.OptionMenu(
+            self.frm_upload,
+            tk.StringVar(self,value="默认"),
+            *["枪种", "等级", "星级", "编号", "得分", "好感"],
+            command=self.update_gun_frame
+        )
+        opt_sort_by.config(relief="groove", indicatoron=False)
+        opt_sort_by.grid(row=1, column=2)
+
         self.btn_calculate.grid(row=7, column=0, columnspan=2, sticky="we")
+
 
         self.var_perfect.trace_add("write", lambda *_: self.switch_perfect())
 
@@ -285,6 +299,45 @@ class TheaterCommander(tk.Tk):
             self.ent_upgrade.config(state="normal")
             self.lbl_upload_status.config(text=_(""), fg="green")
 
+    def update_gun_frame(self, sort_by: str = "默认"):
+        sort_dict = {
+            "枪种": "tyep_id",
+            "编号": "idx",
+            "得分": "score",
+            "等级": "level",
+            "星级": "rand",
+            "好感": "favor",
+            "默认": "default",
+        }
+        match sort_dict[sort_by]:
+            case "default"|"tyep_id":  
+                self.g_records.sort(
+                    key=lambda r: (-r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
+                )
+            case _:
+                self.g_records.sort(key=lambda r: (r[sort_dict[sort_by]]), reverse=True)
+                
+        for frame in self.gun_frame:
+            frame.destroy()
+
+        self.gun_frame = []
+        for i, record in enumerate(self.g_records):
+            frame = GunFrame(master=self.gun_table)
+            frame.update(record)
+            frame.grid(row=i // 5 + 1, column=i % 5)
+            self.gun_frame.append(frame)
+
+        for item in self.equip_table.get_children():
+            self.equip_table.delete(item)
+        self.u_records.sort(key=lambda r: (r["rank"], -r["count"]))
+        for i, record in enumerate(self.u_records):
+            self.equip_table.insert(
+                "",
+                "end",
+                values=[str(record[k]) for k in self.equip_column],
+                tags=("oddrow" if i % 2 else "evenrow"),
+            )
+
     @locked
     def execute(self):
         self.title(_("战区计算器") + _(" - 计算中"))
@@ -300,7 +353,7 @@ class TheaterCommander(tk.Tk):
         solver = lp.COIN_CMD(msg=0, path=str(lp_bin))
 
         commander = Commander(self.gamedata, solver, self.user_data)
-        g_records, u_records = commander.solve(
+        self.g_records, self.u_records = commander.solve(
             theater_id=self.var_stage.get(),
             fairy_ratio=1 + self.var_fairy.get() / 4,
             max_dolls=self.var_gun.get(),
@@ -309,32 +362,9 @@ class TheaterCommander(tk.Tk):
         )
 
         # analyze result
-        total_score = sum([r["score"] for r in g_records])
+        total_score = sum([r["score"] for r in self.g_records])
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
-
-        g_records.sort(
-            key=lambda r: (r["score"], -r["type_id"], r["level"], r["rank"], r["idx"]), reverse=True
-        )
-        for frame in self.gun_frame:
-            frame.destroy()
-
-        self.gun_frame = []
-        for i, record in enumerate(g_records):
-            frame = GunFrame(master=self.gun_table)
-            frame.update(record)
-            frame.grid(row=i // 5 + 1, column=i % 5)
-            self.gun_frame.append(frame)
-
-        for item in self.equip_table.get_children():
-            self.equip_table.delete(item)
-        u_records.sort(key=lambda r: (r["rank"], -r["count"]))
-        for i, record in enumerate(u_records):
-            self.equip_table.insert(
-                "",
-                "end",
-                values=[str(record[k]) for k in self.equip_column],
-                tags=("oddrow" if i % 2 else "evenrow"),
-            )
+        self.update_gun_frame()    
         self.title(_("战区计算器"))
 
 
