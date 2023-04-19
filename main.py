@@ -205,6 +205,11 @@ class TheaterCommander(tk.Tk):
         )
         self.lbl_total_score.grid(row=0, column=0, sticky="w")
 
+        self.lbl_assist = tk.Label(
+            master=gun_table, text=_(""), anchor="w", justify="left"
+        )
+        self.lbl_assist.grid(row=0, column=1, columnspan=2, sticky="w")
+
         sort_box = tk.Frame(gun_table)
         sort_box.grid(row=0, column=4, sticky="e")
         tk.Label(sort_box, text=_("排序")).pack(side="left")
@@ -355,6 +360,12 @@ class TheaterCommander(tk.Tk):
         solver = lp.COIN_CMD(msg=0, path=str(lp_bin))
 
         commander = Commander(self.gamedata, solver, self.user_data)
+
+        self.assist_units = (
+            []
+            if self.var_perfect.get()
+            else commander.get_assist_unit(self.var_stage.get())
+        )
         self.g_records, self.u_records = commander.solve(
             theater_id=self.var_stage.get(),
             fairy_ratio=1 + self.var_fairy.get() / 4,
@@ -364,10 +375,18 @@ class TheaterCommander(tk.Tk):
         )
 
         # analyze result
-        total_score = sum([r["score"] for r in self.g_records])
+        total_score = (
+            0
+            + sum([r["score"] for r in self.g_records])
+            + sum([i[1] for i in self.assist_units])
+        )
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
+        self.lbl_assist.config(
+            text=" ".join(f"{name}({score})" for name, score, _ in self.assist_units)
+        )
         self.update_gun_frame()
         self.title(_("战区计算器"))
+        print(list(commander.game_data._GameData__data.keys()))
 
 
 if __name__ == "__main__":

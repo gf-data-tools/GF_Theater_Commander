@@ -365,6 +365,51 @@ class Commander:
         g_records, u_records = self.analyze(u_info, g_info, use_perfect)
         return g_records, u_records
 
+    def get_assist_unit(
+        self, theater_id: int, count: int = 3
+    ) -> list[tuple[str, int, int]]:
+        theater_config = self.get_theater_config(
+            theater_id, self.game_data["theater_area"]
+        )
+        sangvis_coef = theater_config["class_weight"][-4]
+        squad_coef = theater_config["class_weight"][-3]
+
+        assist_units = []
+        print(sangvis_coef, squad_coef)
+        user_info = UserInfo(self.game_data, self.user_data)
+        for squad in user_info.squad_with_user_info.values():
+            effect = squad.battle_efficiency()
+            score = math.floor(effect * squad_coef / 100)
+            assist_units.append((squad.squad_info["name"], score, effect))
+
+        sangvis_list = []
+        for sangvis in user_info.sangvis_with_user_info.values():
+            sangvis_info = sangvis.sangvis_info
+            if sangvis_info["skill2_type"] == 3:
+                sangvis_list.append(
+                    [
+                        sangvis_info["name"],
+                        sangvis.battle_efficiency(max_favor=True, night=False),
+                        sangvis.battle_efficiency(max_favor=True, night=True),
+                    ]
+                )
+        p = max(sangvis_list, key=lambda x: x[1])
+        p[2] = p[1]
+
+        if theater_config["fight_mode"] == "day":
+            assist_units += [
+                (name, math.floor(eday * sangvis_coef / 100), eday)
+                for name, eday, enight in sangvis_list
+            ]
+        else:
+            assist_units += [
+                (name, math.floor(enight * sangvis_coef / 100), enight)
+                for name, eday, enight in sangvis_list
+            ]
+
+        assist_units.sort(key=lambda x: x[1], reverse=True)
+        return assist_units[:count]
+
 
 if __name__ == "__main__":
     import json
@@ -382,8 +427,9 @@ if __name__ == "__main__":
     user_data = json.load(Path("info/user_info.json").open("r"))
 
     commander = Commander(game_data, solver, user_data)
-    g_records, u_records = commander.solve(1048, 2, 30, 999, False)
-    for gr in g_records:
-        print(gr)
-    for ur in u_records:
-        print(ur)
+    print(commander.get_assist_unit(1048))
+    # g_records, u_records = commander.solve(1048, 2, 30, 999, False)
+    # for gr in g_records:
+    #     print(gr)
+    # for ur in u_records:
+    #     print(ur)
