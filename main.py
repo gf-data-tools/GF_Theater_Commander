@@ -15,7 +15,7 @@ from typing import *
 
 import pulp as lp
 
-from commander.commander import Commander
+from commander_new.commander import Commander
 from gf_utils import GameData, download
 from gunframe import GunFrame
 from load_user_info import load_perfect_info, load_user_info

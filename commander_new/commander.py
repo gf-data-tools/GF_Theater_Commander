@@ -163,7 +163,9 @@ class Commander:
         max_dolls: int,
         fairy_ratio: float,
     ) -> dict[str, RecipeRecord]:
-        theater_config = self.get_theater_config(theater_id, game_data["theater_area"])
+        theater_config = self.get_theater_config(
+            theater_id, self.game_data["theater_area"]
+        )
         choices: dict[str, RecipeRecord] = {}
 
         equip_type_groups: DefaultDict[int, list[EquipUserRecord]] = DefaultDict(list)

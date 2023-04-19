@@ -45,7 +45,7 @@ class GunFrame(tk.Frame):
 
         self.var_favor = tk.StringVar()
         self.lbl_favor = tk.Label(
-            self.row[2], textvariable=self.var_favor, width=5, anchor="e"
+            self.row[2], textvariable=self.var_favor, width=5, anchor="w"
         )
         self.lbl_favor.pack(side="left")
 
@@ -100,9 +100,11 @@ class GunFrame(tk.Frame):
         self.lbl_name.config(foreground=rank_color[g_records["rank"]])
         self.var_type.set(g_records["type"])
 
-        self.var_favor.set(f"\u2665 {g_records['favor']:>3}")
+        self.var_favor.set(
+            "\U0001f493" if g_records["soul_bond"] == 0 else "\U0001f48D"
+        )
         self.lbl_favor.config(
-            foreground="magenta" if g_records["favor"] <= 100 else "red"
+            foreground="magenta" if g_records["soul_bond"] == 1 else "red"
         )
 
         self.var_level.set(f"Lv{g_records['level']:>3}")

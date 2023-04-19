@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1", "name": "手枪", "basic_attribute_life": "0.60", "basic_attribute_pow": "0.60", "basic_attribute_rate": "0.80", 
+    "basic_attribute_speed": "1.50", "basic_attribute_hit": "1.20", "basic_attribute_dodge": "1.80", 
+    "basic_attribute_armor": "0.00", "mp_fix_ratio": "2.00", "part_fix_ratio": "0.70", "fix_time_ratio": "0.50"
+  }, {
+    "id": "2", "name": "冲锋枪", "basic_attribute_life": "1.60", "basic_attribute_pow": "0.60", 
+    "basic_attribute_rate": "1.20", "basic_attribute_speed": "1.20", "basic_attribute_hit": "0.30", 
+    "basic_attribute_dodge": "1.60", "basic_attribute_armor": "0.00", "mp_fix_ratio": "4.50", "part_fix_ratio": "1.20", 
+    "fix_time_ratio": "1.00"
+  }, {
+    "id": "3", "name": "步枪", "basic_attribute_life": "0.80", "basic_attribute_pow": "2.40", "basic_attribute_rate": "0.50", 
+    "basic_attribute_speed": "0.70", "basic_attribute_hit": "1.60", "basic_attribute_dodge": "0.80", 
+    "basic_attribute_armor": "0.00", "mp_fix_ratio": "3.50", "part_fix_ratio": "1.60", "fix_time_ratio": "1.00"
+  }, {
+    "id": "4", "name": "突击步枪", "basic_attribute_life": "1.00", "basic_attribute_pow": "1.00", 
+    "basic_attribute_rate": "1.00", "basic_attribute_speed": "1.00", "basic_attribute_hit": "1.00", 
+    "basic_attribute_dodge": "1.00", "basic_attribute_armor": "0.00", "mp_fix_ratio": "4.00", "part_fix_ratio": "1.40", 
+    "fix_time_ratio": "1.00"
+  }, {
+    "id": "5", "name": "机枪", "basic_attribute_life": "1.50", "basic_attribute_pow": "1.80", "basic_attribute_rate": "1.60", 
+    "basic_attribute_speed": "0.40", "basic_attribute_hit": "0.60", "basic_attribute_dodge": "0.60", 
+    "basic_attribute_armor": "0.00", "mp_fix_ratio": "7.50", "part_fix_ratio": "3.00", "fix_time_ratio": "2.00"
+  }, {
+    "id": "6", "name": "霰弹枪", "basic_attribute_life": "2.00", "basic_attribute_pow": "0.70", 
+    "basic_attribute_rate": "0.40", "basic_attribute_speed": "0.60", "basic_attribute_hit": "0.30", 
+    "basic_attribute_dodge": "0.30", "basic_attribute_armor": "1.00", "mp_fix_ratio": "6.50", "part_fix_ratio": "3.20", 
+    "fix_time_ratio": "2.00"
+  }
+]
