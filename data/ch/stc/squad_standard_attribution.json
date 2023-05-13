@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "attribute_type": "assist_damage",
+        "name": "*支援伤害",
+        "standard_attribute": 1.28,
+        "cpu_standard_attribute": 4.4,
+        "basic_rate": 40,
+        "cpu_rate": 60,
+        "role_id": 1
+    },
+    {
+        "id": 2,
+        "attribute_type": "assist_def_break",
+        "name": "*支援破防",
+        "standard_attribute": 2.22,
+        "cpu_standard_attribute": 12.7,
+        "basic_rate": 50,
+        "cpu_rate": 50,
+        "role_id": 1
+    },
+    {
+        "id": 3,
+        "attribute_type": "assist_hit",
+        "name": "*支援精度",
+        "standard_attribute": 2.07,
+        "cpu_standard_attribute": 7.1,
+        "basic_rate": 60,
+        "cpu_rate": 40,
+        "role_id": 3
+    },
+    {
+        "id": 4,
+        "attribute_type": "assist_reload",
+        "name": "*装填速度",
+        "standard_attribute": 1.97,
+        "cpu_standard_attribute": 5.7,
+        "basic_rate": 60,
+        "cpu_rate": 40,
+        "role_id": 2
+    },
+    {
+        "id": 5,
+        "attribute_type": "atk_speed",
+        "name": "*普攻射速",
+        "standard_attribute": 0.35,
+        "cpu_standard_attribute": 1.6,
+        "basic_rate": 60,
+        "cpu_rate": 40,
+        "role_id": 2
+    },
+    {
+        "id": 6,
+        "attribute_type": "damage",
+        "name": "*普通伤害",
+        "standard_attribute": 16.42,
+        "cpu_standard_attribute": 37.3,
+        "basic_rate": 60,
+        "cpu_rate": 40,
+        "role_id": 1
+    },
+    {
+        "id": 7,
+        "attribute_type": "def",
+        "name": "*防护",
+        "standard_attribute": 6.58,
+        "cpu_standard_attribute": 37.5,
+        "basic_rate": 50,
+        "cpu_rate": 50,
+        "role_id": 1
+    },
+    {
+        "id": 8,
+        "attribute_type": "hit",
+        "name": "*命中",
+        "standard_attribute": 0.28,
+        "cpu_standard_attribute": 1.3,
+        "basic_rate": 60,
+        "cpu_rate": 40,
+        "role_id": 3
+    },
+    {
+        "id": 9,
+        "attribute_type": "hp",
+        "name": "*生命",
+        "standard_attribute": 147.37,
+        "cpu_standard_attribute": 0.0,
+        "basic_rate": 100,
+        "cpu_rate": 0,
+        "role_id": 0
+    }
+]

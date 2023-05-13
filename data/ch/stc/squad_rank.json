@@ -1,0 +1,32 @@
+[
+    {
+        "star_id": 1,
+        "lv_unlock": "1",
+        "cost_self_piece": 5,
+        "cpu_rate": 50
+    },
+    {
+        "star_id": 2,
+        "lv_unlock": "1",
+        "cost_self_piece": 10,
+        "cpu_rate": 60
+    },
+    {
+        "star_id": 3,
+        "lv_unlock": "1",
+        "cost_self_piece": 15,
+        "cpu_rate": 70
+    },
+    {
+        "star_id": 4,
+        "lv_unlock": "1",
+        "cost_self_piece": 20,
+        "cpu_rate": 85
+    },
+    {
+        "star_id": 5,
+        "lv_unlock": "1",
+        "cost_self_piece": 30,
+        "cpu_rate": 100
+    }
+]

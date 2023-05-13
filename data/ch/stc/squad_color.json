@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "rgb": "239,107,67",
+        "fliter_text": "squad_color-10000001",
+        "fliter_pic": "red",
+        "rank_weight": "100,100"
+    },
+    {
+        "id": 2,
+        "rgb": "111,136,217",
+        "fliter_text": "squad_color-10000002",
+        "fliter_pic": "blue",
+        "rank_weight": "100,100"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "lv": 1,
+        "exp": 50,
+        "strength_coef": 108
+    },
+    {
+        "lv": 2,
+        "exp": 125,
+        "strength_coef": 116
+    },
+    {
+        "lv": 3,
+        "exp": 225,
+        "strength_coef": 124
+    },
+    {
+        "lv": 4,
+        "exp": 350,
+        "strength_coef": 132
+    },
+    {
+        "lv": 5,
+        "exp": 500,
+        "strength_coef": 140
+    },
+    {
+        "lv": 6,
+        "exp": 700,
+        "strength_coef": 148
+    },
+    {
+        "lv": 7,
+        "exp": 950,
+        "strength_coef": 156
+    },
+    {
+        "lv": 8,
+        "exp": 1250,
+        "strength_coef": 164
+    },
+    {
+        "lv": 9,
+        "exp": 1600,
+        "strength_coef": 172
+    },
+    {
+        "lv": 10,
+        "exp": 2000,
+        "strength_coef": 180
+    },
+    {
+        "lv": 11,
+        "exp": 2450,
+        "strength_coef": 187
+    },
+    {
+        "lv": 12,
+        "exp": 2950,
+        "strength_coef": 194
+    },
+    {
+        "lv": 13,
+        "exp": 3500,
+        "strength_coef": 201
+    },
+    {
+        "lv": 14,
+        "exp": 4100,
+        "strength_coef": 208
+    },
+    {
+        "lv": 15,
+        "exp": 4750,
+        "strength_coef": 215
+    },
+    {
+        "lv": 16,
+        "exp": 5450,
+        "strength_coef": 222
+    },
+    {
+        "lv": 17,
+        "exp": 6250,
+        "strength_coef": 229
+    },
+    {
+        "lv": 18,
+        "exp": 7100,
+        "strength_coef": 236
+    },
+    {
+        "lv": 19,
+        "exp": 8000,
+        "strength_coef": 243
+    },
+    {
+        "lv": 20,
+        "exp": 9000,
+        "strength_coef": 250
+    }
+]

@@ -1,0 +1,20 @@
+squad_type-10000001,反坦克武器
+squad_type-20000001,Anti-Tank Weapon
+squad_type-30000001,火力单位
+squad_type-40000001,Fire Support Unit
+squad_type-10000002,迫击炮
+squad_type-20000002,Mortar
+squad_type-30000002,火力单位
+squad_type-40000002,Fire Support Unit
+squad_type-10000003,榴弹发射器
+squad_type-20000003,Automatic Grenade Launcher
+squad_type-30000003,火力单位
+squad_type-40000003,Fire Support Unit
+squad_type-10000101,支援单位
+squad_type-20000101,Assist
+squad_type-30000101,火力单位
+squad_type-40000101,Fire Support Unit
+squad_type-10000102,融合势力
+squad_type-20000102,Coalition
+squad_type-30000102,融合势力
+squad_type-40000102,Coalition

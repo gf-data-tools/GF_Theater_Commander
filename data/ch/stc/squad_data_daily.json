@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "squad_data_daily-10000001",
+        "content": "squad_data_daily-20000001",
+        "type": "mission:optional",
+        "count": 1,
+        "rank": 1,
+        "prize": "10,3"
+    },
+    {
+        "id": 2,
+        "title": "squad_data_daily-10000002",
+        "content": "squad_data_daily-20000002",
+        "type": "slay:optional",
+        "count": 5,
+        "rank": 1,
+        "prize": "10,3"
+    },
+    {
+        "id": 3,
+        "title": "squad_data_daily-10000003",
+        "content": "squad_data_daily-20000003",
+        "type": "mission:40",
+        "count": 2,
+        "rank": 2,
+        "prize": "10,4"
+    },
+    {
+        "id": 4,
+        "title": "squad_data_daily-10000004",
+        "content": "squad_data_daily-20000004",
+        "type": "mission:50",
+        "count": 2,
+        "rank": 2,
+        "prize": "10,4"
+    },
+    {
+        "id": 5,
+        "title": "squad_data_daily-10000005",
+        "content": "squad_data_daily-20000005",
+        "type": "mission:60",
+        "count": 1,
+        "rank": 3,
+        "prize": "10,5"
+    },
+    {
+        "id": 6,
+        "title": "squad_data_daily-10000006",
+        "content": "squad_data_daily-20000006",
+        "type": "mission:70",
+        "count": 1,
+        "rank": 3,
+        "prize": "10,5"
+    },
+    {
+        "id": 7,
+        "title": "squad_data_daily-10000007",
+        "content": "squad_data_daily-20000007",
+        "type": "slay:boss",
+        "count": 1,
+        "rank": 3,
+        "prize": "10,5"
+    },
+    {
+        "id": 8,
+        "title": "squad_data_daily-10000008",
+        "content": "squad_data_daily-20000008",
+        "type": "slay:armor",
+        "count": 3,
+        "rank": 1,
+        "prize": "10,3"
+    },
+    {
+        "id": 10,
+        "title": "squad_data_daily-10000010",
+        "content": "squad_data_daily-20000010",
+        "type": "slay:normal",
+        "count": 3,
+        "rank": 1,
+        "prize": "10,3"
+    },
+    {
+        "id": 12,
+        "title": "squad_data_daily-10000012",
+        "content": "squad_data_daily-20000012",
+        "type": "mission_common_win",
+        "count": 1,
+        "rank": 2,
+        "prize": "10,4"
+    },
+    {
+        "id": 13,
+        "title": "squad_data_daily-10000013",
+        "content": "squad_data_daily-20000013",
+        "type": "mission_emergent_win",
+        "count": 1,
+        "rank": 2,
+        "prize": "10,4"
+    },
+    {
+        "id": 14,
+        "title": "squad_data_daily-10000014",
+        "content": "squad_data_daily-20000014",
+        "type": "mission_night_win",
+        "count": 1,
+        "rank": 2,
+        "prize": "10,4"
+    }
+]

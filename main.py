@@ -12,11 +12,13 @@ from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import showerror, showinfo
 from tkinter.simpledialog import Dialog
 from typing import *
+from urllib.error import HTTPError
 
 import pulp as lp
+from gf_utils2.gamedata import GameData
 
 from commander_new.commander import Commander
-from gf_utils import GameData, download
+from gf_utils import download
 from gunframe import GunFrame
 from load_user_info import load_perfect_info, load_user_info
 from prepare_choices import prepare_choices
@@ -92,7 +94,6 @@ class TheaterCommander(tk.Tk):
         for widget in self.winfo_children():
             widget.destroy()
         self.download_data(region)
-        self.gamedata = GameData(f"data/{region}")
 
         self.var_stage = tk.IntVar(self, value=1048)
         self.var_stage_d = tk.StringVar(self, _("第10期 核心8"))
@@ -239,16 +240,47 @@ class TheaterCommander(tk.Tk):
         if tmp_dir.exists():
             shutil.rmtree(tmp_dir)
         os.makedirs(tmp_dir)
-        data_dir.mkdir(parents=True, exist_ok=True)
+        (data_dir / "stc").mkdir(parents=True, exist_ok=True)
+        (data_dir / "table").mkdir(parents=True, exist_ok=True)
         try:
-            for table in ["gun", "equip", "theater_area"]:
+            for table in [
+                'equip', 'game_config_info', 'gun', 'gun_type_info', 'sangvis', 
+                'sangvis_advance', 'sangvis_character_type', 'sangvis_resolution', 
+                'sangvis_type', 'squad', 'squad_advanced_bonus', 'squad_chip', 
+                'squad_chip_exp', 'squad_color', 'squad_cpu', 'squad_cpu_completion', 
+                'squad_data_daily', 'squad_exp', 'squad_grid', 'squad_in_ally', 
+                'squad_rank', 'squad_standard_attribution', 'squad_type', 
+                'theater_area'
+            ]:  # fmt: skip
                 self.title(_("战区计算器") + _(" - 正在下载") + f"{table}.json")
-                url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/formatted/json/{table}.json"
-                if not (data_dir / f"{table}.json").exists() or re_download:
+
+                if table.endswith("info"):
+                    url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/catchdata/{table}.json"
+                else:
+                    url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/stc/{table}.json"
+
+                if not (data_dir / f"stc/{table}.json").exists() or re_download:
                     download(url, str(tmp_dir / f"{table}.json"))
-                    if (data_dir / f"{table}.json").exists():
+                    if (data_dir / f"stc/{table}.json").exists():
                         os.remove(data_dir / f"{table}.json")
-                    (tmp_dir / f"{table}.json").rename(data_dir / f"{table}.json")
+                    (tmp_dir / f"{table}.json").rename(data_dir / f"stc/{table}.json")
+
+            for table in [
+                'equip', 'gun', 'sangvis', 'sangvis_character_type', 'squad', 
+                'squad_chip', 'squad_color', 'squad_data_daily', 'squad_type', 
+                'theater_area'
+            ]:  # fmt: skip
+                url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/asset/table/{table}.txt"
+                if not (data_dir / f"table/{table}.txt").exists() or re_download:
+                    try:
+                        download(url, str(tmp_dir / f"{table}.txt"))
+                        if (data_dir / f"table/{table}.txt").exists():
+                            os.remove(data_dir / f"{table}.json")
+                        (tmp_dir / f"{table}.txt").rename(
+                            data_dir / f"table/{table}.txt"
+                        )
+                    except HTTPError as e:
+                        pass
         except Exception as e:
             showerror(
                 title=_("下载数据失败"),
@@ -257,7 +289,8 @@ class TheaterCommander(tk.Tk):
         else:
             if re_download:
                 showinfo(title=_("完成下载"), message="数据已更新")
-            self.gamedata = GameData(data_dir)
+            self.gamedata = GameData(data_dir / "stc", data_dir / "table")
+            print(list(self.gamedata.keys()))
         finally:
             self.title(_("战区计算器"))
             if re_download:
