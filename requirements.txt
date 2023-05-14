@@ -2,3 +2,4 @@ pulp
 pyinstaller==5.0
 pandas
 rich
+git+https://github.com/gf-data-tools/gf-utils.git
