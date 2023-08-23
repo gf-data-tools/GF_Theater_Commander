@@ -262,7 +262,7 @@ class TheaterCommander(tk.Tk):
                 if not (data_dir / f"stc/{table}.json").exists() or re_download:
                     download(url, str(tmp_dir / f"{table}.json"))
                     if (data_dir / f"stc/{table}.json").exists():
-                        os.remove(data_dir / f"{table}.json")
+                        os.remove(data_dir / f"stc/{table}.json")
                     (tmp_dir / f"{table}.json").rename(data_dir / f"stc/{table}.json")
 
             for table in [
