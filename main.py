@@ -1,7 +1,9 @@
 import json
 import locale
+import logging
 import os
 import shutil
+import socket
 import tkinter as tk
 import tkinter.ttk as ttk
 from functools import partial, wraps
@@ -12,16 +14,45 @@ from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import showerror, showinfo
 from tkinter.simpledialog import Dialog
 from typing import *
+from urllib import request
 from urllib.error import HTTPError
 
 import pulp as lp
+import urllib3
 from gf_utils2.gamedata import GameData
 
 from commander_new.commander import Commander
-from gf_utils import download
 from gunframe import GunFrame
 from load_user_info import load_perfect_info, load_user_info
 from prepare_choices import prepare_choices
+
+logger = logging.getLogger(__name__)
+https = urllib3.PoolManager()
+
+
+def download(url, path, max_retry=10, timeout_sec=5):
+    socket.setdefaulttimeout(timeout_sec)
+    fname = os.path.split(path)[-1]
+    logger.info(f"Start downloading {fname}")
+    for i in range(max_retry):
+        try:
+            if not os.path.exists(path):
+                https.urlopen()
+                request.urlretrieve(url, path + ".tmp")
+                os.rename(path + ".tmp", path)
+        except Exception as e:
+            if i + 1 < max_retry:
+                logger.warning(
+                    f"Failed to download {fname} for {i+1}/{max_retry} tries"
+                )
+                continue
+            else:
+                logger.exception(repr(e))
+                raise
+        else:
+            logger.info(f"Successfully downloaded {fname}")
+            break
+    return path
 
 
 def menu_from_dict(
@@ -275,7 +306,7 @@ class TheaterCommander(tk.Tk):
                     try:
                         download(url, str(tmp_dir / f"{table}.txt"))
                         if (data_dir / f"table/{table}.txt").exists():
-                            os.remove(data_dir / f"{table}.json")
+                            os.remove(data_dir / f"table/{table}.txt")
                         (tmp_dir / f"{table}.txt").rename(
                             data_dir / f"table/{table}.txt"
                         )
