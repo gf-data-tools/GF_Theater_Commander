@@ -1558,6 +1558,34 @@ gun-10000387,TPS
 gun-40000387,S.Joop//c//c
 gun-50000387,Type                       Shotgun//nMass                       6.5 lb (2.9 kg)//nLength                     39.75 in (101.0 cm)//nBarrel length              18 in (46 cm)//nCartridge                  12-gauge//nAction                     Pump-action//nFeed system                Internal tube magazine//c 7+1//nSights                      M16A2 style front & rear
 gun-60000387,
+gun-10000388,QBU-191
+gun-40000388,陆银//c//c
+gun-50000388,Type                       Rifle//nMass                       4 kg //nLength                     710mm stock collapsed//n                           950mm stock extended//nBarrel length              551.2 mm//nCaliber                    5.8 x 42 mm//nRate of fire               700 rpm//nEffective firing range     800 m//nFeed system                30 rounds
+gun-60000388,
+gun-10000389,博斯
+gun-40000389,鈴ノ//c//c
+gun-50000389,Type                       Rifle//nMass                       35 lb (16 kg)//nLength                      5 ft 2 in (1.57 m)//nBarrel length               36 in (910 mm)//nCartridge                   .55 Boys//nCaliber                    0.55 in (14 mm)//nAction                     Bolt-action rifle//nRate of fire               10 round/min//nMuzzle velocity            Mk I: 747 m/s (2//c450 ft/s)//n                           Mk II: 884 m/s (2//c900 ft/s)//nEffective firing range     460 m//nFeed system                5-round detachable box magazine
+gun-60000389,
+gun-10000390,HK433
+gun-40000390,豆包//c//c
+gun-50000390,Type                       Assault rifle//nMass                       3.25 kg (7.2 lb)//nLength                     577–843 mm (22.7–33.2 in) //nBarrel length              280 mm (11 in)    //nCartridge                  5.56×45mm NATO//nAction                     Short-stroke piston//n                           rotating bolt//nRate of fire               850 rounds/min//nMuzzle velocity            800 m/s (2//c600 ft/s)//nEffective firing range     500–600 m//nFeed system                30-round detachable STANAG Magazine//nSights                     Iron sights and Picatinny rails for various optics
+gun-60000390,
+gun-10000391,82式
+gun-40000391,熊猫印象//c//c
+gun-50000391,Type                       Submachine gun//nMass                       1.6 kg//nLength                     583 mm stock extended//n                           333 mm stock folded//nBarrel length              150 mm//nCartridge                  9×18mm Makarov//nCaliber                    9 mm//nRate of fire               650 round/min//nMuzzle velocity            320 m/s//nEffective firing range     150 m//nFeed system                15//c25//c40-round detachable box magazine
+gun-60000391,
+gun-10000392,欧文
+gun-40000392,斎木こまり//c//c
+gun-50000392,Type                       Submachine gun//nMass                       4.23 kg (9.33 lb)//nLength                     813 mm (32.0 in)//nBarrel length              250 mm (9.84 in)//nCartridge                  9×19mm Parabellum//nAction                     Blowback//c open bolt//nRate of fire               700 rounds/min//nMuzzle velocity            366 m/s//nEffective firing range     123 m//nMaximum firing range       200 m//nFeed system                33-round detachable magazine//nSights                     Iron sights
+gun-60000392,
+gun-10000393,贝奥武夫
+gun-40000393,そおの//c//c
+gun-50000393,Type                       Assault rifle//nMass                       4.1 kg//nLength                     940 mm//nBarrel length              420 mm//nCartridge                  .50 Beowulf//nCaliber                    12.7 x 42 mm//nFeed system                5.56 mm M16 magazine
+gun-60000393,
+gun-10000394,CM901
+gun-40000394,RFF//c//c
+gun-50000394,Type                       Assault rifle//nMass                        4.3 kg (9.4 lb)//nLength                     950 mm (37.5 in) (stock extended)//n                           870 mm (34.24 in) (stock retracted)//nBarrel length              410 mm (16.1 in)//nCartridge                  5.56×45mm NATO//n                           6.8mm Remington SPC//n                           7.62×39mm//n                           7.62×51mm NATO//nCaliber                    5.56mm/.223//n                           6.8mm/.277//n                           7.62mm/.308/.311//nAction                     Gas-operated//c//n                           rotating bolt (direct impingement)//nRate of fire               700 - 950 rounds/min//nEffective firing range     700 m//nFeed system                30-round detachable STANAG magazines//c//n                           Proprietary box magazines//c //n                           SR-25 pattern magazine//nSights                     Flip-up/Fixed
+gun-60000394,
 gun-10001017,吉尔·斯汀雷
 gun-40001017,小吃//c//c
 gun-50001017,

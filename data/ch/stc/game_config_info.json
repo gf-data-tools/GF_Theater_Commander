@@ -8,7 +8,7 @@
     {
         "parameter_name": "2022_bikini_time",
         "parameter_type": "string",
-        "parameter_value": "1660186800,1660791600,1661392800",
+        "parameter_value": "1689822000,1690426800,1691028000",
         "client_require": "1"
     },
     {
@@ -224,7 +224,7 @@
     {
         "parameter_name": "battlepass_reshelfopen_level",
         "parameter_type": "int",
-        "parameter_value": "45",
+        "parameter_value": "25",
         "client_require": "1"
     },
     {
@@ -1862,7 +1862,7 @@
     {
         "parameter_name": "present_info",
         "parameter_type": "string",
-        "parameter_value": "1500023:1775;1500030:1776;1500045:1783;1500046:1784;1500047:1785",
+        "parameter_value": "1500023:1775;1500030:1776;1500045:1783;1500046:1784;1500047:1785;1500065:1800;1500066:1801;1500067:1802;1500068:1803;1500069:1804;1500070:1805",
         "client_require": "1"
     },
     {
