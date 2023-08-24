@@ -8,6 +8,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from functools import partial, wraps
 from gettext import install
+from multiprocessing.pool import ThreadPool
 from pathlib import Path
 from threading import RLock, Thread
 from tkinter.filedialog import askopenfilename
@@ -18,26 +19,21 @@ from urllib import request
 from urllib.error import HTTPError
 
 import pulp as lp
-import urllib3
 from gf_utils2.gamedata import GameData
 
 from commander_new.commander import Commander
 from gunframe import GunFrame
-from load_user_info import load_perfect_info, load_user_info
-from prepare_choices import prepare_choices
 
 logger = logging.getLogger(__name__)
-https = urllib3.PoolManager()
 
 
-def download(url, path, max_retry=10, timeout_sec=5):
+def download(url, path, max_retry=3, timeout_sec=5):
     socket.setdefaulttimeout(timeout_sec)
     fname = os.path.split(path)[-1]
     logger.info(f"Start downloading {fname}")
     for i in range(max_retry):
         try:
             if not os.path.exists(path):
-                https.urlopen()
                 request.urlretrieve(url, path + ".tmp")
                 os.rename(path + ".tmp", path)
         except Exception as e:
@@ -274,7 +270,8 @@ class TheaterCommander(tk.Tk):
         (data_dir / "stc").mkdir(parents=True, exist_ok=True)
         (data_dir / "table").mkdir(parents=True, exist_ok=True)
         try:
-            for table in [
+            pool = ThreadPool(processes=24)
+            stc_names = [
                 'equip', 'game_config_info', 'gun', 'gun_type_info', 'sangvis', 
                 'sangvis_advance', 'sangvis_character_type', 'sangvis_resolution', 
                 'sangvis_type', 'squad', 'squad_advanced_bonus', 'squad_chip', 
@@ -282,41 +279,65 @@ class TheaterCommander(tk.Tk):
                 'squad_data_daily', 'squad_exp', 'squad_grid', 'squad_in_ally', 
                 'squad_rank', 'squad_standard_attribution', 'squad_type', 
                 'theater_area'
-            ]:  # fmt: skip
-                self.title(_("战区计算器") + _(" - 正在下载") + f"{table}.json")
+            ]  # fmt: skip
+            txt_names = [
+                "equip",
+                "gun",
+                "sangvis",
+                "sangvis_character_type",
+                "squad",
+                "squad_chip",
+                "squad_color",
+                "squad_data_daily",
+                "squad_type",
+                "theater_area",
+            ]
 
+            task_params = []
+            base_url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main"
+
+            for table in stc_names:
                 if table.endswith("info"):
-                    url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/catchdata/{table}.json"
+                    url = f"{base_url}/catchdata/{table}.json"
                 else:
-                    url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/stc/{table}.json"
+                    url = f"{base_url}/stc/{table}.json"
+                tmp_path = tmp_dir / f"{table}.json"
+                tgt_path = data_dir / f"stc/{table}.json"
+                task_params.append((url, tmp_path, tgt_path))
 
-                if not (data_dir / f"stc/{table}.json").exists() or re_download:
-                    download(url, str(tmp_dir / f"{table}.json"))
-                    if (data_dir / f"stc/{table}.json").exists():
-                        os.remove(data_dir / f"stc/{table}.json")
-                    (tmp_dir / f"{table}.json").rename(data_dir / f"stc/{table}.json")
+            for table in txt_names:
+                url = f"{base_url}/asset/table/{table}.txt"
+                tmp_path = tmp_dir / f"{table}.txt"
+                tgt_path = data_dir / f"table/{table}.txt"
+                task_params.append((url, tmp_path, tgt_path))
 
-            for table in [
-                'equip', 'gun', 'sangvis', 'sangvis_character_type', 'squad', 
-                'squad_chip', 'squad_color', 'squad_data_daily', 'squad_type', 
-                'theater_area'
-            ]:  # fmt: skip
-                url = f"https://github.com/gf-data-tools/gf-data-{region}/raw/main/asset/table/{table}.txt"
-                if not (data_dir / f"table/{table}.txt").exists() or re_download:
-                    try:
-                        download(url, str(tmp_dir / f"{table}.txt"))
-                        if (data_dir / f"table/{table}.txt").exists():
-                            os.remove(data_dir / f"table/{table}.txt")
-                        (tmp_dir / f"{table}.txt").rename(
-                            data_dir / f"table/{table}.txt"
-                        )
-                    except HTTPError as e:
-                        pass
+            cnt = 0
+            tot = len(stc_names) + len(txt_names)
+            self.title(_("战区计算器") + _(" - 更新数据") + f"({cnt}/{tot})")
+
+            def update(url, tmp_path, tgt_path):
+                try:
+                    if not tgt_path.exists() or re_download:
+                        download(url, str(tmp_path))
+                        if tgt_path.exists():
+                            os.remove(tgt_path)
+                        tmp_path.rename(tgt_path)
+                    return url, None
+                except Exception as e:
+                    return url, e
+
+            for url, ret in pool.imap_unordered(lambda p: update(*p), task_params):
+                if isinstance(ret, Exception):
+                    raise ret
+                cnt += 1
+                self.title(_("战区计算器") + _(" - 更新数据") + f"({cnt}/{tot})")
+
         except Exception as e:
             showerror(
                 title=_("下载数据失败"),
-                message=_("下载 {} 失败").format(url) + f"\n{e.__class__.__name__}: {e}",
+                message=_("下载 {} 失败").format(url) + f"\n{repr(e)}",
             )
+            raise
         else:
             if re_download:
                 showinfo(title=_("完成下载"), message="数据已更新")
