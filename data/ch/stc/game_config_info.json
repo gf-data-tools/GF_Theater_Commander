@@ -164,7 +164,7 @@
     {
         "parameter_name": "auto_battle_protect",
         "parameter_type": "string",
-        "parameter_value": "50",
+        "parameter_value": "10",
         "client_require": "1"
     },
     {
@@ -288,6 +288,24 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "brief_buildinginfo_camera_config",
+        "parameter_type": "string",
+        "parameter_value": "0.98,1.2",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "brief_enemyteaminfo_camera_config",
+        "parameter_type": "string",
+        "parameter_value": "0.98,1.2",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "brief_teaminfo_camera_config",
+        "parameter_type": "string",
+        "parameter_value": "0.98,1.2",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "build_coin_max",
         "parameter_type": "int",
         "parameter_value": "9999",
@@ -392,7 +410,7 @@
     {
         "parameter_name": "crashUpload_switch_time",
         "parameter_type": "string",
-        "parameter_value": "2022-12-08 10:00:00;2022-12-15 12:30:00",
+        "parameter_value": "2023-09-28 10:00:00;2024-02-22 12:30:00",
         "client_require": "1"
     },
     {
@@ -404,7 +422,7 @@
     {
         "parameter_name": "daily_difficulty_recommend",
         "parameter_type": "string",
-        "parameter_value": "1000,2000,3000",
+        "parameter_value": "1000,2000,3000,4000",
         "client_require": "1"
     },
     {
@@ -414,9 +432,21 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "daily_exmission_list",
+        "parameter_type": "string",
+        "parameter_value": "1,2",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "daily_extract",
         "parameter_type": "string",
         "parameter_value": "1:2,2:1,3:1,4:1,5:1,6:2",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "daily_ex_ticket",
+        "parameter_type": "int",
+        "parameter_value": "3",
         "client_require": "1"
     },
     {
@@ -446,13 +476,13 @@
     {
         "parameter_name": "daily_mission_pt",
         "parameter_type": "string",
-        "parameter_value": "1:2490,2:3735,3:4980",
+        "parameter_value": "1:2490,2:3735,3:4980,4:4980",
         "client_require": "1"
     },
     {
         "parameter_name": "daily_perfect_prize",
         "parameter_type": "string",
-        "parameter_value": "1:300,2:400,3:500",
+        "parameter_value": "1:300,2:400,3:500,4:500",
         "client_require": "1"
     },
     {
@@ -470,7 +500,13 @@
     {
         "parameter_name": "daily_spot_scale",
         "parameter_type": "string",
-        "parameter_value": "1:0,6|2:3,5|3:3,5|4:3,3|5:0,0",
+        "parameter_value": "1:0,6|2:3,5|3:3,5|4:3,3|5:0,0|6:0,0",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "daily_spot_scale2",
+        "parameter_type": "string",
+        "parameter_value": "1:0,9|2:3,5|3:3,5|4:3,3|5:0,0|6:2,3",
         "client_require": "1"
     },
     {
@@ -687,6 +723,12 @@
         "parameter_name": "duplicate_open_time",
         "parameter_type": "string",
         "parameter_value": "1:1,2,3,4,5,6,0|2:1,2,3,4,5,6,0|3:1,2,3,4,5,6,0|101:1,2,3,4,5,6,0|5:1,2,3,4,5,6,0",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "effect_no_over_turn",
+        "parameter_type": "string",
+        "parameter_value": ",130019,130020,",
         "client_require": "1"
     },
     {
@@ -1152,6 +1194,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "fix_cost_vehicle",
+        "parameter_type": "string",
+        "parameter_value": "20;1200",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "fix_time_damage",
         "parameter_type": "string",
         "parameter_value": "20,5,400,35000,0.7,150",
@@ -1183,6 +1231,12 @@
     },
     {
         "parameter_name": "fix_time_squad_noHP",
+        "parameter_type": "string",
+        "parameter_value": "20;1440;3600",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "fix_time_vehicle_HP",
         "parameter_type": "string",
         "parameter_value": "20;1440;3600",
         "client_require": "1"
@@ -1500,6 +1554,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "Longrange_AttackCoef",
+        "parameter_type": "string",
+        "parameter_value": "0.1,3",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "mall_special_daily_quota_switch",
         "parameter_type": "int",
         "parameter_value": "1",
@@ -1539,6 +1599,12 @@
         "parameter_name": "max_gun_exp",
         "parameter_type": "string",
         "parameter_value": "3263300,5263300,10083300,30283300",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "max_locked_mails",
+        "parameter_type": "int",
+        "parameter_value": "99",
         "client_require": "1"
     },
     {
@@ -1800,6 +1866,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "permanent_rank_switch",
+        "parameter_type": "int",
+        "parameter_value": "1",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "pet_decorate_limit",
         "parameter_type": "int",
         "parameter_value": "3000",
@@ -1874,13 +1946,19 @@
     {
         "parameter_name": "prfceUpload_switch_time",
         "parameter_type": "string",
-        "parameter_value": "2022-12-08 10:00:00;2022-12-15 12:30:00",
+        "parameter_value": "2023-09-28 10:00:00;2024-02-22 12:30:00",
         "client_require": "1"
     },
     {
         "parameter_name": "property_rate",
         "parameter_type": "string",
         "parameter_value": "0.01,1,1,0.01,1,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "quick_Analysis_to_second",
+        "parameter_type": "int",
+        "parameter_value": "3600",
         "client_require": "1"
     },
     {
@@ -2472,6 +2550,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "skin_blind_box_picture",
+        "parameter_type": "string",
+        "parameter_value": "left1.png,main1.png,blindboxbg.png",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "skin_naive_damage_switch",
         "parameter_type": "string",
         "parameter_value": "1;0",
@@ -2712,9 +2796,21 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "squad_data_exchange",
+        "parameter_type": "int",
+        "parameter_value": "2",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "squad_dodge_coef",
         "parameter_type": "int",
         "parameter_value": "23",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "squad_fix_slots",
+        "parameter_type": "int",
+        "parameter_value": "4",
         "client_require": "1"
     },
     {
@@ -2745,6 +2841,18 @@
         "parameter_name": "squad_mission_standby_cost",
         "parameter_type": "string",
         "parameter_value": "0,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "squad_new_guide",
+        "parameter_type": "string",
+        "parameter_value": "9999;301:10,15:100",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "squad_piece_to_data",
+        "parameter_type": "int",
+        "parameter_value": "50",
         "client_require": "1"
     },
     {
@@ -3021,6 +3129,222 @@
         "parameter_name": "use_friend_team_cd",
         "parameter_type": "int",
         "parameter_value": "7200",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_ap",
+        "parameter_type": "int",
+        "parameter_value": "0",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_attack_cost",
+        "parameter_type": "string",
+        "parameter_value": "2,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_addrange",
+        "parameter_type": "string",
+        "parameter_value": "30",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_attack_cost",
+        "parameter_type": "string",
+        "parameter_value": "2,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_exp_M1",
+        "parameter_type": "int",
+        "parameter_value": "100",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_exp_M2",
+        "parameter_type": "string",
+        "parameter_value": "10,3",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_exp_M3",
+        "parameter_type": "int",
+        "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_exp_M4",
+        "parameter_type": "int",
+        "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_longattack_time",
+        "parameter_type": "string",
+        "parameter_value": "20",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_monitor_distance",
+        "parameter_type": "string",
+        "parameter_value": "14",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_target_range",
+        "parameter_type": "float",
+        "parameter_value": "7.5",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_battle_target_range2",
+        "parameter_type": "float",
+        "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_bullet_time",
+        "parameter_type": "float",
+        "parameter_value": "0.1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_exp",
+        "parameter_type": "string",
+        "parameter_value": "600,1730,3410,5670,8530,12010,16140,20940,26440,32660",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_exp_item",
+        "parameter_type": "string",
+        "parameter_value": "60:100;9033:10000;9034:10000;9035:10000;9036:10000;9037:10000;9038:10000",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_exp_overflow",
+        "parameter_type": "int",
+        "parameter_value": "500",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_exp_per",
+        "parameter_type": "string",
+        "parameter_value": "2:0.4;3:0.6;4:0.8;5:1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_rank_effect",
+        "parameter_type": "string",
+        "parameter_value": "40,80,120,160,200",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_roll_type_name",
+        "parameter_type": "string",
+        "parameter_value": "1:属性;2:轻武器;3:重武器;4:防护;5:增幅;6:控制;7:特殊",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_strengthen_effect",
+        "parameter_type": "int",
+        "parameter_value": "100",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_component_strengthen_ratio",
+        "parameter_type": "float",
+        "parameter_value": "0.8",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_crew_exp_M1",
+        "parameter_type": "int",
+        "parameter_value": "100",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_dorm_guns",
+        "parameter_type": "string",
+        "parameter_value": "R_G3Mod:3001",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_dorm_point",
+        "parameter_type": "string",
+        "parameter_value": "1:wait_up|wait_down|move_up|move_down;2:wait_up|wait_down2|move_up2|move_down2",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_effect_level",
+        "parameter_type": "string",
+        "parameter_value": "30000,40000,50000,65000,80000",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_energy_cost",
+        "parameter_type": "int",
+        "parameter_value": "1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_energy_exchange",
+        "parameter_type": "string",
+        "parameter_value": "1,1,1,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_gudie_mission",
+        "parameter_type": "string",
+        "parameter_value": "11480,11481,11482,11483,11484,11485,11486,11487",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_maintainance",
+        "parameter_type": "string",
+        "parameter_value": "10:508-10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_max_exp",
+        "parameter_type": "int",
+        "parameter_value": "209500",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_mission_attack_cost",
+        "parameter_type": "string",
+        "parameter_value": "2,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_mission_standby_cost",
+        "parameter_type": "string",
+        "parameter_value": "0,1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_preset_max",
+        "parameter_type": "int",
+        "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_repair_cost",
+        "parameter_type": "int",
+        "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_skin_mall_switch",
+        "parameter_type": "int",
+        "parameter_value": "1",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "vehicle_visitmessage",
+        "parameter_type": "string",
+        "parameter_value": "31965:0;31966:0;31967:0;31976:0;31977:0;31978:0;19:0;20:0;21:0;22:0;23:0;24:0;25:0;26:0;27:0;28:0",
         "client_require": "1"
     },
     {

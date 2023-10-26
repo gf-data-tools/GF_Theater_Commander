@@ -88,5 +88,15 @@
         "grid4": 184,
         "grid5": 185,
         "cpu_bonus": 109
+    },
+    {
+        "id": 1010,
+        "color": 1,
+        "grid1": 191,
+        "grid2": 192,
+        "grid3": 193,
+        "grid4": 194,
+        "grid5": 195,
+        "cpu_bonus": 110
     }
 ]

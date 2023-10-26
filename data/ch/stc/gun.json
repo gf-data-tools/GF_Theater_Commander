@@ -61,7 +61,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 2,
@@ -125,7 +126,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 3,
@@ -189,7 +191,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3"
+        "recommended_team_ids": "2,3",
+        "item_id": ""
     },
     {
         "id": 4,
@@ -249,11 +252,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 10202,
         "related_story_id": 100004,
-        "show_damage_skin": "",
+        "show_damage_skin": ",8801,",
         "gun_tag_ids": "103,118",
         "atk_speed_max": 135,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 5,
@@ -317,7 +321,8 @@
         "gun_tag_ids": "10102,106",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,7,8"
+        "recommended_team_ids": "2,3,4,7,8",
+        "item_id": ""
     },
     {
         "id": 6,
@@ -381,7 +386,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 130,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 7,
@@ -441,11 +447,12 @@
         "gun_detail_bg": "nation_Russia",
         "org_id": 10303,
         "related_story_id": 100007,
-        "show_damage_skin": ",0,6808,4306,",
+        "show_damage_skin": ",0,6808,4306,8805,",
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 8,
@@ -509,7 +516,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 9,
@@ -573,7 +581,8 @@
         "gun_tag_ids": "104,106",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "7"
+        "recommended_team_ids": "7",
+        "item_id": ""
     },
     {
         "id": 10,
@@ -637,7 +646,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 11,
@@ -701,7 +711,8 @@
         "gun_tag_ids": "10102,106",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,7,8"
+        "recommended_team_ids": "2,3,4,7,8",
+        "item_id": ""
     },
     {
         "id": 12,
@@ -765,7 +776,8 @@
         "gun_tag_ids": "104,106",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "7"
+        "recommended_team_ids": "7",
+        "item_id": ""
     },
     {
         "id": 13,
@@ -829,7 +841,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 14,
@@ -893,7 +906,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 15,
@@ -957,7 +971,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 16,
@@ -1021,7 +1036,8 @@
         "gun_tag_ids": "120",
         "atk_speed_max": 135,
         "ratio_rec": 150,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 17,
@@ -1085,7 +1101,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 18,
@@ -1149,7 +1166,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 19,
@@ -1213,7 +1231,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 80,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20,
@@ -1277,7 +1296,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 21,
@@ -1341,7 +1361,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 22,
@@ -1405,7 +1426,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 23,
@@ -1469,7 +1491,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 24,
@@ -1533,7 +1556,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 25,
@@ -1597,7 +1621,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 26,
@@ -1661,7 +1686,8 @@
         "gun_tag_ids": "120",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 27,
@@ -1725,7 +1751,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 28,
@@ -1789,7 +1816,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 135,
         "ratio_rec": 122,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 29,
@@ -1853,7 +1881,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 31,
@@ -1917,7 +1946,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 32,
@@ -1977,11 +2007,12 @@
         "gun_detail_bg": "",
         "org_id": 10202,
         "related_story_id": 100032,
-        "show_damage_skin": ",7907,",
+        "show_damage_skin": ",7907,8807,",
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 33,
@@ -2045,7 +2076,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 34,
@@ -2109,7 +2141,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 35,
@@ -2173,7 +2206,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 36,
@@ -2237,7 +2271,8 @@
         "gun_tag_ids": "138,134",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 37,
@@ -2297,11 +2332,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 10202,
         "related_story_id": 100037,
-        "show_damage_skin": ",303,",
+        "show_damage_skin": ",303,8705,",
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 38,
@@ -2365,7 +2401,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 39,
@@ -2429,7 +2466,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 40,
@@ -2493,7 +2531,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 41,
@@ -2557,7 +2596,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 42,
@@ -2621,7 +2661,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 43,
@@ -2685,7 +2726,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 44,
@@ -2749,7 +2791,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 46,
@@ -2813,7 +2856,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 47,
@@ -2877,7 +2921,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 48,
@@ -2941,7 +2986,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 49,
@@ -3005,7 +3051,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 50,
@@ -3069,7 +3116,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 51,
@@ -3133,7 +3181,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 52,
@@ -3197,7 +3246,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 53,
@@ -3261,7 +3311,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 54,
@@ -3325,7 +3376,8 @@
         "gun_tag_ids": "110,105,152",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 55,
@@ -3389,7 +3441,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 56,
@@ -3453,7 +3506,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 57,
@@ -3517,7 +3571,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 58,
@@ -3581,7 +3636,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 59,
@@ -3645,7 +3701,8 @@
         "gun_tag_ids": "10102,123",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,7"
+        "recommended_team_ids": "1,2,3,7",
+        "item_id": ""
     },
     {
         "id": 60,
@@ -3692,7 +3749,7 @@
         "max_equip": 0,
         "type_equip1": "1;1,2,3,4,13",
         "type_equip2": "2;8,19",
-        "type_equip3": "3;9,10",
+        "type_equip3": "3;9,10,20",
         "type_equip4": "",
         "ai": 60,
         "is_additional": 0,
@@ -3709,7 +3766,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 61,
@@ -3773,7 +3831,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 62,
@@ -3837,7 +3896,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 115,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 63,
@@ -3901,7 +3961,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 64,
@@ -3965,7 +4026,8 @@
         "gun_tag_ids": "108,134",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 65,
@@ -4029,7 +4091,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 66,
@@ -4093,7 +4156,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 68,
@@ -4157,7 +4221,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 69,
@@ -4221,7 +4286,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 70,
@@ -4285,7 +4351,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 71,
@@ -4349,7 +4416,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 72,
@@ -4413,7 +4481,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 73,
@@ -4477,7 +4546,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 74,
@@ -4541,7 +4611,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 75,
@@ -4605,7 +4676,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 95,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 77,
@@ -4669,7 +4741,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 1000,
         "ratio_rec": 125,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 78,
@@ -4733,7 +4806,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 79,
@@ -4797,7 +4871,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 95,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 80,
@@ -4835,7 +4910,7 @@
         "skill1": 105202,
         "skill2": 0,
         "normal_attack": 300105,
-        "passive_skill": "300201,300202,999999,756183",
+        "passive_skill": "300201,300202,999999,756183,759272",
         "dynamic_passive_skill": "",
         "effect_grid_center": 19,
         "effect_guntype": "6",
@@ -4861,7 +4936,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 81,
@@ -4921,11 +4997,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 10302,
         "related_story_id": 100081,
-        "show_damage_skin": ",0,6909,4007,1808,",
+        "show_damage_skin": ",0,6909,4007,1808,8611,",
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 82,
@@ -4989,7 +5066,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 85,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 84,
@@ -5053,7 +5131,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 85,
@@ -5117,7 +5196,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 1000,
         "ratio_rec": 115,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 86,
@@ -5181,7 +5261,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 87,
@@ -5245,7 +5326,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 88,
@@ -5309,7 +5391,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 120,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 89,
@@ -5373,7 +5456,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 90,
@@ -5437,7 +5521,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 91,
@@ -5501,7 +5586,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 92,
@@ -5565,7 +5651,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 93,
@@ -5629,7 +5716,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 94,
@@ -5693,7 +5781,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 95,
@@ -5731,7 +5820,7 @@
         "skill1": 100114,
         "skill2": 0,
         "normal_attack": 300104,
-        "passive_skill": "803010,999999",
+        "passive_skill": "803010,999999,759277",
         "dynamic_passive_skill": "",
         "effect_grid_center": 13,
         "effect_guntype": "1",
@@ -5757,7 +5846,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 96,
@@ -5821,7 +5911,8 @@
         "gun_tag_ids": "10101,134",
         "atk_speed_max": 120,
         "ratio_rec": 145,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 97,
@@ -5885,7 +5976,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 130,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 98,
@@ -5949,7 +6041,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 99,
@@ -6013,7 +6106,8 @@
         "gun_tag_ids": "10101,106",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 100,
@@ -6077,7 +6171,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 101,
@@ -6115,7 +6210,7 @@
         "skill1": 102203,
         "skill2": 0,
         "normal_attack": 300102,
-        "passive_skill": "200431,200407,900156,200415,202003,756233",
+        "passive_skill": "200431,200407,900156,200415,202003,756233,759076,759079",
         "dynamic_passive_skill": "",
         "effect_grid_center": 13,
         "effect_guntype": "4",
@@ -6141,7 +6236,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 102,
@@ -6205,7 +6301,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 103,
@@ -6243,7 +6340,7 @@
         "skill1": 102403,
         "skill2": 0,
         "normal_attack": 300102,
-        "passive_skill": "200431,200407,900156,200420,202002,702019,702024,756001,756233",
+        "passive_skill": "200431,200407,900156,200420,202002,702019,702024,756001,756233,759075,759078",
         "dynamic_passive_skill": "",
         "effect_grid_center": 13,
         "effect_guntype": "4",
@@ -6269,7 +6366,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 104,
@@ -6333,7 +6431,8 @@
         "gun_tag_ids": "120",
         "atk_speed_max": 135,
         "ratio_rec": 125,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 105,
@@ -6397,7 +6496,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 106,
@@ -6461,7 +6561,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 135,
         "ratio_rec": 120,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 107,
@@ -6525,7 +6626,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 108,
@@ -6589,7 +6691,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 109,
@@ -6653,7 +6756,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 1000,
         "ratio_rec": 120,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 110,
@@ -6717,7 +6821,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 90,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 111,
@@ -6762,7 +6867,7 @@
         "effect_grid_pos": "21",
         "effect_grid_effect": "2,20",
         "max_equip": 0,
-        "type_equip1": "2;5,17",
+        "type_equip1": "2;5,17,19",
         "type_equip2": "1;1,2,3,16",
         "type_equip3": "3;14,21",
         "type_equip4": "",
@@ -6781,7 +6886,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 112,
@@ -6845,7 +6951,8 @@
         "gun_tag_ids": "160,165",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 113,
@@ -6909,7 +7016,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 114,
@@ -6973,7 +7081,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 115,
@@ -7037,7 +7146,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 135,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 116,
@@ -7101,7 +7211,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 117,
@@ -7165,7 +7276,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 118,
@@ -7229,7 +7341,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 119,
@@ -7293,7 +7406,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 120,
@@ -7357,7 +7471,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 121,
@@ -7421,7 +7536,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 122,
@@ -7485,7 +7601,8 @@
         "gun_tag_ids": "118",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 123,
@@ -7549,7 +7666,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 124,
@@ -7613,7 +7731,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 125,
@@ -7677,7 +7796,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 126,
@@ -7737,11 +7857,12 @@
         "gun_detail_bg": "nation_China",
         "org_id": 10402,
         "related_story_id": 100126,
-        "show_damage_skin": ",0,1702,",
+        "show_damage_skin": ",0,1702,8802,",
         "gun_tag_ids": "10102",
         "atk_speed_max": 130,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 127,
@@ -7805,7 +7926,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 128,
@@ -7869,7 +7991,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 129,
@@ -7933,7 +8056,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 130,
@@ -7997,7 +8121,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 131,
@@ -8061,7 +8186,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 132,
@@ -8125,7 +8251,8 @@
         "gun_tag_ids": "10101,106",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 133,
@@ -8189,7 +8316,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 134,
@@ -8236,7 +8364,7 @@
         "max_equip": 0,
         "type_equip1": "1;1,2,3,4,13",
         "type_equip2": "2;8",
-        "type_equip3": "3;9,10",
+        "type_equip3": "3;9,10,20",
         "type_equip4": "",
         "ai": 134,
         "is_additional": 0,
@@ -8253,7 +8381,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 135,
@@ -8317,7 +8446,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 136,
@@ -8369,7 +8499,7 @@
         "ai": 136,
         "is_additional": 0,
         "launch_time": "2016-12-15 00:00:00",
-        "obtain_ids": "0",
+        "obtain_ids": "",
         "rank_display": 4,
         "prize_id": 0,
         "mindupdate_consume": "10:20,45:200;10:40,45:1000;10:60,45:2000",
@@ -8381,7 +8511,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 137,
@@ -8445,7 +8576,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 138,
@@ -8491,7 +8623,7 @@
         "effect_grid_effect": "1,35",
         "max_equip": 0,
         "type_equip1": "1;1,2,3,4,13",
-        "type_equip2": "2;5,8",
+        "type_equip2": "2;5,8,19",
         "type_equip3": "3;9,10",
         "type_equip4": "",
         "ai": 138,
@@ -8509,7 +8641,8 @@
         "gun_tag_ids": "108,115",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 139,
@@ -8573,7 +8706,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 140,
@@ -8637,7 +8771,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 141,
@@ -8701,7 +8836,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 142,
@@ -8765,7 +8901,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 143,
@@ -8829,7 +8966,8 @@
         "gun_tag_ids": "10102,108",
         "atk_speed_max": 135,
         "ratio_rec": 125,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 144,
@@ -8893,7 +9031,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 145,
@@ -8957,7 +9096,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 146,
@@ -9017,11 +9157,12 @@
         "gun_detail_bg": "nation_German",
         "org_id": 10701,
         "related_story_id": 100146,
-        "show_damage_skin": ",3307,",
+        "show_damage_skin": ",3307,8704,",
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 147,
@@ -9085,7 +9226,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 148,
@@ -9149,7 +9291,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 149,
@@ -9213,7 +9356,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 150,
@@ -9277,7 +9421,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 151,
@@ -9341,7 +9486,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 152,
@@ -9405,7 +9551,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 153,
@@ -9469,7 +9616,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 154,
@@ -9533,7 +9681,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 155,
@@ -9597,7 +9746,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 156,
@@ -9661,7 +9811,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 157,
@@ -9725,7 +9876,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 158,
@@ -9789,7 +9941,8 @@
         "gun_tag_ids": "108,109",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 159,
@@ -9849,11 +10002,12 @@
         "gun_detail_bg": "nation_Russia",
         "org_id": 10704,
         "related_story_id": 100159,
-        "show_damage_skin": ",4309,",
+        "show_damage_skin": ",4309,8706,",
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 160,
@@ -9917,7 +10071,8 @@
         "gun_tag_ids": "109",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 161,
@@ -9981,7 +10136,8 @@
         "gun_tag_ids": "108,109",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 162,
@@ -10045,7 +10201,8 @@
         "gun_tag_ids": "108,109",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 163,
@@ -10109,7 +10266,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 122,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 164,
@@ -10173,7 +10331,8 @@
         "gun_tag_ids": "126",
         "atk_speed_max": 60,
         "ratio_rec": 123,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 165,
@@ -10237,7 +10396,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 166,
@@ -10301,7 +10461,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 130,
         "ratio_rec": 110,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 167,
@@ -10365,7 +10526,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 168,
@@ -10429,7 +10591,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 169,
@@ -10493,7 +10656,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 170,
@@ -10557,7 +10721,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 171,
@@ -10621,7 +10786,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 172,
@@ -10685,7 +10851,8 @@
         "gun_tag_ids": "108,154",
         "atk_speed_max": 135,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 173,
@@ -10749,7 +10916,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 174,
@@ -10813,7 +10981,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 175,
@@ -10877,7 +11046,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 176,
@@ -10941,7 +11111,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 177,
@@ -11005,7 +11176,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 178,
@@ -11069,7 +11241,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 179,
@@ -11133,7 +11306,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 93,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 180,
@@ -11197,7 +11371,8 @@
         "gun_tag_ids": "138,134",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 181,
@@ -11261,7 +11436,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 135,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 182,
@@ -11325,7 +11501,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 183,
@@ -11363,7 +11540,7 @@
         "skill1": 106701,
         "skill2": 0,
         "normal_attack": 300114,
-        "passive_skill": "106702",
+        "passive_skill": "106702,759247",
         "dynamic_passive_skill": "106711,106721,106731",
         "effect_grid_center": 13,
         "effect_guntype": "0",
@@ -11372,7 +11549,7 @@
         "max_equip": 0,
         "type_equip1": "1;4,13,16",
         "type_equip2": "2;5,6",
-        "type_equip3": "3;10",
+        "type_equip3": "3;10,20",
         "type_equip4": "",
         "ai": 183,
         "is_additional": 0,
@@ -11389,7 +11566,8 @@
         "gun_tag_ids": "107,115",
         "atk_speed_max": 130,
         "ratio_rec": 90,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 184,
@@ -11453,7 +11631,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 185,
@@ -11517,7 +11696,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 85,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 186,
@@ -11581,7 +11761,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 187,
@@ -11645,7 +11826,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 188,
@@ -11709,7 +11891,8 @@
         "gun_tag_ids": "113,10102",
         "atk_speed_max": 60,
         "ratio_rec": 133,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 189,
@@ -11773,7 +11956,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 118,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 190,
@@ -11837,7 +12021,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 191,
@@ -11901,7 +12086,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 192,
@@ -11965,7 +12151,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 102,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 193,
@@ -12029,7 +12216,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 194,
@@ -12093,7 +12281,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 150,
         "ratio_rec": 115,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 195,
@@ -12157,7 +12346,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 90,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 196,
@@ -12221,7 +12411,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 197,
@@ -12285,7 +12476,8 @@
         "gun_tag_ids": "108,10101",
         "atk_speed_max": 135,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 198,
@@ -12349,7 +12541,8 @@
         "gun_tag_ids": "139",
         "atk_speed_max": 125,
         "ratio_rec": 82,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 199,
@@ -12413,7 +12606,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 200,
@@ -12477,7 +12671,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 120,
         "ratio_rec": 93,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 201,
@@ -12541,7 +12736,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 202,
@@ -12605,7 +12801,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 120,
         "ratio_rec": 130,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 203,
@@ -12669,7 +12866,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 204,
@@ -12733,7 +12931,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 125,
         "ratio_rec": 93,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 205,
@@ -12797,7 +12996,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 206,
@@ -12861,7 +13061,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 207,
@@ -12925,7 +13126,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 208,
@@ -12989,7 +13191,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 1000,
         "ratio_rec": 102,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 209,
@@ -13053,7 +13256,8 @@
         "gun_tag_ids": "110,105",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 210,
@@ -13117,7 +13321,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 211,
@@ -13181,7 +13386,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 125,
         "ratio_rec": 98,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 212,
@@ -13245,7 +13451,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 213,
@@ -13309,7 +13516,8 @@
         "gun_tag_ids": "125,115",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 214,
@@ -13373,7 +13581,8 @@
         "gun_tag_ids": "121,153,110",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 215,
@@ -13437,7 +13646,8 @@
         "gun_tag_ids": "108,10102,113",
         "atk_speed_max": 150,
         "ratio_rec": 108,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 216,
@@ -13501,7 +13711,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 217,
@@ -13565,7 +13776,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 92,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 218,
@@ -13629,7 +13841,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 220,
@@ -13693,7 +13906,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 221,
@@ -13757,7 +13971,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "3"
+        "recommended_team_ids": "3",
+        "item_id": ""
     },
     {
         "id": 222,
@@ -13821,7 +14036,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 125,
         "ratio_rec": 98,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 223,
@@ -13885,7 +14101,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 224,
@@ -13949,7 +14166,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 135,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 225,
@@ -14013,7 +14231,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 226,
@@ -14077,7 +14296,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 92,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 227,
@@ -14141,7 +14361,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 228,
@@ -14201,11 +14422,12 @@
         "gun_detail_bg": "",
         "org_id": 10203,
         "related_story_id": 100228,
-        "show_damage_skin": ",2903,4905,7102,4004,",
+        "show_damage_skin": ",2903,4905,7102,4004,8804,",
         "gun_tag_ids": "113,108",
         "atk_speed_max": 135,
         "ratio_rec": 145,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 229,
@@ -14250,7 +14472,7 @@
         "effect_grid_pos": "3,4",
         "effect_grid_effect": "1,18;3,12",
         "max_equip": 0,
-        "type_equip1": "3;11",
+        "type_equip1": "3;11,20",
         "type_equip2": "2;7",
         "type_equip3": "1;1,2,3,4,22",
         "type_equip4": "",
@@ -14269,7 +14491,8 @@
         "gun_tag_ids": "120",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 230,
@@ -14333,7 +14556,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 92,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 231,
@@ -14397,7 +14621,8 @@
         "gun_tag_ids": "117,123,136",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 232,
@@ -14461,7 +14686,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 96,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 233,
@@ -14525,7 +14751,8 @@
         "gun_tag_ids": "10101,124",
         "atk_speed_max": 120,
         "ratio_rec": 112,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 234,
@@ -14589,7 +14816,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 102,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 235,
@@ -14653,7 +14881,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 236,
@@ -14717,7 +14946,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 135,
         "ratio_rec": 122,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 237,
@@ -14781,7 +15011,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 238,
@@ -14845,7 +15076,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 239,
@@ -14909,7 +15141,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 240,
@@ -14973,7 +15206,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 98,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 241,
@@ -15037,7 +15271,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 242,
@@ -15101,7 +15336,8 @@
         "gun_tag_ids": "103,113",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 243,
@@ -15165,7 +15401,8 @@
         "gun_tag_ids": "108,103,113",
         "atk_speed_max": 150,
         "ratio_rec": 113,
-        "recommended_team_ids": "1,6,7"
+        "recommended_team_ids": "1,6,7",
+        "item_id": ""
     },
     {
         "id": 244,
@@ -15229,7 +15466,8 @@
         "gun_tag_ids": "10102,106",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "2,3,4,7,8"
+        "recommended_team_ids": "2,3,4,7,8",
+        "item_id": ""
     },
     {
         "id": 245,
@@ -15293,7 +15531,8 @@
         "gun_tag_ids": "108,126",
         "atk_speed_max": 135,
         "ratio_rec": 123,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 247,
@@ -15357,7 +15596,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 120,
         "ratio_rec": 88,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 248,
@@ -15421,7 +15661,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 249,
@@ -15485,7 +15726,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 102,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 250,
@@ -15549,7 +15791,8 @@
         "gun_tag_ids": "10102,113",
         "atk_speed_max": 120,
         "ratio_rec": 118,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 251,
@@ -15613,7 +15856,8 @@
         "gun_tag_ids": "127",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 252,
@@ -15677,7 +15921,8 @@
         "gun_tag_ids": "138,121",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 253,
@@ -15741,7 +15986,8 @@
         "gun_tag_ids": "108,160,165",
         "atk_speed_max": 1000,
         "ratio_rec": 115,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 254,
@@ -15805,7 +16051,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 1000,
         "ratio_rec": 102,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 255,
@@ -15869,7 +16116,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 256,
@@ -15933,7 +16181,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 257,
@@ -15997,7 +16246,8 @@
         "gun_tag_ids": "108,147",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 258,
@@ -16061,7 +16311,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 259,
@@ -16125,7 +16376,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 260,
@@ -16185,11 +16437,12 @@
         "gun_detail_bg": "",
         "org_id": 10402,
         "related_story_id": 100260,
-        "show_damage_skin": "",
+        "show_damage_skin": ",8701,",
         "gun_tag_ids": "117,121,110",
         "atk_speed_max": 130,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3"
+        "recommended_team_ids": "2,3",
+        "item_id": ""
     },
     {
         "id": 261,
@@ -16253,7 +16506,8 @@
         "gun_tag_ids": "138,121",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 262,
@@ -16317,7 +16571,8 @@
         "gun_tag_ids": "109",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 263,
@@ -16381,7 +16636,8 @@
         "gun_tag_ids": "108,103",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 264,
@@ -16445,7 +16701,8 @@
         "gun_tag_ids": "108,165",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 265,
@@ -16509,7 +16766,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 266,
@@ -16573,7 +16831,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 92,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 267,
@@ -16637,7 +16896,8 @@
         "gun_tag_ids": "10102,105",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 268,
@@ -16701,7 +16961,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 269,
@@ -16765,7 +17026,8 @@
         "gun_tag_ids": "10101,111",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 270,
@@ -16825,11 +17087,12 @@
         "gun_detail_bg": "",
         "org_id": 10802,
         "related_story_id": 100270,
-        "show_damage_skin": ",5305,0,7705,",
+        "show_damage_skin": ",5305,0,7705,8806,",
         "gun_tag_ids": "108,144",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 271,
@@ -16893,7 +17156,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 272,
@@ -16957,7 +17221,8 @@
         "gun_tag_ids": "118,114",
         "atk_speed_max": 130,
         "ratio_rec": 110,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 273,
@@ -17021,7 +17286,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 274,
@@ -17085,7 +17351,8 @@
         "gun_tag_ids": "108,123",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 275,
@@ -17149,7 +17416,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 1000,
         "ratio_rec": 115,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 276,
@@ -17213,7 +17481,8 @@
         "gun_tag_ids": "125,149",
         "atk_speed_max": 1000,
         "ratio_rec": 120,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 277,
@@ -17277,7 +17546,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 278,
@@ -17341,7 +17611,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 279,
@@ -17405,7 +17676,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 280,
@@ -17469,7 +17741,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 281,
@@ -17533,7 +17806,8 @@
         "gun_tag_ids": "117,121,113",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 282,
@@ -17597,7 +17871,8 @@
         "gun_tag_ids": "117,160,113,162",
         "atk_speed_max": 60,
         "ratio_rec": 130,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 283,
@@ -17661,7 +17936,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 105,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 284,
@@ -17725,7 +18001,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 285,
@@ -17789,7 +18066,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 286,
@@ -17853,7 +18131,8 @@
         "gun_tag_ids": "130,120",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 287,
@@ -17917,7 +18196,8 @@
         "gun_tag_ids": "125,124",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 288,
@@ -17981,7 +18261,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 289,
@@ -18045,7 +18326,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 112,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 290,
@@ -18109,7 +18391,8 @@
         "gun_tag_ids": "125,124",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 291,
@@ -18173,7 +18456,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 292,
@@ -18237,7 +18521,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 293,
@@ -18301,7 +18586,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 294,
@@ -18365,7 +18651,8 @@
         "gun_tag_ids": "10101,112",
         "atk_speed_max": 130,
         "ratio_rec": 140,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 295,
@@ -18410,7 +18697,7 @@
         "effect_grid_pos": "6,7,8",
         "effect_grid_effect": "1,20;3,25",
         "max_equip": 0,
-        "type_equip1": "3;9,10",
+        "type_equip1": "3;9,10,20",
         "type_equip2": "2;6",
         "type_equip3": "1;1,2,3,4,13",
         "type_equip4": "",
@@ -18429,7 +18716,8 @@
         "gun_tag_ids": "129",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 296,
@@ -18493,7 +18781,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 96,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 297,
@@ -18557,7 +18846,8 @@
         "gun_tag_ids": "108,134",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 298,
@@ -18621,7 +18911,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 299,
@@ -18685,7 +18976,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 112,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 300,
@@ -18749,7 +19041,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 301,
@@ -18813,7 +19106,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 302,
@@ -18877,7 +19171,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 112,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 303,
@@ -18941,7 +19236,8 @@
         "gun_tag_ids": "10101,106",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 304,
@@ -19005,7 +19301,8 @@
         "gun_tag_ids": "121,105,140",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 305,
@@ -19069,7 +19366,8 @@
         "gun_tag_ids": "108,143",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 306,
@@ -19133,7 +19431,8 @@
         "gun_tag_ids": "108,134",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 307,
@@ -19197,7 +19496,8 @@
         "gun_tag_ids": "108,160,165",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 308,
@@ -19261,7 +19561,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 309,
@@ -19325,7 +19626,8 @@
         "gun_tag_ids": "10101,106",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 310,
@@ -19389,7 +19691,8 @@
         "gun_tag_ids": "103,113",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 311,
@@ -19453,7 +19756,8 @@
         "gun_tag_ids": "129,113,132",
         "atk_speed_max": 135,
         "ratio_rec": 126,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 312,
@@ -19517,7 +19821,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 313,
@@ -19581,7 +19886,8 @@
         "gun_tag_ids": "125,124",
         "atk_speed_max": 135,
         "ratio_rec": 112,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 314,
@@ -19645,7 +19951,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 315,
@@ -19709,7 +20016,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 316,
@@ -19769,11 +20077,12 @@
         "gun_detail_bg": "nation_China",
         "org_id": 10203,
         "related_story_id": 100316,
-        "show_damage_skin": ",563,578,7701,",
+        "show_damage_skin": ",563,578,7701,8703,",
         "gun_tag_ids": "126,125,143",
         "atk_speed_max": 125,
         "ratio_rec": 90,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 317,
@@ -19837,7 +20146,8 @@
         "gun_tag_ids": "10101,112",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 318,
@@ -19901,7 +20211,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 319,
@@ -19965,7 +20276,8 @@
         "gun_tag_ids": "108,160",
         "atk_speed_max": 1000,
         "ratio_rec": 115,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 320,
@@ -20029,7 +20341,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 321,
@@ -20093,7 +20406,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 322,
@@ -20157,7 +20471,8 @@
         "gun_tag_ids": "117,114",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 323,
@@ -20221,7 +20536,8 @@
         "gun_tag_ids": "163,145,108,116",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 324,
@@ -20285,7 +20601,8 @@
         "gun_tag_ids": "125,132,113",
         "atk_speed_max": 60,
         "ratio_rec": 118,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 325,
@@ -20349,7 +20666,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 108,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 326,
@@ -20413,7 +20731,8 @@
         "gun_tag_ids": "160,131,108",
         "atk_speed_max": 60,
         "ratio_rec": 116,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 327,
@@ -20477,7 +20796,8 @@
         "gun_tag_ids": "128",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 328,
@@ -20541,7 +20861,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 104,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 329,
@@ -20605,7 +20926,8 @@
         "gun_tag_ids": "108,114",
         "atk_speed_max": 125,
         "ratio_rec": 98,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 330,
@@ -20669,7 +20991,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 331,
@@ -20733,7 +21056,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 130,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 332,
@@ -20797,7 +21121,8 @@
         "gun_tag_ids": "118",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 333,
@@ -20861,7 +21186,8 @@
         "gun_tag_ids": "125,10101",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 334,
@@ -20925,7 +21251,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 125,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 335,
@@ -20989,7 +21316,8 @@
         "gun_tag_ids": "108,131",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 336,
@@ -21053,7 +21381,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 337,
@@ -21117,7 +21446,8 @@
         "gun_tag_ids": "10101,145",
         "atk_speed_max": 125,
         "ratio_rec": 115,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 338,
@@ -21181,7 +21511,8 @@
         "gun_tag_ids": "117,110",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 339,
@@ -21245,7 +21576,8 @@
         "gun_tag_ids": "125,126",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 340,
@@ -21309,7 +21641,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 341,
@@ -21373,7 +21706,8 @@
         "gun_tag_ids": "131,113,10102",
         "atk_speed_max": 135,
         "ratio_rec": 125,
-        "recommended_team_ids": "1,2,3,7"
+        "recommended_team_ids": "1,2,3,7",
+        "item_id": ""
     },
     {
         "id": 342,
@@ -21437,7 +21771,8 @@
         "gun_tag_ids": "126",
         "atk_speed_max": 135,
         "ratio_rec": 120,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 343,
@@ -21501,7 +21836,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 344,
@@ -21565,7 +21901,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 345,
@@ -21629,7 +21966,8 @@
         "gun_tag_ids": "108,165",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 346,
@@ -21693,7 +22031,8 @@
         "gun_tag_ids": "103,106",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 347,
@@ -21757,7 +22096,8 @@
         "gun_tag_ids": "107,114,131,117,115",
         "atk_speed_max": 150,
         "ratio_rec": 118,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 348,
@@ -21821,7 +22161,8 @@
         "gun_tag_ids": "117,146",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 349,
@@ -21885,7 +22226,8 @@
         "gun_tag_ids": "155",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 350,
@@ -21949,7 +22291,8 @@
         "gun_tag_ids": "164,108",
         "atk_speed_max": 60,
         "ratio_rec": 116,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 351,
@@ -22013,7 +22356,8 @@
         "gun_tag_ids": "121,162",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 352,
@@ -22077,7 +22421,8 @@
         "gun_tag_ids": "108,103,113",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 353,
@@ -22141,7 +22486,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 354,
@@ -22205,7 +22551,8 @@
         "gun_tag_ids": "103,112,124",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 355,
@@ -22269,7 +22616,8 @@
         "gun_tag_ids": "10102,124",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,7"
+        "recommended_team_ids": "1,2,3,7",
+        "item_id": ""
     },
     {
         "id": 356,
@@ -22333,7 +22681,8 @@
         "gun_tag_ids": "108,112,124",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 357,
@@ -22397,7 +22746,8 @@
         "gun_tag_ids": "118,124",
         "atk_speed_max": 130,
         "ratio_rec": 100,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 358,
@@ -22461,7 +22811,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 359,
@@ -22521,11 +22872,12 @@
         "gun_detail_bg": "",
         "org_id": 10402,
         "related_story_id": 100359,
-        "show_damage_skin": ",0,",
+        "show_damage_skin": ",0,8803,",
         "gun_tag_ids": "121,105,133,10101",
         "atk_speed_max": 135,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 360,
@@ -22589,7 +22941,8 @@
         "gun_tag_ids": "108,111,10102,147",
         "atk_speed_max": 120,
         "ratio_rec": 102,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 361,
@@ -22653,7 +23006,8 @@
         "gun_tag_ids": "109,121,156",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 362,
@@ -22717,7 +23071,8 @@
         "gun_tag_ids": "103,160",
         "atk_speed_max": 1000,
         "ratio_rec": 100,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 363,
@@ -22781,7 +23136,8 @@
         "gun_tag_ids": "113,134",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 364,
@@ -22845,7 +23201,8 @@
         "gun_tag_ids": "121,134",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 365,
@@ -22909,7 +23266,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 150,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 366,
@@ -22969,11 +23327,12 @@
         "gun_detail_bg": "nation_Italy",
         "org_id": 10704,
         "related_story_id": 0,
-        "show_damage_skin": ",0,",
+        "show_damage_skin": ",0,30011,",
         "gun_tag_ids": "103,113",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 367,
@@ -23037,7 +23396,8 @@
         "gun_tag_ids": "126,149",
         "atk_speed_max": 60,
         "ratio_rec": 100,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 368,
@@ -23101,7 +23461,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 60,
         "ratio_rec": 105,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 369,
@@ -23161,11 +23522,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 10703,
         "related_story_id": 0,
-        "show_damage_skin": ",0,7601,",
+        "show_damage_skin": ",0,7601,30012,",
         "gun_tag_ids": "108,107",
         "atk_speed_max": 130,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 370,
@@ -23229,7 +23591,8 @@
         "gun_tag_ids": "10102,110,104,106",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,7,8"
+        "recommended_team_ids": "2,3,4,7,8",
+        "item_id": ""
     },
     {
         "id": 371,
@@ -23293,7 +23656,8 @@
         "gun_tag_ids": "108,10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 372,
@@ -23357,7 +23721,8 @@
         "gun_tag_ids": "148,107,10101",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 373,
@@ -23421,7 +23786,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 374,
@@ -23485,7 +23851,8 @@
         "gun_tag_ids": "108,112,130",
         "atk_speed_max": 1000,
         "ratio_rec": 106,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 375,
@@ -23549,7 +23916,8 @@
         "gun_tag_ids": "103,113,124",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 376,
@@ -23613,7 +23981,8 @@
         "gun_tag_ids": "131,103",
         "atk_speed_max": 135,
         "ratio_rec": 150,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 377,
@@ -23677,7 +24046,8 @@
         "gun_tag_ids": "103,108,134",
         "atk_speed_max": 125,
         "ratio_rec": 96,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 378,
@@ -23715,7 +24085,7 @@
         "skill1": 119601,
         "skill2": 0,
         "normal_attack": 300103,
-        "passive_skill": "119602,119604,119607",
+        "passive_skill": "119602,119604,119607,119603",
         "dynamic_passive_skill": "",
         "effect_grid_center": 13,
         "effect_guntype": "3,4",
@@ -23741,7 +24111,8 @@
         "gun_tag_ids": "118,103,134",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,6,7"
+        "recommended_team_ids": "1,6,7",
+        "item_id": ""
     },
     {
         "id": 379,
@@ -23805,7 +24176,8 @@
         "gun_tag_ids": "133,120,10102",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 380,
@@ -23869,7 +24241,8 @@
         "gun_tag_ids": "112,108,10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 381,
@@ -23933,7 +24306,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 150,
         "ratio_rec": 95,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 382,
@@ -23971,7 +24345,7 @@
         "skill1": 120801,
         "skill2": 0,
         "normal_attack": 120811,
-        "passive_skill": "120802,120812",
+        "passive_skill": "120802,120812,120803,120804,120805,120806",
         "dynamic_passive_skill": "120807,120808,120809,120810",
         "effect_grid_center": 12,
         "effect_guntype": "2,4",
@@ -23997,7 +24371,8 @@
         "gun_tag_ids": "124,103",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 383,
@@ -24061,7 +24436,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 384,
@@ -24125,7 +24501,8 @@
         "gun_tag_ids": "124,113,129",
         "atk_speed_max": 135,
         "ratio_rec": 130,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 385,
@@ -24189,7 +24566,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 386,
@@ -24253,7 +24631,8 @@
         "gun_tag_ids": "108,125",
         "atk_speed_max": 1000,
         "ratio_rec": 115,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 387,
@@ -24291,7 +24670,7 @@
         "skill1": 750756,
         "skill2": 0,
         "normal_attack": 300106,
-        "passive_skill": "300202,300203,200429,750775,,750776,750777,750778",
+        "passive_skill": "300202,300203,200429,750775,,750776,750777,750778,750779,750780",
         "dynamic_passive_skill": "750772,750773,750774",
         "effect_grid_center": 7,
         "effect_guntype": "5,6",
@@ -24317,7 +24696,8 @@
         "gun_tag_ids": "112,110,103,129",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 388,
@@ -24377,11 +24757,12 @@
         "gun_detail_bg": "nation_China",
         "org_id": 10201,
         "related_story_id": 100388,
-        "show_damage_skin": ",0,",
+        "show_damage_skin": ",0,8702,",
         "gun_tag_ids": "136,108,10101",
         "atk_speed_max": 125,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 389,
@@ -24445,7 +24826,8 @@
         "gun_tag_ids": "124,144,103",
         "atk_speed_max": 125,
         "ratio_rec": 90,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 390,
@@ -24509,7 +24891,8 @@
         "gun_tag_ids": "108,121",
         "atk_speed_max": 135,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,6"
+        "recommended_team_ids": "1,6",
+        "item_id": ""
     },
     {
         "id": 391,
@@ -24573,7 +24956,8 @@
         "gun_tag_ids": "121,105,133,113",
         "atk_speed_max": 135,
         "ratio_rec": 122,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 392,
@@ -24637,7 +25021,8 @@
         "gun_tag_ids": "10101,108",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 393,
@@ -24701,7 +25086,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 394,
@@ -24765,7 +25151,8 @@
         "gun_tag_ids": "145,108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1001,
@@ -24829,7 +25216,8 @@
         "gun_tag_ids": "121",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": "3"
+        "recommended_team_ids": "3",
+        "item_id": ""
     },
     {
         "id": 1002,
@@ -24893,7 +25281,8 @@
         "gun_tag_ids": "117,121",
         "atk_speed_max": 60,
         "ratio_rec": 125,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 1003,
@@ -24957,7 +25346,8 @@
         "gun_tag_ids": "121,141",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "3"
+        "recommended_team_ids": "3",
+        "item_id": ""
     },
     {
         "id": 1004,
@@ -25021,7 +25411,8 @@
         "gun_tag_ids": "138,141",
         "atk_speed_max": 125,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 1005,
@@ -25085,7 +25476,8 @@
         "gun_tag_ids": "121,105,140",
         "atk_speed_max": 125,
         "ratio_rec": 92,
-        "recommended_team_ids": "2"
+        "recommended_team_ids": "2",
+        "item_id": ""
     },
     {
         "id": 1006,
@@ -25149,7 +25541,8 @@
         "gun_tag_ids": "108,141",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "3"
+        "recommended_team_ids": "3",
+        "item_id": ""
     },
     {
         "id": 1007,
@@ -25213,7 +25606,8 @@
         "gun_tag_ids": "108,10102",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1008,
@@ -25277,7 +25671,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 112,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 1009,
@@ -25341,7 +25736,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 1010,
@@ -25405,7 +25801,8 @@
         "gun_tag_ids": "10102",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 1017,
@@ -25469,7 +25866,8 @@
         "gun_tag_ids": "103,124",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 1018,
@@ -25533,7 +25931,8 @@
         "gun_tag_ids": "10102,113",
         "atk_speed_max": 120,
         "ratio_rec": 128,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 1019,
@@ -25597,7 +25996,8 @@
         "gun_tag_ids": "125",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1020,
@@ -25661,7 +26061,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 125,
         "ratio_rec": 102,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 1021,
@@ -25725,7 +26126,8 @@
         "gun_tag_ids": "126",
         "atk_speed_max": 1000,
         "ratio_rec": 118,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 1022,
@@ -25789,7 +26191,8 @@
         "gun_tag_ids": "117,121",
         "atk_speed_max": 60,
         "ratio_rec": 122,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 1023,
@@ -25853,7 +26256,8 @@
         "gun_tag_ids": "113,108",
         "atk_speed_max": 135,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 1024,
@@ -25917,7 +26321,8 @@
         "gun_tag_ids": "108,121",
         "atk_speed_max": 125,
         "ratio_rec": 90,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 1025,
@@ -25981,7 +26386,8 @@
         "gun_tag_ids": "108,121",
         "atk_speed_max": 60,
         "ratio_rec": 115,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 1026,
@@ -26045,7 +26451,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 95,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 1027,
@@ -26109,7 +26516,8 @@
         "gun_tag_ids": "108,124",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1028,
@@ -26173,7 +26581,8 @@
         "gun_tag_ids": "132,135",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1029,
@@ -26237,7 +26646,8 @@
         "gun_tag_ids": "121,135",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 1030,
@@ -26301,7 +26711,8 @@
         "gun_tag_ids": "120,117,121,113",
         "atk_speed_max": 135,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 1031,
@@ -26365,7 +26776,8 @@
         "gun_tag_ids": "118,127,114,145,113",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 1032,
@@ -26429,7 +26841,8 @@
         "gun_tag_ids": "109,110",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1033,
@@ -26493,7 +26906,8 @@
         "gun_tag_ids": "121,110,103,117,114",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 1034,
@@ -26557,7 +26971,8 @@
         "gun_tag_ids": "121,160,113,110",
         "atk_speed_max": 60,
         "ratio_rec": 130,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 1035,
@@ -26621,7 +27036,8 @@
         "gun_tag_ids": "10101,121,126,112",
         "atk_speed_max": 120,
         "ratio_rec": 140,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 1036,
@@ -26685,7 +27101,8 @@
         "gun_tag_ids": "121,10102,112",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,7"
+        "recommended_team_ids": "1,2,3,7",
+        "item_id": ""
     },
     {
         "id": 1037,
@@ -26749,7 +27166,8 @@
         "gun_tag_ids": "144,108,124,112",
         "atk_speed_max": 125,
         "ratio_rec": 98,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 1038,
@@ -26813,7 +27231,8 @@
         "gun_tag_ids": "124,109,112",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 1039,
@@ -26877,7 +27296,8 @@
         "gun_tag_ids": "103,113,112",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 1040,
@@ -26941,7 +27361,8 @@
         "gun_tag_ids": "160,121,112",
         "atk_speed_max": 1000,
         "ratio_rec": 96,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 1041,
@@ -27005,7 +27426,8 @@
         "gun_tag_ids": "10102,144",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "9"
+        "recommended_team_ids": "9",
+        "item_id": ""
     },
     {
         "id": 9001,
@@ -27069,7 +27491,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9002,
@@ -27133,7 +27556,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9003,
@@ -27197,7 +27621,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 150,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9004,
@@ -27261,7 +27686,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9005,
@@ -27325,7 +27751,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9006,
@@ -27389,7 +27816,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9007,
@@ -27453,7 +27881,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9008,
@@ -27517,7 +27946,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9009,
@@ -27581,7 +28011,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9010,
@@ -27645,7 +28076,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9011,
@@ -27709,7 +28141,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9012,
@@ -27773,7 +28206,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9013,
@@ -27837,7 +28271,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 757,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9014,
@@ -27901,7 +28336,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 757,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9015,
@@ -27965,7 +28401,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 303,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9016,
@@ -28029,7 +28466,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 284,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9017,
@@ -28093,7 +28531,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 454,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9018,
@@ -28157,7 +28596,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 757,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9019,
@@ -28221,7 +28661,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 303,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9020,
@@ -28285,7 +28726,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 284,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9021,
@@ -28349,7 +28791,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 909,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9022,
@@ -28413,7 +28856,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1515,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9023,
@@ -28477,7 +28921,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1515,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9024,
@@ -28541,7 +28986,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 606,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9025,
@@ -28605,7 +29051,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 909,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9026,
@@ -28669,7 +29116,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1515,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9027,
@@ -28733,7 +29181,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1515,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9028,
@@ -28797,7 +29246,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 568,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9029,
@@ -28861,7 +29311,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 454,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9030,
@@ -28925,7 +29376,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 757,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9031,
@@ -28989,7 +29441,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 303,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9032,
@@ -29053,7 +29506,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 284,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9034,
@@ -29117,7 +29571,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9035,
@@ -29181,7 +29636,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9036,
@@ -29245,7 +29701,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1000,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9037,
@@ -29309,7 +29766,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 950,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9038,
@@ -29373,7 +29831,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 7200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9039,
@@ -29437,7 +29896,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1050,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9040,
@@ -29501,7 +29961,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9041,
@@ -29565,7 +30026,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9042,
@@ -29629,7 +30091,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9043,
@@ -29693,7 +30156,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9044,
@@ -29757,7 +30221,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9045,
@@ -29821,7 +30286,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9046,
@@ -29885,7 +30351,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9047,
@@ -29949,7 +30416,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9048,
@@ -30013,7 +30481,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1600,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9049,
@@ -30077,7 +30546,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 13000,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9050,
@@ -30141,7 +30611,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 18000,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9051,
@@ -30205,7 +30676,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 10000,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9052,
@@ -30269,7 +30741,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 11000,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9053,
@@ -30333,7 +30806,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9054,
@@ -30397,7 +30871,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9055,
@@ -30461,7 +30936,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9056,
@@ -30525,7 +31001,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9057,
@@ -30589,7 +31066,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 90,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9058,
@@ -30653,7 +31131,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 400,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9059,
@@ -30717,7 +31196,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 400,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9060,
@@ -30781,7 +31261,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9061,
@@ -30845,7 +31326,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9062,
@@ -30909,7 +31391,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9063,
@@ -30973,7 +31456,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9064,
@@ -31037,7 +31521,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9065,
@@ -31101,7 +31586,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 68,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9066,
@@ -31165,7 +31651,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9067,
@@ -31229,7 +31716,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 68,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9068,
@@ -31293,7 +31781,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 226,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9069,
@@ -31357,7 +31846,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9070,
@@ -31421,7 +31911,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9071,
@@ -31485,7 +31976,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9072,
@@ -31549,7 +32041,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9073,
@@ -31613,7 +32106,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9074,
@@ -31677,7 +32171,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 500,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9075,
@@ -31741,7 +32236,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 226,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9076,
@@ -31805,7 +32301,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 226,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9077,
@@ -31869,7 +32366,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 500,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9078,
@@ -31933,7 +32431,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9079,
@@ -31997,7 +32496,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 75,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9080,
@@ -32061,7 +32561,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9081,
@@ -32125,7 +32626,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9082,
@@ -32189,7 +32691,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9083,
@@ -32253,7 +32756,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9084,
@@ -32317,7 +32821,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9085,
@@ -32381,7 +32886,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9086,
@@ -32445,7 +32951,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9087,
@@ -32509,7 +33016,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9088,
@@ -32573,7 +33081,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9089,
@@ -32637,7 +33146,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9090,
@@ -32701,7 +33211,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 272,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9091,
@@ -32765,7 +33276,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 113,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9092,
@@ -32829,7 +33341,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 341,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9093,
@@ -32893,7 +33406,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 227,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9094,
@@ -32957,7 +33471,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 242,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9095,
@@ -33021,7 +33536,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9096,
@@ -33085,7 +33601,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9097,
@@ -33149,7 +33666,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9098,
@@ -33213,7 +33731,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9099,
@@ -33277,7 +33796,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9100,
@@ -33341,7 +33861,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 500,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9101,
@@ -33405,7 +33926,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9102,
@@ -33469,7 +33991,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9103,
@@ -33533,7 +34056,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9104,
@@ -33597,7 +34121,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9105,
@@ -33661,7 +34186,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9106,
@@ -33725,7 +34251,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 500,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9107,
@@ -33789,7 +34316,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 140,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9108,
@@ -33853,7 +34381,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9109,
@@ -33917,7 +34446,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 650,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9110,
@@ -33981,7 +34511,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9111,
@@ -34045,7 +34576,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9112,
@@ -34109,7 +34641,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 800,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9113,
@@ -34173,7 +34706,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9114,
@@ -34237,7 +34771,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9115,
@@ -34301,7 +34836,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9116,
@@ -34365,7 +34901,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 9117,
@@ -34429,7 +34966,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 1200,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 20001,
@@ -34493,7 +35031,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 132,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20002,
@@ -34557,7 +35096,8 @@
         "gun_tag_ids": "10102,105,109",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 20005,
@@ -34621,7 +35161,8 @@
         "gun_tag_ids": "10102,106",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,7,8"
+        "recommended_team_ids": "2,3,4,7,8",
+        "item_id": ""
     },
     {
         "id": 20007,
@@ -34681,11 +35222,12 @@
         "gun_detail_bg": "nation_Russia",
         "org_id": 0,
         "related_story_id": 100007,
-        "show_damage_skin": ",0,6808,4306,5027,",
+        "show_damage_skin": ",0,6808,4306,5027,8805,",
         "gun_tag_ids": "10101,108,127",
         "atk_speed_max": 130,
         "ratio_rec": 125,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20008,
@@ -34749,7 +35291,8 @@
         "gun_tag_ids": "103,113",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20010,
@@ -34813,7 +35356,8 @@
         "gun_tag_ids": "10101",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20012,
@@ -34877,7 +35421,8 @@
         "gun_tag_ids": "104,106,10101",
         "atk_speed_max": 120,
         "ratio_rec": 125,
-        "recommended_team_ids": "2,3,4,6,7,8"
+        "recommended_team_ids": "2,3,4,6,7,8",
+        "item_id": ""
     },
     {
         "id": 20013,
@@ -34941,7 +35486,8 @@
         "gun_tag_ids": "10101,107",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20021,
@@ -35005,7 +35551,8 @@
         "gun_tag_ids": "121,105,103,136",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20026,
@@ -35069,7 +35616,8 @@
         "gun_tag_ids": "120,108",
         "atk_speed_max": 135,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20029,
@@ -35133,7 +35681,8 @@
         "gun_tag_ids": "121,105,129",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20031,
@@ -35197,7 +35746,8 @@
         "gun_tag_ids": "110,105,121",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20032,
@@ -35257,11 +35807,12 @@
         "gun_detail_bg": "",
         "org_id": 0,
         "related_story_id": 100032,
-        "show_damage_skin": ",7907,",
+        "show_damage_skin": ",7907,8807,",
         "gun_tag_ids": "121,105",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20037,
@@ -35321,11 +35872,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 0,
         "related_story_id": 100037,
-        "show_damage_skin": ",0,303,",
+        "show_damage_skin": ",0,303,8705,",
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 20039,
@@ -35389,7 +35941,8 @@
         "gun_tag_ids": "138,108,135",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20044,
@@ -35453,7 +36006,8 @@
         "gun_tag_ids": "138",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20046,
@@ -35517,7 +36071,8 @@
         "gun_tag_ids": "138,118,136",
         "atk_speed_max": 135,
         "ratio_rec": 98,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20049,
@@ -35581,7 +36136,8 @@
         "gun_tag_ids": "108,148",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 20050,
@@ -35645,7 +36201,8 @@
         "gun_tag_ids": "118,112,10101",
         "atk_speed_max": 150,
         "ratio_rec": 100,
-        "recommended_team_ids": "4"
+        "recommended_team_ids": "4",
+        "item_id": ""
     },
     {
         "id": 20051,
@@ -35709,7 +36266,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 20053,
@@ -35773,7 +36331,8 @@
         "gun_tag_ids": "138,150,114",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20055,
@@ -35837,7 +36396,8 @@
         "gun_tag_ids": "118,121,124",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 20056,
@@ -35901,7 +36461,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 135,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20057,
@@ -35965,7 +36526,8 @@
         "gun_tag_ids": "108,135",
         "atk_speed_max": 150,
         "ratio_rec": 95,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 20060,
@@ -36012,7 +36574,7 @@
         "max_equip": 0,
         "type_equip1": "1;1,2,3,4,13",
         "type_equip2": "2;8,19",
-        "type_equip3": "3;9,10",
+        "type_equip3": "3;9,10,20",
         "type_equip4": "",
         "ai": 60,
         "is_additional": 0,
@@ -36029,7 +36591,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 135,
         "ratio_rec": 120,
-        "recommended_team_ids": "1,7"
+        "recommended_team_ids": "1,7",
+        "item_id": ""
     },
     {
         "id": 20061,
@@ -36093,7 +36656,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20063,
@@ -36157,7 +36721,8 @@
         "gun_tag_ids": "121,153,127,110",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20064,
@@ -36221,7 +36786,8 @@
         "gun_tag_ids": "108,134",
         "atk_speed_max": 135,
         "ratio_rec": 115,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 20065,
@@ -36285,7 +36851,8 @@
         "gun_tag_ids": "121,153",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20066,
@@ -36349,7 +36916,8 @@
         "gun_tag_ids": "121,153,158,124",
         "atk_speed_max": 135,
         "ratio_rec": 130,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20071,
@@ -36413,7 +36981,8 @@
         "gun_tag_ids": "108,10101,124",
         "atk_speed_max": 120,
         "ratio_rec": 112,
-        "recommended_team_ids": "1,6,7"
+        "recommended_team_ids": "1,6,7",
+        "item_id": ""
     },
     {
         "id": 20075,
@@ -36477,7 +37046,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 95,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 20080,
@@ -36515,14 +37085,14 @@
         "skill1": 740084,
         "skill2": 740088,
         "normal_attack": 740086,
-        "passive_skill": "300201,300202,740087",
+        "passive_skill": "300201,300202,740087,759272",
         "dynamic_passive_skill": "",
         "effect_grid_center": 19,
         "effect_guntype": "6",
         "effect_grid_pos": "23,24,25",
         "effect_grid_effect": "3,30;8,12",
         "max_equip": 0,
-        "type_equip1": "2;5,17",
+        "type_equip1": "2;5,17,19",
         "type_equip2": "1;1,2,3,16,18",
         "type_equip3": "3;14,21,20",
         "type_equip4": "",
@@ -36541,7 +37111,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 20081,
@@ -36601,11 +37172,12 @@
         "gun_detail_bg": "nation_US",
         "org_id": 0,
         "related_story_id": 100081,
-        "show_damage_skin": ",0,6909,4007,1808,5019,",
+        "show_damage_skin": ",0,6909,4007,1808,5019,8611,",
         "gun_tag_ids": "108,113",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 20088,
@@ -36669,7 +37241,8 @@
         "gun_tag_ids": "108,114",
         "atk_speed_max": 1000,
         "ratio_rec": 120,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 20089,
@@ -36733,7 +37306,8 @@
         "gun_tag_ids": "108,160",
         "atk_speed_max": 1000,
         "ratio_rec": 105,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 20091,
@@ -36797,7 +37371,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20093,
@@ -36861,7 +37436,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 120,
         "ratio_rec": 85,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20094,
@@ -36925,7 +37501,8 @@
         "gun_tag_ids": "110,105,10102",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20095,
@@ -36963,8 +37540,8 @@
         "skill1": 803001,
         "skill2": 803003,
         "normal_attack": 803002,
-        "passive_skill": "803005,803007,803009,803006",
-        "dynamic_passive_skill": "803004",
+        "passive_skill": "803005,803007,803009,803006,759277",
+        "dynamic_passive_skill": "803004,803013,803014",
         "effect_grid_center": 13,
         "effect_guntype": "1",
         "effect_grid_pos": "18,17",
@@ -36972,7 +37549,7 @@
         "max_equip": 0,
         "type_equip1": "2;5,19",
         "type_equip2": "1;1,2,3,13,18",
-        "type_equip3": "3;15",
+        "type_equip3": "3;15,20",
         "type_equip4": "",
         "ai": 95,
         "is_additional": 0,
@@ -36989,7 +37566,8 @@
         "gun_tag_ids": "118,106,121,149",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20097,
@@ -37053,7 +37631,8 @@
         "gun_tag_ids": "103,111,137",
         "atk_speed_max": 135,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20101,
@@ -37091,7 +37670,7 @@
         "skill1": 802801,
         "skill2": 802802,
         "normal_attack": 300102,
-        "passive_skill": "202003,756233",
+        "passive_skill": "202003,756233,759076,759079",
         "dynamic_passive_skill": "802803",
         "effect_grid_center": 13,
         "effect_guntype": "4",
@@ -37099,7 +37678,7 @@
         "effect_grid_effect": "2,15;3,30",
         "max_equip": 0,
         "type_equip1": "3;9,10,20",
-        "type_equip2": "2;6",
+        "type_equip2": "2;6,19",
         "type_equip3": "1;1,2,3,4,13,18",
         "type_equip4": "",
         "ai": 101,
@@ -37117,7 +37696,8 @@
         "gun_tag_ids": "110,105,113,103",
         "atk_speed_max": 135,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20103,
@@ -37155,15 +37735,15 @@
         "skill1": 801801,
         "skill2": 801804,
         "normal_attack": 801803,
-        "passive_skill": "200420,900156,202002,702019,702024,756001,756233",
-        "dynamic_passive_skill": "",
+        "passive_skill": "200420,900156,202002,702019,702024,756001,756233,759075,759078",
+        "dynamic_passive_skill": "759095",
         "effect_grid_center": 13,
         "effect_guntype": "4",
         "effect_grid_pos": "7,8,9",
         "effect_grid_effect": "1,20;5,30",
         "max_equip": 0,
         "type_equip1": "3;9,10,20",
-        "type_equip2": "2;6",
+        "type_equip2": "2;6,19",
         "type_equip3": "1;1,2,3,4,13,18",
         "type_equip4": "",
         "ai": 103,
@@ -37181,7 +37761,8 @@
         "gun_tag_ids": "10102,105,142",
         "atk_speed_max": 135,
         "ratio_rec": 133,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20104,
@@ -37245,7 +37826,8 @@
         "gun_tag_ids": "120,116,124",
         "atk_speed_max": 150,
         "ratio_rec": 135,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20114,
@@ -37309,7 +37891,8 @@
         "gun_tag_ids": "10102,116",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "2,3,4,8"
+        "recommended_team_ids": "2,3,4,8",
+        "item_id": ""
     },
     {
         "id": 20115,
@@ -37373,7 +37956,8 @@
         "gun_tag_ids": "108,130,109,116",
         "atk_speed_max": 150,
         "ratio_rec": 135,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20122,
@@ -37437,7 +38021,8 @@
         "gun_tag_ids": "118,114",
         "atk_speed_max": 150,
         "ratio_rec": 110,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 20124,
@@ -37501,7 +38086,8 @@
         "gun_tag_ids": "138,127",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20125,
@@ -37565,7 +38151,8 @@
         "gun_tag_ids": "108",
         "atk_speed_max": 1000,
         "ratio_rec": 110,
-        "recommended_team_ids": "3,5"
+        "recommended_team_ids": "3,5",
+        "item_id": ""
     },
     {
         "id": 20136,
@@ -37629,7 +38216,8 @@
         "gun_tag_ids": "121,105",
         "atk_speed_max": 135,
         "ratio_rec": 130,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20143,
@@ -37693,7 +38281,8 @@
         "gun_tag_ids": "10102,108,116",
         "atk_speed_max": 150,
         "ratio_rec": 115,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20152,
@@ -37757,7 +38346,8 @@
         "gun_tag_ids": "117",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 20154,
@@ -37821,7 +38411,8 @@
         "gun_tag_ids": "108,113,10102",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 20159,
@@ -37881,11 +38472,12 @@
         "gun_detail_bg": "nation_Russia",
         "org_id": 0,
         "related_story_id": 100159,
-        "show_damage_skin": ",0,4309,",
+        "show_damage_skin": ",0,4309,8706,",
         "gun_tag_ids": "117,129",
         "atk_speed_max": 60,
         "ratio_rec": 110,
-        "recommended_team_ids": "5"
+        "recommended_team_ids": "5",
+        "item_id": ""
     },
     {
         "id": 20161,
@@ -37949,7 +38541,8 @@
         "gun_tag_ids": "108,109",
         "atk_speed_max": 60,
         "ratio_rec": 120,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 20171,
@@ -38013,7 +38606,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 135,
         "ratio_rec": 105,
-        "recommended_team_ids": "6,7"
+        "recommended_team_ids": "6,7",
+        "item_id": ""
     },
     {
         "id": 20178,
@@ -38077,7 +38671,8 @@
         "gun_tag_ids": "10102,105,137",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20199,
@@ -38141,7 +38736,8 @@
         "gun_tag_ids": "108,103,113",
         "atk_speed_max": 1000,
         "ratio_rec": 108,
-        "recommended_team_ids": "3,5,9"
+        "recommended_team_ids": "3,5,9",
+        "item_id": ""
     },
     {
         "id": 20200,
@@ -38205,7 +38801,8 @@
         "gun_tag_ids": "108,106",
         "atk_speed_max": 150,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 20201,
@@ -38269,7 +38866,8 @@
         "gun_tag_ids": "138,108,164",
         "atk_speed_max": 120,
         "ratio_rec": 100,
-        "recommended_team_ids": "2,4,8"
+        "recommended_team_ids": "2,4,8",
+        "item_id": ""
     },
     {
         "id": 20205,
@@ -38333,7 +38931,8 @@
         "gun_tag_ids": "118,157",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 20212,
@@ -38397,7 +38996,8 @@
         "gun_tag_ids": "103,120",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20216,
@@ -38461,7 +39061,8 @@
         "gun_tag_ids": "121,153,145,10102,110",
         "atk_speed_max": 120,
         "ratio_rec": 98,
-        "recommended_team_ids": "6"
+        "recommended_team_ids": "6",
+        "item_id": ""
     },
     {
         "id": 20220,
@@ -38525,7 +39126,8 @@
         "gun_tag_ids": "103",
         "atk_speed_max": 120,
         "ratio_rec": 115,
-        "recommended_team_ids": "2,3,4,6,8"
+        "recommended_team_ids": "2,3,4,6,8",
+        "item_id": ""
     },
     {
         "id": 20221,
@@ -38589,7 +39191,8 @@
         "gun_tag_ids": "108,113",
         "atk_speed_max": 120,
         "ratio_rec": 108,
-        "recommended_team_ids": "3"
+        "recommended_team_ids": "3",
+        "item_id": ""
     },
     {
         "id": 20228,
@@ -38649,11 +39252,12 @@
         "gun_detail_bg": "",
         "org_id": 0,
         "related_story_id": 100228,
-        "show_damage_skin": ",0,2903,4905,7102,4004,",
+        "show_damage_skin": ",0,2903,4905,7102,4004,8804,",
         "gun_tag_ids": "113,108,103,116",
         "atk_speed_max": 150,
         "ratio_rec": 150,
-        "recommended_team_ids": "1,2,3,6,7"
+        "recommended_team_ids": "1,2,3,6,7",
+        "item_id": ""
     },
     {
         "id": 20230,
@@ -38717,7 +39321,8 @@
         "gun_tag_ids": "108,114",
         "atk_speed_max": 120,
         "ratio_rec": 95,
-        "recommended_team_ids": "2,4"
+        "recommended_team_ids": "2,4",
+        "item_id": ""
     },
     {
         "id": 20252,
@@ -38781,7 +39386,8 @@
         "gun_tag_ids": "138,121",
         "atk_speed_max": 125,
         "ratio_rec": 100,
-        "recommended_team_ids": "8"
+        "recommended_team_ids": "8",
+        "item_id": ""
     },
     {
         "id": 20282,
@@ -38845,7 +39451,8 @@
         "gun_tag_ids": "109,160,113,162,108",
         "atk_speed_max": 60,
         "ratio_rec": 133,
-        "recommended_team_ids": "5,9"
+        "recommended_team_ids": "5,9",
+        "item_id": ""
     },
     {
         "id": 20293,
@@ -38909,7 +39516,8 @@
         "gun_tag_ids": "118,124,120,157,132,139",
         "atk_speed_max": 150,
         "ratio_rec": 105,
-        "recommended_team_ids": "1"
+        "recommended_team_ids": "1",
+        "item_id": ""
     },
     {
         "id": 30156,
@@ -38973,7 +39581,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 30164,
@@ -39037,7 +39646,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 118,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 30229,
@@ -39101,7 +39711,8 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 120,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     },
     {
         "id": 90001,
@@ -39165,6 +39776,7 @@
         "gun_tag_ids": "",
         "atk_speed_max": 120,
         "ratio_rec": 110,
-        "recommended_team_ids": ""
+        "recommended_team_ids": "",
+        "item_id": ""
     }
 ]
