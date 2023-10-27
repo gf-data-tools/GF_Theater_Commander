@@ -19,6 +19,10 @@ from urllib import request
 from urllib.error import HTTPError
 
 import pulp as lp
+
+import sys
+sys.path.append('./gf-utils')
+
 from gf_utils2.gamedata import GameData
 
 from commander_new.commander import Commander
