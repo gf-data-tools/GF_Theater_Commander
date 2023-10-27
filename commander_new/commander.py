@@ -195,7 +195,7 @@ class Commander:
                 for erec in itertools.chain(
                     *[equip_type_groups[t] for t in equippable_types]
                 ):
-                    if not erec.fit_guns or gid in erec.fit_guns:
+                    if not erec.fit_guns or gun.gun_id in erec.fit_guns:
                         if erec.lv00_cnt > 0 and erec.lv10_cnt < max_dolls:
                             equippable_equips.append(erec.lv00_obj)
                         if erec.upgrade > 0:
