@@ -3,7 +3,8 @@
 - pulp
 - rich
 - pandas
-  
+- gf-utils (https://github.com/gf-data-tools/gf-utils) 
+
 Install dependencies by running `pip install -r requirements.txt`
 
 ## Data Preparation
