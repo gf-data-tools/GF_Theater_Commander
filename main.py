@@ -448,8 +448,8 @@ class TheaterCommander(tk.Tk):
 
         self.assist_units = (
             []
-            if self.var_perfect.get()
-            else commander.get_assist_unit(self.var_stage.get())
+            # if self.var_perfect.get()
+            # else commander.get_assist_unit(self.var_stage.get())
         )
         self.g_records, self.u_records = commander.solve(
             theater_id=self.var_stage.get(),
@@ -463,7 +463,7 @@ class TheaterCommander(tk.Tk):
         total_score = (
             0
             + sum([r["score"] for r in self.g_records])
-            + sum([i[1] for i in self.assist_units])
+            # + sum([i[1] for i in self.assist_units])
         )
         self.lbl_total_score.config(text=_("总效能：") + f"{total_score:>6}")
         self.lbl_assist.config(
