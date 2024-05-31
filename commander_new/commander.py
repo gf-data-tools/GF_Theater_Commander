@@ -77,9 +77,11 @@ class Commander:
                     lv10_obj=Equip(equip_id=idx, equip_level=10),
                     lv10_cnt=0,
                     upgrade=upgrade,
-                    fit_guns=[int(i) for i in equip["fit_guns"].split(",")]
-                    if equip["fit_guns"]
-                    else [],
+                    fit_guns=(
+                        [int(i) for i in equip["fit_guns"].split(",")]
+                        if equip["fit_guns"]
+                        else []
+                    ),
                 ),
             )
             if equip_obj.equip_level == 10:
@@ -135,9 +137,11 @@ class Commander:
                 lv10_obj=Equip(equip_id=idx, equip_level=10),
                 lv10_cnt=0 if upgrade < 0 else 999,
                 upgrade=upgrade,
-                fit_guns=[int(i) for i in equip["fit_guns"].split(",")]
-                if equip["fit_guns"]
-                else [],
+                fit_guns=(
+                    [int(i) for i in equip["fit_guns"].split(",")]
+                    if equip["fit_guns"]
+                    else []
+                ),
             )
 
         return gun_user_record, equip_user_record
@@ -307,20 +311,29 @@ class Commander:
                     "soul_bond": gun.soul_bond,
                     "skill1": gun.skill1,
                     "skill2": gun.skill2,
+                    "eid1": e1.equip_id,
                     "equip1": e1.equip_info["name"],
-                    "erank1": e1.equip_info["rank"]
-                    if e1.equip_info["type"] not in [18, 19, 20]
-                    else 6,
+                    "erank1": (
+                        e1.equip_info["rank"]
+                        if e1.equip_info["type"] not in [18, 19, 20]
+                        else 6
+                    ),
                     "elv1": e1.equip_level,
+                    "eid2": e2.equip_id,
                     "equip2": e2.equip_info["name"],
-                    "erank2": e2.equip_info["rank"]
-                    if e2.equip_info["type"] not in [18, 19, 20]
-                    else 6,
+                    "erank2": (
+                        e2.equip_info["rank"]
+                        if e2.equip_info["type"] not in [18, 19, 20]
+                        else 6
+                    ),
                     "elv2": e2.equip_level,
+                    "eid3": e3.equip_id,
                     "equip3": e3.equip_info["name"],
-                    "erank3": e3.equip_info["rank"]
-                    if e3.equip_info["type"] not in [18, 19, 20]
-                    else 6,
+                    "erank3": (
+                        e3.equip_info["rank"]
+                        if e3.equip_info["type"] not in [18, 19, 20]
+                        else 6
+                    ),
                     "elv3": e3.equip_level,
                 }
             )
@@ -336,9 +349,11 @@ class Commander:
             u_records.append(
                 {
                     "name": equip_info[eid]["name"],
-                    "rank": 6
-                    if equip_info[eid]["type"] in [18, 19, 20]
-                    else equip_info[eid]["rank"],
+                    "rank": (
+                        6
+                        if equip_info[eid]["type"] in [18, 19, 20]
+                        else equip_info[eid]["rank"]
+                    ),
                     "count": count,
                 }
             )

@@ -6,6 +6,7 @@ import shutil
 import socket
 import tkinter as tk
 import tkinter.ttk as ttk
+from base64 import standard_b64decode, standard_b64encode
 from functools import partial, wraps
 from gettext import install
 from multiprocessing.pool import ThreadPool
@@ -13,6 +14,7 @@ from pathlib import Path
 from threading import RLock, Thread
 from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import showerror, showinfo
+from tkinter.scrolledtext import ScrolledText
 from tkinter.simpledialog import Dialog
 from typing import *
 from urllib import request
@@ -249,6 +251,7 @@ class TheaterCommander(tk.Tk):
         )
         opt_sort_by.config(relief="groove", indicatoron=False)
         opt_sort_by.pack(side="left")
+        tk.Button(sort_box, text=_("配队码"), command=self.export).pack(side="left")
 
         self.gun_frame: list[GunFrame] = []
 
@@ -356,7 +359,9 @@ class TheaterCommander(tk.Tk):
                 i = str(idx)
                 a, b, c = i[:-2], i[-2], i[-1]
                 d = difficulty[b]
-                stage_dict[_("第{}期").format(a)][_("第{}期 {}{}").format(a, d, c)] = idx
+                stage_dict[_("第{}期").format(a)][
+                    _("第{}期 {}{}").format(a, d, c)
+                ] = idx
 
         opt_stage = tk.Menubutton(
             master, textvariable=self.var_stage_d, relief="groove"
@@ -378,7 +383,9 @@ class TheaterCommander(tk.Tk):
         except Exception as e:
             self.lbl_upload_status.config(text=_("失败"), fg="red")
             self.btn_calculate.config(state="disabled")
-            showerror(title=_("读取用户信息失败"), message=f"{e.__class__.__name__}: {e}")
+            showerror(
+                title=_("读取用户信息失败"), message=f"{e.__class__.__name__}: {e}"
+            )
 
     def switch_perfect(self):
         if self.var_perfect.get():
@@ -472,6 +479,23 @@ class TheaterCommander(tk.Tk):
         self.update_gun_frame()
         self.title(_("战区计算器"))
         print(list(commander.game_data._GameData__data.keys()))
+
+    def export(self):
+        top = tk.Toplevel(self)
+        top.title("配队码")
+        text = ScrolledText(top, width=150, height=8, font=("Consolas", 10))
+        text.pack(expand=True, fill="both")
+        print("export")
+        pos = [7, 8, 9, 12, 13]
+        code = "1|"
+        for i, record in enumerate(self.g_records):
+            code += f"{record['idx']}-{pos[i%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']};"
+            if i % 5 == 4:
+                code = standard_b64encode((code[:-1] + "|0").encode()).decode()
+                print(code)
+                text.insert("end", code + "\n")
+                code = "1|"
+        text.configure(state="disabled")  # 设置为不可编辑状态
 
 
 if __name__ == "__main__":

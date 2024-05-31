@@ -1,2 +1,0 @@
-squad_color-10000001,橙//cOrange
-squad_color-10000002,蓝//cBlue
