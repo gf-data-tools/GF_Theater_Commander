@@ -487,14 +487,17 @@ class TheaterCommander(tk.Tk):
         text.pack(expand=True, fill="both")
         print("export")
         pos = [7, 8, 9, 12, 13]
-        code = "1|"
-        for i, record in enumerate(self.g_records):
-            code += f"{record['idx']}-{pos[i%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']};"
-            if i % 5 == 4:
-                code = standard_b64encode((code[:-1] + "|0").encode()).decode()
-                print(code)
-                text.insert("end", code + "\n")
-                code = "1|"
+
+        for i in range(0, len(self.g_records), 5):
+            gun_codes = ["0-0-0-0-0"] * 5
+            for j, record in enumerate(self.g_records[i : i + 5]):
+                gun_codes[j] = (
+                    f"{record['idx']}-{pos[i%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']}"
+                )
+            code = "1|" + ";".join(gun_codes) + "|0"
+            code = standard_b64encode(code.encode()).decode()
+            print(code)
+            text.insert("end", code + "\n")
         text.configure(state="disabled")  # 设置为不可编辑状态
 
 
