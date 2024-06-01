@@ -27,6 +27,7 @@ from commander_new.commander import Commander
 from gunframe import GunFrame
 
 logger = logging.getLogger(__name__)
+__version__ = "12.0.3"
 
 
 def download(url, path, max_retry=3, timeout_sec=5):
@@ -119,7 +120,7 @@ class TheaterCommander(tk.Tk):
 
     def setup(self, region="ch"):
         install(region)
-        self.title(_("战区计算器"))
+        self.title(_("战区计算器") + f"v{__version__}")
         for widget in self.winfo_children():
             widget.destroy()
         self.download_data(region)
