@@ -492,7 +492,7 @@ class TheaterCommander(tk.Tk):
             gun_codes = ["0-0-0-0-0"] * 5
             for j, record in enumerate(self.g_records[i : i + 5]):
                 gun_codes[j] = (
-                    f"{record['idx']}-{pos[i%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']}"
+                    f"{record['idx']}-{pos[j%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']}"
                 )
             code = "1|" + ";".join(gun_codes) + "|0"
             code = standard_b64encode(code.encode()).decode()
