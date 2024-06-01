@@ -27,7 +27,7 @@ from commander_new.commander import Commander
 from gunframe import GunFrame
 
 logger = logging.getLogger(__name__)
-__version__ = "12.0.3"
+__version__ = "12.0.4"
 
 
 def download(url, path, max_retry=3, timeout_sec=5):
@@ -317,7 +317,12 @@ class TheaterCommander(tk.Tk):
 
             cnt = 0
             tot = len(stc_names) + len(txt_names)
-            self.title(_("战区计算器") + _(" - 更新数据") + f"({cnt}/{tot})")
+            self.title(
+                _("战区计算器")
+                + f"v{__version__}"
+                + _(" - 更新数据")
+                + f"({cnt}/{tot})"
+            )
 
             def update(url, tmp_path, tgt_path):
                 try:
@@ -334,7 +339,12 @@ class TheaterCommander(tk.Tk):
                 if isinstance(ret, Exception):
                     raise ret
                 cnt += 1
-                self.title(_("战区计算器") + _(" - 更新数据") + f"({cnt}/{tot})")
+                self.title(
+                    _("战区计算器")
+                    + f"v{__version__}"
+                    + _(" - 更新数据")
+                    + f"({cnt}/{tot})"
+                )
 
         except Exception as e:
             showerror(
@@ -348,7 +358,7 @@ class TheaterCommander(tk.Tk):
             self.gamedata = GameData(data_dir / "stc", data_dir / "table")
             print(list(self.gamedata.keys()))
         finally:
-            self.title(_("战区计算器"))
+            self.title(_("战区计算器") + f"v{__version__}")
             if re_download:
                 self.setup()
 
@@ -440,7 +450,7 @@ class TheaterCommander(tk.Tk):
 
     @locked
     def execute(self):
-        self.title(_("战区计算器") + _(" - 计算中"))
+        self.title(_("战区计算器") + f"v{__version__}" + _(" - 计算中"))
 
         lp_bin: Path = (
             Path(__file__).resolve().parent
@@ -478,7 +488,7 @@ class TheaterCommander(tk.Tk):
             text=" ".join(f"{name}({score})" for name, score, _ in self.assist_units)
         )
         self.update_gun_frame()
-        self.title(_("战区计算器"))
+        self.title(_("战区计算器") + f"v{__version__}")
         print(list(commander.game_data._GameData__data.keys()))
 
     def export(self):
