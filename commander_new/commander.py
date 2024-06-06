@@ -271,7 +271,9 @@ class Commander:
             resource[k] += lp.LpAffineExpression(v)
         for k, v in resource.items():
             problem += v >= 0, k
-        problem += resource["score"] + 0.001 * resource["upgrade"]
+        problem += (
+            resource["score"] + 0.001 * resource["upgrade"] + 0.001 * resource["e80_10"]
+        )
 
         problem.solve(self.solver)
         u_info, g_info = [], []

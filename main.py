@@ -27,7 +27,7 @@ from commander_new.commander import Commander
 from gunframe import GunFrame
 
 logger = logging.getLogger(__name__)
-__version__ = "12.0.4"
+__version__ = "12.0.5"
 
 
 def download(url, path, max_retry=3, timeout_sec=5):
@@ -505,7 +505,7 @@ class TheaterCommander(tk.Tk):
                 gun_codes[j] = (
                     f"{record['idx']}-{pos[j%5]}-{record['eid1']}-{record['eid2']}-{record['eid3']}"
                 )
-            code = "1|" + ";".join(gun_codes) + "|0"
+            code = "1|" + ";".join(gun_codes) + f"|{i//5+1}"
             code = standard_b64encode(code.encode()).decode()
             print(code)
             text.insert("end", code + "\n")
